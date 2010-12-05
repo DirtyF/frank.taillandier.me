@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'GraublauWebRegular';
+	src: url('GraublauWeb.eot');
+	src: url('GraublauWeb.otf');
+	src: local('Graublau Web'), local('GraublauWeb-Regular'), url('GraublauWeb.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GraublauWebBold';
+	src: url('GraublauWebBold.eot');
+	src: url('GraublauWebBold.otf');
+	src: local('Graublau Web'), local('GraublauWeb-Bold'), url('GraublauWebBold.ttf') format('truetype');
+}
+
+body {
+	background: #555;
+}
+
+#main {
+	background-color: #fff;
+	color: #555;
+}
+
+a:link, a:visited, a:hover  {
+	color: #ff3d97;
+}
+
+abbr, acronym {
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+
+a abbr, a img {
+	border: none;
+}
+
+blockquote {
+	font-style: italic;
+	background-color: #f6f2ec;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+}
+
+blockquote p:before {
+	content: open-quote;
+}
+
+blockquote p:after {
+	content: close-quote;
+}
+
+h1, h2, h3 {
+	font-family:GraublauWebRegular;
+}
+
+h1 {
+	color: #ff3d97;
+}
+
+h2 {
+	color: #25A4F1;
+}
+
+h3 {
+	color: #91bc37;
+}
+
+#content img {
+	border : 1px solid #ddd;
+}
+
+footer {
+	color: #aaa;
+	text-align: center;
+}
+
+header a, footer a {
+	color: #cc9cb3;
+	text-decoration: none;
+}
+
+img.microformats {
+	width:16px;
+	height:16px;
+}
+
+.rotate {
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);	
+}
