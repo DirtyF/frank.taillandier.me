@@ -1,0 +1,12 @@
+/* TEAM */
+	Frank Taillandier
+	Contact: frank.taillandier [at] gmail.com
+	Twitter: @DirtyF
+	From:Toulouse, France
+
+/* SITE */
+	Last update:2011/01/23
+	Language:English
+	Doctype:HTML5 with CSS3
+	Tools:Blueprint CSS Framework
+	IDE:Textmate
