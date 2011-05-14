@@ -13,7 +13,7 @@ $installPepper = "SI_Default";
 
 class SI_Default extends Pepper
 {
-	var $version	= 208;
+	var $version	= 210;
 	var $info		= array
 	(
 		'pepperName'	=> 'Default',
@@ -368,7 +368,7 @@ class SI_Default extends Pepper
 					}
 				}
 				// Google Images slips through entirely, because its q var is encoded in the prev var (propbably used in the "Image Results" link)
-				else if (strpos($referer, 'images.google.') !== false && preg_match('!prev=([^&]+)!i', html_entity_decode($referer), $p))
+				else if (strpos($referer, 'google.') !== false && preg_match('!prev=([^&]+)!i', html_entity_decode($referer), $p))
 				{
 					if (!empty($p[1]) && preg_match('!q=([^&]+)!i', urldecode($p[1]), $q))
 					{
@@ -678,7 +678,7 @@ HERE;
 
 			if ($action == 'watch')
 			{
-				if (!in_array($resource, $watched))
+				if (!in_array($resource,$watched))
 				{
 					$watched[] = $resource;
 				}

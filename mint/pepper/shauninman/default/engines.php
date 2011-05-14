@@ -13,7 +13,7 @@ $SI_SearchEngines[] = array
 	'url'			=> 'http://www.google.com/search',
 	'domain'		=> 'google',
 	'query'			=> 'q|as_q',
-	'images'		=> 'images.google',
+	'images'		=> '/images',
 	'image_results'	=> '/images?q='
 );
 $SI_SearchEngines[] = array
@@ -39,7 +39,9 @@ $SI_SearchEngines[] = array
 	'name'          => 'Bing',
 	'url'           => 'http://www.bing.com/search',
 	'domain'        => 'bing',
-	'query'         => 'q'
+	'query'         => 'q',
+	'images'		=> '/images/',
+	'image_results'	=> '/images/search?q='
 );
 $SI_SearchEngines[] = array
 (
