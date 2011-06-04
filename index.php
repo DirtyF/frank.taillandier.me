@@ -105,7 +105,7 @@
 		
 		<aside id="sidebar"> 
 			
-		<p><a href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img src="/img/sudweb-120x90.png" alt="Sud Web 2011, j'y vais" /></a></p>	
+		<p><a href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a></p>	
 		
 		<h2>Automne</h2>
 		<p>Open-source and intuitive Content Management System.</p>
@@ -121,39 +121,35 @@
 		</ul>
 	
 		<h2>Friends</h2> 
-        <ul> 
+        <ul>
             <li><a href="http://groups.diigo.com/group/web-performance">Performance Web Group</a></li>
             <li><a href="http://blog.akei.com/" title="Le blog de Nicolas Perriault" rel="friend met">n1k0</a></li> 
             <li><a href="http://www.biologeek.com/journal/" rel="acquaintance met">Biologeek</a></li>
-            <li><a href="http://case.oncle-tom.net/" hreflang="fr" title="leblog de Thomas Parisot" rel="friend met">Oncle Tom</a></li> 
-            <li><a href="http://marcarea.com/weblog/" hreflang="fr">Marc Area</a></li>
+            <li><a href="http://case.oncle-tom.net/" hreflang="fr" title="leblog de Thomas Parisot" rel="friend met">Oncle Tom</a></li>
         </ul> 
-    
 
-		
 		<p><a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics"></a></p>
-		
+		 <p><a rel="author me" href="/humans.txt"><img src="/img/humanstxt.gif" alt="Humans.txt" title="Humans.txt we are people not machines"></a></p>
 		</aside> 
 		</div> 
 		<hr /> 
 		<div class="span-24"> 
 		<footer> 
-			<p class="small"><!-- <a href='http://feedwhip.com/feed/whip/?url=http%3A%2F%2Ffrank.taillandier.free.fr%2F&amp;name=DirtyF'>Subscribe</a> - --> Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a> - <a rel="author me" href="/humans.txt"><img src="/img/humanstxt.gif" alt="Humans.txt" title="Humans.txt we are people not machines"></a></p> 
- 
-			<!-- <p class="small">Powered by <a href="http://microformats.org"><img src="/img/microformats.png" title="Download my hcard" alt="hcard" class="microformats" /></a>. <a href="http://html5.validator.nu/?doc=http%3A%2F%2Ffrank.taillandier.free.fr" title="valid HTML5">HTML5</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="valid CSS">CSS</a> by <a href="http://www.w3.org/" title="World Wide Web Consortium">W3C</a></p>  -->
+			<p class="small"><!-- <a href='http://feedwhip.com/feed/whip/?url=http%3A%2F%2Ffrank.taillandier.free.fr%2F&amp;name=DirtyF'>Subscribe</a> - --> Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a></p>
 		</footer> 
 		</div> 
 	</div> 
-	<script type="text/javascript">  
-	  //<![CDATA[  
-	    (function() {  
-	      var ga = document.createElement('script');  
-	      ga.type = "text/javascript"; ga.async = true;  
-	      ga.src  = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';  
-	      var s = document.getElementsByTagName('script')[0];  
-	      s.parentNode.insertBefore(ga,s);  
-	    })();  
-	  //]]>  
-	  </script>  
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-15560088-1']);
+	  _gaq.push(['_trackPageview']);
+	  _gaq.push(['_trackPageLoadTime']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 'frank.taillandier.free.fr/js/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script> 
  </body> 
 </html> 
