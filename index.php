@@ -67,12 +67,14 @@
  			
 		<h2>Uniform motion</h2> 
 
-		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p> 
-						
-		 <audio itemscope itemtype="http://schema.org/AudioObject" src="/media/uniform-motion-roll-over.mp3" controls preload="none">
-		 	<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
-		 </audio> 
- 
+		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p>
+			
+		<audio  itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
+		  <source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
+		  <source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
+		<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
+		</audio>
+		 
 		</section> 
 		</div> 
 		
@@ -115,6 +117,7 @@
 		</div> 
 	</div> 
 	<script type="text/javascript">
+
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-15560088-1']);
 	  _gaq.push(['_trackPageview']);
@@ -122,9 +125,10 @@
 
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://') + 'frank.taillandier.free.fr/js/ga.js';
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	</script> 
+
+	</script>
  </body> 
 </html> 
