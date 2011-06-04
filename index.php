@@ -43,13 +43,13 @@
 			
 			<section id="about"> 
 			<h2>About me</h2> 
- 
-			<p class="vcard"><img class="rounded shadow rotate left" src="/img/frank_avatar.jpg" alt=""/>Hello, my name is <span class="fn">Frank Taillandier</span>, i'm a <?php echo $annees; ?> year old french guy, living in <span class="addr"><span class="locality"><a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a></span></span> in the south of France. I'm spending way too much time in front of my computer but I have a real passion for the web, and I strongly believe that when it comes to publishing and develop on the <abbr title="World Wide Web">WWW</abbr>, we should rely on <abbr title="World Wide Web Consortium">W3C</abbr> standards.</p> 
+			
+			<p itemscope itemtype="http://schema.org/Person" class="vcard"><img  itemprop="image" class="rounded shadow rotate left" src="/img/frank_avatar.jpg" alt=""/>Hello, my name is <span itemprop="name" class="fn">Frank Taillandier</span>, i'm a <?php echo $annees; ?> year old french guy, living in <span class="addr"><span class="locality"><a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a></span></span> in the south of France. I'm spending way too much time in front of my computer but I have a real passion for the web, and I strongly believe that when it comes to publishing and develop on the <abbr title="World Wide Web">WWW</abbr>, we should rely on <abbr title="World Wide Web Consortium">W3C</abbr> standards.</p> 
 			<p class="">That's why we decided to organize <a href="http://sudweb.fr">Sud Web</a> a web quality conference in the South of France, where the sun shines and the geeks burn. We want to share our experiences and head towards an enhancement of web quality concerning development, methodology and security.</p>
 			
-			<p><a href="http://www.yann-madeleine.com/" rel="colleague friend met">Yann</a> and I also decided to organize <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings with web developers.</p>
+			<p><a href="http://www.yann-madeleine.com/"  itemprop="colleagues" rel="colleague friend met">Yann</a> and I also decided to organize <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings with web developers.</p>
 			
-			<p>By the way, I'm currently in charge of quality assurance and user experience at <a href="http://www.ws-interactive.fr" hreflang="fr">WS interactive</a>.</p> 
+			<p>By the way, I'm currently in charge of  <span itemprop="jobTitle">quality assurance and user experience</span> at <a href="http://www.ws-interactive.fr" hreflang="fr">WS interactive</a>.</p> 
 						
 			<h3><q>Please, don't hurt the web</q></h3> 
 			
@@ -147,7 +147,7 @@
 
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 'frank.taillandier.free.fr/js/ga.js';
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://') + 'frank.taillandier.free.fr/js/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script> 
