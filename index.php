@@ -2,20 +2,6 @@
 <!--[if IE]><![endif]-->
 <html lang="en"> 
 <head> 
-	<script type="text/javascript">  
-  	//<![CDATA[  
-    var page_load_start = new Date();  
-    var _gaq = _gaq || [];  
-    window.onload =  function() {  
-      var page_load_end = new Date();  
-      var load_time = page_load_end.getTime() - page_load_start.getTime();  
-      load_time = parseInt( load_time / 100 )*100;  
-      _gaq.push(["_setCustomVar",1,'landingPageTime',load_time,2]);  
-      _gaq.push(["_setAccount","UA-15560088-1"]);  
-      _gaq.push(["_trackPageview"]);  
-    };  
-  	//]]>  
-  	</script> 
 	<title>Frank Taillandier - Web quality progressive enhancement</title>
 	<meta charset="UTF-8" />
 	<meta name="description" content="Quality Assurance, user experience and web standards" /> 
@@ -138,15 +124,12 @@
         <ul> 
             <li><a href="http://groups.diigo.com/group/web-performance">Performance Web Group</a></li>
             <li><a href="http://blog.akei.com/" title="Le blog de Nicolas Perriault" rel="friend met">n1k0</a></li> 
-            <li><a href="http://bballizlife.com/blog/">bballizlife</a>
             <li><a href="http://www.biologeek.com/journal/" rel="acquaintance met">Biologeek</a></li>
             <li><a href="http://case.oncle-tom.net/" hreflang="fr" title="leblog de Thomas Parisot" rel="friend met">Oncle Tom</a></li> 
-            <li><a href="http://www.pouipouidesign.net/index.php/">Pouipouidesign</a>
             <li><a href="http://marcarea.com/weblog/" hreflang="fr">Marc Area</a></li>
-            <li><a href="http://www.yann-madeleine.com/" rel="co-worker frient met">Yann Madeleine</a></li>
         </ul> 
     
-		<!-- <p><a href="http://www.sudweb.fr" hreflang="fr" title="Sud Web, faire savoir et savoir faire le web"><img src="/img/sudweb-2011.png" width="190" /></a></p> -->
+
 		
 		<p><a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics"></a></p>
 		
@@ -155,7 +138,7 @@
 		<hr /> 
 		<div class="span-24"> 
 		<footer> 
-			<p class="small"><!-- <a href='http://feedwhip.com/feed/whip/?url=http%3A%2F%2Ffrank.taillandier.free.fr%2F&amp;name=DirtyF'>Subscribe</a> - -->Made with <a href="http://macromates.com/">TextMate</a> and <a href="http://www.blueprintcss.org/">Blueprint</a> on <a href="http://www.apple.com/fr/macosx/">Mac OS X</a> - <a rel="author me" href="/humans.txt">Credits</a></p> 
+			<p class="small"><!-- <a href='http://feedwhip.com/feed/whip/?url=http%3A%2F%2Ffrank.taillandier.free.fr%2F&amp;name=DirtyF'>Subscribe</a> - --> Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a> - <a rel="author me" href="/humans.txt"><img src="/img/humanstxt.gif" alt="Humans.txt" title="Humans.txt we are people not machines"></a></p> 
  
 			<!-- <p class="small">Powered by <a href="http://microformats.org"><img src="/img/microformats.png" title="Download my hcard" alt="hcard" class="microformats" /></a>. <a href="http://html5.validator.nu/?doc=http%3A%2F%2Ffrank.taillandier.free.fr" title="valid HTML5">HTML5</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="valid CSS">CSS</a> by <a href="http://www.w3.org/" title="World Wide Web Consortium">W3C</a></p>  -->
 		</footer> 

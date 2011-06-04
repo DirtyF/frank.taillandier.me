@@ -1,12 +1,13 @@
-/* TEAM */
-	Frank Taillandier
+/* AUTHOR */
+	Frank Taillandier, Web Quality Assurance
 	Contact: frank.taillandier [at] gmail.com
 	Twitter: @DirtyF
-	From:Toulouse, France
+	From: Toulouse, France
 
 /* SITE */
-	Last update:2011/01/23
-	Language:English
-	Doctype:HTML5 with CSS3
-	Tools:Blueprint CSS Framework
-	IDE:Textmate
+	Last update: 2011/06/04
+	Language: English
+	Doctype: HTML5
+	Tools: Blueprint CSS Framework, Git
+	IDE: Textmate
+	
