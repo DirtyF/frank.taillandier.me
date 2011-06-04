@@ -40,14 +40,12 @@
 	</div> 
 		<div class="prepend-2 span-13 colborder"> 
 			<section id="content"> 
+				<section id="about"> 
+				<h2>About me</h2>
+				<p itemscope itemtype="http://schema.org/Person" class="vcard"><img itemprop="image" class="rounded shadow rotate left" src="/img/frank_avatar.jpg" alt=""/>Hello, my name is <span itemprop="name" class="fn">Frank Taillandier</span>, i'm a <?php echo $annees; ?> year old french guy, living in <span class="addr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality" class="locality"><a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a></span></span> in the south of France. I'm spending way too much time in front of my computer but I have a real passion for the web, and I strongly believe that when it comes to publishing and develop on the <abbr title="World Wide Web">WWW</abbr>, we should rely on <abbr title="World Wide Web Consortium">W3C</abbr> standards.</p> 
+			<p>That's why we decided to organize <a href="http://sudweb.fr">Sud Web</a> a annual web quality conference in the South of France, where the sun shines and the geeks burn. The aime is to share our experiences and head towards an enhancement of web quality.</p>
 			
-			<section id="about"> 
-			<h2>About me</h2> 
-			
-			<p itemscope itemtype="http://schema.org/Person" class="vcard"><img  itemprop="image" class="rounded shadow rotate left" src="/img/frank_avatar.jpg" alt=""/>Hello, my name is <span itemprop="name" class="fn">Frank Taillandier</span>, i'm a <?php echo $annees; ?> year old french guy, living in <span class="addr"><span class="locality"><a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a></span></span> in the south of France. I'm spending way too much time in front of my computer but I have a real passion for the web, and I strongly believe that when it comes to publishing and develop on the <abbr title="World Wide Web">WWW</abbr>, we should rely on <abbr title="World Wide Web Consortium">W3C</abbr> standards.</p> 
-			<p class="">That's why we decided to organize <a href="http://sudweb.fr">Sud Web</a> a web quality conference in the South of France, where the sun shines and the geeks burn. We want to share our experiences and head towards an enhancement of web quality concerning development, methodology and security.</p>
-			
-			<p><a href="http://www.yann-madeleine.com/"  itemprop="colleagues" rel="colleague friend met">Yann</a> and I also decided to organize <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings with web developers.</p>
+			<p>In the same mood, <a href="http://www.yann-madeleine.com/" itemprop="colleagues" rel="colleague friend met">Yann</a> and I also decided to organize <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings with web developers.</p>
 			
 			<p>By the way, I'm currently in charge of  <span itemprop="jobTitle">quality assurance and user experience</span> at <a href="http://www.ws-interactive.fr" hreflang="fr">WS interactive</a>.</p> 
 						
@@ -60,29 +58,6 @@
 			<p>I like to take pictures. I usually take street, candid shots and portraits. You can see <a href="http://flic.kr/dirtyf">some pictures</a> on my Flickr stream. I recently bought a <a href="http://www2.panasonic.com/consumer-electronics/shop/Cameras-Camcorders/Digital-Cameras/Lumix-Digital-Cameras/model.DMC-LX5K_11002_7000000000000005702">Panasonic LX5</a>, and I'm very happy about it.</p> 
 			
 			</section> 
-						
-		<!-- <section><h2>Automne : advanced content management system</h2> 
-		
-		<p><img class="top pull-1 right" alt="Automne, Web content management" src="http://demov4.automne.ws/automne_modules_files/pnews/public/r4_4_automne_thumbnail.png" width="100" /> <a href="http://www.automne.ws">Automne</a> is the CMS</abbr> we use to build our websites. It's open-source and LAMP</abbr> powered. Automne 4 is written in PHP5 an the interface heavily use the <a href="http://www.sencha.com/products/js/">extJS</a> library. As an open source software, <a href="https://launchpad.net/automne" title="Automne on Launchpad">Automne's source code</a> is hosted on Launchpad and use <a href="http://bazaar.canonical.com/en/">Bazaar</a>. Feel free to <a href="http://en.automne.ws/web/en/313-try-the-demo.php">try the demo</a></p> 
-		
-		<p>Here's the <a href="http://www.slideshare.net/DIrtyF/automne-cms-open-source-4727427" title="Automne, CMS open source">presentation</a> Sébastien and I gave at the Libre Software Meeting 2010.</p> 
-		
-		<h3>Features</h3> 
-		
-		<ul> 
-			<li>powered by <a href="http://framework.zend.com/">Zend Framwork</a> ;</li> 
-			<li>AJAX user interface built with <a href="http://www.sencha.com/products/js/">ExtJS</a> library ; </li> 
-			<li>XML</abbr> templating ;</li> 
-			<li>Application generator named <a href="http://man.automne.ws/web/Manual/329-the-polymod.php">Polymod</a> that allows you to develop current web applications without PHP coding. If you're a PHP developer, you can also develop your modules with <a href="http://www.automne.ws/api">Automne API</a> ;</li> 
-			<li>Groups and user rights management based on RBAC</abbr> ;</li> 
-			<li> and a lot more like advanced validation workflow, multi-site management , LDAP</abbr> connectivity, HTTPS</abbr> and SSO</abbr> support, etc.</li> 
-		</ul> 
-		
-		<p><a href="http://sourceforge.net/projects/automne" title="Project on Sourceforge">Download Automne from sourceforge.net</a>. You need to have some skills in XHTML</abbr> and CSS</abbr> and PHP in order to build the templates. Free Automne templates will come soon.</p> 
-					
-		<p>If you have questions, suggestions or wanna give some feedback, you can join us on <a href="http://www.automne.ws/forum/">the forum</a>, add your comments on <a href="http://www.automne.ws/blog">Automne's blog</a>.</p></section> 
-		</section>
-		-->
 							
 		<hr /> 
 
@@ -92,10 +67,10 @@
  			
 		<h2>Uniform motion</h2> 
 
-		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch to their songs. Their second album <cite>Life</cite> is out now.</p> 
+		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p> 
 						
-		 <audio src="/media/uniform-motion-roll-over.mp3" controls preload="none">
-		 	<a href="/media/uniform-motion-roll-over.mp3">Uniform Motion - Roll Over (MP3, 11M)</a>
+		 <audio itemscope itemtype="http://schema.org/AudioObject" src="/media/uniform-motion-roll-over.mp3" controls preload="none">
+		 	<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
 		 </audio> 
  
 		</section> 
@@ -105,7 +80,7 @@
 		
 		<aside id="sidebar"> 
 			
-		<p><a href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a></p>	
+		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img itemprop="image" src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2011-05-27T09:00">Friday, May 27th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Nîmes</span>, <span itemprop="addressCountry">France</span></p>	
 		
 		<h2>Automne</h2>
 		<p>Open-source and intuitive Content Management System.</p>
@@ -115,9 +90,9 @@
 		<p><a href="http://twitter.com/DirtyF" rel="me"><img src="/img/followmeontwitter.png" width="201" height="74" alt="Follow me on Twitter" /></a></p> 
 		<ul> 
 			<li><a href="http://lanyrd.com/people/DirtyF/" rel="me">Lanyrd</a>
-			<li><a href="http://www.linkedin.com/in/franktaillandier" rel="me">LinkedIn</a></li> 
+			<li><a href="http://www.linkedin.com/in/franktaillandier" title="My resume on LinkedIn" rel="me">LinkedIn</a></li> 
 			<li><a href="http://flickr.com/photos/dirtyf/" title="My Flickr profile" rel="me">Flickr</a></li> 
-			<li><a href="http://www.last.fm/user/DirtyF/" title="My musical tastes on Last.fm" rel="me">LastFM</a></li> 
+			<li><a href="http://www.last.fm/user/DirtyF/" title="Last.FM : the music I listen to" rel="me">LastFM</a></li> 
 		</ul>
 	
 		<h2>Friends</h2> 
@@ -135,7 +110,7 @@
 		<hr /> 
 		<div class="span-24"> 
 		<footer> 
-			<p class="small"><!-- <a href='http://feedwhip.com/feed/whip/?url=http%3A%2F%2Ffrank.taillandier.free.fr%2F&amp;name=DirtyF'>Subscribe</a> - --> Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a></p>
+			<p class="small">Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a></p>
 		</footer> 
 		</div> 
 	</div> 
