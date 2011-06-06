@@ -70,9 +70,9 @@
 		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p>
 			
 		<audio  itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
-		  <source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
-		  <source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
-		<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
+			<source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
+			<source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
+			<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
 		</audio>
 		 
 		</section> 
@@ -89,7 +89,10 @@
 		<button><a href="http://launchpad.net/automne/4.1/4.1.3/+download/automne4-v4_1_3-install.tgz">Download Automne 4.1.3</a></button>
 		<p class="small">Free download, All platforms, English, French (tgz, 14.5Mo)</p>
 		<h2>Elsewhere</h2> 
-		<p><a href="http://twitter.com/DirtyF" rel="me"><img src="/img/followmeontwitter.png" width="201" height="74" alt="Follow me on Twitter" /></a></p> 
+		
+		<p><a href="http://twitter.com/DirtyF" class="twitter-follow-button" data-lang="fr">Follow @DirtyF</a></p>
+		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		 
 		<ul> 
 			<li><a href="http://lanyrd.com/people/DirtyF/" rel="me">Lanyrd</a>
 			<li><a href="http://www.linkedin.com/in/franktaillandier" title="My resume on LinkedIn" rel="me">LinkedIn</a></li> 
