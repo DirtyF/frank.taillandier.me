@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/all.css" type="text/css" media="screen, projection" /> 
   	<link rel="stylesheet" href="css/blueprint/print-min.css" type="text/css" media="print" />
 	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   		<link rel="stylesheet" href="css/html5-min.css" type="text/css" media="print" /> 
   	<![endif]--> 
