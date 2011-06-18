@@ -24,3 +24,4 @@ media/*
 favicon_frank/*
 frank.taillandier.esproj/*
 yuicompressor-*/*
+/tools/
