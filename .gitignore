@@ -18,8 +18,8 @@ xcuserdata
 CVS
 
 #specific files
-index.old
 blog/*
+mint/*
 favicon_frank/*
 frank.taillandier.esproj/*
 yuicompressor-*/*

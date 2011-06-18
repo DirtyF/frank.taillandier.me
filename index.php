@@ -68,9 +68,9 @@
  			
 		<h2>Uniform motion</h2> 
 
-		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p>
+		<p class="clearfix"><!-- <a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a>  --><a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="https://twitter.com/richarandrew" title="Follow Andrew on Twitter" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion" title="Uniform motion on Soundcloud">listen</a> and <a href="http://vimeo.com/user761921" title="Uniform Motion on Vimeo">watch</a> their songs.</p>
 		
-		<iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1457836118/size=grande3/bgcol=FFFFFF/linkcol=FF3D97/" allowtransparency="true" frameborder="0"><a href="http://uniformmotion.bandcamp.com/album/one-frame-per-second-2011">One Frame Per Second (2011) by Uniform Motion</a></iframe>
+		<iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1457836118/size=venti/bgcol=FFFFFF/linkcol=FF3D97/" allowtransparency="true" frameborder="0"><a href="http://uniformmotion.bandcamp.com/album/one-frame-per-second-2011">One Frame Per Second (2011) by Uniform Motion</a></iframe>
 			
 		<!-- <audio itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
 					<source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
@@ -85,22 +85,28 @@
 		
 		<aside id="sidebar"> 
 			
+			<p>Automne : open-source and intuitive Content Management System.</p>
+			<button><a href="http://launchpad.net/automne/4.1/4.1.3/+download/automne4-v4_1_3-install.tgz">Download Automne 4.1.3</a></button>
+			<p class="small">Free download, All platforms, English, French (tgz, 14.5Mo)</p>
+		
+		<h2>Events</h2>
+			
+		<p itemscope itemtype="http://schema.org/Event">
+	        <a itemprop="url" href="http://www.paris-web.fr/"><img itemprop="image" src="/img/banniere-paris-web-2011-190x158.png" alt="Paris-Web 2011, j’y vais ! (du 13 au 15 octobre)" width="190" height="158"></a> <time itemprop="startDate" datetime="2011-10-13T09:00">Thursday, October 13th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span>
+		</p>
+			
 		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img itemprop="image" src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2011-05-27T09:00">Friday, May 27th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Nîmes</span>, <span itemprop="addressCountry">France</span></p>	
 		
-		<h2>Automne</h2>
-		<p>Open-source and intuitive Content Management System.</p>
-		<button><a href="http://launchpad.net/automne/4.1/4.1.3/+download/automne4-v4_1_3-install.tgz">Download Automne 4.1.3</a></button>
-		<p class="small">Free download, All platforms, English, French (tgz, 14.5Mo)</p>
-		<h2>Elsewhere</h2> 
+		<h2>Follow me</h2> 
 		
 		<p><a href="http://twitter.com/DirtyF" class="twitter-follow-button" data-lang="fr">Follow @DirtyF</a></p>
 		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 		 
 		<ul> 
-			<li><a href="http://lanyrd.com/people/DirtyF/" rel="me">Lanyrd</a>
+			<li><a href="http://lanyrd.com/people/DirtyF/" title="The events I attend" rel="me">Lanyrd</a>
 			<li><a href="http://www.linkedin.com/in/franktaillandier" title="My resume on LinkedIn" rel="me">LinkedIn</a></li> 
-			<li><a href="http://flickr.com/photos/dirtyf/" title="My Flickr profile" rel="me">Flickr</a></li> 
-			<li><a href="http://www.last.fm/user/DirtyF/" title="Last.FM : the music I listen to" rel="me">LastFM</a></li> 
+			<li><a href="http://flickr.com/photos/dirtyf/" title="Pictures from me" rel="me">Flickr</a></li> 
+			<li><a href="http://www.last.fm/user/DirtyF/" title="Last.FM : music I listen to" rel="me">LastFM</a></li> 
 		</ul>
 	
 		<h2>Friends</h2> 
@@ -108,7 +114,7 @@
             <li><a href="http://groups.diigo.com/group/web-performance">Performance Web Group</a></li>
             <li><a href="http://blog.akei.com/" title="Le blog de Nicolas Perriault" rel="friend met">n1k0</a></li> 
             <li><a href="http://www.biologeek.com/journal/" rel="acquaintance met">Biologeek</a></li>
-            <li><a href="http://case.oncle-tom.net/" hreflang="fr" title="leblog de Thomas Parisot" rel="friend met">Oncle Tom</a></li>
+            <li><a href="http://case.oncle-tom.net/" hreflang="fr" title="Le blog de Thomas Parisot" rel="friend met">Oncle Tom</a></li>
         </ul> 
 
 		<p><a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics"></a></p>
