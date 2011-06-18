@@ -69,12 +69,14 @@
 		<h2>Uniform motion</h2> 
 
 		<p class="clearfix"><a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a> <a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="http://www.linkedin.com/pub/0/168/392" title="Andrew's LinkedIn Profile" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion/sets/rootmusic-bandpage" title="Uniform motion on Soundcloud">listen</a> and watch their songs.</p>
+		
+		<iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1457836118/size=grande3/bgcol=FFFFFF/linkcol=FF3D97/" allowtransparency="true" frameborder="0"><a href="http://uniformmotion.bandcamp.com/album/one-frame-per-second-2011">One Frame Per Second (2011) by Uniform Motion</a></iframe>
 			
-		<audio  itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
-			<source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
-			<source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
-			<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
-		</audio>
+		<!-- <audio itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
+					<source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
+					<source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
+					<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
+				</audio> -->
 		 
 		</section> 
 		</div> 
