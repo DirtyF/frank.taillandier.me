@@ -1,3 +1,22 @@
+# Compression
+
+# Activer le filtre
+SetOutputFilter DEFLATE
+
+# Certains navigateurs ont des problèmes avec gzip, c'est pourquoi nous faisons des exceptions
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+# Les images n'ont pas besoin d'êtres compressées puisqu'elles le sont déjà (jpg, gif...)
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+
+# Pour les proxy
+Header append Vary User-Agent env=!dont-vary
+
 Addtype font/otf .otf 
 Addtype font/svg .svg 
 Addtype font/ttf .ttf 
