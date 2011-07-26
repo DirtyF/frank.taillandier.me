@@ -53,31 +53,12 @@
 			<h3><q>Please, don't hurt the web</q></h3> 
 			
 			<p>I'm constantly following the evolution of some of the <a href="http://www.w3.org/">web standards</a> like <a href="http://www.w3.org/TR/html5/">HTML5</a>, <a href="http://www.w3.org/Style/CSS/current-work">CSS3</a> and <a href="http://www.w3.org/DOM/#what">DOM</a>. These tools allows you to separate structure, style and behavior. They should be the essentials components of every well-formed website in order to ease maintenance and improve <abbr title="Search Engine Optimization">SEO</abbr>, performance and accessibility, <abbr title="id est" lang="la">i.e</abbr> ensuring your content is accessible to everyone, no matter what device or software they use.</p> 
-			
-			<h3>Photography</h3> 
-			
-			<p>I like to take pictures. I usually take street, candid shots and portraits. You can see <a href="http://flic.kr/dirtyf">some pictures</a> on my Flickr stream. I recently bought a <a href="http://www2.panasonic.com/consumer-electronics/shop/Cameras-Camcorders/Digital-Cameras/Lumix-Digital-Cameras/model.DMC-LX5K_11002_7000000000000005702">Panasonic LX5</a>, and I'm very happy about it.</p> 
-			
+		<p>Why do maintain a website who will only link to better <a href="http://www.webstandards.org/" title="Web Standards Projet">websites</a> and <a href="http://www.alistapart.com/" title="ALA, for people who make websites">articles</a> on the standards topic ? They're plenty of good technical resources on the web. In France, the web standards community is very active, either by <a href="http://www.pompage.net/" lang="fr">translating best experts articles</a> or by <a href="http://openweb.eu.org/" lang="fr">promoting web standards and accessibility</a>.</p> 			
 			</section> 
-							
 		<hr /> 
+		 		<h2>Photography</h2> 
 
-		<h2>Standardistas</h2> 
-
-		<p>Why do maintain a website who will only link to better <a href="http://www.webstandards.org/" title="Web Standards Projet">websites</a> and <a href="http://www.alistapart.com/" title="ALA, for people who make websites">articles</a> on the standards topic ? They're plenty of good technical resources on the web. In France, the web standards community is very active, either by <a href="http://www.pompage.net/" lang="fr">translating best experts articles</a> or by <a href="http://openweb.eu.org/" lang="fr">promoting web standards and accessibility</a>.</p> 
- 			
-		<h2>Uniform motion</h2> 
-
-		<p class="clearfix"><!-- <a href="http://uniformmotion.net/"><img class="top pull-1 left" src="/img/uniformmotion_thumbnail.jpg" width="80" height="81" alt="Uniform motion" /></a>  --><a href="http://uniformmotion.net/">Uniform Motion</a> is <a href="https://twitter.com/richarandrew" title="Follow Andrew on Twitter" rel="friend met">Andrew Richards</a>, my fellow english mate and talented graphic designer <a href="http://www.reuno.net" rel="friend met">Reuno</a>. I strongly invite you to <a href="http://soundcloud.com/uniformmotion" title="Uniform motion on Soundcloud">listen</a> and <a href="http://vimeo.com/user761921" title="Uniform Motion on Vimeo">watch</a> their songs.</p>
-		
-		<iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1457836118/size=venti/bgcol=FFFFFF/linkcol=FF3D97/" allowtransparency="true" frameborder="0"><a href="http://uniformmotion.bandcamp.com/album/one-frame-per-second-2011">One Frame Per Second (2011) by Uniform Motion</a></iframe>
-			
-		<!-- <audio itemscope itemtype="http://schema.org/AudioObject" controls preload="auto" autobuffer> 
-					<source src="/media/uniform-motion-roll-over.mp3" type="audio/mpeg" />
-					<source src="/media/uniform-motion-roll-over.ogg" type="audio/ogg; codecs=vorbis" />
-					<a itemprop="contentURL" href="/media/uniform-motion-roll-over.mp3"><span itemprop="author">Uniform Motion</span> - <span itemprop="name">Roll Over</span> (<span itemprop="encodingFormat">MP3</span>, <span itemprop="contentSize">11M</span>)</a>
-				</audio> -->
-		 
+				<p>I like to take pictures. I usually take street, candid shots and portraits. You can see <a href="http://flic.kr/dirtyf">some pictures</a> on my Flickr stream. I recently bought a <a href="http://www2.panasonic.com/consumer-electronics/shop/Cameras-Camcorders/Digital-Cameras/Lumix-Digital-Cameras/model.DMC-LX5K_11002_7000000000000005702">Panasonic LX5</a>, and I'm very happy about it.</p>
 		</section> 
 		</div> 
 		
@@ -103,6 +84,7 @@
 		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 		 
 		<ul> 
+			<li><a href="http://dirtyf.github.com" title="Some code I share">GitHub</a></li>
 			<li><a href="http://lanyrd.com/people/DirtyF/" title="The events I attend" rel="me">Lanyrd</a>
 			<li><a href="http://www.linkedin.com/in/franktaillandier" title="My resume on LinkedIn" rel="me">LinkedIn</a></li> 
 			<li><a href="http://flickr.com/photos/dirtyf/" title="Pictures from me" rel="me">Flickr</a></li> 
