@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <!--[if IE]><![endif]-->
-<html lang="en"> 
+<html lang="en" manifest="files.appcache"> 
 <head> 
 	<title>Frank Taillandier - Web quality progressive enhancement</title>
 	<meta charset="UTF-8" />
