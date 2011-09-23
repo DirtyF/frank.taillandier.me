@@ -76,7 +76,7 @@
 	        <a itemprop="url" href="http://www.paris-web.fr/"><img itemprop="image" src="/img/banniere-paris-web-2011-190x158.png" alt="Paris-Web 2011, j’y vais ! (du 13 au 15 octobre)" width="190" height="158"></a> <time itemprop="startDate" datetime="2011-10-13T09:00">Thursday, October 13th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span>
 		</p>
 			
-		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img itemprop="image" src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2011-05-27T09:00">Friday, May 27th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Nîmes</span>, <span itemprop="addressCountry">France</span></p>	
+		<!-- <p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img itemprop="image" src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2011-05-27T09:00">Friday, May 27th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Nîmes</span>, <span itemprop="addressCountry">France</span></p> -->	
 		
 		<h2>Follow me</h2> 
 		
