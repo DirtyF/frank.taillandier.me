@@ -83,8 +83,8 @@
 
 		<h2>Follow me</h2>
 
-		<p><a href="http://twitter.com/DirtyF" class="twitter-follow-button" data-lang="fr">Follow @DirtyF</a></p>
-		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		<a href="https://twitter.com/DirtyF" class="twitter-follow-button" data-show-count="true" data-lang="fr">Suivre @DirtyF</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 		<ul>
 			<li><a href="http://dirtyf.github.com" title="Some code I share">GitHub</a></li>
