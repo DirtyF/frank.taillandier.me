@@ -77,7 +77,7 @@
 
 		<div style="width:190px; text-align:center;" ><iframe  src="http://www.eventbrite.fr/countdown-widget?eid=1080769611" frameborder="0" height="312" width="190" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
 
-		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon"><img itemprop="image" src="/img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2013-05-17T09:00">Friday, May 17th 2013</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Avignon</span>, <span itemprop="addressCountry">France</span></p>
+		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon"><img itemprop="image" src="/img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="189" /></a>	<time itemprop="startDate" datetime="2013-05-17T09:00">Friday, May 17th 2013</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Avignon</span>, <span itemprop="addressCountry">France</span></p>
 
 		<h2>Follow me</h2>
 
