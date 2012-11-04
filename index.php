@@ -59,7 +59,7 @@
 
 			<p>I'm also responsible for <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings with web developers. Feel free to come and join us to share experiences.</p>
 
-			<p>For those who wonder what I do for a living : I'm currently in charge of  <span itemprop="jobTitle">quality assurance and user experience</span> at <a href="http://www.ws-interactive.fr" hreflang="fr">WS Interactive</a>, a wonderful web agency.</p>
+			<p>For those who wonder what I do for a living : I'm currently in charge of  <span itemprop="jobTitle">quality assurance and user experience</span> at <a href="http://www.ws-interactive.fr" hreflang="fr">WS Interactive</a>, a small web agency.</p>
 
 			<h3>Show respect for the web</h3>
 
@@ -75,11 +75,9 @@
 
 		<h2>Meet me</h2>
 
-		<p itemscope itemtype="http://schema.org/Event">
-			<a itemprop="url" href="http://www.paris-web.fr/"><img itemprop="image" src="/img/paris-web-2012-on-y-va.jpg" alt="Paris-Web 2012, j’y vais ! (du 18 au 20 octobre)" width="190" height="190"></a> <time itemprop="startDate" datetime="2012-10-13T09:00">Thursday, October 18th 2012</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span>
-		</p>
+		<div style="width:190px; text-align:center;" ><iframe  src="http://www.eventbrite.fr/countdown-widget?eid=1080769611" frameborder="0" height="312" width="190" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
 
-		<!-- <p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 27 mai à Nîmes"><img itemprop="image" src="/img/logo-sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2011-05-27T09:00">Friday, May 27th 2011</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Nîmes</span>, <span itemprop="addressCountry">France</span></p> -->
+		<p itemscope itemtype="http://schema.org/Event"><a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon"><img itemprop="image" src="/img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="130" /></a>	<time itemprop="startDate" datetime="2013-05-17T09:00">Friday, May 17th 2013</time> in <span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Avignon</span>, <span itemprop="addressCountry">France</span></p>
 
 		<h2>Follow me</h2>
 
@@ -114,7 +112,7 @@
 		<hr />
 		<div class="span-24">
 		<footer>
-			<p class="small">Handcrafted with the help of <a href="http://macromates.com/">TextMate</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a></p>
+			<p class="small">Handcrafted with the help of <a href="http://www.sublimetext.com//">Sublime Text 2</a>,  <a href="http://www.blueprintcss.org/">Blueprint</a> and <a href="http://www.apple.com/fr/macosx/">Mac OS X</a></p>
 		</footer>
 		</div>
 	</div>
