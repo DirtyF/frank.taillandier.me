@@ -1,8 +1,10 @@
-# Homepage
+# Basic homepage
+
+This webpage is built with [Bootstrap](https://github.com/twitter/bootstrap/) and the help of [LESS]() and [recess](https://github.com/twitter/recess)	.
+
+To compile and compress master LESS file :
+	recess --compile --compress css/less/master.less > css/master-min.css
 
 ## TODO
 
- - Add last tweets 
- - Link to my Calepin account
- - Add Apero Web logo
-
+ - switch to SASS/Compass instead of LESS
