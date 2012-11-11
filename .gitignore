@@ -1,3 +1,7 @@
+#specific files
+todo.html
+css/bootstrap/
+
 # osx noise
 .DS_Store
 profile
@@ -16,14 +20,3 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
-
-#specific files
-blog/*
-mint/*
-media/*
-favicon_frank/*
-frank.taillandier.esproj/*
-yuicompressor-*/*
-/tools/
-/mint
-google1b87db7700e6c4ae.html
