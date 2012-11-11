@@ -110,6 +110,7 @@
 					<div style="width:190px; text-align:center;" >
 						<iframe  src="http://www.eventbrite.fr/countdown-widget?eid=1080769611" frameborder="0" height="312" width="190" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
 					</div>
+					<p><a href="https://twitter.com/aperoweb_tlse"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
 					<div itemscope itemtype="http://schema.org/Event">
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon">
