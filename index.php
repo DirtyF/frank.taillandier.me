@@ -63,7 +63,7 @@
 						<p>
 							In order to promote a better web, I'm part of the team behind
 							<a href="http://sudweb.fr">Sud Web</a>
-							a annual web quality conference in the South of France. The aime is to share our experiences and head towards an enhancement of web quality.
+							a annual web quality conference in the South of France. The aim is to share our experiences and head towards an enhancement of web quality.
 						</p>
 
 						<p>
