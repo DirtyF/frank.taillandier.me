@@ -1,29 +1,9 @@
-# osx noise
-.DS_Store
-profile
+# Bootstrap
+/css/bootstrap
+/tools
 
-# xcode noise
-build/*
-*.mode1
-*.mode1v3
-*.mode2v3
-*.perspective
-*.perspectivev3
-*.pbxuser
-*.xcworkspace
-xcuserdata
+# Sublime files
+this.sublime-*
 
-# svn & cvs
-.svn
-CVS
-
-#specific files
-blog/*
-mint/*
-media/*
-favicon_frank/*
-frank.taillandier.esproj/*
-yuicompressor-*/*
-/tools/
-/mint
-google1b87db7700e6c4ae.html
+#test-file
+index.html
