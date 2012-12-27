@@ -74,7 +74,7 @@
 							For those who wonder what I do for a living : I'm currently in charge of <span itemprop="jobTitle">quality assurance and user experience</span> at <a href="http://www.ws-interactive.fr" hreflang="fr">WS Interactive</a>, a small web agency.
 						</p>
 
-						<h3>Show respect for the web</h3>
+						<h3>Embrace the open web</h3>
 
 						<p>
 							I'm constantly following the evolution of some of the
@@ -107,10 +107,6 @@
 			<div class="span3">
 				<aside>
 					<h2>Meet me</h2>
-					<div style="width:190px; text-align:center;" >
-						<iframe  src="http://www.eventbrite.fr/countdown-widget?eid=1080769611" frameborder="0" height="312" width="190" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
-					</div>
-					<p><a href="https://twitter.com/aperoweb_tlse"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
 					<div itemscope itemtype="http://schema.org/Event">
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon">
@@ -125,6 +121,8 @@
 							<span itemprop="addressCountry">France</span>
 						</p>
 					</div>
+
+					<p><a href="https://twitter.com/aperoweb_tlse"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
 
 					<h2>Activity</h2>
 					<ul>
