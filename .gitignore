@@ -3,7 +3,7 @@
 /tools
 
 # Sublime files
-this.sublime-*
+*.sublime-*
 
 # osx noise
 .DS_Store
