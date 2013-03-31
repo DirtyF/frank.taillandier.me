@@ -67,7 +67,7 @@
 						</p>
 
 						<p>
-							I'm also responsible for <a href="http://www.aperoweb.fr/category/Toulouse">Aperoweb Toulouse</a>, aka monthly meetings between web people.
+							I'm also responsible for <a href="http://toulouse.aperoweb.fr">Aperoweb Toulouse</a>, aka monthly meetings between web people.
 						</p>
 
 						<p>
@@ -122,7 +122,7 @@
 						</p>
 					</div>
 
-					<p><a href="https://twitter.com/aperoweb_tlse"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
+					<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
 
 					<h2>Activity</h2>
 					<ul>
@@ -147,16 +147,16 @@
 
 					<ul>
 						<li>
-							<a href="http://dirtyf.github.com" title="Some code I share">GitHub</a>
+							<a href="http://dirtyf.github.com" rel="me">GitHub</a>
 						</li>
 						<li>
-							<a href="http://lanyrd.com/people/DirtyF/" title="The events I attend" rel="me">Lanyrd</a>
+							<a href="http://lanyrd.com/people/DirtyF/" rel="me">Lanyrd</a>
 						</li>
 						<li>
-							<a href="http://www.linkedin.com/in/franktaillandier" title="My resume on LinkedIn" rel="me">LinkedIn</a>
+							<a href="http://www.linkedin.com/in/franktaillandier" rel="me">LinkedIn</a>
 						</li>
 						<li>
-							<a href="http://flickr.com/photos/dirtyf/" title="Pictures from me" rel="me">Flickr</a>
+							<a href="http://flickr.com/photos/dirtyf/" rel="me">Flickr</a>
 						</li>
 						<li>
 							<a href="http://www.last.fm/user/DirtyF/" title="Last.FM : music I listen to" rel="me">LastFM</a>
@@ -173,7 +173,7 @@
 		<footer>
 			<p>
 				Handcrafted with the help of
-				<a href="http://www.sublimetext.com//">Sublime Text 2</a>
+				<a href="http://www.sublimetext.com//">Sublime Text</a>
 				and
 				<a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
 				under
