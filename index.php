@@ -43,7 +43,7 @@
 					<section id="about">
 						<h2>About</h2>
 						<p itemscope itemtype="http://schema.org/Person" class="vcard media">
-							<img itemprop="image" class="img-rounded pull-left media-object" src="img/frank_avatar.jpg" alt=""/>
+							<img itemprop="image" class="img-rounded pull-left media-object" src="img/frank-taillandier.jpg" width="120" alt=""/>
 							Hello, my name is
 							<span itemprop="name" class="fn">Frank Taillandier</span>
 							, i'm a
