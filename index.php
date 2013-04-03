@@ -110,7 +110,7 @@
 					<div itemscope itemtype="http://schema.org/Event">
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon">
-								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="190" height="189" />
+								<img itemprop="image" src="img/sudweb-2013.png" alt="Sud Web, Faire savoir et savoir faire le web" width="212" height="200" />
 							</a>
 						</p>
 						<p>
