@@ -2,7 +2,7 @@
 <html lang="en" manifest="files.appcache" >
 <head>
 	<meta charset="utf-8">
-	<title>Frank Taillandier - Web quality progressive enhancement</title>
+	<title>Frank Taillandier - Amélioration continue de la qualité web</title>
 	<meta name="description" content="Quality Assurance, user experience and web standards" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
 	<link rel="stylesheet" href="css/master-min.css" />
@@ -25,8 +25,7 @@
 	<?php
  	$naiss = mktime(0, 0, 0, 11, 25, 1972);
  	$today = mktime();
- 	$secondes = ($today >
-	$naiss)? $today - $naiss : $naiss - $today;
+ 	$secondes = ($today > $naiss)? $today - $naiss : $naiss - $today;
  	$annees = date('Y', $secondes) - 1970;
  	?>
 	<div class="container" id="main">
@@ -34,7 +33,7 @@
 			<div class="span8">
 				<header>
 					<h1>Frank Taillandier</h1>
-					<p>helps build a better web</p>
+					<p>Utopiste végétal vélorutionnaire</p>
 				</header>
 			</div>
 		</div>
@@ -42,7 +41,7 @@
 			<div class="span8">
 				<section id="content">
 					<section id="about">
-						<h2>About me</h2>
+						<h2>About</h2>
 						<p itemscope itemtype="http://schema.org/Person" class="vcard media">
 							<img itemprop="image" class="img-rounded pull-left media-object" src="img/frank_avatar.jpg" alt=""/>
 							Hello, my name is
@@ -105,8 +104,8 @@
 				</section>
 			</div>
 			<div class="span3">
-				<aside>
-					<h2>Meet me</h2>
+				<aside lang="fr">
+					<h2>Evènements</h2>
 					<div itemscope itemtype="http://schema.org/Event">
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le 17 mai à Avignon">
@@ -114,8 +113,8 @@
 							</a>
 						</p>
 						<p>
-							<time itemprop="startDate" datetime="2013-05-17T09:00">Friday, May 17th 2013</time>
-							in
+							<time itemprop="startDate" datetime="2013-05-17T09:00">17 et 18 mai 2013</time>
+							à
 							<span itemscope itemtype="http://schema.org/Event" itemprop="addressLocality">Avignon</span>
 							,
 							<span itemprop="addressCountry">France</span>
@@ -123,24 +122,20 @@
 					</div>
 
 					<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
-
-					<h2>Activity</h2>
+					
+					<p><time itemprop="startDate" datetime="2013-04-04T19:00">Jeudi 4 Avril 2013 19h</time> à EPITECH Toulouse,</p>
+					
+					<h2>Contributions</h2>
 					<ul>
 						<li>
-							<a href="hhttp://sudweb.fr/" title="Sud Web, faire savoir et savoir faire le web" hreflang="fr">Sud Web</a>
+							<a href="http://sudweb.fr/" title="Sud Web, faire savoir et savoir faire le web" hreflang="fr">Sud Web</a>
 						</li>
 						<li>
-							<a href="hhttp://www.pompage.net/" title="Pompage, le web design puisé à la source" hreflang="fr">Pompage</a>
-						</li>
-						<li>
-							<a href="http://openweb.eu.org/" title="OpenWeb, bien faire le web" hreflang="fr">OpenWeb</a>
-						</li>
-						<li>
-							<a href="http://groups.diigo.com/group/web-performance">Performance Web Group</a>
+							<a href="http://www.pompage.net/" title="Pompage, le web design puisé à la source" hreflang="fr">Pompage</a>
 						</li>
 					</ul>
 
-					<h2>Follow me</h2>
+					<h2>Profils</h2>
 
 					<a href="https://twitter.com/DirtyF" class="twitter-follow-button" data-show-count="true" data-lang="fr">Suivre @DirtyF</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -172,15 +167,15 @@
 		</div>
 		<footer>
 			<p>
-				Handcrafted with the help of
+				Codé artisanalement à l'aide de 
 				<a href="http://www.sublimetext.com//">Sublime Text</a>
-				and
+				et
 				<a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
-				under
+				sous
 				<a href="http://www.apple.com/fr/macosx/">Mac OS X</a>
 			</p>
 			<p>
-				<a rel="author me" href="/humans.txt"><img src="data:image/gif;base64,R0lGODdhWAAfAPZIAE5OTqysrFpaWvPz89zc3PKfe8TExGZmZnFxcaGhoefn57i4uImJiZWVlfW3nPrbzfjPvepnLfa/p/CTautvOfrZyvnXyPjKtvGeeehXGPOoh/3w6+6GWeleIfKgfP3u6P738/GbdvnTwvrd0Pa7ou6HWuxzPudREPKgffKif/Ori+18Sux3RO+IXLexrfbCqudTE+ttNuZNCvGZc++PZO6DVO1+TehaG+ppMPGdeOdPDe6CU/GXcP3v6u17Sfzn3uprM/rbzvvm3ehYGfnQv9DQ0OZLB////319fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAWAAfAAAH/4BHgoOEhYaHiImKi4yNjo+QkZKTlJWWl5iZmpucnZ6foI8bIKGljBtCFSgcFDpGRh6msoMWOzg+gwWvu0Yjs6YfMK8UEIK6vEYOv6UXyMbIRhjLiwMEiQQDiQ/ORwUZBRAQ3hzTikVIiUhFiSDcKg+EDzGOA0XZR/UKhPXWh0X9gwgAPHIu3bpEHXgRclDgh6AaAQAAMDBIYhGJARJIFEAggACMgpBIBCCAokQkCz4CQJDN40aKFyUiAJBAkAIBKgEcNGRDoaAcKTqUMObiAIAAFQEQmEkyAQOSABpoBFAPwIEiC0geEXkygNEECkgayIqOYNkBAtYhQapOEQ+fD/8iSPAgwZiFiEgFSSQokeIAkEdm2vtXT/ARiTWPGACAhIDVdf8EFRRk4MACBCF3HnLgswAQI0MiRMBQ4AXepHwPJNW3VecRryNdS2R9EV0DmRQllxX0tF/bRCI6kxC0wsSFAhpO49tbG3VInVkRLChieK9kxoIWGD2qe9CAAwfy/kb0oXOIIxKMGKMRMXFEAHx3W299zjVa2fCvozu4WIBkzII4RYAA+iCRWyI37GLMCSzIoF43LfQXwG0YNadXfq01IBID1H3UQFgYXhQeYwZEdEA1R6RFkAAtoRMAA/cgooGC3fh0RA+tkbTAUzphd+EgUxnA1FoWzXcTYwmodAA4AQVVZtWBCAQwwG15IUKEA8ocUcEME3QZRCEKaBaJQJBEVs6ZaKap5ppstunmm3DGKeecdNb5SyAAOw==" alt="Humans.txt" title="Humans.txt we are people not machines"></a>
+				<a rel="author me" href="/humans.txt"><img src="data:image/gif;base64,R0lGODdhWAAfAPZIAE5OTqysrFpaWvPz89zc3PKfe8TExGZmZnFxcaGhoefn57i4uImJiZWVlfW3nPrbzfjPvepnLfa/p/CTautvOfrZyvnXyPjKtvGeeehXGPOoh/3w6+6GWeleIfKgfP3u6P738/GbdvnTwvrd0Pa7ou6HWuxzPudREPKgffKif/Ori+18Sux3RO+IXLexrfbCqudTE+ttNuZNCvGZc++PZO6DVO1+TehaG+ppMPGdeOdPDe6CU/GXcP3v6u17Sfzn3uprM/rbzvvm3ehYGfnQv9DQ0OZLB////319fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAWAAfAAAH/4BHgoOEhYaHiImKi4yNjo+QkZKTlJWWl5iZmpucnZ6foI8bIKGljBtCFSgcFDpGRh6msoMWOzg+gwWvu0Yjs6YfMK8UEIK6vEYOv6UXyMbIRhjLiwMEiQQDiQ/ORwUZBRAQ3hzTikVIiUhFiSDcKg+EDzGOA0XZR/UKhPXWh0X9gwgAPHIu3bpEHXgRclDgh6AaAQAAMDBIYhGJARJIFEAggACMgpBIBCCAokQkCz4CQJDN40aKFyUiAJBAkAIBKgEcNGRDoaAcKTqUMObiAIAAFQEQmEkyAQOSABpoBFAPwIEiC0geEXkygNEECkgayIqOYNkBAtYhQapOEQ+fD/8iSPAgwZiFiEgFSSQokeIAkEdm2vtXT/ARiTWPGACAhIDVdf8EFRRk4MACBCF3HnLgswAQI0MiRMBQ4AXepHwPJNW3VecRryNdS2R9EV0DmRQllxX0tF/bRCI6kxC0wsSFAhpO49tbG3VInVkRLChieK9kxoIWGD2qe9CAAwfy/kb0oXOIIxKMGKMRMXFEAHx3W299zjVa2fCvozu4WIBkzII4RYAA+iCRWyI37GLMCSzIoF43LfQXwG0YNadXfq01IBID1H3UQFgYXhQeYwZEdEA1R6RFkAAtoRMAA/cgooGC3fh0RA+tkbTAUzphd+EgUxnA1FoWzXcTYwmodAA4AQVVZtWBCAQwwG15IUKEA8ocUcEME3QZRCEKaBaJQJBEVs6ZaKap5ppstunmm3DGKeecdNb5SyAAOw==" alt="Humans.txt" title="Humans.txt nous sommes des gens pas des machines"></a>
 			</p>
 		</footer>
 	</div>
