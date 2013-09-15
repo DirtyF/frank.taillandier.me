@@ -7,4 +7,6 @@ To compile and compress master LESS file :
 
 ## TODO
 
- - switch to SASS/Compass instead of LESS
+ - upgrade to Bootstrap 3
+ - single column, vertical rythm
+ - switch to SASS/Compass/Grunt
