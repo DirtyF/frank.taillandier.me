@@ -43,31 +43,24 @@
             </foaf:document>
         </foaf:homepage>
 
-		<foaf:workplaceHomepage>
-            <foaf:document rdf:about="http://www.automne-cms.org">
-                <dc:title xml:lang="fr">Automne, open-source CMS</dc:title>
-                <dc:description xml:lang="fr">Automne est un CMS open-source, destiné à faciliter la gestion et le développement de sites web.</dc:description>
-                <foaf:maker rdf:resource="#FrankTaillandier"/> 
-            </foaf:document>
-        </foaf:workplaceHomepage>
-
 		<foaf:schoolHomepage rdf:resource="http://www.ups-tlse.fr/ITINI_61/0/fiche___formation/&amp;RH=1237294442899"/>
 		
         <bio:olb xml:lang="fr">
-			Français ; Responsable qualité chez WS Interactive depuis mars 2010;
+			Français ; Facilitateur agile chez Occitech depuis Août 2013;
+			Responsable qualité chez WS Interactive depuis mars 2010;
 			Gestion de la communauté du CMS open-source Automne depuis mars 2010;
             Webmestre de l'académie de Toulouse depuis janvier 2004;
             Expert et membre du groupe de travail Accessiweb depuis décembre 2007;
         </bio:olb>
         <bio:olb xml:lang="en">
-            French; Webmaster at académie de Toulouse since january 2004;
+            French; Agile Coach since 2013; Previously QA and User Experience at WS-Interactive;
 			Member of the accessiweb working group since december 2007;
         </bio:olb>
         <bio:keywords xml:lang="en">
-            Web QA, open-source
+            Agile, Lean, Scrum, QA, UX, Open-Source
         </bio:keywords>
         <bio:keywords xml:lang="fr">
-            Qualité web, logiciel libre
+            Agilité, Ergonomie, Qualité web
         </bio:keywords>
         <bio:event>
             <bio:Birth>
@@ -80,7 +73,7 @@
 			<foaf:Person>
 			<foaf:name>Thomas Parisot</foaf:name>
 			<foaf:mbox_sha1sum>f7044b1f547e03a2ab76ae1bc79a7542edffdab9</foaf:mbox_sha1sum>
-			<rdfs:seeAlso rdf:resource="http://case.oncle-tom.net/"/>
+			<rdfs:seeAlso rdf:resource="https://oncletom.io/"/>
 			</foaf:Person>
 		</foaf:knows>
 		<foaf:knows>
@@ -99,7 +92,6 @@
 			<foaf:Person>
 				<foaf:name>S&#xE9;bastien Pauchet</foaf:name>
 				<foaf:mbox_sha1sum>0b06cfb78ffe257a809d7e95ab47225ee3fa6212</foaf:mbox_sha1sum>
-				<rdfs:seeAlso rdf:resource="http://www.automne-cms.org"/>
 			</foaf:Person>
 		</foaf:knows>
 	</foaf:Person>

@@ -1,13 +1,13 @@
 /* AUTHOR */
-	Frank Taillandier, Web Quality Assurance
-	Contact: frank.taillandier [at] gmail.com
+	Frank Taillandier, Agile Coaching
+	Contact: frank [at] taillandier [dot] me
 	Twitter: @DirtyF
 	From: Toulouse, France
 
 /* SITE */
-	Last update: 2011/06/04
+	Last update: 2013/09/14
 	Language: English
 	Doctype: HTML5
-	Tools: Blueprint CSS Framework, Git
-	IDE: Textmate
+	Tools: Bootstrap, Google Webfonts, Git, Bower
+	IDE: Sublime Text 3
 	
