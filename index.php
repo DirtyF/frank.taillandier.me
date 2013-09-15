@@ -42,8 +42,8 @@
 				<section id="content">
 					<section id="about">
 						<h2>About</h2>
+						<img itemprop="image" class="img-rounded pull-left media-object" src="img/frank-taillandier.jpg" width="120" alt=""/>
 						<p itemscope itemtype="http://schema.org/Person" class="vcard media">
-							<img itemprop="image" class="img-rounded pull-left media-object" src="img/frank-taillandier.jpg" width="120" alt=""/>
 							Hi, my name is
 							<span itemprop="name" class="fn">Frank Taillandier</span>
 							, I am a
@@ -104,7 +104,7 @@
 
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le web">
-								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="212" height="200" />
+								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="128" height="81" />
 							</a>
 						</p>
 
