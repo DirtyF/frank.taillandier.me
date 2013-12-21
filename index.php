@@ -23,8 +23,8 @@
 </head>
 <body>
 	<?php
-	$naiss = mktime(0, 0, 0, 11, 25, 1972);
-	$today = mktime();
+	$naiss = time(0, 0, 0, 11, 25, 1972);
+	$today = time();
 	$secondes = ($today > $naiss)? $today - $naiss : $naiss - $today;
 	$annees = date('Y', $secondes) - 1970;
 	?>
