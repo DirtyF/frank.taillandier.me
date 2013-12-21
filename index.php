@@ -5,7 +5,7 @@
 	<title>Frank Taillandier - building a better web</title>
 	<meta name="description" content="I help product owners and teams build useful quality web apps in an iterative way." />
 	<link type="text/plain" rel="author" href="/humans.txt" />
-	<link rel="stylesheet" href="css/master-min.css" />
+	<link rel="stylesheet" href="css/master.min.css" />
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
 

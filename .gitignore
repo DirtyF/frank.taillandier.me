@@ -1,6 +1,5 @@
 # Bootstrap
 /components
-/tools
 
 # Sublime files
 *.sublime-*
@@ -13,3 +12,5 @@ profile
 .svn
 CVS
 
+# debug
+index.html

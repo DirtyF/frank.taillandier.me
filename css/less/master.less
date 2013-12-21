@@ -31,21 +31,17 @@ header {
 	-moz-box-shadow: inset 0 0 5px @gray;
 	-webkit-box-shadow: inset 0 0 5px@gray;
 	box-shadow: inner 0 0 5px @gray;
+  max-width: @screen-md;
+
 }
 
 #content {
-	padding: 0 2*@grid-gutter-width;
+	padding: 0 @grid-gutter-width;
 	border-right: 1px dashed @gray-lighter;
 }
 
 aside {
-	padding: 0 0 0 2*@grid-gutter-width;
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-	aside {
-		padding: 0 0 0 @grid-gutter-width;
-	}
+	padding: 0 0 0 @grid-gutter-width;
 }
 
 a:link, a:visited, a:hover  {
@@ -115,6 +111,10 @@ header a, footer a {
 	text-decoration: none;
 }
 
+.avatar {
+  margin: 0 1em;
+}
+
 .rotate {
 	-webkit-transition: -webkit-transform .5s;
     -moz-transition: -moz-transform .5s;
@@ -139,8 +139,6 @@ header a, footer a {
 
 
 @media (min-width: @screen-md) {
-  .avatar {
-    margin-right: 1em;
-  }
+
 }
 
