@@ -11,6 +11,3 @@ profile
 # svn & cvs
 .svn
 CVS
-
-# debug
-index.html
