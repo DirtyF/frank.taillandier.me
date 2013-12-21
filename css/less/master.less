@@ -11,8 +11,13 @@
     font-style: normal;
 }
 
+@font-family-serif: Palatino, Georgia, "Times New Roman", Times, serif;
+
+
 body {
 	background: #777;
+  font-family: @font-family-serif;
+  font-size: @font-size-large;
 }
 
 header {
@@ -37,7 +42,7 @@ header {
 
 #content {
 	padding: 0 @grid-gutter-width;
-	border-right: 1px dashed @gray-lighter;
+	border-right: 1px solid @gray-lighter;
 }
 
 aside {
@@ -99,9 +104,7 @@ h3 {
 }
 
 footer {
-	margin-top: 2*@line-height-base;
-	padding: @line-height-base @grid-gutter-width;
-	border-top: 1px solid @gray-lighter;
+	padding: 2*@line-height-base @grid-gutter-width;
 	color: #aaa;
 	text-align: center;
 }
@@ -139,6 +142,8 @@ header a, footer a {
 
 
 @media (min-width: @screen-md) {
-
+  #about {
+    padding-bottom: 2*@line-height-base;
+  }
 }
 
