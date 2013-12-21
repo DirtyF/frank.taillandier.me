@@ -30,15 +30,15 @@
 	?>
 	<div class="container" id="main">
 		<div class="row">
-			<div class="span8">
+			<div class="col-sm-8 col-md-8">
 				<header>
 					<h1>Frank Taillandier</h1>
 					<p>Web utopist</p>
 				</header>
 			</div>
 		</div>
-		<div class="row-fluid">
-			<div class="span8">
+		<div class="row">
+			<div class="col-sm-8 col-md-8">
 				<section id="content">
 					<section id="about">
 						<h2>About</h2>
@@ -96,7 +96,7 @@
 						</section>
 					</section>
 				</div>
-				<div class="span3">
+				<div class="col-sm-3 col-md-3">
 					<aside lang="fr">
 						<h2>Events</h2>
 

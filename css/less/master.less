@@ -1,5 +1,4 @@
-@import "bootstrap/less/bootstrap.less";
-@import "bootstrap/less/responsive.less";
+@import "../../components/bootstrap/less/bootstrap.less";
 
 @font-face {
     font-family: 'RalewayThin';
@@ -35,17 +34,17 @@ header {
 }
 
 #content {
-	padding: 0 2*@gridGutterWidth;
-	border-right: 1px dashed @grayLighter;
+	padding: 0 2*@grid-gutter-width;
+	border-right: 1px dashed @gray-lighter;
 }
 
 aside {
-	padding: 0 0 0 2*@gridGutterWidth;
+	padding: 0 0 0 2*@grid-gutter-width;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
 	aside {
-		padding: 0 0 0 @gridGutterWidth;
+		padding: 0 0 0 @grid-gutter-width;
 	}
 }
 
@@ -87,7 +86,7 @@ blockquote p:after {
 
 h1, h2, h3 {
 	font-family: RalewayThin, "Lucida Grande", "Helvetica Neue", Helvectica, Arial, sans-serif;
-	text-shadow: 1px 1px 1px @grayLighter;
+	text-shadow: 1px 1px 1px @gray-lighter;
 	line-height: 1;
 }
 
@@ -104,9 +103,9 @@ h3 {
 }
 
 footer {
-	margin-top: 2*@baseLineHeight;
-	padding: @baseLineHeight @gridGutterWidth;
-	border-top: 1px solid @grayLighter;
+	margin-top: 2*@line-height-base;
+	padding: @line-height-base @grid-gutter-width;
+	border-top: 1px solid @gray-lighter;
 	color: #aaa;
 	text-align: center;
 }
@@ -114,10 +113,6 @@ footer {
 header a, footer a {
 	color: #cc9cb3;
 	text-decoration: none;
-}
-
-.avatar {
-	margin-right: 1em;
 }
 
 .rotate {
@@ -128,11 +123,11 @@ header a, footer a {
 }
 
 .rotate:hover {
-    -moz-transform: rotate(-3deg); 
+    -moz-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
 }
-	
+
 .shadow {
 	-moz-box-shadow:2px 2px 2px #ccc;
 	-webkit-box-shadow:2px 2px 2px #ccc;
@@ -141,3 +136,11 @@ header a, footer a {
 
 ::-moz-selection{ background: #F14A29; color:#fff; text-shadow: none; }
 ::selection { background:#F14A29; color:#fff; text-shadow: none; }
+
+
+@media (min-width: @screen-md) {
+  .avatar {
+    margin-right: 1em;
+  }
+}
+
