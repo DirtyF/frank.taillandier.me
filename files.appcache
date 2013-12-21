@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 1.5 27-12-2012
+#version 1.6 2012-12-21
 
 CACHE:
 
@@ -15,13 +15,12 @@ data:image/gif;base64,R0lGODdhWAAfAPZIAE5OTqysrFpaWvPz89zc3PKfe8TExGZmZnFxcaGhoe
 http://frank.taillandier.me/img/sudweb.png
 http://frank.taillandier.me/img/aperoweb_tlse.png
 http://frank.taillandier.me/img/frank_avatar.jpg
-http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia-semantics.png
 
 #internal HTML documents
 http://frank.taillandier.me/humans.txt
 
 #stylesheets
-http://frank.taillandier.me/css/master-min.css
+http://frank.taillandier.me/css/master.min.css
 
 #javascript files
 http://frank.taillandier.me/mint/?js
