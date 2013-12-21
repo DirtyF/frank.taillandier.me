@@ -23,11 +23,6 @@
 </head>
 <body>
 
-<?php
- require('inc/birthday.php');
- $birthday = new Blar_DateTime('1972-11-25');
-?>
-
 <div class="container" id="main">
 		<div class="row">
 			<div class="col-sm-8 col-md-8">
@@ -45,14 +40,13 @@
 						<img itemprop="image" class="img-rounded pull-left media-object avatar" src="img/frank-taillandier.jpg" width="120" alt="">
 						<p itemscope="" itemtype="http://schema.org/Person" class="vcard media">
 							Hi, my name is
-							<span itemprop="name" class="fn">Frank Taillandier</span>
-							, I am a <?php echo $birthday->getAge(); ?> years old frenchie, living in
+							<span itemprop="name" class="fn">Frank Taillandier</span> and I live in
 							<span class="addr" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
 								<span itemprop="addressLocality" class="locality">
 									<a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a>
 								</span>
 							</span>
-							in the south of France and I'm passionate about building useful services with the web standards.
+							in the south of France. I help build useful web services.
 						</p>
 
 						<p>
