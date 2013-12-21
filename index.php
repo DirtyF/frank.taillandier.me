@@ -22,13 +22,13 @@
 	</script>
 </head>
 <body>
-	<?php
-	$naiss = time(0, 0, 0, 11, 25, 1972);
-	$today = time();
-	$secondes = ($today > $naiss)? $today - $naiss : $naiss - $today;
-	$annees = date('Y', $secondes) - 1970;
-	?>
-	<div class="container" id="main">
+
+<?php
+ require('inc/birthday.php');
+ $birthday = new Blar_DateTime('1972-11-25');
+?>
+
+<div class="container" id="main">
 		<div class="row">
 			<div class="col-sm-8 col-md-8">
 				<header>
@@ -42,14 +42,12 @@
 				<section id="content">
 					<section id="about">
 						<h2>About</h2>
-						<img itemprop="image" class="img-rounded pull-left media-object avatar" src="img/frank-taillandier.jpg" width="120" alt=""/>
-						<p itemscope itemtype="http://schema.org/Person" class="vcard media">
+						<img itemprop="image" class="img-rounded pull-left media-object avatar" src="img/frank-taillandier.jpg" width="120" alt="">
+						<p itemscope="" itemtype="http://schema.org/Person" class="vcard media">
 							Hi, my name is
 							<span itemprop="name" class="fn">Frank Taillandier</span>
-							, I am a
-							<?php echo $annees; ?>
-							years old frenchie, living in
-							<span class="addr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							, I am a <?php echo $birthday->getAge(); ?> years old frenchie, living in
+							<span class="addr" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
 								<span itemprop="addressLocality" class="locality">
 									<a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a>
 								</span>
@@ -71,7 +69,7 @@
 							I am also involved in local events like <a href="http://toulouse.aperoweb.fr">Aperoweb Toulouse</a>, to encourage meetings between web people, who can discuss and learn about their passion for web technologies.
 						</p>
 
-						
+
 						<h3>Embrace the open web</h3>
 
 						<p>
@@ -91,7 +89,7 @@
 						<p>
 							You will find plenty of good litterature on web design and development. Some favourites of mine include <a href="http://www.fivesimplesteps.com/products/the-practical-guide-digital-library">Five Simple Steps Pratical Guides</a>, <a href="http://rosenfeldmedia.com/books/">Rosenfeld Media Books</a>, and of course some of <a href="http://shop.oreilly.com/category/ebooks/web-development.do">O'Reilly ebooks</a>.
 							I still recommend you check <a href="http://www.alistapart.com/" title="ALA, for people who make websites">A List Apart</a> from time to time.</p>
-							
+
 							<p>You can help the french community by <a href="http://www.pompage.net/" hreflang="fr">translating best experts articles</a> or <a href="http://letrainde13h37.fr/rejoignez-nous/" hreflang="fr">write one of your own</a>.</p>
 						</section>
 					</section>
@@ -100,11 +98,11 @@
 					<aside lang="fr">
 						<h2>Events</h2>
 
-						<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128" /></a></p>
+						<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128"></a></p>
 
 						<p>
 							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le web">
-								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="128" height="81" />
+								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="128" height="81">
 							</a>
 						</p>
 
@@ -144,11 +142,11 @@
 			</div>
 			<footer>
 				<p>
-					crafted with care with  
+					crafted with care with
 					<a href="http://www.sublimetext.com//">Sublime Text</a>
 					,
 					<a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
-					under 
+					under
 					<a href="http://www.apple.com/fr/macosx/">Mac OS X</a>
 				</p>
 				<p>
@@ -160,5 +158,5 @@
 				</p>
 				</footer>
 			</div>
-		</body>
-		</html>
+</body>
+</html>
