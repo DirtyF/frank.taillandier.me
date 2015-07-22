@@ -7,6 +7,5 @@ To compile and compress master LESS file :
 
 ## TODO
 
- - upgrade to Bootstrap 3
+ - switch to Github Pages / Jekyll
  - single column, vertical rythm
- - switch to SASS/Compass/Grunt
