@@ -1,13 +1,4 @@
-# jekyll
-/_site
-
-# Sublime files
-*.sublime-*
-
-# osx noise
+_site/
+_drafts/
 .DS_Store
-profile
-
-# svn & cvs
-.svn
-CVS
+*.swp
