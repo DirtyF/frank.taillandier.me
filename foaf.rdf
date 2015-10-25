@@ -9,17 +9,17 @@
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
     xmlns:sioc="http://rdfs.org/sioc/ns#"
     xmlns:rel="http://purl.org/vocab/relationship/">
-	
+
 	<foaf:PersonalProfileDocument rdf:about="http://frank.taillandier.me/foaf.rdf">
 		<foaf:maker rdf:resource="#FrankTaillandier"/>
 		<foaf:primaryTopic rdf:resource="#FrankTaillandier"/>
 	</foaf:PersonalProfileDocument>
-	
+
 	<foaf:Person rdf:ID="FrankTaillandier">
-		
+
 		<foaf:name>Frank Taillandier</foaf:name>
         <foaf:title xml:lang="fr">M.</foaf:title>
-        <foaf:title xml:lang="en">Mr</foaf:title>	
+        <foaf:title xml:lang="en">Mr</foaf:title>
 		<foaf:givenname>Frank</foaf:givenname>
 		<foaf:family_name>Taillandier</foaf:family_name>
 		<foaf:nick>DirtyF</foaf:nick>
@@ -27,34 +27,37 @@
 		<foaf:homepage rdf:resource="http://frank.taillandier.me"/>
 		<foaf:depiction rdf:resource="http://frank.taillandier.me/img/frank.png"/>
 		<foaf:phone rdf:resource="tel:06-10-23-08-77"/>
-		<foaf:birthday>04-23</foaf:birthday>
+		<foaf:birthday>11-25</foaf:birthday>
 		<foaf:gender xml:lang="en">male</foaf:gender>
 		<foaf:gender xml:lang="fr">masculin</foaf:gender>
 		<foaf:jabberID>frank@taillandier.me</foaf:jabberID>
 		<foaf:openid rdf:resource="http://frank.taillandier.me/"/>
-		
+
 		<foaf:homepage>
             <foaf:document rdf:about="http://frank.taillandier.me/">
                 <dc:title xml:lang="en">Profile of Frank Taillandier</dc:title>
                 <dc:title xml:lang="fr">Profil de Frank Taillandier</dc:title>
                 <dc:description xml:lang="en">Short description of Frank Taillandier</dc:description>
                 <dc:description xml:lang="fr">Courte description de Frank Taillandier</dc:description>
-                <foaf:maker rdf:resource="#FrankTaillandier"/> 
+                <foaf:maker rdf:resource="#FrankTaillandier"/>
             </foaf:document>
         </foaf:homepage>
 
 		<foaf:schoolHomepage rdf:resource="http://www.ups-tlse.fr/ITINI_61/0/fiche___formation/&amp;RH=1237294442899"/>
-		
+
         <bio:olb xml:lang="fr">
-			Français ; Facilitateur agile chez Occitech depuis Août 2013;
-			Responsable qualité chez WS Interactive depuis mars 2010;
-			Gestion de la communauté du CMS open-source Automne depuis mars 2010;
-            Webmestre de l'académie de Toulouse depuis janvier 2004;
-            Expert et membre du groupe de travail Accessiweb depuis décembre 2007;
+          Français;
+          Facilitateur agile chez Occitech de 2013 à 2015;
+          Responsable qualité chez WS Interactive et contributeur au  CMS open-source Automne de 2010 à 2013;
+          Webmestre de l'académie de Toulouse de 2004 à 2010;
+          Organisateur de Sud Web depuis 2010;
+          Organisateur des aperoweb Toulouse depuis 2010;
+          Expert et membre du groupe de travail Accessiweb depuis décembre 2007;
         </bio:olb>
         <bio:olb xml:lang="en">
-            French; Agile Coach since 2013; Previously QA and User Experience at WS-Interactive;
-			Member of the accessiweb working group since december 2007;
+            French;
+            Agile Coach since 2013; Previously QA and User Experience at WS-Interactive;
+            Member of the accessiweb working group since december 2007;
         </bio:olb>
         <bio:keywords xml:lang="en">
             Agile, Lean, Scrum, QA, UX, Open-Source
