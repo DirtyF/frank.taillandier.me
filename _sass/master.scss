@@ -2,60 +2,51 @@
 @import "base/base";
 @import "neat/neat";
 
-@font-face {
-    font-family: 'RalewayThin';
-    src: url('../fonts/raleway_thin-webfont.eot');
-    src: url('../fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway_thin-webfont.woff') format('woff'),
-         url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
-         url('../fonts/raleway_thin-webfont.svg#RalewayThin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@include font-face("RalewayThin", "../fonts/raleway_thin-webfont", normal);
 
-$font-family-serif: Palatino, Georgia, "Times New Roman", Times, serif;
-$font-size-large: 1.2em;
+$font-family-serif: Palatino, $georgia;
 $gray: #ccc;
 $gray-lighter:#eee;
 $grid-gutter-width:2em;
 $line-height-base: 1.4;
 $screen-md:768px;
+$modular-scale-base: 1.2em;
 
 body {
-	background: #777;
+	background: yellowgreen;
   font-family: $font-family-serif;
-  font-size: $font-size-large;
+  font-size: $modular-scale-base;
 }
 
 header {
-	text-align: right;
-	padding-right: 1em;
+  text-align: center;
+	padding: 1em 0;
 	h1, p {
+
 		margin-bottom: 0;
 	}
 	p {
-		font: italic 1em Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif," "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+		font: italic $modular-scale-base Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif," "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 	}
 }
 
-#main {
+section {
   @include outer-container;
+  aside {
+    @include span-columns(3);
+    @include margin(12em 0);
+    padding: 0 0 0 1em;
+  }
+  article {
+    @include span-columns(7);
+    @include shift(2);
+    border-right: 1px solid $gray-lighter;
+  }
+}
+
+.container {
 	background-color: #fff;
-	-moz-box-shadow: inset 0 0 5px $gray;
-	-webkit-box-shadow: inset 0 0 5px $gray;
 	box-shadow: inner 0 0 5px $gray;
-
-}
-
-#content {
-  @include span-columns(8);
-	padding: 0 $grid-gutter-width;
-	border-right: 1px solid $gray-lighter;
-}
-
-aside {
-  @include span-columns(4);
-	padding: 0 0 0 $grid-gutter-width;
 }
 
 a:link, a:visited, a:hover  {
@@ -79,9 +70,6 @@ text-decoration: none;
 blockquote {
 	font-style: italic;
 	background-color: #f6f2ec;
-	-moz-border-radius: .5em;
-	-webkit-border-radius: .5em;
-	-o-border-radius: .5em;
 	border-radius: .5em;
 }
 
@@ -92,7 +80,6 @@ blockquote p:before {
 blockquote p:after {
 	content: close-quote;
 }
-
 
 h1, h2, h3 {
 	font-family: RalewayThin, "Lucida Grande", "Helvetica Neue", Helvectica, Arial, sans-serif;
@@ -125,31 +112,17 @@ header a, footer a {
 }
 
 .avatar {
-  margin: 0 1em;
-}
-
-.rotate {
-	-webkit-transition: -webkit-transform .5s;
-    -moz-transition: -moz-transform .5s;
-    -o-transition: -o-transform .5s;
-    transition: transform .5s;
-}
-
-.rotate:hover {
-    -moz-transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg);
-    transform: rotate(-3deg);
+  text-align: center;
+  img {
+    border-radius: 50%;
+  }
 }
 
 .shadow {
-	-moz-box-shadow:2px 2px 2px #ccc;
-	-webkit-box-shadow:2px 2px 2px #ccc;
 	box-shadow:2px 2px 2px #ccc;
 }
 
-::-moz-selection{ background: #F14A29; color:#fff; text-shadow: none; }
 ::selection { background:#F14A29; color:#fff; text-shadow: none; }
-
 
 @media (min-width: $screen-md) {
   #about {
