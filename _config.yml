@@ -1,2 +1,15 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+site: Frank Taillandier
+author: Frank Taillandier
+description: Utopiste vélorutionnaire
+markdown: rdiscount
+highlighter: pygments
+
+github: site.github
+
 sass:
     style: compressed
