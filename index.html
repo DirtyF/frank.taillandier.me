@@ -1,34 +1,25 @@
-<!doctype html>
-<html lang="en" manifest="files.appcache" >
-<head>
-	<meta charset="utf-8">
-	<title>Frank Taillandier - building a better web</title>
-	<meta name="description" content="I help product owners and teams build useful quality web apps in an iterative way." />
-	<link type="text/plain" rel="author" href="/humans.txt" />
-	<link rel="stylesheet" href="/css/master.css" />
-	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
+---
+layout: default
+title: Frank Taillandier, Agile, web, UX
+---
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<h2>Articles</h2>
 
-	  ga('create', 'UA-58128258-1', 'auto');
-	  ga('send', 'pageview');
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-	</script>
-</head>
-<body>
-<div class="container">
-		<section>
+		<!-- <section>
 			<article itemscope="" itemtype="http://schema.org/Person" class="vcard">
 						<header>
 							<h1>Frank Taillandier</h1>
 							<p>Web utopist</p>
+							<p class="avatar"><img itemprop="image" src="img/frank-taillandier.jpg" width="120" alt=""></p>
 						</header>
-				<p class="avatar"><img itemprop="image" src="img/frank-taillandier.jpg" width="120" alt=""></p>
 				<p>
 					Hi, my name is
 					<span itemprop="name" class="fn">Frank Taillandier</span> and I live in
@@ -74,7 +65,7 @@
 					<p>You can help the french community by <a href="http://www.pompage.net/" hreflang="fr">translating best experts articles</a> or <a href="http://letrainde13h37.fr/rejoignez-nous/" hreflang="fr">write one of your own</a>.</p>
 				</article>
 				<aside lang="fr">
-						<h2>Events</h2>
+						<h2>Founder</h2>
 
 						<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128"></a></p>
 
@@ -84,14 +75,6 @@
 							</a>
 						</p>
 
-
-						<h2>Projects</h2>
-						<ul>
-							<li>
-								<a href="http://www.pompage.net/" title="Pompage, le web design puisé à la source" hreflang="fr">Pompage</a>
-							</li>
-						</ul>
-
 						<h2>Profiles</h2>
 
 						<a href="https://twitter.com/DirtyF" class="twitter-follow-button" data-show-count="true" data-lang="fr">Suivre @DirtyF</a>
@@ -99,39 +82,11 @@
 
 						<ul>
 							<li>
-								<a href="http://dirtyf.github.com" rel="me">GitHub</a>
-							</li>
-							<li>
-								<a href="http://lanyrd.com/people/DirtyF/" rel="me">Lanyrd</a>
-							</li>
-							<li>
-								<a href="http://www.linkedin.com/in/franktaillandier" rel="me">LinkedIn</a>
-							</li>
-							<li>
-								<a href="http://flickr.com/photos/dirtyf/" rel="me">Flickr</a>
+								<a href="https://github.com/dirtyf" rel="me">GitHub</a>
 							</li>
 							<li>
 								<a href="http://www.last.fm/user/DirtyF/" title="Last.FM : music I listen to" rel="me">LastFM</a>
 							</li>
 						</ul>
 					</aside>
-			</section>
-
-
-	<footer>
-		<p>
-			crafted with care with
-			<a href="https://atom.io/">Atom</a>
-			,
-			<a href="http://neat.bourbon.io/">Neat</a>
-			under
-			<a href="http://www.apple.com/fr/macosx/">Mac OS X</a>
-		</p>
-		<p>
-			<a rel="author me" href="/humans.txt"><img src="data:image/gif;base64,R0lGODdhWAAfAPZIAE5OTqysrFpaWvPz89zc3PKfe8TExGZmZnFxcaGhoefn57i4uImJiZWVlfW3nPrbzfjPvepnLfa/p/CTautvOfrZyvnXyPjKtvGeeehXGPOoh/3w6+6GWeleIfKgfP3u6P738/GbdvnTwvrd0Pa7ou6HWuxzPudREPKgffKif/Ori+18Sux3RO+IXLexrfbCqudTE+ttNuZNCvGZc++PZO6DVO1+TehaG+ppMPGdeOdPDe6CU/GXcP3v6u17Sfzn3uprM/rbzvvm3ehYGfnQv9DQ0OZLB////319fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAWAAfAAAH/4BHgoOEhYaHiImKi4yNjo+QkZKTlJWWl5iZmpucnZ6foI8bIKGljBtCFSgcFDpGRh6msoMWOzg+gwWvu0Yjs6YfMK8UEIK6vEYOv6UXyMbIRhjLiwMEiQQDiQ/ORwUZBRAQ3hzTikVIiUhFiSDcKg+EDzGOA0XZR/UKhPXWh0X9gwgAPHIu3bpEHXgRclDgh6AaAQAAMDBIYhGJARJIFEAggACMgpBIBCCAokQkCz4CQJDN40aKFyUiAJBAkAIBKgEcNGRDoaAcKTqUMObiAIAAFQEQmEkyAQOSABpoBFAPwIEiC0geEXkygNEECkgayIqOYNkBAtYhQapOEQ+fD/8iSPAgwZiFiEgFSSQokeIAkEdm2vtXT/ARiTWPGACAhIDVdf8EFRRk4MACBCF3HnLgswAQI0MiRMBQ4AXepHwPJNW3VecRryNdS2R9EV0DmRQllxX0tF/bRCI6kxC0wsSFAhpO49tbG3VInVkRLChieK9kxoIWGD2qe9CAAwfy/kb0oXOIIxKMGKMRMXFEAHx3W299zjVa2fCvozu4WIBkzII4RYAA+iCRWyI37GLMCSzIoF43LfQXwG0YNadXfq01IBID1H3UQFgYXhQeYwZEdEA1R6RFkAAtoRMAA/cgooGC3fh0RA+tkbTAUzphd+EgUxnA1FoWzXcTYwmodAA4AQVVZtWBCAQwwG15IUKEA8ocUcEME3QZRCEKaBaJQJBEVs6ZaKap5ppstunmm3DGKeecdNb5SyAAOw==" alt="Humans.txt" title="Humans.txt nous sommes des gens pas des machines"></a>
-		</p>
-		</footer>
-	</div>
-	</body>
-
-</html>
+			</section> -->

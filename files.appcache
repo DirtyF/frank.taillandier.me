@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 1.6 2012-12-21
+#version 1.7 2015-12-21
 
 CACHE:
 
@@ -18,12 +18,6 @@ http://frank.taillandier.me/img/frank_avatar.jpg
 
 #internal HTML documents
 http://frank.taillandier.me/humans.txt
-
-#stylesheets
-http://frank.taillandier.me/css/master.min.css
-
-#javascript files
-http://frank.taillandier.me/mint/?js
 
 NETWORK:
 *

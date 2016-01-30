@@ -1,3 +1,35 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+markdown: rdiscount
+highlighter: pygments
+
+# Setup
+title:               Frank Taillandier
+tagline:             Consultant web
+description:         Help product owners and teams build useful quality web apps
+url:                 site.github.url
+paginate:            1
+baseurl:             ""
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Frank Taillandier
+  url:               https://twitter.com/DirtyF
+  email:             frank.taillandier@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -5,14 +37,11 @@ exclude:
   - CNAME
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
-site: Frank Taillandier
-author: Frank Taillandier
-description: Utopiste vélorutionnaire
-markdown: rdiscount
-highlighter: pygments
+analytics:
+  google:
+    tracking_id: UA-58128258-1
 
-github: site.github
-
-sass:
-    style: compressed
+social:
+    twitter: dirtyf
