@@ -3,7 +3,16 @@ layout: post
 title: Comprendre le MVP (Produit Minimal Valable ) - et pourquoi je lui préfère un produit rapidement testable, utilisable et adorable
 ---
 
-[Article original](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) par Henrik Kniberg
+<p class="message">Si vous vous intéressez à l'agilité, vous êtes peut-être déjà tombé sur le fameux dessin d'Henri Kniberg qui compare deux façons d'arriver à construire une voiture. En informatique les métaphores sont toujours un peu casse-gueule et mènent parfois à des incompréhensions. Du coup Henrik, coach agile connu pour son accompagnement des équipes de Spotify, de Lego et ses ouvrages de référence, s'est senti obligé de préciser la sémiologie de son dessin.
+
+Grâce à des exemples concrets, son article devrait vous aider à mieux comprendre l'état d'esprit, qu'on retrouve dans le Lean Startup ou dans la démarche UX : tout repose sur une implication forte des utilisateurs dans la phase de conception afin de minimiser les risques dans un environnement de plus en plus concurrentiel, avec des exigences de plus en plus élevées.
+
+On pourrait résumer cette philosophie par "Adaptez ou échouez".
+Bonne lecture.</p>
+
+------
+
+**Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg**
 
 Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utilisé dans divers présentations à propos du développement agile et lean.
 
