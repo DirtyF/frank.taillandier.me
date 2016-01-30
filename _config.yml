@@ -9,7 +9,7 @@ highlighter: pygments
 title:               Frank Taillandier
 tagline:             Consultant web
 description:         Help product owners and teams build useful quality web apps
-url:                 site.github.url
+url:                 http://frank.taillandier.me
 paginate:            1
 baseurl:             ""
 
