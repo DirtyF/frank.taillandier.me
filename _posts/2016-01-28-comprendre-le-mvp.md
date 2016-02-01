@@ -130,7 +130,7 @@ Maintenant, la majorité des efforts pour produire du logiciel que j’ai pu obs
 
 Dans le développement de produit, une des premières choses à faire (après décrire le problème que vous essayez de résoudre et pour qui) c’est d’identifier votre équivalent du skateboard.
 
-Pensez au skateboard comme à **une métaphore comme la plus petite chose que vous pouvez mettre dans les mains des utilisateurs et obtenir de vrais retours**. Ou utilisez le « ticket de bas » si cette métaphore marche mieux.
+Pensez au skateboard comme à **une métaphore comme la plus petite chose que vous pouvez mettre dans les mains des utilisateurs et obtenir de vrais retours**. Ou utilisez le « ticket de bus » si cette métaphore marche mieux.
 
 Cela vous donnera la boucle de retour nécessaire et vous donnera à vous et à votre client plus de contrôle sur le projet — vous pouvez apprendre et faire des changements, plutôt que de suivre le plan et prier pour le meilleur.
 
@@ -209,7 +209,7 @@ Voici un exemple récente. Les [Nexo Knights](http://www.lego.com/fr-fr/nexoknig
 
 ![](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-19.jpg)
 
-Lorsqu’ils ont commencé à explorer le concept, ils ont fait des prototypes papier et les ont montré à de jeunes enfants. La première réaction des enfants fut « Hé, mais où sont les méchants ? Je vois pas qui est bon et qui est mauvais ! » Oups. Dnc les designers ont continué à itérer et à tester  jusqu’à ce qu’ils trouvent un design qui marche pour les enfants. Je parie que même vous, vous ne devinez pas qui est bon et qui est méchant sur l’image précédente.
+Lorsqu’ils ont commencé à explorer le concept, ils ont fait des prototypes papier et les ont montré à de jeunes enfants. La première réaction des enfants fut « Hé, mais où sont les méchants ? Je vois pas qui est bon et qui est mauvais ! » Oups. Donc les designers ont continué à itérer et à tester  jusqu’à ce qu’ils trouvent un design qui marche pour les enfants. Je parie que même vous, vous ne devinez pas qui est bon et qui est méchant sur l’image précédente.
 
 Je ne sais pas vraiment où est le skateboard dans cette histoire, mais vous avez compris l’idée - **récolter très tôt des retours de vrais utilisateurs**. Ne vous contentez pas de concevoir le produit et de le construire en intégralité. Imaginez s’ils avaient construit le produit basé sur leurs hypothèses de design d’origine, et avaient constaté le problème *après* avoir distribué des milliers de boîtes dans les magasins du monde entier !
 
@@ -255,7 +255,7 @@ Ensuite supprimons le mot « Valable » car il est trop vague. **Ton « valab
 
 ![](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-23.jpg)
 
-Le **Produit Testable Rapidement** est le skateboard ou le ticket de bus, **la première version dont les clients pourront vraiment faire quelque chose**. Cela ne résoudra peut-être pas leur problème mais aura au moins le mérite de générer des retours. Nous disons très clairement que l’apprentissage est le but principal de cette version et que tout véritable valeur ajoutée pour le client sera un bonus.
+Le **Produit Testable Rapidement** est le skateboard ou le ticket de bus, **la première version dont les clients pourront vraiment faire quelque chose**. Cela ne résoudra peut-être pas leur problème mais aura au moins le mérite de générer des retours. Nous disons très clairement que l’apprentissage est le but principal de cette version et que toute véritable valeur ajoutée pour le client sera un bonus.
 
 Le **Produit Utilisable Rapidement** est peut-être la bicyclette. **La première version que les premiers utilisateurs vont aimer utiliser**. C’est loin d’être terminé et ce sera peut être pas très agréable. Mais cela met vos clients dans une meilleure position que précédemment.
 
