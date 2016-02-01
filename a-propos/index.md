@@ -1,16 +1,19 @@
 ---
 layout: page
 title: À propos
+description: Aider vos équipes à concevoir de bons produits
 ---
 
-<p class="lead">Plus de 15 ans d'expérience dans le web</p>
+<p class="lead">Adopter une démarche agile centrée utilisateur</p>
 
-Éternel apprenant, je suis avec intérêt l'évolution des métiers du web et des technologies ouvertes qui le font fonctionner.
+Depuis près de 20 ans, je suis de près l'évolution du web, des technologies ouvertes et de ses métiers.
 
-J'aime avant tout aider les équipes équipes multi-disciplinaires à concevoir de meilleurs produits en adéquation avec les besoins utilisateurs.
+Aujourd'hui, j'aime avant tout aider les équipes multi-disciplinaires à progresser pour concevoir de bons produits en adéquation avec les besoins utilisateurs.
 
-Je pratique l'amélioration continue, le management visuel, l'adoption agile ouverte.
+Le moyen le plus sur de parvenir à de bons résultats est d'adopter le bon état d'esprit : démarche centrée utilisateur, amélioration continue, droit à l'erreur, management visuel, adoption agile ouverte.
 
-J'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des meetups locaux.
+-----
 
-Je m'occupe également de l'organisation de [Sud Web](http://sudweb.fr), un cycle de conférences et d'ateliers destinés aux professionnels du web.
+Social, j'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des meetups.
+
+Je contribue chaque année à [Sud Web](http://sudweb.fr), un cycle de conférences et d'ateliers destinés aux professionnels du web, que nous organisons en équipe à distance depuis 2010.
