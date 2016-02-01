@@ -1,45 +1,52 @@
-# Permalinks
-
-permalink:           pretty
-
-markdown: rdiscount
-highlighter: pygments
-
 # Setup
 title:               Frank Taillandier
 tagline:             Consultant web
-description:         Help product owners and teams build useful quality web apps
+description:         Aider les équipes à faire le bon produit
 url:                 http://frank.taillandier.me
 paginate:            1
 baseurl:             ""
+permalink:           pretty
 
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Frank Taillandier
-  url:               https://twitter.com/DirtyF
-  email:             frank.taillandier@gmail.com
-
-# Custom vars
+# Poole
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - CNAME
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
+# About/contact
+author:
+  name:              Frank Taillandier
+  email:             frank.taillandier@gmail.com
 
 analytics:
   google:
     tracking_id: UA-15560088-1
 
+# SEO
+logo: img/frank-taillandier.jpg
+twitter:
+  username: dirtyf
 social:
-    twitter: dirtyf
+  type: person
+  links:
+    - https://github.com/DirtyF
+    - http://lanyrd.com/profile/dirtyf/
+    - http://www.last.fm/user/DirtyF
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
+  - README.md
+  - CNAME
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: rdiscount
+highlighter: pygments
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
