@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve --watch --drafts
+web: bundle exec jekyll serve --incremental --drafts

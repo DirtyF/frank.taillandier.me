@@ -43,9 +43,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-
-markdown: rdiscount
-highlighter: pygments
+  - jekyll-paginate
 
 sass:
   sass_dir:          _sass
