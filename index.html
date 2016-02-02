@@ -3,90 +3,31 @@ layout: default
 title: Frank Taillandier, Agile, web, UX
 ---
 
-<h2>Articles</h2>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
   {% endfor %}
-</ul>
+</div>
 
-		<!-- <section>
-			<article itemscope="" itemtype="http://schema.org/Person" class="vcard">
-						<header>
-							<h1>Frank Taillandier</h1>
-							<p>Web utopist</p>
-							<p class="avatar"><img itemprop="image" src="img/frank-taillandier.jpg" width="120" alt=""></p>
-						</header>
-				<p>
-					Hi, my name is
-					<span itemprop="name" class="fn">Frank Taillandier</span> and I live in
-					<span class="addr" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-						<span itemprop="addressLocality" class="locality">
-							<a href="http://maps.google.fr/places/fr/midi-pyr%C3%A9n%C3%A9es/toulouse" title="Google Maps - Toulouse">Toulouse</a>
-						</span>
-					</span>
-					in the south of France. I help build useful web services.
-				</p>
-
-				<p>
-					Since 2010, I help organize
-					<a href="http://sudweb.fr">Sud Web</a>
-					a yearly web conference taking place in the south of France. Our aim is to share different experiences to head towards a better understanding of how the modern web works and how we should conceive and develop for more usable and interoperable web experience.
-				</p>
-
-				<p>
-					I am also involved in local events like <a href="http://toulouse.aperoweb.fr">Aperoweb Toulouse</a>, to encourage meetings between web people, who can discuss and learn about their passion for web technologies.
-				</p>
-
-
-				<h3>Embrace the open web</h3>
-
-				<p>
-					I'm constantly following the evolution of some of the
-					<a href="http://www.w3.org/">web standards</a>
-					like
-					<a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/">HTML5</a>,
-					<a href="http://www.w3.org/Style/CSS/current-work">CSS</a>
-					and
-					<a href="http://www.w3.org/standards/webdesign/script">Javascript web APIS</a>
-					. These tools (used to) allow you to separate structure, style and behavior. They are the essentials components of every well-formed website in order to ease maintenance and improve
-					<abbr title="Search Engine Optimization">SEO</abbr>
-					, performance and accessibility,
-					<abbr title="id est" lang="la">i.e</abbr>
-					ensuring your content is accessible to everyone, no matter what device or software they use.
-				</p>
-				<p>
-					You will find plenty of good litterature on web design and development. Some favourites of mine include <a href="http://www.fivesimplesteps.com/products/the-practical-guide-digital-library">Five Simple Steps Pratical Guides</a>, <a href="http://rosenfeldmedia.com/books/">Rosenfeld Media Books</a>, and of course some of <a href="http://shop.oreilly.com/category/ebooks/web-development.do">O'Reilly ebooks</a>.
-					I still recommend you check <a href="http://www.alistapart.com/" title="ALA, for people who make websites">A List Apart</a> from time to time.</p>
-
-					<p>You can help the french community by <a href="http://www.pompage.net/" hreflang="fr">translating best experts articles</a> or <a href="http://letrainde13h37.fr/rejoignez-nous/" hreflang="fr">write one of your own</a>.</p>
-				</article>
-				<aside lang="fr">
-						<h2>Founder</h2>
-
-						<p><a href="http://toulouse.aperoweb.fr"><img src="img/aperoweb_tlse.png" alt="Aperoweb Toulouse" width="128" height="128"></a></p>
-
-						<p>
-							<a itemprop="url" href="http://sudweb.fr" title="Sud Web, faire savoir et savoir faire le web">
-								<img itemprop="image" src="img/sudweb.png" alt="Sud Web, Faire savoir et savoir faire le web" width="128" height="81">
-							</a>
-						</p>
-
-						<h2>Profiles</h2>
-
-						<a href="https://twitter.com/DirtyF" class="twitter-follow-button" data-show-count="true" data-lang="fr">Suivre @DirtyF</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-						<ul>
-							<li>
-								<a href="https://github.com/dirtyf" rel="me">GitHub</a>
-							</li>
-							<li>
-								<a href="http://www.last.fm/user/DirtyF/" title="Last.FM : music I listen to" rel="me">LastFM</a>
-							</li>
-						</ul>
-					</aside>
-			</section> -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Plus ancien</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Plus récent</span>
+  {% endif %}
+</div>
