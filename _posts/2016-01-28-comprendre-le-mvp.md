@@ -64,7 +64,7 @@ Passons maintenant à la deuxième ligne.
 
 Ici nous adoptions une démarche très différente. Nous partons du même contexte - le client a commandé une voiture. Mais cette fois nous n’allons pas juste construire une voiture. Nous allons plutôt **nous focaliser sur le besoin sous-jacent que le client veut remplir**. Il s’avère que ce besoin sous-jacent est « j’ai besoin de pouvoir me rendre plus vite d’un point A à un point B » et la voiture n’est qu’une des solutions envisageables pour cela. Rappelez-vous, la voiture n’est qu’une métaphore, pensez à n’importe quelle situation de développement de produit sur mesure.
 
-Donc l’équipe livre la plus petite chose à laquelle elle peut penser qui permettra au client de tester des choses et de faire des retours. Certains appeleront cela un MVP (Produit Minimum Valable) mais je préfère l’appeler Produit Rapidement Testable (nous reparlerons ce tout ça plus bas).
+Donc l’équipe livre la plus petite chose à laquelle elle peut penser qui permettra au client de tester des choses et de faire des retours. Certains appeleront cela un MVP (Produit Minimum Valable) mais je préfère l’appeler Produit Rapidement Testable (nous reparlerons de tout ça plus bas).
 
 ![](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-6.jpg)
 
