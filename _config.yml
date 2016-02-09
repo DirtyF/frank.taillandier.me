@@ -1,16 +1,17 @@
 # Setup
 title:               Frank Taillandier
-tagline:             Consultant web
-description:         Aider les équipes à faire le bon produit
+tagline:             Consultant web agile & UX
+description:         J'aide les équipes à faire le bon produit
 url:                 http://frank.taillandier.me
 paginate:            1
 baseurl:             ""
 permalink:           pretty
+excerpt_separator:   <!--more-->
 
-# Poole
-version:             2.0.0
+# Lanyon
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/poole/lanyon
 
 # About/contact
 author:
@@ -44,7 +45,3 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-
-sass:
-  sass_dir:          _sass
-  style:            :compressed

@@ -1,12 +1,12 @@
 /* AUTHOR */
-	Frank Taillandier, Agile UX
+	Frank Taillandier, consultant Agile UX
 	Contact: frank [at] taillandier [dot] me
 	Twitter: @DirtyF
 	From: Toulouse, France
 
 /* SITE */
-	Last update: 2015/10/24
+	Last update: 2016/02/10
 	Language: French
 	Doctype: HTML5
-	Tools: Neat, Google Webfonts, Git, Github Pages
+	Tools: Github Pages, Jekyll, Lanyon
 	IDE: Atom
