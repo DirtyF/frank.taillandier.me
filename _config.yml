@@ -33,6 +33,8 @@ social:
 kramdown:
   input: GFM
 
+branch: gh-pages
+
 exclude:
   - Gemfile
   - Gemfile.lock
