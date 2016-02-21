@@ -1,22 +1,19 @@
 # Setup
 title:               Frank Taillandier
 tagline:             Consultant web agile & UX
-description:         J'aide les équipes à faire le bon produit
-url:                 http://frank.taillandier.me
-paginate:            1
+description:         J'aide les équipes à concevoir de bons produits
+github:
+  url: http://localhost:4000
 baseurl:             ""
 permalink:           pretty
 excerpt_separator:   <!--more-->
-
-# Lanyon
-version:             1.0.0
-github:
-  repo:              https://github.com/poole/lanyon
+paginate:            5
 
 # About/contact
 author:
-  name:              Frank Taillandier
-  email:             frank.taillandier@gmail.com
+  name: Frank Taillandier
+  email: frank.taillandier@gmail.com
+  twitter: DirtyF
 
 analytics:
   google:
@@ -25,13 +22,16 @@ analytics:
 # SEO
 logo: img/frank-taillandier.jpg
 twitter:
-  username: dirtyf
+  username: DirtyF
 social:
   type: person
   links:
     - https://github.com/DirtyF
     - http://lanyrd.com/profile/dirtyf/
     - http://www.last.fm/user/DirtyF
+
+kramdown:
+  input: GFM
 
 exclude:
   - Gemfile
