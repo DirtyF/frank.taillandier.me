@@ -5,8 +5,7 @@
 	From: Toulouse, France
 
 /* SITE */
-	Last update: 2016/02/10
+	Last update: 2016/02/21
 	Language: French
-	Doctype: HTML5
 	Tools: Github Pages, Jekyll, Lanyon
 	IDE: Atom
