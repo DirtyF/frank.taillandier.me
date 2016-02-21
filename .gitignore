@@ -1,5 +1,10 @@
-_site/
-_drafts/
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+Gemfile.lock
+
+# OSX
 .DS_Store
-.sass-cache/
 *.swp
