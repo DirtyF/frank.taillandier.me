@@ -36,6 +36,7 @@ kramdown:
 branch: gh-pages
 
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
   - Procfile
