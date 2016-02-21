@@ -1,3 +1,3 @@
-# Homepage
+# frank.taillandier.me
 
-Powered by Github Pages.
+The personal website of Frank Taillandier. Built using Jekyll, GitHub Pages, and Poole. See humans.txt for more infos.
