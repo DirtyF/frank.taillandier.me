@@ -3,6 +3,7 @@ layout: post
 title: Comprendre le MVP (Produit Minimal Valable ) - et pourquoi je lui préfère un produit rapidement testable, utilisable et adorable
 description: Décidez de ce que sera la première version de votre produit, à travers une série d'exemples.
 image: http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg
+category: agile
 ---
 
 Si vous vous intéressez à l'agilité, vous êtes peut-être déjà tombé sur le fameux dessin d'Henrik Kniberg qui compare deux façons d'arriver à construire une voiture. En informatique les métaphores sont toujours un peu casse-gueule et mènent parfois à des incompréhensions. Du coup Henrik, coach agile connu pour son accompagnement des équipes de Spotify, de Lego et ses ouvrages de référence, s'est senti obligé de préciser la sémiologie de son dessin.
