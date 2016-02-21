@@ -6,6 +6,9 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span> &middot; {% include read_time.html %}
   {{ content }}
+
+  <p><a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Aider à améliorer cet article</a>.</p>
+
 </div>
 
 <div class="related">
