@@ -2,6 +2,7 @@
 layout: page
 title: À propos
 description: Aider vos équipes à concevoir de bons produits
+permalink: '/a-propos/'
 ---
 
 <p class="lead">Adopter une démarche agile centrée utilisateur</p>
