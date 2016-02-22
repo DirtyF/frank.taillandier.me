@@ -4,7 +4,10 @@ _site
 .jekyll-metadata
 
 Gemfile.lock
+tmp
 
 # OSX
 .DS_Store
 *.swp
+
+
