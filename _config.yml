@@ -3,7 +3,7 @@ title:               Frank Taillandier
 tagline:             Consultant web agile & UX
 description:         J'aide les équipes à concevoir de bons produits
 github:
-  url: http://localhost:4000
+  url: http://frank.taillandier.me
 baseurl:             ""
 permalink:           pretty
 excerpt_separator:   <!--more-->
