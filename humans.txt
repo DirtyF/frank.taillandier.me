@@ -1,3 +1,5 @@
+---
+---
 /* AUTHOR */
 	Frank Taillandier, consultant web agile
 	Contact: frank [at] taillandier [dot] me
@@ -5,8 +7,16 @@
 	From: Toulouse, France
 
 /* SITE */
-	Last update: 2016/03/10
+	Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 	Language: French
-	Tools: Jekyll, GitHub Pages
+	Standards: HTML5, CSS3
 	Theme: Lanyon by @mdo
 	IDE: Atom
+	Components: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
+
+
+/* CONTRIBUTORS */
+	{% for contributor in site.github.contributors %}
+	Name: {{ contributor.login }}
+	Site: {{ contributor.html_url }}
+	{% endfor %}
