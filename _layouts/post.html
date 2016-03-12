@@ -5,9 +5,12 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span> &middot; {% include read_time.html %}
+
   {{ content }}
 
-  <p><a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Aider à améliorer cet article</a>.</p>
+  <footer>
+    <p>Ce contenu est ouvert, vous pouvez <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">aider à améliorer cet article</a>.</p>
+  </footer>
 
 </div>
 
