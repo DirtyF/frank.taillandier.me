@@ -8,15 +8,18 @@ layout: default
 
   {{ content }}
 
+  <hr>
+
   <footer>
-    <p>Ce contenu est ouvert, vous pouvez <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">aider à améliorer cet article</a>.</p>
+    <h2>Contribuer</h2>
+    <p>Vous avez envie de réagir ? Laissez <a href="https://twitter.com/DirtyF">une mention sur Twitter</a>.</p>
+    <p>Une correction à apporter ? <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Éditez cet article</a>.</p>
   </footer>
 
 </div>
 
-{% comment %}
 <div class="related">
-  <h2>Articles relatifs</h2>
+  <h2>Articles recents</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
@@ -30,4 +33,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-{% endcomment %}
+
+<p>
+  Pour être informé des prochains articles, abonnez vous au <a href="{{ site.baseurl }}/feed.xml">flux RSS</a>.
+</p>
