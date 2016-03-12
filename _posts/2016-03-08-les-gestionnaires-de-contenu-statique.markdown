@@ -115,7 +115,7 @@ Bien sur on peut se poser la question de la dépendance à des services, mais ri
 
 ## Conclusion
 
-Non décidément le statique n'est pas qu'une mode destinée à rester confidentielle parmi les hackers, il est même en plein essor. C’est une solution qui vous devriez sérieusement considérée  si vous souhaiter atteindre des objectifs de qualité à moindre coût pour des sites de contenus (landing page, documentation, blogs, etc.) ou des single page app. Son écosystème est en plein essor et continue de se développer.
+Non décidément le statique n'est pas qu'une mode destinée à rester confidentielle parmi les hackers. C’est une solution qui vous devriez sérieusement considérée  si vous souhaiter atteindre des objectifs de qualité à moindre coût pour des sites de contenus (landing page, documentation, blogs, etc.) ou des single page app. Son écosystème est lui aussi en plein essor et va continuer de se développer.
 
 Github continue par exemple de soutenir le développement de Jekyll et vient de lancer un appel afin de [proposer une interface utilisateur pour la rédaction et l’administration](https://github.com/github/mentorships/issues/107). Parallèlement, il y a une vraie volonté de [faciliter la contribution](https://jekyllrb.com/news/2016/03/10/making-it-easier-to-contribute-to-jekyll/) car il y a encore beaucoup à faire, mais ces systèmes s’améliorent continuellement et quand on voit les progrès réalisés depuis deux ans, c’est très encourageant pour la suite.
 
