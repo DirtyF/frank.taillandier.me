@@ -20,5 +20,6 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
 	{% feed_meta %}
 
+  {% if site.analytics.google.site_verification %}<meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">{% endif %}
   {% include analytics.html %}
 </head>

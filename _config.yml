@@ -7,6 +7,7 @@ baseurl:             ""
 permalink:           pretty
 excerpt_separator:   <!-- excerpt -->
 paginate:            5
+locale:             fr_FR
 
 # About/contact
 author:
@@ -17,6 +18,7 @@ author:
 analytics:
   google:
     tracking_id: UA-15560088-1
+    site_verification: KhnXRq1e9zCBkD6X4vs_xwVc-6c-5an2vE7f0_-XMiE
 
 # SEO
 logo: img/frank-taillandier.jpg
@@ -34,8 +36,12 @@ kramdown:
 
 branch: gh-pages
 
+include:
+  - "_pages"
+
 exclude:
   - vendor
+  - script
   - Gemfile
   - Gemfile.lock
   - Procfile
