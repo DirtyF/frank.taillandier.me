@@ -13,7 +13,7 @@ Grâce à des exemples concrets, son article devrait vous aider à mieux compren
 
 On pourrait résumer cette philosophie par "Adaptez ou échouez".
 
-<!--more-->
+<!-- excerpt -->
 
 Bonne lecture.
 

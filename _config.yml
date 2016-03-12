@@ -6,7 +6,7 @@ github:
   url: http://frank.taillandier.me
 baseurl:             ""
 permalink:           pretty
-excerpt_separator:   <!--more-->
+excerpt_separator:   <!-- excerpt -->
 paginate:            5
 
 # About/contact
