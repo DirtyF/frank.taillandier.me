@@ -109,7 +109,7 @@ Grâce aux avancées de HTML5 et l'accès à des plateformes d'hébergement perf
 
 Bien sur il existe des extensions pour générer du statique à partir de Drupal ou de Wordpress si vos contenus ne changent pas en permanence. Et si vous préférez y aller en douceur, sachez que [le statique cohabite très bien avec le dynamique](https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server), vous pouvez donc tirer le meilleur parti des deux mondes et ne pas sauter le pas trop vite.
 
-Voilà, j’espère que cet article vous aura donner envie de vous pencher sur ces outils, ces nouveaux paradigmes annoncent une ère post-CMS comme certains l’appellent déjà. 
+Voilà, j’espère que cet article vous aura donner envie de vous pencher sur ces outils, ces nouveaux paradigmes annoncent une ère post-CMS comme certains l’appellent déjà.
 
 Ce blog n’incluant pas de commentaires, je vous invite à réagir via [une mention sur Twitter](https://twitter.com/DirtyF), ou encore mieux en écrivant votre propre article de blog, à l’aide d’un gestionnaire de contenu statique bien entendu.
 
@@ -120,4 +120,4 @@ Vous pouvez aussi [consulter la présentation associée](https://speakerdeck.com
 ## Notes
 
 [^1]:[Jeyll](http://jekyllrb.com/) est le gestionnaire de contenu statique le plus populaire, en partie car il est supporté nativement par [Github Pages](https://pages.github.com/).
-[^2) : Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia](https://en.wikipedia.org/wiki/Convention_over_configuration).
+[^2] : Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia](https://en.wikipedia.org/wiki/Convention_over_configuration).
