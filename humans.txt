@@ -1,11 +1,12 @@
 /* AUTHOR */
-	Frank Taillandier, consultant Agile UX
+	Frank Taillandier, consultant web agile
 	Contact: frank [at] taillandier [dot] me
 	Twitter: @DirtyF
 	From: Toulouse, France
 
 /* SITE */
-	Last update: 2016/02/21
+	Last update: 2016/03/10
 	Language: French
-	Tools: Github Pages, Jekyll, Lanyon
+	Tools: Jekyll, GitHub Pages
+	Theme: Lanyon by @mdo
 	IDE: Atom
