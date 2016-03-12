@@ -62,13 +62,13 @@ Le format Markdown est de plus en plus populaire chez les rédacteurs et a été
 
 Beaucoup d'applications comme [IA Writer](https://ia.net/writer) ou [Ulysses](http://www.ulyssesapp.com/) sous Mac, *insérez votre application open-source préférée ici* ou de services en ligne permettent aujourd'hui d‘[éditer du Markdown](https://stackedit.io/editor) de manière simple.
 
-Les contenus ne sont donc plus enfermés dans une base de données, ils données sont stockées dans des format texte comme Markdown, YAML ou JSON. Il est ensuite possible d’exporter vos contenus en JSON ou de proposer une [API RESTful](https://codeplanet.io/principles-good-restful-api-design/).
+Les contenus ne sont donc plus enfermés dans une base de données, les données sont stockées dans des format texte comme Markdown, YAML ou JSON. Il est ensuite possible d’exporter vos contenus en JSON ou de proposer une [API RESTful](https://codeplanet.io/principles-good-restful-api-design/).
 
 En privilégiant ces formats, les gestionnaires de contenu statiques vous garantissent l’accessibilité, la réutilisation et des migrations grandement facilitées.
 
 ## Une adoption croissante
 
-Si au départ le besoin était de simplement servir son blog sous forme de contenu statique, les avantages mentionnés plus haut ont vite intéressés les sites de contenu à fort trafic. Ainsi en 2011 Mailchimp annonçait [la refonte de son site](https://blog.mailchimp.com/building-the-new-mailchimp/) avec un gestionnaire de contenu statique.
+Si le besoin de départ était de simplement versionner et servir son blog sous forme de contenu statique, les avantages mentionnés plus haut ont vite intéressés les sites de contenu à fort trafic. Ainsi en 2011 Mailchimp annonçait [la refonte de son site](https://blog.mailchimp.com/building-the-new-mailchimp/) avec un gestionnaire de contenu statique.
 
 En 2012, c'est [l'équipe de Barack Obama qui choisit Jekyll](kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), pour recueillir les dons pour le financement de sa campagne. Les objectifs sont dépassés, le site est **60% plus rapide** et grâce à une démarche UX agile et au déploiement continu, l'objectif de départ est dépassé, et c'est 250 millions de dollars qui seront récoltés.
 
