@@ -42,7 +42,7 @@ On recense à ce jour plus de [400 gestionnaires de contenu statique](https://st
 
 Cette popularité s'explique par le fait que ces outils ont été conçus à la base du point de vue du développeur. Quand en 2008 Tom Preston-Werner, le cofondateur de Github, explique [comment bloguer comme un hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), il pose les bases d'une architecture volontairement simple qui place le format des contenus, le versionnement et le déploiement au cœur de la philosophie de son logiciel.
 
-Dans Jekyll[^1], c’est [Liquid](https://docs.shopify.com/themes/liquid), un langage de *templating* conçu par Shopify, qui permet d'insérer les données dans les modèles de pages.  Autre aspect important : les conventions priment sur la configuration[^2]. Souvent, le tout se gère uniquement en ligne de commande, pas d'interface graphique, on reste focalisé sur le contenu. Une commande pour générer le site, une autre pour publier sur le web, et c’est en ligne.
+Dans Jekyll[^1], c’est [Liquid](https://docs.shopify.com/themes/liquid), un langage de *templating* conçu par Shopify, qui permet d'insérer les données dans les modèles de pages. Autre aspect important : les conventions priment sur la configuration[^2]. Souvent, le tout se gère uniquement en ligne de commande, pas d'interface graphique, on reste focalisé sur le contenu. Une commande pour générer le site, une autre pour publier sur le web, et c’est en ligne.
 
 C’est toujours ce même principe qui a été repris dans la plupart des gestionnaires de contenu statiques plus récents comme [Hugo](http://gohugo.io/), écris en Go et impressionnant par ses performances.
 
@@ -120,4 +120,4 @@ Vous pouvez aussi [consulter la présentation associée](https://speakerdeck.com
 ## Notes
 
 [^1]:[Jeyll](http://jekyllrb.com/) est le gestionnaire de contenu statique le plus populaire, en partie car il est supporté nativement par [Github Pages](https://pages.github.com/).
-[^2] : Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia](https://en.wikipedia.org/wiki/Convention_over_configuration).
+[^2]: Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia](https://en.wikipedia.org/wiki/Convention_over_configuration).
