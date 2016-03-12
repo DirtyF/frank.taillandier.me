@@ -1,6 +1,8 @@
+---
+---
 CACHE MANIFEST
 
-#version 1.8 2016-02-10
+#version 1.8 {{ site.time | date:"%Y/%m/%d" }}
 
 CACHE:
 
