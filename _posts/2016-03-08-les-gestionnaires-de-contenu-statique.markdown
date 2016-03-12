@@ -2,11 +2,11 @@
 layout: post
 title: "La mouvance statique"
 description: "Un plaidoyer en faveur des gestionnaires de contenu statique"
-image: null
+image: /assets/img/2016/03/jekyll-terminal.png
 date: "2016-03-08 18:36:29 +0100"
 ---
 
-En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort traffic. Leurs usages évoluent et de nouveaux servies dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.
+En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort traffic. Leurs usages évoluent et de nouveaux services dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.
 
 D’ailleurs l’article que vous êtes en train de lire est écrit dans une [application de bureau à l’interface minimale](https://ia.net/writer) spécialement conçue pour offrir une bonne expérience de rédaction. Comme le dit Golden Krishna dans son livre, [la meilleure interface c’est encore de ne pas en avoir](http://www.nointerface.com/book/).
 
@@ -32,7 +32,7 @@ Revenir à des choses simples et performantes, c'est la philosophie du gestionna
 
 > Release early, Release Often — Eric S. Raymond, la Cathédrale et le Bazaar, 1999
 
-Et si vous n’êtes pas capable dans le monde d’aujourd’hui de déployer souvent, vous avez surement des problèmes d’organisation voire de [dette technique](boutique.letrainde13h37.fr/products/la-dette-technique-bastien-jaillot).
+Et si vous n’êtes pas capable dans le monde d’aujourd’hui de déployer souvent, vous avez surement des problèmes d’organisation voire de [dette technique](//boutique.letrainde13h37.fr/products/la-dette-technique-bastien-jaillot).
 
 L'engouement pour  le statique est tel que des blogueurs comme le webdesigner Dan Cederholm, fondateur de Dribbble, [confessent](http://simplebits.com/2015/01/03/static.html) le plaisir de revenir à de l’hypertexte. Bien sûr [le blog de Dribbble](https://dribbble.com/stories) est lui aussi géré en statique.
 
@@ -44,6 +44,8 @@ Cette popularité s'explique par le fait que ces outils ont été conçus à la 
 
 Dans Jekyll[^1], c’est [Liquid](https://docs.shopify.com/themes/liquid), un langage conçu par Shopify, qui permet d'insérer des données et de la logique dans les modèles de pages. Autre aspect important : les conventions priment sur la configuration[^2]. Ça marche par défaut, et vous pouvez partir d’un site statique existant pour séparer petit à petit vos données et découper vos pages en composants réutilisables. Le processus de publication se fait par défaut en ligne de commande, il n’y a pas forcément besoin d'interface graphique, même si nous allons voir qu’elles commencent à arriver. L’idée est de rester focalisé sur le contenu. Une commande pour générer le site statique, une autre pour déployer et c’est reparti pour un tour.
 
+![Jekyll en ligne de comande]({{page.image}})
+
 Ce même principe a été repris dans la plupart des gestionnaires de contenu statiques plus récents comme [Hugo](http://gohugo.io/), écris en Go et impressionnant par ses performances.
 
 Fidèle à la philosophie Unix, ces logiciels se contentent de transformer des contenus en site statique, les enrichissements en fonctionnalité se feront à l’aide des extensions développées par la communauté.
@@ -54,7 +56,7 @@ Pour la petite histoire, [Ben Balter](http://ben.balter.com/about/) était un an
 
 > the problem with WYSIWYG is that we are giving content creators an antiquated metaphor from the desktop publishing era to communicate to them what it means to publish on the web — Karen Mc Grane
 
-Il n'y a pas que les développeurs et les designers web qui trouvent cette approche intéressante, Karen McGrane, la papesse de la stratégie de contenu, explique qu'il est important que les [contenus puissent être stockés indépendamment de tout système de publication](karenmcgrane.com/2014/10/15/content-in-a-zombie-apocalypse/) dans des formats lisibles et débarrassés de toute présentation. De plus le fameux WYSIWYG (What You See Is What You Get) est une fausse promesse de par la nature imprévisible du web car vous ne pouvez pas savoir sur quel périphérique sera affiché votre contenu : un ordinateur portable, un téléphone, une montre, une télé, des lunettes connectées ?
+Il n'y a pas que les développeurs et les designers web qui trouvent cette approche intéressante, Karen McGrane, la papesse de la stratégie de contenu, explique qu'il est important que les [contenus puissent être stockés indépendamment de tout système de publication](//karenmcgrane.com/2014/10/15/content-in-a-zombie-apocalypse/) dans des formats lisibles et débarrassés de toute présentation. De plus le fameux WYSIWYG (What You See Is What You Get) est une fausse promesse de par la nature imprévisible du web car vous ne pouvez pas savoir sur quel périphérique sera affiché votre contenu : un ordinateur portable, un téléphone, une montre, une télé, des lunettes connectées ?
 
 Des formats textes comme [Markdown](https://guides.github.com/features/mastering-markdown/), au balisage minimal offrent à la fois une bonne expérience pour la rédaction et peuvent être ensuite facilement transformés en HTML, mis en forme via CSS et enrichis via JavaScript.
 
@@ -70,7 +72,7 @@ En privilégiant ces formats, les gestionnaires de contenu statiques vous garant
 
 Si le besoin de départ était de simplement versionner et servir son blog sous forme de contenu statique, les avantages mentionnés plus haut ont vite intéressés les sites de contenu à fort trafic. Ainsi en 2011 Mailchimp annonçait [la refonte de son site](https://blog.mailchimp.com/building-the-new-mailchimp/) avec un gestionnaire de contenu statique.
 
-En 2012, c'est [l'équipe de Barack Obama qui choisit Jekyll](kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), pour recueillir les dons pour le financement de sa campagne. Les objectifs sont dépassés, le site est **60% plus rapide** et grâce à une démarche UX agile et au déploiement continu, l'objectif de départ est dépassé, et c'est 250 millions de dollars qui seront récoltés.
+En 2012, c'est [l'équipe de Barack Obama qui choisit Jekyll](//kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/), pour recueillir les dons pour le financement de sa campagne. Les objectifs sont dépassés, le site est **60% plus rapide** et grâce à une démarche UX agile et au déploiement continu, l'objectif de départ est dépassé, et c'est 250 millions de dollars qui seront récoltés.
 
 Le trio [GitHub Pages, Jekyll et CDN](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) fait des merveilles et le gouvernement américain renouvelle l'expérience en 2013 pour le site [Healthcare.gov](https://www.healthcare.gov/).
 Un code source ouvert et accessible, des données accessibles à d'autres services, le geste est fort de la part d'une administration publique. Si la France pouvait s’inspirer de cette démarche ouverte…
@@ -124,8 +126,6 @@ Bien sur il existe des extensions pour générer du statique à partir de Drupal
 Voilà, j’espère que cet article vous aura donner envie de vous pencher sur ces outils, ces nouveaux paradigmes annoncent une [ère post-CMS](http://www.meetup.com/fr-FR/The-New-Dynamic/) comme certains l’appellent déjà.
 
 Vous pouvez aussi [consulter la présentation associée](https://speakerdeck.com/dirtyf/keep-it-static-stupid) à cet article si vous tenez vraiment à voir des captures d’écran des sites mentionnés.
-
-Ce blog n’incluant pas de commentaires, je vous invite à réagir via [une mention sur Twitter](https://twitter.com/DirtyF), ou encore mieux en écrivant votre propre article de blog, à l’aide d’un gestionnaire de contenu statique bien entendu.
 
 -------
 
