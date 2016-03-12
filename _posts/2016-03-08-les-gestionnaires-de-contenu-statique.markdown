@@ -22,9 +22,9 @@ Aujourd'hui les CMS dynamiques, Wordpress et Drupal en tête, font tourner la pl
 
 Malheureusement, la majorité de ces sites ne sont pas bien maintenus et sont donc [vulnérables](http://codex.wordpress.org/FAQ_My_site_was_hacked) à de potentielles attaques. Ils sont souvent inutilement lents car leur contenu n’est pas mis à jour en permanence, mais à chaque clic, c’est une requête vers la base de données qui est déclenchée pour servir le même contenu aux utilisateurs.
 
-Les plus experts argumenteront qu’on peut toujours mettre en place des stratégies de cache et des serveur proxy comme Varnish devant, mais une telle architecture a un coût non négligeable et l’invalidation de cache est une des choses les plus complexes en informatique. Et si vous ne le saviez pas, Martin Fowler se chargera de vous le rappeler :
+Les plus experts argumenteront qu’on peut toujours mettre en place des stratégies de cache et des serveur proxy comme Varnish devant, mais une telle architecture a un coût non négligeable et l’invalidation de cache est une des choses les plus complexes en informatique. Et si vous ne le saviez pas, [Martin Fowler se chargera de vous le rappeler](http://martinfowler.com/bliki/TwoHardThings.html) :
 
-> There are only two hard things in Computer Science: cache invalidation and naming things — Phil Karlton ([via Martin Fowler](http://martinfowler.com/bliki/TwoHardThings.html))
+> There are only two hard things in Computer Science: cache invalidation and naming things — Phil Karlton
 
 Ces problèmes sont déjà beaucoup plus simples à résoudre si on se contente de servir du contenu statique.
 
