@@ -12,8 +12,18 @@ permalink: /
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{% include fr_date.html date=post.date %}</span>
+    <span class="post-date">{% include fr_date.html date=post.date %} </span>
+    {% assign words = post.content | number_of_words %}
+    <span class="post-read-time" title="Temps de lecture estimé à {{ words | divided_by:180 }} minutes">&middot;  <svg class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+      {% if words < 200 %}
+        1 minute
+      {% else %}
+        {{ words | divided_by:200 }} minutes
+      {% endif %}
+    </span>
+
     {{ post.excerpt }}
+
   </div>
 
 {% endfor %}

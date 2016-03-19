@@ -1,10 +1,8 @@
 {% assign words = content | number_of_words %}
-
-<span class="post-read-time" title="Temps de lecture estimé à {{ words | divided_by:180 }} minutes">
-  <svg class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
-  {% if words < 360 %}
+<span class="post-read-time" title="Temps de lecture estimé à {{ words | divided_by:180 }} minutes">&middot;  <svg class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+  {% if words < 200 %}
     1 minute
   {% else %}
-    {{ words | divided_by:180 }} minutes
+    {{ words | divided_by:200 }} minutes
   {% endif %}
 </span>

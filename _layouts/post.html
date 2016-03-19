@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{% include fr_date.html date=page.date %}</span> &middot; {% include read_time.html %}
+  <span class="post-date">{% include fr_date.html date=page.date %}</span> {% include read_time.html %}
 
   {{ content }}
 
