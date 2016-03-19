@@ -353,6 +353,18 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.icon {
+  max-width: 40px;
+  fill: currentColor;
+}
+
+.icon-clock {
+  margin: -0.15em 0;
+  width: 0.7em;
+  height: 1em;
+}
+
+
 /* Related posts */
 .related {
   padding-top: 2rem;
