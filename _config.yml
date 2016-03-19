@@ -3,6 +3,8 @@ title:               Frank Taillandier
 description:         Consultant web agile & UX
 github:
   url: http://frank.taillandier.me
+repository: DirtyF/frank.taillandier.me
+
 baseurl:             ""
 permalink:           pretty
 excerpt_separator:   <!-- excerpt -->
@@ -49,6 +51,7 @@ exclude:
   - CNAME
 
 gems:
+  - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
