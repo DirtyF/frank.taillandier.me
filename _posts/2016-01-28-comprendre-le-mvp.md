@@ -15,11 +15,7 @@ On pourrait résumer cette philosophie par "Adaptez ou échouez".
 
 <!-- excerpt -->
 
-Bonne lecture.
-
-------
-
-## Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg
+*Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg*
 
 Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utilisé dans divers présentations à propos du développement agile et lean.
 
