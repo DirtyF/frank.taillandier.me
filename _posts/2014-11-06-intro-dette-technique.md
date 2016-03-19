@@ -104,7 +104,7 @@ Maintenant imaginons une tout autre conversation :
 
 **Développeur Junior :** Hum.
 
-![We'll ask for estimates and then treat them as deadlines](https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg)
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="We'll ask for estimates and then treat them as deadlines" %}
 
 Demandons leur des estimations, que nous considérerons ensuite comme des délais
 
@@ -121,11 +121,19 @@ Les problèmes avec cette approche sont énoncés de manière limpide par Chad 
 
 Voici l’auteur de l’analogie sur la dette, Ward Cunningham, qui clarifie qu’il n’a jamais pensé que la dette technique était le fait d’écrire du mauvais code.
 
-<iframe src="//www.youtube.com/embed/pqeJFYwnkjE?rel=0" frameborder="0" allowfullscreen="allowfullscreen" id="fitvid158216"></iframe>
+<div class="video">
+    <figure>
+        <iframe width="640" height="480" src="//www.youtube.com/embed/pqeJFYwnkjE" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
 
 Il est clair que les managers non technique ne sont pas à 100% inconscients des conséquences d’une mauvaise qualité. Ils savent que lorsque ils disent “c’est pas grave on livre quand même”, ils font quelque chose qui _va_ avoir des conséquences. Certains d’entre eux pensent juste que les conséquences seront moindres ou n’apparaîtront pas de si tôt. D’autres prennent leurs désirs pour la réalité. D’autres ont même une meilleure compréhension, mais préfèrent dire que c’est un problème de l’équipe technique, puisque _leurs_ indicateurs sont bons. J’ai même déjà vu des chefs de projet – soyons honnêtes, de vrais débutants – argumenter que faire les choses bien représenterait un _investissement_, rendant notre analogie caduque.
 
-<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="//www.youtube.com/embed/p0O1VVqRSK0?rel=0" frameborder="0" allowfullscreen="allowfullscreen" id="fitvid895421"></iframe></div>
+<div class="video">
+    <figure>
+        <iframe width="640" height="480" src="//www.youtube.com/embed/p0O1VVqRSK0" frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
 
 À ce stade, on pourrait argumenter que c’est la responsabilité de l’équipe technique de faire comprendre au service commercial les conséquences de ce genre d’action. Et oui c’est _totalement_ le cas.
 
@@ -141,11 +149,7 @@ Donc, si notre première introduction avec la dette ne nous est plus utile, qu
 
 Rio de Janeiro. 3 heures du matin, le 2 février 1998\. Dans un quartier en plein expansion de l’ouest de la ville, Barra da Tijuca, un bâtiment appelé Palace II commence à s’effondrer. La fin de la construction de l’immeuble date d’il y a moins de 3 ans. 44 appartements ont été complètement détruits et 8 personnes ont péri.
 
-<div style="width: 330px" class="wp-caption alignleft">![Implosion du Palace II](https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg)
-
-Implosion du Palace II
-
-</div>
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg" description="Implosion du Palace II" %}
 
 Comme souvent au Brésil, en 2014, les constructeurs n’ont pas été correctement punis et les victimes n’ont pas été compensées de manière satisfaisante . Les résultats de l’enquête sont discutables.
 
@@ -165,13 +169,13 @@ Bref, je pense que cette analogie montre à quel point les résultats d’une ma
 
 Une autre analogie est ce qu’on appelle “puxadinho” en portugais. Un _puxadinho_ est une extension d’une construction faite sans la supervision d’un expert, des matériaux de mauvaise qualité et la plus part du temps de façon illégale.
 
-![](https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg)
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg" description="" %}
 
-Le _puxadinho_ est le modèle de conception standard sur lequel se sont construits des “favelas” entières, les bidonvilles brésiliens.
+Le _puxadinho_ est le modèle de conception standard sur lequel se sont construits des "favelas" entières, les bidonvilles brésiliens.
 
 Les _puxadinhos_ ne sont pas seulement restreints à la construction. Comme on peut le voir sur l’image, ils s’étendent à toute l’infrastructure de base comme la plomberie, l’énergie, les cables téléphoniques, internet et la télé par cable.
 
-![]( https://d262ilb51hltx0.cloudfront.net/max/620/1*_mjiqqiePvLN9Ehw5GRl7w.jpeg)
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/620/1*_mjiqqiePvLN9Ehw5GRl7w.jpeg" description="" %}
 
 Maintenant, prenons cette analogie et voyons jusqu’où nous pouvons la pousser. Un nouveau _puxadinho_, ainsi que toute son infrastructure inélégante  est construit à chaque fois qu’un manager dit “on met en prod”.  Ce n’est clairement pas qu’un compromis de conception. Cela pourrait endommager une construction précédente, voire la détruire. Cela pourrait s’emmêler dans les cables et mettre le bidonville entier en feu. C’est tellement mal construit que le rebâtir de manière organisée est virutellement impossible. Si vous prévoyez de faire d’un bidonville quelque chose d’organisé, il va falloir tracer des plans tous neufs.
 
@@ -183,14 +187,13 @@ La dette technique peut être remboursée par la refactorisation. Ça prend du t
 
 Imaginez que pendant que vous essayez de trier les cables vous avez 1) une liste compréhensible des services que chaque personne possède — comme “Mr Martin a le téléphone et le cable, Mme Michu a internet” et ainsi de suite — et 2) une alarme qui se déclenche à chaque fois qu’un service se connecte ou se déconnecte à tort.
 
-<div style="width: 205px" class="wp-caption alignleft">![Working effectivelly with legacy code](https://d262ilb51hltx0.cloudfront.net/max/600/1*3W8HR8VYOaX3xz_VCVObPA.jpeg)
-
-[http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
-
-</div>
+<figure>
+  <a href="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052"><img src="https://d262ilb51hltx0.cloudfront.net/max/600/1*3W8HR8VYOaX3xz_VCVObPA.jpeg" alt=""/></a>
+  <figcaption><small>Working effectivelly with legacy code</small></figcaption>
+</figure>
 
 C’est ce que vous apportent les tests au niveau du code.
-u
+
 Mais la réalité est bien différente. Quand vous commencez à trier les cables, vous n’avez pas une telle liste ou une alarme à votre disposition. Vous serez simplement avertis que quelque chose s’est mal passé lorsque quelqu’un viendra se plaindre.
 
 C’est pour cela que certains auteurs comme Michael Feathers ont [défini le code ancien comme du code non testé](http://www.informit.com/store/working-effectively-with-legacy-code-9780131177055?aid=15d186bd-1678-45e9-8ad3-fe53713e811b).
