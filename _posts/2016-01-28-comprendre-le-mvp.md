@@ -17,13 +17,13 @@ On pourrait résumer cette philosophie par "Adaptez ou échouez".
 
 *Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg*
 
-Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utilisé dans divers présentations à propos du développement agile et lean.
+Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utiliser dans diverses présentations à propos du développement agile et lean.
 
 ![Pas comme ça… comme ça!](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg)
 
 Depuis le dessin est devenu viral ! On le retrouve un peu partout, dans des articles, des présentations et même dans un livre (*[User Story Mapping](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)* de Jeff Patton - excellent au passage). Beaucoup me disent que le dessin capture vraiment ce qui représente l’essence du développement itératif et incrémental, le lean startup, le MVP (Produit Minimum Valable) et son contraire. Toutefois beaucoup de personnes l’interprètent mal, ce qui est bien naturel quand vous montrez un dessin hors de son contexte d’origine. D’autres lui reprochent de trop simplifier les choses, ce qui est vrai. Cette image est une métaphore. Elle ne représente pas le véritable développement d’une voiture, elle parle du développement de produit en général en ayant recours à la voiture comme métaphore.
 
-Bref, avec tout ce rafus, je me suis dit qu’il était temps d’expliquer le raisonnement qui se cache derrière.
+Bref, avec tout ce raffut, je me suis dit qu’il était temps d’expliquer le raisonnement qui se cache derrière.
 
 ## Premier exemple – Pas comme ça
 
@@ -31,7 +31,7 @@ La ligne du haut illustre une idée fausse très répandue à propos de dévelop
 
 ![exemple d'étapes d'un développement incrémental ](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-1.jpg)
 
-Beaucoup de projets échouent méchamment car ils cherchent à livrer façon *Big Bang* (on construit le truc jusqu’à ce ce soit terminé à 100% et on livre à la fin). J’ai perdu le compte du nombre de projets que j’ai vu échoué pour cette raison (nous verrons quelques exemples plus bas).
+Beaucoup de projets échouent méchamment car ils cherchent à livrer façon *Big Bang* (on construit le truc jusqu’à ce ce soit terminé à 100% et on livre à la fin). J’ai perdu le compte du nombre de projets que j’ai vu échouer pour cette raison (nous verrons quelques exemples plus bas).
 
 Maintenant, quand l’Agile est présenté comme une alternative, les gens rechignent à l’idée de livrer un produit inachevé - qui voudrait de la moitié d’une voiture ? Imaginez ceci :
 
@@ -47,7 +47,7 @@ Le client réagit de la sorte : « Mais qu’est-ce que vous fichez à me livre
 
 ![Étapes 2 et 3, le client est toujours mécontent devant un produit pas encore utilisable](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-3.jpg)
 
-Au final, lorsque le produit est terminé, le client vous dit « Merci, Enfin ! Pourquoi n’avez vous pas simplement livrer ça directement en sautant toutes les autres livraisons inutiles ? »
+Au final, lorsque le produit est terminé, le client vous dit « Merci, Enfin ! Pourquoi n’avez vous pas simplement livré ça directement en sautant toutes les autres livraisons inutiles ? »
 
 ![Étape 4 le client est content devant le produit fini](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-4.jpg)
 
@@ -63,7 +63,7 @@ Passons maintenant à la deuxième ligne.
 
 ![Exemple d'étapes d'un développement itératif ](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-5.jpg)
 
-Ici nous adoptions une démarche très différente. Nous partons du même contexte - le client a commandé une voiture. Mais cette fois nous n’allons pas juste construire une voiture. Nous allons plutôt **nous focaliser sur le besoin sous-jacent que le client veut remplir**. Il s’avère que ce besoin sous-jacent est « j’ai besoin de pouvoir me rendre plus vite d’un point A à un point B » et la voiture n’est qu’une des solutions envisageables pour cela. Rappelez-vous, la voiture n’est qu’une métaphore, pensez à n’importe quelle situation de développement de produit sur mesure.
+Ici nous adoptons une démarche très différente. Nous partons du même contexte - le client a commandé une voiture. Mais cette fois nous n’allons pas juste construire une voiture. Nous allons plutôt **nous focaliser sur le besoin sous-jacent que le client veut remplir**. Il s’avère que ce besoin sous-jacent est « j’ai besoin de pouvoir me rendre plus vite d’un point A à un point B » et la voiture n’est qu’une des solutions envisageables pour cela. Rappelez-vous, la voiture n’est qu’une métaphore, pensez à n’importe quelle situation de développement de produit sur mesure.
 
 Donc l’équipe livre la plus petite chose à laquelle elle peut penser qui permettra au client de tester des choses et de faire des retours. Certains appeleront cela un MVP (Produit Minimum Valable) mais je préfère l’appeler Produit Rapidement Testable (nous reparlerons de tout ça plus bas).
 
@@ -71,7 +71,7 @@ Donc l’équipe livre la plus petite chose à laquelle elle peut penser qui per
 
 Appelez cela comme vous voulez (certains appellent même leur première release la « version skateboard » du produit, à cause de ce dessin).
 
-Il est peu probable que le client se contente de cela. Cela n’a rien à voir avec la voiture qu’il a commandé. Mais c’est OK ! Le truc c’est que **nous ne visons pas la satisfaction client à ce stade**. Nous pourrions rendre quelques uns des premiers utilisateurs heureux (ou faire souffrir des [pragmatistes](http://ericsink.com/Act_Your_Age.html)) mais **notre objectif principal à ce stade est juste d’apprendre**. Idéalement, l’équipe explique cela de façon très claire au client dès le début, pour pas qu’il ne soit trop déçu.
+Il est peu probable que le client se contente de cela. Cela n’a rien à voir avec la voiture qu’il a commandée. Mais c’est OK ! Le truc c’est que **nous ne visons pas la satisfaction client à ce stade**. Nous pourrions rendre quelques uns des premiers utilisateurs heureux (ou faire souffrir des [pragmatistes](http://ericsink.com/Act_Your_Age.html)) mais **notre objectif principal à ce stade est juste d’apprendre**. Idéalement, l’équipe explique cela de façon très claire au client dès le début, pour pas qu’il ne soit trop déçu.
 
 En revanche, contrairement au volant dans le premier scénario le skateboard est en l’occurence un produit utilisable qui aide le client à aller plus vite de A à B. Pas génial, mais toujours mieux que rien. Nous disons alors au client « Ne vous inquiétez pas le projet n’est pas fini, ce n’est que la première d’une série d’itérations. **Nous visons toujours la construction d’une voiture, mais en attendant merci d’essayer ceci et de nous faire  vos retours**. Pensez grand, mais livrez de petits incréments fonctionnels valables.
 
@@ -105,7 +105,7 @@ Nous avons appris des choses en cours de route : le client aime le contact de l�
 
 **Le vélo pourrait se révéler être un bien meilleur produit que la voiture envisagée à l’origine**. En fait, en testant ce produit nous pourrions apprendre que les chemins sont de toute façon trop étroits pour une voiture. Nous avons juste fait économiser au client beaucoup de temps et d’argent, et nous lui avons fourni un produit plus adapté en moins de temps !
 
-> Maintenant vous pourriez penser «  Mais n’aurions nous pas du déjà savoir cela à l’aide de données issues du contexte de l’utilisateur et de ces besoins ? ». Bonne remarque. Mais dans la plupart des scénarii de développement de produit que j’ai pu observé dans la vraie vie, **peu importe le nombre d’analyses préparatoires que vous faites, vous serez toujours surpris quand vous mettrez la première version de votre produit dans les mains de l’utilisateur**, et beaucoup de vos hypothèses se révèleront être à côté de la plaque.
+> Maintenant vous pourriez penser «  Mais n’aurions nous pas dû déjà savoir cela à l’aide de données issues du contexte de l’utilisateur et de ces besoins ? ». Bonne remarque. Mais dans la plupart des scénarii de développement de produit que j’ai pu observer dans la vraie vie, **peu importe le nombre d’analyses préparatoires que vous faites, vous serez toujours surpris quand vous mettrez la première version de votre produit dans les mains de l’utilisateur**, et beaucoup de vos hypothèses se révèleront être à côté de la plaque.
 
 Alors **oui, faites des recherches préparatoires, découvrez en autant que vous pouvez avant de commencer le développement, mais ne passez pas trop de temps dessus et ne vous fiez pas trop aux analyses** - commencez plutôt à prototyper et à publier, c’est là qu’a lieu le véritable apprentissage.
 
@@ -113,11 +113,11 @@ Bien, revenons en à notre histoire. Peut-être que le client en veut plus. Parf
 
 ![Quatrième étape, le client aime bien son produit](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-10.jpg)
 
-Ce modèle convient particulièrement bien au logiciel — le *soft*ware est souple par définition. Vous pouvez *transformer* le produit au fur et à mesure, contrairement au matériel où vous aurez essentiellement à reconstruire à chaque fois. Mais, même dans les projets matériels, il y a d’énormes bénéfices à livrer des prototypes pour observer et apprendre comment les clients utilisent votre produit. C’est simplement que les itérations tendent à être un peu plus longues (des mois plutôt que des semaines). Même de vraies entreprises automobiles comme Toyoto et Tesla font beaucoup de prototypage (croquis, modèles 3D, [modèle à l’échelle en argile](http://www.toyota-global.com/showroom/toyota_design/voice_of_design/03.html), etc.) avant de développer un nouveau modèle de voiture.
+Ce modèle convient particulièrement bien au logiciel — le *soft*ware est souple par définition. Vous pouvez *transformer* le produit au fur et à mesure, contrairement au matériel où vous aurez essentiellement à reconstruire à chaque fois. Mais, même dans les projets matériels, il y a d’énormes bénéfices à livrer des prototypes pour observer et apprendre comment les clients utilisent votre produit. C’est simplement que les itérations tendent à être un peu plus longues (des mois plutôt que des semaines). Même de vraies entreprises automobiles comme Toyota et Tesla font beaucoup de prototypage (croquis, modèles 3D, [modèle à l’échelle en argile](http://www.toyota-global.com/showroom/toyota_design/voice_of_design/03.html), etc.) avant de développer un nouveau modèle de voiture.
 
-Et maintenant ? Encore une fois, peut-être le client est-il satisfait de la moto. Nous pourrions mettre un terme au projet plutôt que prévu. La plupart des produits fourmillent de trucs compliqués et de fonctionnalités que personne n’utilise. L’approche itérative est vraiment une manière de livrer moins, ou de **trouver la façon la plus simple et la moins couteuse de répondre au besoin du client**. Rapprochez vous de l'extraodinaire. C'est très Zen.
+Et maintenant ? Encore une fois, peut-être le client est-il satisfait de la moto. Nous pourrions mettre un terme au projet plus tôt que prévu. La plupart des produits fourmillent de trucs compliqués et de fonctionnalités que personne n’utilise. L’approche itérative est vraiment une manière de livrer moins, ou de **trouver la façon la plus simple et la moins couteuse de répondre au besoin du client**. Rapprochez vous de l'extraodinaire. C'est très Zen.
 
-Ou, encore une fois, le client peut choisir de continuer, avec ou sans modifications des spécifications. Nous pourrions en fait  en arriver exactement à la même voiture que celle imaginée au départ. Toutefois, il est beaucoup plus probable que nous aurons récolter des points de vue déterminants en cours et que nous arriverons à quelque chose de légèrement différent. Comme cela :
+Ou, encore une fois, le client peut choisir de continuer, avec ou sans modifications des spécifications. Nous pourrions en fait  en arriver exactement à la même voiture que celle imaginée au départ. Toutefois, il est beaucoup plus probable que nous aurons récolté des points de vue déterminants en cours et que nous arriverons à quelque chose de légèrement différent. Comme cela :
 
 ![Cinquième étape, le client est emballé par son produit](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-11.jpg)
 
@@ -127,7 +127,7 @@ Maintenant, prenons un peu de recul.
 
 ## C’est quoi votre skateboard ?
 
-Le scénario du haut (livrer un pneu avant) est nul car nous continuons de livrer des trucs que le client ne peut pas du tout utiliser. Si vous savez ce que vous faites - votre produit ne comporte que peu de complexité et de risque, peut-être avez vous fait ce genre de choses des centaines de fois auparavant - alors continuez à juste faire du *Big Bang*. Construisez votre truc et livrer quand c’est terminé.
+Le scénario du haut (livrer un pneu avant) est nul car nous continuons de livrer des trucs que le client ne peut pas du tout utiliser. Si vous savez ce que vous faites - votre produit ne comporte que peu de complexité et de risque, peut-être avez vous fait ce genre de choses des centaines de fois auparavant - alors continuez à juste faire du *Big Bang*. Construisez votre truc et livrez quand c’est terminé.
 
 Maintenant, la majorité des efforts pour produire du logiciel que j’ai pu observer sont bien trop complexes et risqués pour cela et l’approche *Big Bang* mène trop souvent à d’énormes et coûteux échecs. Donc la question à se poser c’est : **C’est quoi votre skateboard** ?.
 
@@ -153,11 +153,11 @@ Commencer petit ne signifie pas que nous ne pouvez pas penser grand. Voici l’u
 
 ![Croquis basse-définition de la première interface de Spotify ](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-13.jpg)
 
-Mais plutôt que de passer des années à construire le produit en intégralité et ensuite vérifier que les hypothèses sont valides, les développeurs se sont assis et ont monté un prototype technique, en y mettant la musique extraite qu’ils avaient sur leurs ordinateurs portables et ils ont commencé à expérimenter dans tous les sens pour trouver des façons de faire en sorte que la lecture soit stable et rapide. La métrique de référence était « Combien de millisecondes s’écoulent entre le moment où j’appuie sur le bouton lecture et lorsque j’entends la musique ? ». Cela devrait jouer presque instantanément et continuer de jouer de façon uniforme et sans aucun saut de lecture ! Une fois qu’il sont arrivés à quelque chose de décent, ils ont commencer à le tester eux-mêmes, et l’ont fait testé à leur famille et à leurs amis.
+Mais plutôt que de passer des années à construire le produit en intégralité et ensuite vérifier que les hypothèses sont valides, les développeurs se sont assis et ont monté un prototype technique, en y mettant la musique extraite qu’ils avaient sur leurs ordinateurs portables et ils ont commencé à expérimenter dans tous les sens pour trouver des façons de faire en sorte que la lecture soit stable et rapide. La métrique de référence était « Combien de millisecondes s’écoulent entre le moment où j’appuie sur le bouton lecture et lorsque j’entends la musique ? ». Cela devrait jouer presque instantanément et continuer de jouer de façon uniforme et sans aucun saut de lecture ! Une fois qu’il sont arrivés à quelque chose de décent, ils ont commencé à le tester eux-mêmes, et l’ont fait tester à leur famille et à leurs amis.
 
 ![Première version de l'interface de Spotify](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-14.jpg)
 
-La version initiale ne pouvait pas être diffusée à une audience plus large, ce n’était pas du tout fini, il n’y avait aucune fonctionnalité si ce n’est la possible de jouer quelques chansons codées en dur, il n’y avait aucune autorisation légale ou de modèle économique. C’était leur skateboard.
+La version initiale ne pouvait pas être diffusée à une audience plus large, ce n’était pas du tout fini, il n’y avait aucune fonctionnalité si ce n’est la possibilité de jouer quelques chansons codées en dur, il n’y avait aucune autorisation légale ou de modèle économique. C’était leur skateboard.
 
 Mais **ils ont mis sans avoir honte le skateboard dans les mains de vrais utilisateurs** - les amis et la famille - et ils ont rapidement eu les réponses dont ils avaient besoin. Oui c’était possible techniquement. Et oui les gens ont vraiment adoré le produit (ou plutôt ce que le produit pouvait devenir) ! **Les hypothèses ont été validées** ! Le prototype fonctionnel aida à convaincre les labels de musique et les investisseurs et le reste, et bien cela appartient désormais à l’histoire.
 
@@ -171,13 +171,13 @@ Mais **ils ont mis sans avoir honte le skateboard dans les mains de vrais utilis
 
 C’était le skateboard.
 
-Les utilisateurs furent tout de même très investis (c’est assez marrant que la communication entre le développeur et les utilisateurs ait eu lieu sur Twitter). Parmi les premiers utilisateurs, il y avait moi et mes quatre enfants. [Plus de cent versions](http://minecraft.gamepedia.com/Version_history) ont été diffusées la première année. Le développement de jeu consiste principalement à trouver ce qui procure du plaisir (certains entreprises avec qui j’ai travaillé utilisent le terme « Définition de plaisir » à la place de « Définition de fini »), et le meilleur moyen d’y parvenir est d’avoir de vraies personnes qui jouent à ce jeu - et dans notre cas des milliers de personnes ont payé pour pouvoir essayer la première version en accès limité et ont donc eu une motivation personnelle pour aider à améliorer le jeu.
+Les utilisateurs furent tout de même très investis (c’est assez marrant que la communication entre le développeur et les utilisateurs ait eu lieu sur Twitter). Parmi les premiers utilisateurs, il y avait moi et mes quatre enfants. [Plus de cent versions](http://minecraft.gamepedia.com/Version_history) ont été diffusées la première année. Le développement de jeu consiste principalement à trouver ce qui procure du plaisir (certaines entreprises avec qui j’ai travaillé utilisent le terme « Définition de plaisir » à la place de « Définition de fini »), et le meilleur moyen d’y parvenir est d’avoir de vraies personnes qui jouent à ce jeu - et dans notre cas des milliers de personnes ont payé pour pouvoir essayer la première version en accès limité et ont donc eu une motivation personnelle pour aider à améliorer le jeu.
 
 Petit à petit, une petite équipe de développement s’est formée autour du jeu (principalement deux gars en fait), et le jeu a connu un succès fulgurant partout dans le monde. Je pense que nulle part je n’ai croisé un enfant qui ne jouait pas à Minecraft. Et l’année dernière le jeu (enfin la [société](https://mojang.com/) qui s’est formée autour du jeu) a été vendu à Microsoft pour 2.5 milliards de dollars. C’est assez incroyable.
 
 ## Exemple 3: Un grand projet gouvernemental
 
-Vers 2010 [la police suédoise](https://polisen.se/) a démarré une grande initiative pour permettre à la police de passer plus de temps sur le terrain et moins au poste - PUST (Soutien aux Enquêtes de Police en français). Un projet fascinant, j’ai été impliqué en tant que coach et j’ai écris un livre sur ce que nous avons fait et ce que nous avons appris ([Lean from the Trenches](https://pragprog.com/book/hklean/lean-from-the-trenches)).
+Vers 2010 [la police suédoise](https://polisen.se/) a démarré une grande initiative pour permettre à la police de passer plus de temps sur le terrain et moins au poste - PUST (Soutien aux Enquêtes de Police en français). Un projet fascinant, j’ai été impliqué en tant que coach et j’ai écrit un livre sur ce que nous avons fait et ce que nous avons appris ([Lean from the Trenches](https://pragprog.com/book/hklean/lean-from-the-trenches)).
 
 ![Policiers avec un ordinateur portable sur le terrain](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-17.jpg)
 
@@ -206,13 +206,13 @@ Une façon pour le moins coûteuse d’apprendre !
 
 ## Exemple 4 : Lego
 
-Je travaille en ce moment pour [Lego](http://www.lego.com/), et je suis bluffé par leur capacité à toujours sortir de grands succès, année après année, sans se planter. J’ai entendu beaucoup d’histoires intéressantes sur comment ils s’y prennent, et le point commun c’est le prototypage et le test utilisateur au plus tôt ! Je vois souvent des groupes d’enfants dans les bureaux, et des designers collaborer avec des maternelles du coin, des écoles, des familles pour tester sur le terrain leurs dernières idées de produits.
+Je travaille en ce moment pour [Lego](http://www.lego.com/), et je suis bluffé par leur capacité à toujours sortir de grands succès, année après année, sans se planter. J’ai entendu beaucoup d’histoires intéressantes sur comment ils s’y prennent, et le point commun, c’est le prototypage et le test utilisateur au plus tôt ! Je vois souvent des groupes d’enfants dans les bureaux, et des designers collaborer avec des maternelles du coin, des écoles, des familles pour tester sur le terrain leurs dernières idées de produits.
 
-Voici un exemple récente. Les [Nexo Knights](http://www.lego.com/fr-fr/nexoknights/) (sortis en janvier 2016) :
+Voici un exemple récent. Les [Nexo Knights](http://www.lego.com/fr-fr/nexoknights/) (sortis en janvier 2016) :
 
 ![Figurines des Lego Nexo Knights](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-19.jpg)
 
-Lorsqu’ils ont commencé à explorer le concept, ils ont fait des prototypes papier et les ont montré à de jeunes enfants. La première réaction des enfants fut « Hé, mais où sont les méchants ? Je vois pas qui est bon et qui est mauvais ! » Oups. Donc les designers ont continué à itérer et à tester  jusqu’à ce qu’ils trouvent un design qui marche pour les enfants. Je parie que même vous, vous ne devinez pas qui est bon et qui est méchant sur l’image précédente.
+Lorsqu’ils ont commencé à explorer le concept, ils ont fait des prototypes papier et les ont montrés à de jeunes enfants. La première réaction des enfants fut « Hé, mais où sont les méchants ? Je vois pas qui est bon et qui est mauvais ! » Oups. Donc les designers ont continué à itérer et à tester  jusqu’à ce qu’ils trouvent un design qui marche pour les enfants. Je parie que même vous, vous ne devinez pas qui est bon et qui est méchant sur l’image précédente.
 
 Je ne sais pas vraiment où est le skateboard dans cette histoire, mais vous avez compris l’idée - **récolter très tôt des retours de vrais utilisateurs**. Ne vous contentez pas de concevoir le produit et de le construire en intégralité. Imaginez s’ils avaient construit le produit basé sur leurs hypothèses de design d’origine, et avaient constaté le problème *après* avoir distribué des milliers de boîtes dans les magasins du monde entier !
 
@@ -230,7 +230,7 @@ Et pourquoi ça ? Parce que les skateboards ne sont pas géniaux (en tout cas pa
 
 Cela peut se traduire par « Seul le meilleur est assez bon ». Cela a été le principe directeur depuis la création de l’entreprise il y a plus de 80 ans et cela lui a permis d’être une des entreprises ayant rencontré le plus de succès dans le monde. Mais dans ce cas le principe a été mal appliqué. **La recherche de la perfection a retardé le feedback vital**, ce qui signifie des erreurs sur les hypothèses de ce que les utilisateurs aiment ou n’aiment pas. L’exact opposé de Minecraft.
 
-Il est assez intéressant de noter que les équipes de Lego Universe utilisaient en fait Scrum et itéraient beaucoup - comme les gens de chez Minecraft. Mais les publications ne se firent qu’en interne. Donc il y a surement eu un skateboard, une bicyclette, et ainsi de suite, mais ces produits n’ont jamais atteints de vrais utilisateurs. Ce n’est pas comme ça que Scrum est prévu d’être utilisé.
+Il est assez intéressant de noter que les équipes de Lego Universe utilisaient en fait Scrum et itéraient beaucoup - comme les gens de chez Minecraft. Mais les publications ne se firent qu’en interne. Donc il y a surement eu un skateboard, une bicyclette, et ainsi de suite, mais ces produits n’ont jamais atteint de vrais utilisateurs. Ce n’est pas comme ça que Scrum est prévu d’être utilisé.
 
 Ce fut un échec coûteux, mais  Lego a appris grâce à lui, et ils sont constamment en train de s’améliorer sur les tests en amont et les retours utilisateurs.
 
@@ -238,17 +238,17 @@ Ce fut un échec coûteux, mais  Lego a appris grâce à lui, et ils sont consta
 
 Et cela (on respire un grand coup…) m’amène à la thématique du MVP - le produit minimum valable.
 
-L’idée sous-jacente est super, mais le terme en lui-même sème beaucoup de confusion et de peur. J’ai rencontré beaucoup de clients qui réagissent ainsi : « Pas moyen que je veuille publier un MVP - c’est la dernière des livraisons que j’aurais. » Bien trop souvent, les équipes livrent le soi-disant Produit Minimum Valable et puis se font vite embarqués dans le projet suivant, laissant le client avec un produit buggué et inachevé.
+L’idée sous-jacente est super, mais le terme en lui-même sème beaucoup de confusion et de peur. J’ai rencontré beaucoup de clients qui réagissent ainsi : « Pas moyen que je veuille publier un MVP - c’est la dernière des livraisons que j’aurais. » Bien trop souvent, les équipes livrent le soi-disant Produit Minimum Valable et puis se font vite embarquer dans le projet suivant, laissant le client avec un produit buggué et inachevé.
 
 **Pour certains clients, MVP = MMP (Merde Minimum Publiable**).
 
 ![You will give me the Minimum Releasable Crap and I will move on to the next project!](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-22.jpg)
 
-Je sais, je sais, cela est davantage du à un mauvais management qu’au terme MVP, mais quand même… le terme prête à confusion. « Minimum » et « Valable » ne signifient pas la même chose pour tout le monde et cela cause des problèmes.
+Je sais, je sais, cela est davantage dû à un mauvais management qu’au terme MVP, mais quand même… le terme prête à confusion. « Minimum » et « Valable » ne signifient pas la même chose pour tout le monde et cela cause des problèmes.
 
 Donc voici une alternative.
 
-Tout d’abord, remplaçons le mot « Minimum » par « Rapide ». L’idée principale derrière la publixation d’un MVP est d’avoir rapidement des retours - en livrant un produit minimum plutôt qu’un produit complet, nous pouvons avoir des retours au plus tôt.
+Tout d’abord, remplaçons le mot « Minimum » par « Rapide ». L’idée principale derrière la publication d’un MVP est d’avoir rapidement des retours - en livrant un produit minimum plutôt qu’un produit complet, nous pouvons avoir des retours au plus tôt.
 
 **Peu de clients veulent le « minimum » mais beaucoup veulent « rapidement »**. Donc c’est notre premier changement :
 
@@ -266,18 +266,18 @@ Le **Produit Adorable Rapidement** est peut-être la moto. **La première versio
 
 > *J’ai considéré ajouté une étape de plus au début « **Le produit à impressions rapide** » qui est à la base le prototype papier ou son équivalent que vous allez utiliser pour recueillir les premières impressions des utilisateurs. Mais quatre étapes ça semble trop. Mais quoi qu’il en soit, c’est aussi une étape importante. Certains appeleraient un prototype papier un Produit Testable Rapidement, mais j’imagine que tout dépend de ce que vous appelez Testable. Jetez un coup d’œsil au [Guide MVP](https://www.crisp.se/mvpguide) pour en savoir plus - il est plein de super exemples concrets sur comment avoir rapidement des retours avec un minimum d’investissement*.
 
-Bien sur les gens peuvent toujours mal interprété Rapidement Testable/ Utilisable / Adorable mais c’est au moins un peu plus explicite que le nébuleux Produit Valable Minimum.
+Bien sûr les gens peuvent toujours mal interpréter Rapidement Testable/ Utilisable / Adorable mais c’est au moins un peu plus explicite que le nébuleux Produit Valable Minimum.
 
 ## Les points à retenir
 
 OK, il est temps de résumer. Je n’aurais jamais cru que ce serait si long, merci de m’avoir lu jusque ici ! Les points clefs à retenir :
 
-- **Eviter les versions « Big Bang** » pour les développements produits complexes et innovants. Faites le de manière itérative et incrémentale. Vous le saviez déjà. Mais le faites vous vraiment ?
-- **Commencez par identifier votre skateboard** - le produit testable rapidement. Visez la lune, mais ravalez votre orgueil et commencer par livrer le skateboard.
+- **Eviter les versions « Big Bang** » pour les développements produits complexes et innovants. Faites le de manière itérative et incrémentale. Vous le saviez déjà. Mais le faites-vous vraiment ?
+- **Commencez par identifier votre skateboard** - le produit testable rapidement. Visez la lune, mais ravalez votre orgueil et commencez par livrer le skateboard.
 - **Evitez le terme MVP**. Soyez plus explicite sur ce dont vous parlez véritablement. Rapidement testable/Utilisable/Adorable est juste un exemple, utilisez n’importe quels termes du moment qu’ils sont moins confus pour vos investisseurs.
 
 Et rappelez vous - le dessin du skateboard et de la voiture est juste une métaphore, ne le prenez pas au pied de lettre :o)
 
-PS: Voici une histoire marrante qui raconte comment mes enfants et moi avons utilisés ces principes pour [gagner une compétition de Robot Sumo](http://blog.crisp.se/2015/10/06/henrikkniberg/how-2-kids-and-adult-rookies-won-a-robot-sumo-competition) :o)
+PS: Voici une histoire marrante qui raconte comment mes enfants et moi avons utilisé ces principes pour [gagner une compétition de Robot Sumo](http://blog.crisp.se/2015/10/06/henrikkniberg/how-2-kids-and-adult-rookies-won-a-robot-sumo-competition) :o)
 
 *Merci à Mary Poppendieck, Jeff Patton, Alistair Cockburn, Anders Haugeto, Sophia, mes collègue de chez Crisp, Spotify et Lego, and tous ceux qui m’ont fait plein de retours utiles*.
