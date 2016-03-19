@@ -3,7 +3,6 @@ layout: post
 title: Introduction à la notion de dette technique
 description: "Mieux comprendre l'importance de l'impact des décisions techniques dans les projets informatiques"
 image: https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg
-permalink: /introduction-a-la-dette-technique/
 ---
 
 Comme beaucoup de métiers techniques, l’art du développement logiciel reste une énigme pour la majorité des équipes dirigeantes. Pourtant chaque jour elles imposent des choix aux équipes techniques sans véritablement pouvoir mesurer les conséquences de leurs décisions sur le long terme. C’est pour cela qu’il me paraissait essentiel de traduire en français l’excellent article de Maiz Lulkin paru sur Médium : [Technical Debt 101](https://medium.com/@joaomilho/festina-lente-e29070811b84 "Technical Debt 101 sur Medium"). En espérant que cela puisse aider à changer les mentalités et à ce que chacun puisse prendre ses responsabilités : les développeurs comme les décideurs.

@@ -31,7 +31,7 @@ Revenir à des choses simples et performantes, c'est la philosophie du gestionna
 
 > Release early, Release Often — Eric S. Raymond, la Cathédrale et le Bazaar, 1999.
 
-Et si vous n’êtes pas capable dans le monde d’aujourd’hui de déployer souvent, vous avez des problèmes d’organisation voire de [dette technique](//boutique.letrainde13h37.fr/products/la-dette-technique-bastien-jaillot).
+Et si vous n’êtes pas capable dans le monde d’aujourd’hui de déployer souvent, vous avez sûrement des problèmes d’organisation voire de [dette technique](/2014/11/06/intro-dette-technique/).
 
 ## La simplicité du statique
 
@@ -57,7 +57,7 @@ Il n’y a pas d'interface graphique, même si nous allons voir qu’elles comme
 
 Ce même principe a été repris dans la plupart des gestionnaires de contenu statiques plus récents comme [Hugo](http://gohugo.io/), écris en Go et impressionnant par ses performances.
 
-Fidèle à la philosophie Unix, ces logiciels se contentent de transformer des contenus au format texte en site statique, l' enrichissement en fonctionnalités se feront à l’aide des extensions développées par la communauté.
+Fidèle à la philosophie Unix, ces logiciels se contentent de transformer des contenus au format texte en site statique, l'enrichissement en fonctionnalités se fera à l’aide des extensions développées par la communauté.
 
 ##  Des contenus accessibles et réutilisables
 
@@ -65,15 +65,15 @@ Fidèle à la philosophie Unix, ces logiciels se contentent de transformer des c
 
 Il n'y a pas que les développeurs et les designers web qui trouvent cette approche intéressante, Karen McGrane, la papesse de la stratégie de contenu, explique qu'il est important que les [contenus puissent être stockés indépendamment de tout système de publication](//karenmcgrane.com/2014/10/15/content-in-a-zombie-apocalypse/) dans des formats lisibles et débarrassés de toute présentation. De plus le fameux WYSIWYG (What You See Is What You Get) est une fausse promesse de par la nature imprévisible du web car vous ne pouvez pas savoir sur quel périphérique sera affiché votre contenu : un ordinateur portable, un téléphone, une montre, une télé, des lunettes connectées ?
 
-Des formats textes comme [Markdown](https://guides.github.com/features/mastering-markdown/), au balisage minimal offrent à la fois une bonne expérience pour la rédaction et peuvent être ensuite facilement transformés en HTML, mis en forme via CSS et enrichis via JavaScript.
+Des formats textes comme [Markdown](https://guides.github.com/features/mastering-markdown/), au balisage minimal offrent à la fois une bonne expérience pour la rédaction et peuvent être ensuite facilement transformés en HTML, mis en forme *via* CSS et enrichis *via* JavaScript.
 
-Le format Markdown est de plus en plus populaire chez les rédacteurs et a été adopté comme format par défaut par des logiciels comme [Ghost](https://blog.ghost.org/markdown/), un logiciel de blog écrit en NodeJS qui focalise lui aussi sur l’expérience de rédaction de contenu.
+Le format Markdown est de plus en plus populaire chez les rédacteurs et a été adopté comme format par défaut par des logiciels comme [Ghost](https://blog.ghost.org/markdown/), un logiciel de blog écrit en NodeJS qui se focalise lui aussi sur l’expérience de rédaction de contenu.
 
 Beaucoup d'applications comme [MacDown](http://macdown.uranusjr.com/), [IA Writer](https://ia.net/writer) ou [Ulysses](http://www.ulyssesapp.com/) sous Mac, *insérez votre application open-source préférée ici* ou de services en ligne permettent aujourd'hui d‘[éditer du Markdown](https://stackedit.io/editor) de manière simple.
 
 {% include figure.html url="/assets/img/2016/03/macdown.png" description="Aperçu de cet article dans MacDown" %}
 
-Les contenus ne sont donc plus enfermés dans une base de données, ils sont stockées dans des format texte comme Markdown, YAML ou JSON. Il est dès lors possible d’exposer vos contenus au format JSON et de proposer une [API RESTful](https://codeplanet.io/principles-good-restful-api-design/) pour que vos données puissent être réutilisées par d'autres sites.
+Les contenus ne sont donc plus enfermés dans une base de données, ils sont stockées dans des formats texte comme Markdown, YAML ou JSON. Il est dès lors possible d’exposer vos contenus au format JSON et de proposer une [API RESTful](https://codeplanet.io/principles-good-restful-api-design/) pour que vos données puissent être réutilisées par d'autres sites.
 
 En privilégiant ces formats, les gestionnaires de contenu statiques vous garantissent l’accessibilité, la réutilisation et des migrations grandement facilitées.
 
@@ -92,7 +92,7 @@ Afin de faciliter les contributions, et ajouter une couche d’abstraction du ve
 
 > Jekyll transitions smoothly between prototyping, content authoring, and deployment tasks — [Young Hahn](https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/)
 
-En développant ces sites, l'équipe s'aperçoit que le gestionnaire de contenu statique peut-être utilisé dès la phase de prototypage. Les contenus peuvent être ajoutés en parallèle, et la mise en production en devient presque anecdotique.
+En développant ses sites, l'équipe s'aperçoit que le gestionnaire de contenu statique peut-être utilisé dès la phase de prototypage. Les contenus peuvent être ajoutés en parallèle, et la mise en production en devient presque anecdotique.
 
 La documentation et le [styleguide](http://styleguides.io/) peuvent également être générés lors de l’étape de *build*, ce qui assure qu'ils soient tout le temps à jour.
 
@@ -100,11 +100,11 @@ La documentation et le [styleguide](http://styleguides.io/) peuvent également �
 
 Aujourd'hui quand vous êtes développeur, vous consultez en permanence des sites de documentation servis en statique : [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [NodeJS](https://nodejs.org/en/) ou [Google Web fundamentals](https://developers.google.com/web/fundamentals/) pour n'en citer que quelques uns.
 
-Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jour le service [GitHub Pages héberge près d'un million de sites statiques](https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months), qui sont tous stockés sur des CDN. Le service étant gratuit pour les projet open-source, il serait bête de s'en priver. C’est d’ailleurs ce que nous avons fait pour le site de [Sud Web](http://sudweb.fr/2016/).
+Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jour le service [GitHub Pages héberge près d'un million de sites statiques](https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months), qui sont tous stockés sur des CDN. Le service étant gratuit pour les projets open-source, il serait bête de s'en priver. C’est d’ailleurs ce que nous avons fait pour le site de [Sud Web](http://sudweb.fr/2016/).
 
 ## Un web de services
 
-Les gestionnaires de contenu statique ne font qu'une chose et le font bien et si vous avez besoin de fonctionnalités supplémentaires comme du paiement en ligne, vous passez par des services tiers comme en dynamique. On s'éloigne du monolithique pour se rapprocher de la philosophie des [microservices](https://fr.wikipedia.org/wiki/Microservices), votre application interagit avec plusieurs services, chacun est interchangeable et vous permet de choisir le plus adapté à vos besoins.
+Les gestionnaires de contenu statique ne font qu'une chose et le font bien et si vous avez besoin de fonctionnalités supplémentaires comme du paiement en ligne, vous passez par des services tiers comme en dynamique. On s'éloigne du monolithique pour se rapprocher de la philosophie des [microservices](/2015/02/09/applications-monolithiques-contre-microservices/), votre application interagit avec plusieurs services, chacun est interchangeable et vous permet de choisir le plus adapté à vos besoins.
 
 Comme Github [Pages](https://pages.github.com/) ou [prose.io](http://prose.io/#about), de nouveaux services permettent de faciliter le déploiement ou d'améliorer l'expérience utilisateur :
 
@@ -130,7 +130,7 @@ Il existe en effet des extensions pour générer du statique à partir de Drupal
 
 Penser statique par défaut, n'est pas du tout une mode destinée à rester confidentielle parmi les hackers, c'est une réponse simple à des problématiques complexes. Gardez en tête que 78% des sites sous Wordpress souffrent de vulnérabilités et que quand une faille de sécurité impacte Drupal, des millions de sites sont concernés.
 
-C’est donc une solution qui vous devriez sérieusement considérée si vous souhaiter réduire vos coûts d'infrastructure. **Sur de très gros sites, le coût peut être divisé par 15**. Le statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou webapp moderne en JavaScript. L'écosystème autour est en plein essor et va fort logiquement continuer de se développer.
+C’est donc une solution que vous devriez sérieusement considérer si vous souhaiter réduire vos coûts d'infrastructure. **Sur de très gros sites, le coût peut être divisé par 15**. Le statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou webapp moderne en JavaScript. L'écosystème autour est en plein essor et va fort logiquement continuer de se développer.
 
 Une des priorité est maintenant de rendre ces outils encore plus accessibles aux rédacteurs. Github continue de soutenir le développement de Jekyll et vient de lancer un appel afin de [proposer une interface utilisateur pour la rédaction et l’administration](https://github.com/github/mentorships/issues/107) à l'instar de ce que propose Cloudcannon. Parallèlement, il y a une vraie volonté de la part de la communauté d‘[augmenter le nombre de contributeurs au projet](https://jekyllrb.com/news/2016/03/10/making-it-easier-to-contribute-to-jekyll/) car il y a encore beaucoup à faire. Quand on voit les progrès réalisés depuis deux ans, c’est très encourageant pour la suite.
 
