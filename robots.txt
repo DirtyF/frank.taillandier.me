@@ -1,5 +1,0 @@
-# www.robotstxt.org
-
-# Autoriser l'indexation par tous les agents utilisateurs
-User-agent: *
-Disallow:
