@@ -18,3 +18,6 @@ Le moyen le plus sur de parvenir à de bons résultats est d'adopter le bon éta
 Social, j'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des meetups.
 
 Je contribue chaque année à [Sud Web](http://sudweb.fr), un cycle de conférences et d'ateliers destinés aux professionnels du web, que nous organisons en équipe à distance depuis 2010.
+
+Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username
+}}).
