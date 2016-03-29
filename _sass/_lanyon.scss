@@ -324,8 +324,7 @@ a.sidebar-nav-item:focus {
 }
 
 /* Meta data line below post title */
-.post-date,
-.post-read-time {
+.post-date {
   display: inline-block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
@@ -408,7 +407,6 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
 
 /*
  * Reverse layout
@@ -537,7 +535,6 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
-
 
 /*
  * Overlay sidebar

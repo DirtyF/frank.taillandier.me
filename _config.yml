@@ -38,6 +38,9 @@ kramdown:
 
 branch: gh-pages
 
+sass:
+  style: compressed
+
 include:
   - "_pages"
 

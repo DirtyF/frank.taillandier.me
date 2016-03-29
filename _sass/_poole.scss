@@ -285,6 +285,17 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/* Inline lists */
+
+.inline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline li {
+  display: inline;
+}
 
 /*
  * Container
@@ -358,18 +369,6 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
-
-.icon {
-  max-width: 40px;
-  fill: currentColor;
-}
-
-.icon-clock {
-  margin: -0.15em 0;
-  width: 0.7em;
-  height: 1em;
-}
-
 
 /* Related posts */
 .related {
