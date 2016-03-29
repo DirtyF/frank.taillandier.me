@@ -30,8 +30,19 @@
   </nav>
 
   <div class="sidebar-item">
+    <ul class="social inline">
+      {% assign socials = site.data.social %}
+      {% for social in socials %}
+      <li>
+        <a rel="me" title="{{ social.title }}" href="{{ social.url }}"><svg class="icon icon-{{ social.name }}"><use xlink:href="#icon-{{ social.name }}"></use></svg></a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}.
+      &copy; {{ site.time | date: '%Y' }}
     </p>
   </div>
 </div>
