@@ -24,15 +24,15 @@ Les analogies sont bien évidemment de très bons outils. Joseph Priestley leur 
 
 > L’analogie est notre meilleur guide pour tous les questionnements philosophiques. Toutes les découvertes, qui n’ont pas été faites par simple accident, ont été faites grâce à elle – <cite>Joseph Priestley</cite>
 
-Quand les physiciens parlent de « rotation » des électrons ou d’« infra-rouge », ils emploient des analogies pour essayer de faire correspondre la vraie façon dont le monde fonctionne avec notre capacité limitée de représentation. Les électrons ne tournent pas littéralement sur eux-mêmes et infra-rouge n’est pas « un petit peu moins rouge ». Il est impossible de comprendre ce que _rotation_ signifie exactement, si ce n’est que c’est un comportement très particulier des électrons qui peut être utilisé pour prédire les interactions atomiques. Il est également impossible d’imaginer – au sens d’avoir une représentation mentale de — d’autres couleurs, bien qu’il soit possible de concevoir, en faisant appel à la raison, l’existence de plus de couleurs que celles qui sont visibles.
+Quand les physiciens parlent de « rotation » des électrons ou d’« infra-rouge », ils emploient des analogies pour essayer de faire correspondre la vraie façon dont le monde fonctionne avec notre capacité limitée de représentation. Les électrons ne tournent pas littéralement sur eux-mêmes et infra-rouge n’est pas « un petit peu moins rouge ». Il est impossible de comprendre ce que _rotation_ signifie exactement, si ce n’est que c’est un comportement très particulier des électrons qui peut être utilisé pour prédire les interactions atomiques. Il est également impossible d’imaginer – au sens d’avoir une représentation mentale — d’autres couleurs, bien qu’il soit possible de concevoir, en faisant appel à la raison, l’existence de plus de couleurs que celles qui sont visibles.
 
-Dans tous les cas, une analogie implique que les mots que nous utilisons pour décrire un phénomène sont sans équivoque. ([Thomas d’Aquin est d’une grande aide sur ce point](http://plato.stanford.edu/entries/analogy-medieval/)). Cela veut dire que le mot _rotation_ est utilisé avec deux sens différents, un dont nous connaissons le sens et un autre qui est nouveau et étranger. Ces deux sens, au mieux, peuvent être similaire de sorte qu’ils allument une « étincelle de compréhension », nous faisant comprendre, par cette familiarité, au moins une partie de la nature du phénomène. Au pire, ils peuvent fausser notre représentation du phénomène et nous détourner de notre soif de connaissance.
+Dans tous les cas, une analogie implique que les mots que nous utilisons pour décrire un phénomène sont sans équivoque. ([Thomas d’Aquin est d’une grande aide sur ce point](http://plato.stanford.edu/entries/analogy-medieval/)). Cela veut dire que le mot _rotation_ est utilisé avec deux sens différents, un dont nous connaissons le sens et un autre qui est nouveau et étranger. Ces deux sens, au mieux, peuvent être similaires de sorte qu’ils allument une « étincelle de compréhension », nous faisant comprendre, par cette familiarité, au moins une partie de la nature du phénomène. Au pire, ils peuvent fausser notre représentation du phénomène et nous détourner de notre soif de connaissance.
 
 ## L’analogie de la dette technique
 
 Il est probable que la meilleure analogie créée pour expliquer les conséquences de ne pas faire les choses correctement en premier lieu est l’analogie avec la dette.
 
-Une « dette » signifie que vous avez échangé l’acquisition de quelque chose aujourd’hui contre une charge financière à long terme. Cette charge, n’est pas seulement rembourser ce que vous devez : il y a un intérêt. Cela signifie que, même si vous payez votre dette à temps, vous paierez plus que ce que vous avez eu, et que si vous ne le faites pas, votre dette continuera de croître, même si vous ne faites rien. Et si vous ignorez une dette suffisamment longtemps, elle deviendra impossible à payer et vous ferez « banqueroute ».
+Une « dette » signifie que vous avez échangé l’acquisition de quelque chose aujourd’hui contre une charge financière à long terme. Cette charge, ce n’est pas seulement rembourser ce que vous devez : il y a un intérêt. Cela signifie que, même si vous payez votre dette à temps, vous paierez plus que ce que vous avez reçu, et que si vous ne le faites pas, votre dette continuera de croître, même si vous ne faites rien. Et si vous ignorez une dette suffisamment longtemps, elle deviendra impossible à payer et vous ferez « banqueroute ».
 
 ![Shylock and Jessica, by Maurycy Gottlieb](https://d262ilb51hltx0.cloudfront.net/max/601/1*J9T4nuKvco0U3K-fKphljg.jpeg)
 
@@ -52,9 +52,9 @@ Un peu plus tard, un autre cas de figure nécessite de différencier les utilisa
 
 Le problème est qu’il y a _vraiment_ un besoin commercial d’avoir les permissions actuelles en production d’ici un à deux jours, car cela permettrait à cinq clients potentiels de signer un contrat cette semaine plutôt que la semaine prochaine ou peut-être jamais, s’il n’apprécient pas que la société n’ait pas répondu favorablement à leur seule demande.
 
-C’est le moment où il faut décider si on contracte de la dette. Toutes les informations nécessaires à cette prise de décisions sont connues. Au départ, ajouter une permission demandait 3 points de story. Maintenant ça en demande 4\. Bientôt cela représentera 5, 6, [qui sait ?](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6579461&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6579461) La refactorisation complète demande maintenant un effort de 21\. Donc la décision, aujourd’hui n’est pas entre 4 et 21 mais entre trois scénarios possibles :
+C’est le moment où il faut décider si on contracte de la dette. Toutes les informations nécessaires à cette prise de décisions sont connues. Au départ, ajouter une permission demandait 3 points de story. Maintenant ça en demande 4. Bientôt cela représentera 5, 6, [qui sait ?](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6579461&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6579461) La refactorisation complète demande maintenant un effort de 21. Donc la décision, aujourd’hui n’est pas entre 4 et 21 mais entre trois scénarios possibles :
 
-*   4 maintenant (pour la permission), 22 plus tard (la refactorisation est désormais un peu plus compliquée ) et quelque chose proche de 0 pour chaque nouvelle permission après ça, accompagné par un léger gain de la productivité générale. Dans ce scénario, l’entreprise a ajouté 5 clients à son portfolio et l’argent arrive tôt;
+*   4 maintenant (pour la permission), 22 plus tard (la refactorisation est désormais un peu plus compliquée) et quelque chose proche de 0 pour chaque nouvelle permission après ça, accompagné par un léger gain de la productivité générale. Dans ce scénario, l’entreprise a ajouté 5 clients à son portfolio et l’argent arrive tôt;
 *   21 maintenant (pour la refactorisation), 0 plus tard (pour la permission); Dans ce scénario, l’entreprise n’as pas ajouté 5 clients à son portfolio de suite, et l’argent arrivera plus tard;
 *   4 maintenant (pour la permission), aucune refactorisation du tout, et donc 5 pour les prochaines permissions, puis 6, puis 7… jusqu’à ce que la refactorisation soit suggérée, avec maintenant un coût avoisinant les 50; Dans ce scénario, l’argent est encaissé tôt, mais la prochaine fois cela demandera de faire un travail spécifique pour ajouter des clients, et prendra beaucoup plus de temps.
 
@@ -69,11 +69,11 @@ Encore une fois, ce type de négociation n’est pas la norme. Beaucoup de manag
 
 Une chose que j’entends souvent est que <q>le plus important pour les startups c’est le délai de mise sur le marché</q> et puisque vous n’avez pas encore <q>validé les hypothèses de votre business</q> (en bon français cela signifie que vous ne gagnez toujours pas d’argent avec) ce n’est pas grave de s’exposer à de la dette, vous la rembourserez éventuellement plus tard lorsque votre société aura du succès.
 
-Ce raisonnement bien qu’attrayant ne raconte pas toute l’histoire. Le mantra créé par le fondateur de LinkedIn Reid Hoffmann <q>si vous n’êtes pas un minimum embarrassé par la première version de votre produit, c’est que vous vous êtes lancé trop tard.</q> est rapidement devenu une excuse pour adopter une approche « faisons _n’importe quoi_ ». Des milliers de startups se sont lancées et ont échoué précisément à cause du manque de qualité. Apparemment un minimum de qualité est donc nécessaire pour qu’un produit rencontre du succès, même un petit. Et ce minimum, vu [le mouvement massif de l’industrie dans le desgin et l’expérience utilisateur](https://medium.com/@jamieskella/the-bottom-line-value-of-design-fb3b938a5255), l’agile et la livraison continue ces dernières années, augmente chaque jour.
+Ce raisonnement bien qu’attrayant ne raconte pas toute l’histoire. Le mantra créé par le fondateur de LinkedIn Reid Hoffmann <q>si vous n’êtes pas un minimum embarrassé par la première version de votre produit, c’est que vous vous êtes lancé trop tard.</q> est rapidement devenu une excuse pour adopter une approche « faisons _n’importe quoi_ ». Des milliers de startups se sont lancées et ont échoué précisément à cause du manque de qualité. Apparemment un minimum de qualité est donc nécessaire pour qu’un produit rencontre du succès, même un petit. Et ce minimum, vu [le mouvement massif de l’industrie dans le design et l’expérience utilisateur](https://medium.com/@jamieskella/the-bottom-line-value-of-design-fb3b938a5255), l’agile et la livraison continue ces dernières années, augmente chaque jour.
 
 <iframe width="510" height="420" style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/31984451" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-C’est précisément ce que renferme le concept de [Produit Coup de coeur Minimum](http://www.slideshare.net/spookstudio/the-minimum-loveable-product-31984451) (contrairement au MVP). L’idée est que pour obtenir quelque chose rapidement, et qui puisse être _aimé_, vous devriez préférer sacrifier le périmètre grâce à une priorisation sans pitié.
+C’est précisément ce que renferme le concept de [Produit minimal adorable](http://www.slideshare.net/spookstudio/the-minimum-loveable-product-31984451) (contrairement au MVP). L’idée est que pour obtenir quelque chose rapidement, et qui puisse être _aimé_, vous devriez préférer sacrifier le périmètre grâce à une priorisation sans pitié.
 
 Dans tous les cas, on peut raisonnablement dire que _toutes_ les startups ont contracté un peu de dette technique qui sera remboursée en cas de succès. Certaines de ces startups ont conscience de ce compromis et ont un plan pour le gérer. Ces startups, si elles sont financées, investiront alors plutôt dans des cuisines plus chouettes et iront à un rythme bien plus rapide que leurs concurrents.
 
@@ -89,11 +89,11 @@ Maintenant imaginons une tout autre conversation :
 
 **Manager. —** Nous en avons besoin aujourd’hui. Ne peux-tu pas trouver une manière « créative » de le faire ?
 
-**Développeur Junior. —** Laissez moi réfléchir…
+**Développeur Junior. —** Laissez-moi réfléchir…
 
 **Manager. —** Nous avons 5 clients qui en ont vraiment besoin aujourd’hui. Sinon ils ne signeront probablement pas les contrats.
 
-**Développeur Junior. —** Mais le …
+**Développeur Junior. —** Mais le…
 
 **Manager. —** Écoute, il est très important que tu comprennes la valeur métier de cette fonctionnalité. C’est pas juste une nouvelle condition dans le code ? Ajoute la simplement ici et on _corrigera ça_ plus tard.
 
@@ -146,13 +146,13 @@ Donc, si notre première introduction avec la dette ne nous est plus utile, quel
 
 ## Quelques analogies avec le génie civil
 
-Rio de Janeiro. 3 heures du matin, le 2 février 1998\. Dans un quartier en plein expansion de l’ouest de la ville, Barra da Tijuca, un bâtiment appelé Palace II commence à s’effondrer. La fin de la construction de l’immeuble date d’il y a moins de 3 ans. 44 appartements ont été complètement détruits et 8 personnes ont péri.
+Rio de Janeiro. 3 heures du matin, le 2 février 1998. Dans un quartier en plein expansion de l’ouest de la ville, Barra da Tijuca, un bâtiment appelé Palace II commence à s’effondrer. La fin de la construction de l’immeuble date d’il y a moins de 3 ans. 44 appartements ont été complètement détruits et 8 personnes ont péri.
 
 {% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg" description="Implosion du Palace II" %}
 
-Comme souvent au Brésil, en 2014, les constructeurs n’ont pas été correctement punis et les victimes n’ont pas été compensées de manière satisfaisante . Les résultats de l’enquête sont discutables.
+Comme souvent au Brésil, en 2014, les constructeurs n’ont pas été correctement punis et les victimes n’ont pas été compensées de manière satisfaisante. Les résultats de l’enquête sont discutables.
 
-Quoi qu’il en soit, en se basant sur les preuves de l’époque, beaucoup d’experts ont déclaré que le béton contenait trop d’eau et de sable de plage. Ils ont aussi souligné qu’il n’y avait pas d’ingénieur qui supervisait la construction, et qu’il n’y avait pour ainsi dire aucun contrôle qualité.
+Quoi qu’il en soit, en se basant sur les preuves de l’époque, beaucoup d’experts ont déclaré que le béton contenait trop d’eau et de sable de plage. Ils ont aussi souligné qu’il n’y avait pas d’ingénieur qui supervisait la construction et qu’il n’y avait pour ainsi dire aucun contrôle qualité.
 
 L’analogie avec le bâtiment construit avec du sable semble couvrir la plupart des aspects de la création de mauvais logiciel : il n’y a littéralement aucun contrôle qualité, les managers en sont également conscients et font preuve de mauvaise foi, ignorent le problème ou sont absents – et ça ne les excuse pas.
 
@@ -166,11 +166,11 @@ Le problème c’est que le logiciel ne s’effondre pas d’un coup. La gravit�
 
 Bref, je pense que cette analogie montre à quel point les résultats d’une mauvaise qualité peuvent être graves et que les managers devraient prendre plus de responsabilité à ce niveau.
 
-Une autre analogie est ce qu’on appelle « puxadinho » en portugais. Un _puxadinho_ est une extension d’une construction faite sans la supervision d’un expert, des matériaux de mauvaise qualité et la plus part du temps de façon illégale.
+Une autre analogie est ce qu’on appelle _puxadinho_ en portugais. Un _puxadinho_ est une extension d’une construction faite sans la supervision d’un expert, des matériaux de mauvaise qualité et la plus part du temps de façon illégale.
 
 {% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg" description="" %}
 
-Le _puxadinho_ est le modèle de conception standard sur lequel se sont construits des "favelas" entières, les bidonvilles brésiliens.
+Le _puxadinho_ est le modèle de conception standard sur lequel se sont construits des « favelas » entières, les bidonvilles brésiliens.
 
 Les _puxadinhos_ ne sont pas seulement restreints à la construction. Comme on peut le voir sur l’image, ils s’étendent à toute l’infrastructure de base comme la plomberie, l’énergie, les câbles téléphoniques, internet et la télé par cable.
 
@@ -221,7 +221,7 @@ La deuxième chose que va demander la direction ce sont les délais. Estimer une
 
 La troisième chose que la direction ne tolérera pas c’est que le développement des nouvelles fonctionnalités s’arrête. Il va donc falloir pour cela faire leur suivi et les ré-implémenter également. Et toutes les données pertinentes devront être migrées.
 
-Quatrièmement, afin de convaincre la direction dans l’urgence, les développeurs vont promettre toutes sortes de choses, comme le fait que le refactoring rendra le système plus performant, plus robuste ou dimensionnable…
+Quatrièmement, afin de convaincre la direction dans l’urgence, les développeurs vont promettre toutes sortes de choses, comme le fait que le refactoring rendra le système plus performant, plus robuste, même à grande échelle…
 
 Cinquièmement, étant donné qu’une partie du problème vient de l’inexpérience des développeurs en terme même de développement, comment peuvent-ils garantir que maintenant ils sauront mieux ? Est-ce que de nouveaux développeurs expérimentés ou peut-être des consultants vont les aider ?
 
@@ -231,7 +231,7 @@ Toutes ces problématiques et beaucoup plus sont abordées dans la série d’ar
 
 Donc, la seule option réaliste devant du code *legacy* est de _radicalement_ améliorer l’état du code _actuel_ de manière cyclique. Cela _doit_ être fait en introduisant des tests, même si c’est très dur et que cela prend du temps. L’application monolithique doit être découpée en petites pièces découplées. Et toutes les migrations de données et changements plus radicaux doivent être parfaitement planifiés et synchronisés.
 
-Le temps que vous allez passer à rendre du code légué compatible avec du développement continu, productif, avec lequel de bons développeurs vont vouloir travailler, qui peut délivrer de la valeur métier de manière prédictible et constante, sera _énorme_ (Je présuppose ici que vous ne pouvez simplement pas arrêter de développer ce produit). Cela exigera également un grand changement culturel.
+Le temps que vous allez passer à rendre du code ancien compatible avec du développement continu, productif, avec lequel de bons développeurs vont vouloir travailler, qui peut délivrer de la valeur métier de manière prédictive et constante, sera _énorme_ (Je présuppose ici que vous ne pouvez simplement pas arrêter de développer ce produit). Cela exigera également un grand changement culturel.
 
 Encore une fois, c’est simplement la conséquence naturelle d’un flot continu de décisions passées qui étaient mauvaises, inconscientes et non informées. La seule question qui demeure, c’est _quand_ prendrez-vous cette décision ?
 
@@ -241,17 +241,17 @@ Encore une fois, c’est simplement la conséquence naturelle d’un flot contin
 
 ## Le changement culturel
 
-Comme toute œuvre littéraire conduit à de multiples interprétations, la leçon des fables d’Ésope, le Lièvre et la Tortue n’est pas un consensus. Mon propos ici c’est que ne s’agit ni de rapidité ni de lenteur, mais d_’un trop plein d’orgueil_. Le lièvre agit avec un fol excès de confiance, se hâte au début puis ralenti jusqu’à laisser gagner la tortue.
+Comme toute œuvre littéraire conduit à de multiples interprétations, la leçon des fables d’Ésope, le Lièvre et la Tortue n’est pas un consensus. Mon propos ici c’est que ne s’agit ni de rapidité ni de lenteur, mais d’_un trop plein d’orgueil_. Le lièvre agit avec un fol excès de confiance, se hâte au début puis ralenti jusqu’à laisser gagner la tortue.
 
 La morale de l’histoire est qu’à un certain point, l’orgueil qui pousse à la négligence de la qualité va commencer à affecter la stratégie de votre entreprise, soit en vous ralentissant, et en rendant votre entreprise sans intérêt pour les bons développeurs. Et comme [Elon Musk le disait](http://www.teslamotors.com/blog/all-our-patent-are-belong-you) lorsqu’il a annoncé l’ouverture du code source de tous les brevets de Tesla Motors :
 
-> L’avance technologique est … définie… par la capacité d’une entreprise à attirer et à motiver les ingénieurs les plus talentueux au monde.
+> L’avance technologique est… définie… par la capacité d’une entreprise à attirer et à motiver les ingénieurs les plus talentueux au monde.
 
 ![Festina Lente](https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg)
 
 Le lièvre dans une coquille d’escargot un des nombreux symboles de Festina Lente.
 
-Les concurrrents _diminueront_ votre valeur, pendant que vous dormez.
+Les concurrents _diminueront_ votre valeur, pendant que vous dormez.
 
 L’historien Romain Suetonius, dans *De vita Caesarum*, nous dit qu’Auguste, le premier empereur de Rome, avait adopté le motto *Festina Lente*, littéralement, « plus vite, moins de précipitation » :
 
