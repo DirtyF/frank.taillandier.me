@@ -14,9 +14,8 @@
 	<link type="text/plain" rel="author" href="/humans.txt" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ site.baseurl }}/foaf.rdf" />
 
-  <!-- Icons
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/apple-touch-icon-precomposed.png"> -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
+  <!-- Icons -->
+  {% include favicons.html %}
 	{% feed_meta %}
 
   {% if site.analytics.google.site_verification %}<meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">{% endif %}
