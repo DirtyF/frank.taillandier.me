@@ -23,7 +23,7 @@ analytics:
     site_verification: KhnXRq1e9zCBkD6X4vs_xwVc-6c-5an2vE7f0_-XMiE
 
 # SEO
-logo: img/frank-taillandier.jpg
+logo: /assets/img/frank-taillandier.jpg
 twitter:
   username: DirtyF
 social:
