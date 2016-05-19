@@ -10,14 +10,19 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.github.build_revision }}">
 
-	<!-- Profiles -->
-	<link type="text/plain" rel="author" href="/humans.txt" />
-	<link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ site.baseurl }}/foaf.rdf" />
+  <!-- AMP -->
+  <link rel="amphtml" href="http://mercury.postlight.com/amp?url={{ site.github.url }}{{ page.url }}">
+
+  {% feed_meta %}
 
   <!-- Icons -->
   {% include favicons.html %}
-	{% feed_meta %}
 
+  <!-- Profiles -->
+	<link type="text/plain" rel="author" href="/humans.txt" />
+	<link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ site.baseurl }}/foaf.rdf" />
+
+  <!-- Analytics-->
   {% if site.analytics.google.site_verification %}<meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">{% endif %}
   {% include analytics.html %}
 </head>
