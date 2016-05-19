@@ -7,6 +7,10 @@ group :development do
   gem 'jekyll-compose'
 end
 
+group :jekyll_plugins do
+    gem "jekyll-livereload"
+end
+
 group :test do
   gem 'html-proofer'
 end
