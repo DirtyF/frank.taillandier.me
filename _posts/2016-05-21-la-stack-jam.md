@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La stack JAM
-description: La combinaison JavaScript, APIs et Markup (JAM) résume bien la plateforme technologique web moderne en plein essor.
+description: La combinaison JavaScript, APIs et Markup (JAM) décrit bien la plateforme technologique web actuelle.
 image: /assets/img/2016/05/a-new-stack.png
 comments: true
 ---
