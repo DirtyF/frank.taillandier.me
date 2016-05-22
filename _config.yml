@@ -8,8 +8,7 @@ repository: DirtyF/frank.taillandier.me
 baseurl:             ""
 permalink:           pretty
 excerpt_separator:   <!-- excerpt -->
-paginate:            5
-locale:             fr_FR
+paginate:            10
 
 # About/contact
 author:
