@@ -10,9 +10,9 @@ Le Web mobile essaie de combler depuis quelques années son retard en terme d'ex
 
 Récemment s'est tenu le [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni du beau monde des principaux acteurs du web, Google en tête, les vidéos sont dispos, je vous invité à aller en regarder quelques unes pour en apprendre plus sur le sujet.
 
-Le mois dernier est paru [une bonne introcution aux PWA sur le blog d'Ionic](http://blog.ionic.io/what-is-a-progressive-web-app/), un framework qui permet de développer des applications web mobile hypbride.
+Le mois dernier est paru [une bonne introcution aux PWA sur le blog d'Ionic](http://blog.ionic.io/what-is-a-progressive-web-app/), un framework qui permet de développer des applications web mobile hybride.
 
-Avec l'ami [Enguerran Colson](https://blog.ticabri.com/) nous vous proposons ci-dessous une traduction en français afin de vous inciter à vous intéresser de plus près à cet ensemble de technologies qui permettent au web mobile de rivaliser enfin pour de bon avec le natif.
+Avec l'ami [Enguerran Colson](https://blog.ticabri.com/2016/06/28/le-web-progresse-grace-aux-progressive-web-apps/) nous vous proposons ci-dessous une traduction en français afin de vous inciter à vous intéresser de plus près à cet ensemble de technologies qui permettent au web mobile de rivaliser enfin pour de bon avec le natif.
 
 <!-- excerpt -->
 
