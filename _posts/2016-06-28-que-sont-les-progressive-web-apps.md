@@ -8,7 +8,7 @@ comments: true
 
 Le Web mobile essaie de combler depuis quelques années son retard en terme d'expérience utilisateur par rapport au natif. Face à l'utilisation majoritaire du mobile pour une grande partie de la population mondiale et aux probèmes de connectivité que nous connaissons tous, il était important d'apporter une réponse à ces problèmes, c'est désormais chose faire avec les _Progressive Web Apps_.
 
-Récemment s'est tenu le [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni du beau monde des principaux acteurs du web, Google en tête, les vidéos sont dispos, je vous invité à aller en regarder quelques unes pour en apprendre plus sur le sujet.
+Récemment s'est tenu le [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni du beau monde des principaux acteurs du web, Google en tête, les vidéos sont dispos, je vous invite à aller en regarder quelques unes pour en apprendre plus sur le sujet.
 
 Le mois dernier est paru [une bonne introcution aux PWA sur le blog d'Ionic](http://blog.ionic.io/what-is-a-progressive-web-app/), un framework qui permet de développer des applications web mobile hybride.
 
