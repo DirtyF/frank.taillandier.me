@@ -1,9 +1,7 @@
 ---
-layout: post
 title: La stack JAM
 description: La combinaison JavaScript, APIs et Markup (JAM) décrit bien la plateforme technologique web actuelle.
 image: /assets/img/2016/05/a-new-stack.png
-comments: true
 ---
 
 Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), l'idée sous-jacente n'était pas tant de se focaliser les outils qui permettent de génèrer une version statique, que d'expliquer qu'il y avait désormais tout un contexte technologique à prendre en compte et que de les processus de travail actuels découlent de cet écosystéme.

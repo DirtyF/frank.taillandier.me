@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Comprendre le MVP (Produit Minimal Valable ) - et pourquoi je lui préfère un produit rapidement testable, utilisable et adorable
 description: Décidez de ce que sera la première version de votre produit, à travers une série d'exemples.
 image: http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg

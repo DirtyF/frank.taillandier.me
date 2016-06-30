@@ -1,9 +1,7 @@
 ---
-layout: post
 title: La mouvance statique
 description: Un plaidoyer en faveur des gestionnaires de contenu statique
 image: /assets/img/2016/03/jekyll-terminal.png
-comments: true
 ---
 
 En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort traffic. Leurs usages évoluent et de nouveaux services dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.

@@ -40,6 +40,15 @@ branch: gh-pages
 sass:
   style: compressed
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+
 include:
   - "_pages"
 

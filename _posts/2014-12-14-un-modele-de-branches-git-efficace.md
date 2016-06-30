@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Un modèle de branches Git efficace
 description: Traduction française de l'article de Vincent Driessen, à la base de Git Flow.
 image: http://nvie.com/img/git-model@2x.png

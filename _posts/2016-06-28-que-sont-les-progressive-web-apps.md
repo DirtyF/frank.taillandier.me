@@ -1,9 +1,7 @@
 ---
-layout: post
 title: Que sont les Progressive Web Apps&nbsp;?
 description: Grâce à un ensemble de spécifications standardisées, le Web mobile peut enfin rivaliser pour de bon avec le Web natif.
 date: "2016-06-28 16:50:05 +0200"
-comments: true
 ---
 
 Le Web mobile essaie de combler depuis quelques années son retard en terme d'expérience utilisateur par rapport au natif. Face à l'utilisation majoritaire du mobile pour accéder au Web pour une grande partie de la population mondiale et aux probèmes de connectivité que nous connaissons tous, il était important d'apporter une réponse à ces problèmes, c'est désormais chose faite avec les _Progressive Web Apps_.

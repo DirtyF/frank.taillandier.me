@@ -1,5 +1,4 @@
 ---
-layout: post
 title : Applications monolithiques contre microservices
 description: Comprendre les microservices et les architectures logicielles modernes
 image: https://technologyconversations.files.wordpress.com/2014/11/deployment_03_immutable_microservices_05.gif

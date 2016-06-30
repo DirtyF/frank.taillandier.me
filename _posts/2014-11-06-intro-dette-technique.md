@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction à la notion de dette technique
 description: "Mieux comprendre l'importance de l'impact des décisions techniques dans les projets informatiques"
 image: https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg
