@@ -2,21 +2,24 @@
 title: La mouvance statique
 description: Un plaidoyer en faveur des gestionnaires de contenu statique
 image: /assets/img/2016/03/jekyll-terminal.png
+last-modified: 2016-08-03 14:30:27 +0200
 ---
 
-En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort traffic. Leurs usages évoluent et de nouveaux services dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.
+En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort trafic. Leurs usages évoluent et de nouveaux services dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.
+
+Cette stack permet aux différents intervenants de se concentrer sur l'essentiel. Les rédacteurs peuvent ainsi rédiger leurs articles au format Markdown, un format texte très simple et très lisible, qui facilité la portabilité.
 
 L’article que vous êtes en train de lire est écrit dans une [application de bureau à l’interface minimale][1] spécialement conçue pour offrir une bonne expérience de rédaction. Comme le dit Golden Krishna dans son livre, [la meilleure interface c’est encore de ne pas en avoir][2].
 
-Le fichier texte est ensuite transformé en page HTML par un gestionnaire de contenu statique. Et aujourd’hui je vais essayer de vous donner de bonnes raisons de vous y intéresser, voire d'en adopter un à votre tour.
+Performance, sécurité, décentralisation, portabilité, autant d'excellentes raisons derrière l'adoption croissante de cette stack qui combine souvent [JavaScript, des APis et du Markup]({% post_url 2016-05-21-la-stack-jam %}).
+
+Essayons de comprendre ce qui pourrait passer pour un retour en arrière aux yeux de certains, alors qu’il faut simplement y voir une évolution logique d’un processus de publication parfaitement adapté à notre manière asynchrone de travailler et aux ressources technologiques actuelles.
 
 <!-- excerpt -->
 
-Essayons tout d’abord de comprendre ce qui pourrait passer pour un retour en arrière aux yeux de certains, alors qu’il faut simplement y voir une évolution logique d’un processus de publication parfaitement adapté à notre manière asynchrone de travailler et aux ressources technologiques actuelles.
-
 ## La fatigue du dynamique
 
-Encore aujourd'hui les CMS dynamiques, Wordpress et Drupal en tête, font tourner la plupart des sites web de la planète. Ces logiciels sont alimentés en temps réel par des bases de données et demandent un certain niveau de maintenance ne serait-ce que pour garantir la sécurité des contenus et assurer de bonnes performances aux utilisateurs. Quand l’interface d’administration est hébergée avec le site web, cela implique que l’expérience du contributeur est fonction des performances du site. Je ne souhaite à personne de ne plus avoir accès à son interface d’administration en ligne, pour cause de fort trafic.
+La plupart des CMS datent de l'ère LAMP et ont vu le jour au début des années 2000, encore aujourd'hui les CMS dynamiques, Wordpress et Drupal en tête, font tourner une bonne partie des sites web de la planète. Ces logiciels sont alimentés en temps réel par des bases de données et demandent un certain niveau de maintenance ne serait-ce que pour garantir la sécurité des contenus et assurer de bonnes performances aux utilisateurs. L’interface d’administration est hébergée avec le site web, cela implique que l’expérience du contributeur est fonction des performances du site. Je ne souhaite à personne de ne plus avoir accès à son interface d’administration en ligne, pour cause de fort trafic.
 
 Malheureusement la majorité de ces sites ne sont pas bien maintenus et sont donc [vulnérables][3] à de potentielles attaques. Ils sont souvent inutilement lents car leur contenu n’est pas mis à jour en permanence, mais à chaque clic, c’est une requête vers la base de données qui est déclenchée pour servir le même contenu aux utilisateurs.
 
@@ -24,39 +27,50 @@ Les plus experts argumenteront qu’on peut toujours mettre en place des straté
 
 > There are only two hard things in Computer Science: cache invalidation and naming things — Phil Karlton
 
-Ces problèmes sont déjà beaucoup plus simples à résoudre si on se contente de servir du contenu statique.
+Ces problèmes sont déjà beaucoup plus simples à résoudre si on se contente de servir du contenu dit _statique_ - rassurez-vous on sait très bien faire du dynamique côté client en JavaScript de nos jours.
 
-Revenir à des choses simples et performantes, c'est la philosophie du gestionnaire de contenu statique. Beaucoup plus rapides par défaut, plus sécurisés et donc moins onéreux. Ils connaissent une popularité grandissante de par leur éfficacité et la facilité avec laquelle il est possible de nos jours de faire du déploiement continu, à savoir plusieurs dizaines de mises en production par jour. Cette philosophie qui a toujours animé la communauté open-source anime aujourd’hui celle des startups et des organisation agiles.
+Revenir à des choses simples et performantes, c'est la philosophie du générateurs de site statique. Déployés sur des CDNs à moindre coût, ils sont plus rapides, plus sécurisés et donc beaucoup moins onéreux. Les sites statiques connaissent une popularité grandissante de par leur efficacité et la facilité avec laquelle il est possible de nos jours de faire du déploiement continu, à savoir plusieurs dizaines de mises en production par jour.
 
-> Release early, Release Often — Eric S. Raymond, la Cathédrale et le Bazaar, 1999.
+Ils sont fidèles en cela à la philosophie qui a toujours animé la communauté open-source et qui anime aujourd’hui les startups et les organisation agiles.
 
-Et si vous n’êtes pas capable dans le monde d’aujourd’hui de déployer souvent, vous avez sûrement des problèmes d’organisation voire de [dette technique][5].
+> Release early, release often — Eric S. Raymond, la Cathédrale et le Bazaar, 1999.
+
+Et si vous n’êtes pas capables de déployer sans crainte en permanence, vous avez sûrement contracté une bonne [dette technique][5].
 
 ## La simplicité du statique
 
-L'engouement pour le statique est tel que des blogueurs comme le webdesigner Dan Cederholm, fondateur de Dribbble, [confessent][6] le plaisir de revenir à de l’hypertexte. Fort logiquement [le blog de Dribbble][7] est lui aussi géré en statique.
+Des blogueurs comme le webdesigner Dan Cederholm, fondateur de Dribbble, [confessent][6] le plaisir de revenir à de l’hypertexte. Fort logiquement [le blog de Dribbble][7] est lui aussi géré en statique. Si des webdesigners l'adoptent, c'est que la courbe d'apprentissage est très rapide quand vous faites du développement web front-end. Vous ressentez ce plaisir de reprendre la main sur vos contenus et de les organiser comme bon vous semble, sans être contraints par les choix imposés par un CMS.
 
-Pour la petite histoire, [Ben Balter][8] était un ancien contributeur Wordpress, quand il a découvert Jekyll. Il a eu une révélation et s’est empressé de développer un outil de [migration de Wordpress à Jekyll][9]. Ben travaille aujourd’hui pour Github, où il est chargé de [sensibiliser les gouvernements à l’open-source][10] et c’est un des principaux contributeurs à Jekyll et Github Pages.
+Pour la petite histoire, [Ben Balter][8] était un ancien contributeur Wordpress, quand il a découvert Jekyll. Il a eu une révélation et s’est empressé de développer un outil de [migration de Wordpress à Jekyll][9]. Ben travaille aujourd’hui pour Github, où il est chargé de [sensibiliser les gouvernements à l’open-source][10] et c’est un des principaux contributeurs à Jekyll et Github Pages. Il est vraiment tombé amoureux de cette stack.
 
-On recense à ce jour plus de [400 gestionnaires de contenu statique][11], écrits dans différents langages et différents formats pour concevoir les modèles de page, certains entièrement basés sur JavaScript et les standards web. Il y en a bien un qui vous plaira dans le lot. Jekyll reste le plus populaire, il bénéficie d'une large communauté et d'un riche écosystème.
+On recense à ce jour plus de [430 gestionnaires de contenu statique][11], écrits dans différents langages et différents formats pour concevoir les modèles de page, certains entièrement basés sur JavaScript et les standards web. Il y en a bien un qui sera le bon outil pour vous. Tout dépend de votre besoin, de votre stack actuelle et des compétences de votre équipe.
 
-Lorsqu'en 2008 Tom Preston-Werner, le cofondateur de Github, explique [comment bloguer comme un hacker][12], il pose les bases d'une architecture volontairement simple qui place le format des contenus, le versionnement, le déploiement, la sécurité et la performance au cœur de la philosophie de son logiciel.
+Jekyll, écrit en Ruby par un cofondateur de GitHub, reste le plus populaire, car il bénéficie d'une large communauté et d'un riche écosystème. Lorsqu'en 2008 Tom Preston-Werner explique [comment bloguer comme un hacker][12], il pose les bases d'une architecture volontairement simple qui place le format des contenus, le versionnement, le déploiement, la sécurité et la performance au cœur de la philosophie de son logiciel.
 
-Dans Jekyll[^1], c’est [Liquid][15], un langage conçu par Shopify, qui permet d'insérer des données et de la logique dans les modèles de pages. Sa [syntaxe][16] composée d'une douzaine de balises et d'une série de filtres très utiles pour manipuler les données est très accessible aux designers web.
+Dans Jekyll[^1] ou [Middelman](https://middlemanapp.com/), c’est [Liquid][15], un langage
+de templating conçu par Shopify, qui permet d'insérer des données et de la logique dans
+les modèles de pages. Sa [syntaxe][16] composée d'une douzaine de balises et d'une série
+de filtres très utiles pour manipuler les données est très accessible aux designers web.
+Si vous préférez utiliser Swig, Handlebars ou React, regardez plutôt du côté d'[Hexo](https://hexo.io),
+d'[Assemble](http://assemble.io/), de [Metalsmith](http://www.metalsmith.io/) ou de [Gatsby](https://github.com/gatsbyjs/gatsby).
 
-Comme dans d'autres frameworks comme Rails, Ember ou Meteor, les conventions priment sur la configuration[^2]. Vous avez simplement à respecter quelques conventions, comme stocker vos articles dans un dossier `_posts` ou vos données dans un dossier `_data`.
+Comme dans des frameworks comme Rails, Ember ou Meteor, les conventions priment sur la configuration[^2]. Vous devrez souvent respecter quelques conventions, comme stocker vos articles dans un dossier `_posts` ou vos données dans un dossier `_data`.
 
-Vous pouvez apprendre à votre rythme  commencer avec des fichiers HTML et CSS standards, puis transformer vos fichiers HTML en modèles, les séparer en composants réutilisables et en extraire petit à petit les données.
+Ce qui est chouette, c'est que vous pouvez apprendre à votre rythme et commencer avec des fichiers HTML et CSS standards puis transformer vos fichiers HTML en modèles, les séparer en composants réutilisables et en extraire petit à petit les données.
 
 Vous pouvez aussi créer facilement [vos propres structures de données][18] et définir autant de [variables dont vous avez besoin via les entêtes Front Matter au format YAML][19].
 
-Il n’y a pas d'interface graphique, même si nous allons voir qu’elles commencent à arriver. L’idée est de rester focalisé sur le contenu. Une commande pour générer le site, une autre pour déployer et c’est reparti pour un tour.
+Point important, à l'inverse des flat CMS comme [Kirby](https://getkirby.com/) ou [Grav](https://getgrav.org/), il n'y a pas d'interface graphique fournie par défaut, même si elles commencent à arriver via l'ajout de plugins ou en faisant appel à des services dédiés.
+
+{% include figure.html url="https://d1qmdf3vop2l07.cloudfront.net/nice-tank.cloudvent.net/compressed/03507bd3b640623f942dfb5de0de99c1.png" description="L'éditeur de contenu de Cloudcannon" %}
+
+Fidèle à la philosophie UNIX, les générateurs se contentent de faire une seule chose à la fois : transformer des contenus en site statique. C'est surement pour cette raison qu'il y en a autant. Certains vont plus loin que d'autres en intégrant notamment des commandes pour le déploiement. Comme dans les CMS l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres plugins.
 
 {% include figure.html url="/assets/img/2016/03/jekyll-terminal.png" description="Jekyll en action dans le terminal" %}
 
-Ce même principe a été repris dans la plupart des gestionnaires de contenu statiques plus récents comme [Hugo][20], écris en Go et impressionnant par ses performances.
+Plus vous aurez de fichiers à générer, plus l'étape de _build_ prendra du temps. Il vous faudra donc faire en sorte de limiter ce temps au minimum si vous souhaitez que vos mises en production ne prennent que quelques secondes. Si des gestionnaires de contenu statiques plus récents comme [Hugo][20] écrit en Go sont très performants, il sera parfois plus judicieux de [découper vos contenus en plusieurs parties et ne générer que le strict nécessaire](https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/).
 
-Fidèle à la philosophie Unix, ces logiciels se contentent de transformer des contenus au format texte en site statique, l'enrichissement en fonctionnalités se fera à l’aide des extensions développées par la communauté.
+Le gros avantage de cette stack c'est de pouvoir l'adapter à vos besoins et comme avec des LEGO™ vous pouvez créer votre propre système de publication.
 
 ## Des contenus accessibles et réutilisables
 
@@ -66,7 +80,7 @@ Il n'y a pas que les développeurs et les designers web qui trouvent cette appro
 
 Des formats textes comme [Markdown][22], au balisage minimal offrent à la fois une bonne expérience pour la rédaction et peuvent être ensuite facilement transformés en HTML, mis en forme *via* CSS et enrichis *via* JavaScript.
 
-Le format Markdown est de plus en plus populaire chez les rédacteurs et a été adopté comme format par défaut par des logiciels comme [Ghost][23], un logiciel de blog écrit en NodeJS qui se focalise lui aussi sur l’expérience de rédaction de contenu.
+Le format Markdown est de plus en plus populaire chez les rédacteurs et [les éditeurs](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) et a été adopté comme format par défaut par des logiciels comme [Ghost][23], un logiciel de blog écrit en NodeJS qui se focalise lui aussi sur l’expérience de rédaction de contenu.
 
 Beaucoup d'applications comme [MacDown][24], [IA Writer][25] ou [Ulysses][26] sous Mac, *insérez votre application open-source préférée ici* ou de services en ligne permettent aujourd'hui d‘[éditer du Markdown][27] de manière simple.
 
@@ -82,36 +96,43 @@ Si le besoin de départ était de simplement versionner et servir son blog sous 
 
 En 2012, c'est [l'équipe de Barack Obama qui choisit Jekyll][30], pour recueillir les dons pour le financement de sa campagne. Les objectifs sont dépassés, le site est **60% plus rapide** et grâce à une démarche UX agile et au déploiement continu, l'objectif de départ est dépassé, et c'est 250 millions de dollars qui seront récoltés.
 
-Le trio [GitHub Pages, Jekyll et CDN][31] fait des merveilles et le gouvernement américain renouvelle l'expérience en 2013 pour le site [Healthcare.gov][32].
-Un code source ouvert et accessible, des données accessibles à d'autres services, le geste est fort de la part d'une administration publique. Si la France pouvait s’inspirer de cette démarche ouverte…
+Un code source ouvert, des données accessibles à d'autres services, le geste est fort de la part d'une administration publique.
 
-Afin de faciliter les contributions, et ajouter une couche d’abstraction du versionnement pour les rédacteurs, l'équipe développe une version améliorée de [prose.io][33], un éditeur de Markdown qui s'interface avec votre dépôt Github.
+En 2016, les leçons ont bien été apprises et on ne s'étonne plus de voir que le site d'[Hillary Clinton](https://www.hillaryclinton.com/) soit servi en statique. Il existe même un service dédié pour [publier les sites gouvernementaux américains en statique](https://federalist.18f.gov/). Si la France pouvait s’inspirer de cette démarche ouverte…
+
+De son côté, le trio [GitHub Pages, Jekyll et CDN][31] continue d'être très utilisé que ce soit par les administrations, des sociétés privées ou des associations.
+
+Afin de faciliter les contributions et ajouter une couche d’abstraction du versionnement pour les rédacteurs, on peut utiliser le service [prose.io][33], qui propose une interface graphique pour éditer des fichiers Markdown reliée avec votre dépôt Github.
 
 ## Un workflow naturel
 
 > Jekyll transitions smoothly between prototyping, content authoring, and deployment tasks — [Young Hahn][34]
 
-En développant ses sites, l'équipe s'aperçoit que le gestionnaire de contenu statique peut-être utilisé dès la phase de prototypage. Les contenus peuvent être ajoutés en parallèle, et la mise en production en devient presque anecdotique.
+Le gestionnaire de contenu statique peut être utilisé dès la phase de prototypage, les contenus peuvent être ajoutés au fur et à mesure et après avoir itéré jusqu'à parvenir à un premier résultat assez satisfaisant, le déploiement en production en devient anecdotique.
 
-La documentation et le [styleguide][35] peuvent également être générés lors de l’étape de *build*, ce qui assure qu'ils soient tout le temps à jour.
+La documentation et le [styleguide][35] peuvent également être générés lors de l’étape de *build*, ce qui assure qu'ils soient tout le temps à jour. Grâce à Git, les développeurs, les designers et les rédacteurs partagent un processus de travail commun.
 
 > Unless it’s part of your build, your styleguide is just more documentation to maintain — [Phil Hawksworth][36]
 
-Aujourd'hui quand vous êtes développeur, vous consultez en permanence des sites de documentation servis en statique : [Bootstrap][37], [Foundation][38], [NodeJS][39] ou [Google Web fundamentals][40] pour n'en citer que quelques uns.
+## Des services gratuits
 
-Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jour le service [GitHub Pages héberge près d'un million de sites statiques][41], qui sont tous stockés sur des CDN. Le service étant gratuit pour les projets open-source, il serait bête de s'en priver. C’est d’ailleurs ce que nous avons fait pour le site de [Sud Web][42].
+Tous les jours les webdesigners et les développeurs front-end du monde entier consultent des sites de documentation servis en statique : [Bootstrap][37], [Foundation][38], [NodeJS][39] ou [Google Web fundamentals][40] pour n'en citer que quelques uns.
+
+Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jour le service [GitHub Pages héberge près d'un million de sites statiques][41], qui sont tous stockés sur des CDN. Le service étant gratuit pour les projets open-source, il serait dommage de s'en priver. C’est d’ailleurs ce que nous avons fait pour le site de [Sud Web][42]. D'autres services similaires ont depuis vu le jour comme [Gitlab Pages](https://pages.gitlab.io/) ou [Netlify](https://www.netlify.com/pricing), qui proposent des formules gratuites pour les projets en open-source.
+
+Cela ne vous coûte donc rien d'essayer !
 
 ## Un web de services
 
-Les gestionnaires de contenu statique ne font qu'une chose et le font bien et si vous avez besoin de fonctionnalités supplémentaires comme du paiement en ligne, vous passez par des services tiers comme en dynamique. On s'éloigne du monolithique pour se rapprocher de la philosophie des [microservices][43], votre application interagit avec plusieurs services, chacun est interchangeable et vous permet de choisir le plus adapté à vos besoins.
+Les générateurs de site statique ne font qu'une chose et le font bien et si vous avez besoin de fonctionnalités supplémentaires comme du paiement en ligne, vous passez par des services tiers comme en dynamique. On s'éloigne du monolithique pour se rapprocher de la philosophie des [microservices][43], votre application interagit avec plusieurs services, chacun est interchangeable et vous permet de choisir le plus adapté à vos besoins.
 
-Comme Github [Pages][44] ou [prose.io][45], de nouveaux services permettent de faciliter le déploiement ou d'améliorer l'expérience utilisateur :
+Comme [Github Pages][44] ou [prose.io][45], de nouveaux services permettent de faciliter le déploiement ou d'améliorer l'expérience utilisateur :
 
 * [Cloudcannon][46] propose une interface graphique pour gérer Jekyll et ses contenus. Parmi ses clients, Netflix l'utilise pour présenter la [diversité d'appareils][47] avec lesquels il est possible de consulter leurs contenus.
 
-* [Contenful][48] propose une API pour gérer et modeler ses contenus et uniquement les contenus pour ensuite pouvoir les diffuser sur différentes plateformes. Vos contenus peuvent être récupérés de différents endroits et assemblés avant d'être importés dans Jekyll, [Middleman][49] ou [roots][50] par exemple.
+* [Contenful][48] est un service de modélisation et d'édition de contenus et propose ensuite des APIs pouvoir les diffuser sur différentes plateformes. Vos contenus peuvent être récupérés de différents endroits et assemblés avant d'être importés dans Jekyll, [Middleman][49] ou [roots][50] par exemple.
 
-* [Netlify][51] se propose d'optimiser la performance et l'hébergement de vos sites statiques sur leurs CDN et d'automatiser le déploiement continu en y connectant directement votre dépôt Github ou Bitbucket. NodeJS est dispo par défaut, à vous les web apps performantes.
+* [Netlify][51] se propose d'optimiser la performance et l'hébergement de vos sites statiques sur leurs CDN et d'automatiser vos assets et le déploiement en y connectant directement votre dépôt Github ou Bitbucket. NodeJS est dispo par défaut, à vous les web apps performantes !
 
 * [Eager.io][52] se propose de faciliter l'intégration [de services tiers][53] à votre site statique.
 
@@ -129,19 +150,23 @@ Il existe en effet des extensions pour générer du statique à partir de Drupal
 
 Penser statique par défaut, n'est pas du tout une mode destinée à rester confidentielle parmi les hackers, c'est une réponse simple à des problématiques complexes. Gardez en tête que 78% des sites sous Wordpress souffrent de vulnérabilités et que quand une faille de sécurité impacte Drupal, des millions de sites sont concernés.
 
-C’est donc une solution que vous devriez sérieusement considérer si vous souhaiter réduire vos coûts d'infrastructure. **Sur de très gros sites, le coût peut être divisé par 15**. Le statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou webapp moderne en JavaScript. L'écosystème autour est en plein essor et va fort logiquement continuer de se développer.
+C’est donc une solution que vous devriez sérieusement considérer si vous souhaitez réduire vos coûts d'infrastructure sur des sites à fort trafic. **Sur des sites très fréquentés le coût peut être divisé par 15**.
 
-Une des priorité est maintenant de rendre ces outils encore plus accessibles aux rédacteurs. Github continue de soutenir le développement de Jekyll et vient de lancer un appel afin de [proposer une interface utilisateur pour la rédaction et l’administration][58] à l'instar de ce que propose Cloudcannon. Parallèlement, il y a une vraie volonté de la part de la communauté d‘[augmenter le nombre de contributeurs au projet][59] car il y a encore beaucoup à faire. Quand on voit les progrès réalisés depuis deux ans, c’est très encourageant pour la suite.
+Le statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou application web ([progressive]({% post_url 2016-06-28-que-sont-les-progressive-web-apps %})) en JavaScript, en revanche il n'est pas adapté pour des sites où le contenu est majoritairement généré par les utilisateurs.
 
-Grâce aux avancées de HTML5 et l'accès à des plateformes d'hébergement performantes, le statique a de beaux jours devant lui .
+L'écosystème autour est en plein essor et va fort logiquement continuer de se développer. Une des priorité est maintenant de rendre ces outils encore plus accessibles aux rédacteurs. Github continue de soutenir le développement de Jekyll et développe actuellemnt [une interface utilisateur pour la rédaction et l’administration][58] à l'instar de ce que propose différentes plateformes de _Content as a Service_.
 
-J’espère que cet article vous réfléchira à deux fois avant de partir les yeux fermés sur du dynamique pour votre prochain projet. Vous connaissez maintenant les nouveaux paradigmes qui laissent présager une [ère post-CMS][60] comme certains l’appellent déjà.
+Vous l'aurez compris, la mouvance statique ne fait que commencer et l'engouement devrait continuer de croître dans les années qui viennent.
 
-Vous pouvez aussi [consulter la présentation associée][61] à cet article si vous tenez vraiment à voir des captures d’écran des sites mentionnés.
+J’espère surtout que cet article vous fera réfléchir à deux fois avant de partir les yeux fermés sur un bon vieux gros CMS dynamique pour votre prochain projet. Vous connaissez maintenant les nouveaux paradigmes qui laissent présager une [ère post-CMS][60] comme certains l’appellent déjà.
 
-<script async class="speakerdeck-embed" data-id="03e3e66c6d2845158240a3aa50f50b11" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+Cet article a été rédigé suite à une [présentation][61] faite lors d'un apéroweb dont voici les slides.
 
-<p class="message">Je profite de ce billet pour vous annoncer la création d'un groupe francophone des utilisateurs de Jekyll. Je vous invite à suivre <a href="https://twitter.com/jekyll_fr">jekyll_fr sur Twitter</a> où à venir partager vos retours d'expérience sur notre <a href="https://jekyll-fr.herokuapp.com/">channel Slack</a>.</p>
+<p><script async class="speakerdeck-embed" data-id="03e3e66c6d2845158240a3aa50f50b11" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+
+Une [prochaine présentation](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php) aura lieu à Paris-Web 2016 avec l'ami Bertrand Keller.
+
+<a href="http://jekyll-fr.org/">Jekyll-fr</a> est le groupe francophone des utilisateurs de Jekyll. Nous publions des liens d'<a href="https://twitter.com/jekyll_fr">actualité autour de Jekyll sur Twitter</a>. Nous échangeons et nous entraidons sur notre <a href="https://jekyll-fr.herokuapp.com/">channel Slack</a>.
 
 ----
 
@@ -208,8 +233,7 @@ Vous pouvez aussi [consulter la présentation associée][61] à cet article si v
 [55]:	https://youtu.be/BMve1OCKj6M?t=39m55s
 [56]:	http://jekyllconf.com/
 [57]:	https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server
-[58]:	https://github.com/github/mentorships/issues/107
-[59]:	https://jekyllrb.com/news/2016/03/10/making-it-easier-to-contribute-to-jekyll/
+[58]:	https://github.com/jekyll/jekyll-admin
 [60]:	http://www.meetup.com/fr-FR/The-New-Dynamic/
 [61]:	https://speakerdeck.com/dirtyf/keep-it-static-stupid
 
