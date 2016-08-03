@@ -1,10 +1,19 @@
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', '{{site.analytics.google.tracking_id}}', 'auto');
-ga('require', 'autotrack', {
+ga('require', 'eventTracker', {
   attributePrefix: 'data-ga-'
+});
+ga('require', 'outboundLinkTracker');
+ga('require', 'cleanUrlTracker', {
+  stripQuery: true
+});
+ga('require', 'pageVisibilityTracker', {
+  fieldsObj: {
+    nonInteraction: null
+  }
 });
 ga('send', 'pageview');
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script async src='{{ site.baseurl}}/assets/js/autotrack.js'></script>
