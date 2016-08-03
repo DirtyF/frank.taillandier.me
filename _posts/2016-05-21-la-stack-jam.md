@@ -7,7 +7,7 @@ image: /assets/img/2016/05/a-new-stack.png
 Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), l'idée sous-jacente n'était pas tant de se focaliser les outils qui permettent de génèrer une version statique, que d'expliquer qu'il y avait désormais tout un contexte technologique à prendre en compte et que de les processus de travail actuels découlent de cet écosystéme.
 
 Lors de la dernière _Smashing Conference_ à San Francisco, [Mathias Biilmann](http://mathias-biilmann.net/)
-le fondateur de Netlify, un service de déploiement de sites injustement désignés comme *statiques* a présenté ce qui pour lui représente la _stack_ front-end du moment, à savoir l’association de différentes technologies qui permettent de bâtir des sites et des applications web entièrement côté client en se reposant sur JavaScript et des APIs. C'est ce qu'il a choisi d'appeler la *JAM stack* (qu'on pourrait traduire par la suite J.A.M. mais je préfère conserver l'expression anglaise).
+le fondateur de Netlify, un service de déploiement de sites injustement désignés comme *statiques* a présenté ce qui pour lui représente la _stack_ front-end du moment, à savoir l’association de différentes technologies qui permettent de bâtir des sites et des applications web entièrement côté client en se reposant sur JavaScript, des APIs et du Markup (Markdown, YAML, JSON), ce que Matthias appelle la *JAM stack*.
 
 <!-- excerpt -->
 
