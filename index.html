@@ -20,7 +20,7 @@ permalink: /
       {% endif %}
     </span>
     {% assign reading_time = post.content | number_of_words | divided_by:180 %}
-    <span class="post-read-time" title="Temps de lecture estimé à {{ reading_time }} minutes">&middot;  <svg class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
+    <span class="post-read-time" title="Temps de lecture estimé à {{ reading_time }} minutes">&middot;  <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
       {% if reading_time < 2 %}
         1 minute
       {% else %}
