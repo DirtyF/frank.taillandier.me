@@ -1,5 +1,5 @@
 ---
-title: L'argumentaire commercial pour les Progressive Web Apps
+title: L’argumentaire commercial pour les Progressive Web Apps
 description: Pourquoi les entreprises devraient développer des Progressive Web Apps dès maintenant.
 image: https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/app-store.jpg
 date: "2016-08-09 18:47:07 +0200"
