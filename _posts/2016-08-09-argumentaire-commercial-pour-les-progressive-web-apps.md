@@ -1,11 +1,11 @@
 ---
 title: L'argumentaire commercial pour les Progressive Web Apps
-description: Pourquoi les entreprises devraient développer des Progressive Web Apps dès maintnant.
+description: Pourquoi les entreprises devraient développer des Progressive Web Apps dès maintenant.
 image: https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/app-store.jpg
-date: 2016-08-09 18:47:07 +0200
+date: "2016-08-09 18:47:07 +0200"
 ---
 
-Vous savez peut-être [ce que sont les applications web progressives](/2016/06/28/que-sont-les-progressive-web-apps/), mais outre les diverses techniques mises en œuvre pour délivrer une meilleure expérience utilisateur aux personnes qui consultent votre site web sur mobile, c'est également un enjeu commercial de taille qui va boulverser le secteur dans ~~les années~~ les mois qui viennent. Et même si vous doutez à juste titre de la maturité de ces technologies, vous verrez à la lecture de cet article qu'il ne faudra pas trop tarder à améliorer votre site web si vous voulez rester dans la course.
+Vous savez peut-être [ce que sont les applications web progressives](/2016/06/28/que-sont-les-progressive-web-apps/), mais outre les diverses techniques mises en œuvre pour délivrer une meilleure expérience utilisateur aux personnes qui consultent votre site web sur mobile, c'est également un enjeu commercial de taille qui va bouleverser le secteur dans ~~les années~~ les mois qui viennent. Et même si vous doutez à juste titre de la maturité de ces technologies, vous verrez à la lecture de cet article qu'il ne faudra pas trop tarder à améliorer votre site web si vous voulez rester dans la course.
 
 <!-- excerpt -->
 
@@ -28,7 +28,7 @@ Maintenant que ces fonctionnalités sont disponibles en utilisant les technologi
 
 Les fabricants de navigateurs ne veulent pas faire la promotion des Progressive Web Apps juste parce que ce sont les technologies les plus récentes et les plus géniales. Ils veulent les promouvoir car les Progressive Web Apps représentent les meilleures pratiques pour les sites web et les applications.
 
-La plus grande motivation actuelle est que les navigateurs [demanderont aux visiteurs](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) d'[installer votre Progressive Web App](https://dev.opera.com/blog/web-app-install-banners/) lors de leur deuxième visite[^3]. Ce critère [changera](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) dans le futur quand les navigateurs comprendont mieux quand les gens installent des Progressive Web Apps.
+La plus grande motivation actuelle est que les navigateurs [demanderont aux visiteurs](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) d'[installer votre Progressive Web App](https://dev.opera.com/blog/web-app-install-banners/) lors de leur deuxième visite[^3]. Ce critère [changera](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) dans le futur quand les navigateurs comprendront mieux quand les gens installent des Progressive Web Apps.
 
 {% include figure.html url="https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/add-to-home-screen.gif" description="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de <a href=\"https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\">Google Developers</a>" %}
 
@@ -38,7 +38,7 @@ Et il semble inévitable que les moteurs de recherche réservent un traitement s
 
 ## Quels sont les problèmes résolus par les Progressive Web Apps ?
 
-Les Progressive Web Apps ne font pas qu'apporter des fonctionnalités issues du natif au web. Elles réglent de vrais problèmes auxquelles sont confrontés les entreprises. Des problèmes qui ont amené Recode à déclarer récemment que [le boom des apps est terminé](http://www.recode.net/2016/6/8/11883518/app-boom-over-snapchat-uber).
+Les Progressive Web Apps ne font pas qu'apporter des fonctionnalités issues du natif au web. Elles règlent de vrais problèmes auxquelles sont confrontés les entreprises. Des problèmes qui ont amené Recode à déclarer récemment que [le boom des apps est terminé](http://www.recode.net/2016/6/8/11883518/app-boom-over-snapchat-uber).
 
 ### La découverte d'application
 
@@ -57,7 +57,7 @@ Dan Frommer, [résumant le rapport](http://qz.com/253618/most-smartphone-users-d
 Bien que ce soit encore un peu tôt, les Progressive Web Apps sont conçues pour contourner cet épuisement du téléchargement d' applications pour les raisons suivantes :
 
 - Les gens découvrent les applications naturellement via des liens sur les réseaux sociaux ou en surfant sur le web.
-- Les invitations à l'installation d'application n'apparaissent que lorsque l'application web répond à un critère défini et que la personne a montré un intéret à travers des visites répétées.
+- Les invitations à l'installation d'application n'apparaissent que lorsque l'application web répond à un critère défini et que la personne a montré un intérêt à travers des visites répétées.
 - L'installation d'application est instantanée. Le gros du travail est fait en arrière-plan la première fois que la personne visite un site.
 - Les applications sont de taille bien plus légères car elles s'appuient sur les possibilités du navigateur.
 - Les notifications Push, le mode déconnecté et toutes les autres fonctionnalités continuent de marcher même si la personne n'installe jamais l'application.
@@ -72,7 +72,7 @@ Andrew Chen a travaillé avec la société d'intelligence mobile Quettra pour [a
 
 > Si on se base sur les données de Quettra, on peut voir que l'application moyenne perd 77% de ces U.A.Q (Utilisateurs Actifs Quotidien) dans les 3 premiers jours après l'installation. En l'espace de 30 jours, ella a perdu 90% de ces utilisateurs actifs. Après 90 jours, c'est plus de 95%.
 
-Les notifications poussées aident à promouvoir l'engagement des utilisateurs et incitent les gens à revenir à l'application. [United eXtra Electronic](https://developers.google.com/web/showcase/2016/extra) et [Jumia](https://developers.google.com/web/showcase/2016/jumia) ont toutes deux vu des augmentations significatives dans la concersion et l'engagement après avoir implémenté les notifications web push.
+Les notifications poussées aident à promouvoir l'engagement des utilisateurs et incitent les gens à revenir à l'application. [United eXtra Electronic](https://developers.google.com/web/showcase/2016/extra) et [Jumia](https://developers.google.com/web/showcase/2016/jumia) ont toutes deux vu des augmentations significatives dans la conversion et l'engagement après avoir implémenté les notifications web push.
 
 Les notifications Push ne sont pas la panacée pour garantir la fidélité à une application. Andrew Chen met en garde contre les notifications de SPAM :
 
@@ -88,13 +88,13 @@ Les applications natives ne peuvent être utilisées que sur la plateforme pour 
 
 Les Progressive Web Apps fonctionneront partout sur le web, qu'elles soient installées ou pas. Elles fonctionneront même sur des plateformes qui ne supportent pas encore toutes les fonctionnalités des Progressive Web Apps de la même manière que les vieux ordinateurs peuvent accéder aux sites web les plus récents - avec quelques technologies en moins.
 
-### La maitenance de l'application
+### La maintenance de l'application
 
-La maintenance d'applications pour de multipes plateformes est coûteuse. Dans le futur, les Progressive Web Apps pourraient réduire ce coût en proposant une application unique qui marche sur n'importe quelle plateforme.
+La maintenance d'applications pour de multiples plateformes est coûteuse. Dans le futur, les Progressive Web Apps pourraient réduire ce coût en proposant une application unique qui marche sur n'importe quelle plateforme.
 
 ### La liberté du modèle économique
 
-Quand vous n'êtes pas sur l'App Store, vous n'êtes pas limités par les régles de l'App Store et vous n'avez pas à reverser 30% de vos ventes à l'App Store.
+Quand vous n'êtes pas sur l'App Store, vous n'êtes pas limités par les règles de l'App Store et vous n'avez pas à reverser 30% de vos ventes à l'App Store.
 
 {% include figure.html url="https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/app-store.jpg" description="Photo de <a href=\"https://www.pexels.com/photo/apple-office-internet-ipad-38544/\">Pixaboy</a>" %}
 
@@ -115,7 +115,7 @@ Les Progressive Web Apps partagent cette même philosophie. Les appareils qui ne
 
 C'est pour cette raison qu'AliExpress a vu [une augmentation de 82% sur iOS](https://developers.google.com/web/showcase/2016/aliexpress) après avoir développé une Progressive Web App en dépit du fait qu'iOS ne supporte pas encore les Progressive Web Apps.
 
-Les mesures que vous prenez pour développer une Progressive Web App bénéficient à toute personne qui visite votre site indépendament de l'appareil qu'elle choisit d'utiliser.
+Les mesures que vous prenez pour développer une Progressive Web App bénéficient à toute personne qui visite votre site indépendamment de l'appareil qu'elle choisit d'utiliser.
 
 ## Pourquoi développer une Progressive Web App aujourd'hui ?
 
@@ -126,13 +126,13 @@ Si les Progressive Web Apps sont toutes récentes et pas encore supportées part
 Google a publié des études de cas de sociétés qui ont adopté les Progressive Web Apps et leurs résultats sont encourageants.
 
 - [AliExpress](https://developers.google.com/web/showcase/2016/aliexpress) a augmenté ses taux de conversion de nouveaux utilisateurs de 104%.
-- [United eXtra Electronics](https://developers.google.com/web/showcase/2016/extra) a constaté une augmention de 400% du réengagement et 100% de vente en plus, de la part de personnes arrivées via les notifications web push.
+- [United eXtra Electronics](https://developers.google.com/web/showcase/2016/extra) a constaté une augmentation de 400% du réengagement et 100% de vente en plus, de la part de personnes arrivées via les notifications web push.
 - [5miles](https://developers.google.com/web/showcase/2016/5miles) a fait baisser son taux de rebond de 50% et a augmenté ses conversions de 30%.
 - [Konga](https://developers.google.com/web/showcase/2016/konga) utilise 92% de données en moins pour le chargement initial comparativement à leur application native.
 
 Le Washington Post a développé une Progressive Web App qui s'installe en arrière-plan pendant que les personnes regardent ses pages AMP[^5] dans les résultats de recherche de Google. Le Washington Post a vu une augmentation de 12% de visites en provenance des résultats de recherche de Google grâce à AMP.
 
-Il reste encore à voir comment la Progressive Web App du Washington Post se comportera - ils n'ont lancé la version beta qu'en Mai - mais les gains en performance sont impressionants. Ils sont passés d'articles qui mettaient 8 secondes à se charger en 2013 à 80 millisecondes dans la Progressive Web App.
+Il reste encore à voir comment la Progressive Web App du Washington Post se comportera - ils n'ont lancé la version beta qu'en Mai - mais les gains en performance sont impressionnants. Ils sont passés d'articles qui mettaient 8 secondes à se charger en 2013 à 80 millisecondes dans la Progressive Web App.
 
 ### Les améliorations progressives que vous devez faire de toute façon
 
@@ -160,7 +160,7 @@ Les Progressive Web Apps sont encore un terrain vierge. C'est maintenant qu'il f
 
 [^1]: En vérité, la plupart de ces fonctionnalités existaient sur le web dans le passé, mais elle n'étaient pas aussi riches et si largement distribuées.
 
-[^2]: La [définition complète des Progressive Web Apps](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/) de Frances Berriman et Alex Russell comporte neuf caracteristiques. J'ai sélectionné les quatre qui à mon sens intéreseront le plus les entreprises, mais elles sont toutes importantes et méritent qu'on les lise.
+[^2]: La [définition complète des Progressive Web Apps](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/) de Frances Berriman et Alex Russell comporte neuf caractéristiques. J'ai sélectionné les quatre qui à mon sens intéresseront le plus les entreprises, mais elles sont toutes importantes et méritent qu'on les lise.
 
 [^3]: Il faut qu'il s'écoule cinq minutes ou plus entre les deux visites pour que la bannière d'installation apparaisse.
 
