@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include sidebar.html %}
+  {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.description }}</small>
           </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-
-        {% capture hide %}
-          {% assign content = content | split: '<pre' %}
-
-          {% for parts in content %}
-
-            {% assign part = parts | split: '</pre>' %}
-            {% assign c = part.first %}
-            {% assign t = part.last %}
-
-            {% assign t = t | replace: '“', '«&#160;'
-                            | replace: '”', '&#160;»'
-                            | replace: ' :', '&#160;:'
-                            | replace: ' %', '&#160;%'
-                            | replace: ' ;', '<span style="white-space:nowrap">&thinsp;</span>;'
-                            | replace: ' !', '<span style="white-space:nowrap">&thinsp;</span>!'
-                            | replace @: ' ?', '<span style="white-space:nowrap">&thinsp;</span>?' %}
-
-            {% if part.size == 2 %}
-
-              {% capture output %}{{ output }}<pre{{ c }}</pre>{% endcapture %}
-
-            {% endif %}
-
-            {% capture output %}{{ output }}{{ t }}{% endcapture %}
-
-          {% endfor %}
-        {% endcapture %}{{ output }}
-
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <div class="container content">
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
+      {% capture hide %} {% assign content = content | split: '<pre ' %}
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
+          {% for parts in content %}
 
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+            {% assign part = parts | split: '</pre>' %} {% assign c = part.first %} {% assign t = part.last %} {% assign t = t | replace: '“', '«&#160;' | replace: '”', '&#160;»' | replace: ' :', '&#160;:' | replace: ' %', '&#160;%' | replace: ' ;',
+      '<span style="white-space:nowrap">&thinsp;</span>;' | replace: ' !', '<span style="white-space:nowrap">&thinsp;</span>!' | replace @: ' ?', '<span style="white-space:nowrap">&thinsp;</span>?' %} {% if part.size == 2 %} {% capture output %}{{ output
+      }}
+      <pre{{ c }}</pre>{% endcapture %} {% endif %} {% capture output %}{{ output }}{{ t }}{% endcapture %} {% endfor %} {% endcapture %}{{ output }}
 
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-    {% include symbols.svg %}
-    <script id="dsq-count-scr" src="//franktaillandier.disqus.com/count.js" async></script>
-  </body>
+    </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
+        var t = performance.timing || {};
+
+        if (!t) {
+          //fail silently
+          return;
+        }
+        var start = t.navigationStart,
+          end = t.loadEventEnd
+        loadTime = (end - start) / 1000;
+
+        var copy = document.getElementsByClassName('copy');
+        copy[0].innerHTML += "<span class='loaded'>Page chargée en <strong>" + loadTime + " secondes</strong>.</span>";
+      }, 0);
+    };
+
+    (function(document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
+
+      document.addEventListener('click', function(e) {
+        var target = e.target;
+
+        if (!checkbox.checked ||
+          sidebar.contains(target) ||
+          (target === checkbox || target === toggle)) return;
+
+        checkbox.checked = false;
+      }, false);
+    })(document);
+  </script>
+  {% include symbols.svg %}
+  <script id="dsq-count-scr" src="//franktaillandier.disqus.com/count.js" async></script>
+</body>
+
 </html>
 <!-- Proudly Powered by GitHub | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
