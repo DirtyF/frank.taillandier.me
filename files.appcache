@@ -6,9 +6,16 @@ CACHE MANIFEST
 
 CACHE:
 
-http://frank.taillandier.me/css/lanyon.css
-http://frank.taillandier.me/css/poole.css
-http://frank.taillandier.me/css/syntax.css
+http://frank.taillandier.me/assets/css/main.css
+http://frank.taillandier.me/assets/js/autotrack.js
+http://frank.taillandier.me/assets/img/2016/03/ia-writer.png
+http://frank.taillandier.me/assets/img/2016/03/jekyll-terminal.png
+http://frank.taillandier.me/assets/img/2016/03/macdown.png
+http://frank.taillandier.me/assets/img/2016/05/a-new-stack.png
+http://frank.taillandier.me/assets/img/2016/05/jamstack.png
+http://frank.taillandier.me/assets/img/aperoweb_tlse.png
+http://frank.taillandier.me/assets/favicons/apple-touch-icon-144x144.png
+
 
 # internal HTML documents
 http://frank.taillandier.me/humans.txt
