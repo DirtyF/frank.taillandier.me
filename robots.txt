@@ -1,0 +1,10 @@
+---
+disallows:
+  - /404.html
+---
+
+User-agent: *{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Allow: /
+Sitemap: http://frank.taillandier.me/sitemap.xml
+Host: frank.taillandier.me
