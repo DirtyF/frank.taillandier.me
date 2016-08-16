@@ -20,7 +20,9 @@ On retiendra une séparation stricte des problématiques : génération du site,
 
 Afin de préciser son propos Matthias a mis en ligne [JAMStack.org](http://jamstack.org/) qui présente rapidement les concepts et la philosophie derrière cet acronyme un peu abscon.
 
-Je me permet ici de relayer son message à l'aide d'une traduction en français car d'une part  ce texte permet d'avoir une bonne vision des architectures et des technologies web modernes et de l'autre il permet de comprendre que tout cela va bien au délà de la simple génération de la version _statique_ d'un site.
+Je relaie ici son message à l'aide d'une traduction en français car d'une part ce texte permet d'avoir une bonne vision des architectures et des technologies web modernes et de l'autre il permet de comprendre que tout cela va bien au délà de la simple génération de la version _statique_ d'un site.
+
+_Mise à jour : La traduction est maintenant publiée sur [http://jamstack.org/fr/](http://jamstack.org/fr/)_
 
 ![JAMStack](/assets/img/2016/05/jamstack.png)
 
