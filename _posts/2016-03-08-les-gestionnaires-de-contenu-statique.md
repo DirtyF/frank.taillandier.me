@@ -11,7 +11,7 @@ Cette stack permet aux différents intervenants de se concentrer sur l'essentiel
 
 L’article que vous êtes en train de lire est écrit dans une [application de bureau à l’interface minimale][1] spécialement conçue pour offrir une bonne expérience de rédaction. Comme le dit Golden Krishna dans son livre, [la meilleure interface c’est encore de ne pas en avoir][2].
 
-Performance, sécurité, décentralisation, portabilité, autant d'excellentes raisons derrière l'adoption croissante de cette stack qui combine souvent [JavaScript, des APis et du Markup]({% post_url 2016-05-21-la-stack-jam %}).
+Performance, sécurité, décentralisation, portabilité, autant d'excellentes raisons derrière l'adoption croissante de cette stack qui combine souvent [JavaScript, des APis et du Markup]({% post_url 2016-05-21-la-JAMStack %}).
 
 Essayons de comprendre ce qui pourrait passer pour un retour en arrière aux yeux de certains, alors qu’il faut simplement y voir une évolution logique d’un processus de publication parfaitement adapté à notre manière asynchrone de travailler et aux ressources technologiques actuelles.
 
