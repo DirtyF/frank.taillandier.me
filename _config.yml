@@ -21,6 +21,9 @@ analytics:
     tracking_id: UA-15560088-1
     site_verification: KhnXRq1e9zCBkD6X4vs_xwVc-6c-5an2vE7f0_-XMiE
 
+disqus:
+  shortname: franktaillandier
+
 # SEO
 logo: /assets/img/frank-taillandier.jpg
 twitter:
