@@ -10,55 +10,53 @@ Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-
 
 <!-- excerpt -->
 
-Il existe de nombreux éditeurs de Markdown, j'utiise personnellement selon le contexte l'éditeur [Atom](https://atom.io/) et [quelques](https://github.com/zhuochun/md-writer) [plugins](https://github.com/lloeki/linter-markdownlint) ou [iA Writer](https://ia.net/writer) pour m'y aider.
+Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le contexte l'éditeur [Atom](https://atom.io/) et [quelques](https://github.com/zhuochun/md-writer) [plugins](https://github.com/lloeki/linter-markdownlint) ou [iA Writer](https://ia.net/writer) pour m'y aider.
 
 Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandisssante depuis quelques années.
 
 {% include figure.html url="/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
 
-Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confronté quand il s'agit de migrer des contenus textuels devrait vous intéresser.
+Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels devrait vous intéresser.
 
-J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent le mieux et surtout que vos écrits ne dépendendront plus de formats qui les emprisonent.
+J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent le mieux et surtout que vos écrits ne dépendendront plus de formats qui les emprisonnent.
 
 ---
 
 ## Traduction de l'essai [Multichannel Text Processing](https://ia.net/know-how/multichannel-text-processing) paru chez [Information Architects](https://ia.net/).
 
-**Au bon vieux temps des traitements de texte, le texte prenait vie entre MS Word et une imprimante. Aujourd'hui, le texte est écrit et édité sur différents appareils et applications, puis envoyé par mail, imprimé, copié, collé, annoté, publié, indexé dans des flux RSS, partagé et re-partagé à l'aide de tout un tas d'outils et de plateformes. Les formats de fichiers propriétaires rigides sont voués à l'échec dans ce nouvel environnement frénétique. Le texte brut fait mieux, mais n'a pas les possibilités de mise en forme du texte enrichi. Markdown pourrait bien être notre remède miracle. Si seulement, il avait l'air un peu plus attractif !**.
-
-Alors quelles sont les forces et les faiblesses du texte enrichi, du texte brut et de Markdown[^1] dans ce paysage d'écriture varié ?
+**Du bon vieux temps des traitements de texte, le texte prenait vie entre MS Word et une imprimante. Aujourd'hui, le texte est écrit et édité sur différents appareils et applications, puis envoyé par mail, imprimé, copié, collé, annoté, publié, indexé dans des flux RSS, partagé et re-partagé à l'aide de tout un tas d'outils et de plateformes. Les formats de fichiers propriétaires rigides sont voués à l'échec dans ce nouvel environnement frénétique. Le texte brut s'en sort mieux, mais il n'offre pas les possibilités de mise en forme du texte enrichi. Markdown pourrait bien être notre remède miracle. Si seulement, il avait l'air un peu plus attractif !**.
 
 ### 1. Le texte enrichi
 
-Le texte enrichi comme MS Word ou le format  `.rtf` sont devenus populaires en faisant la promesse du WYSIWYG (What You See Is What You Get). Nous pouvons utiliser le gras, l'italique, différentes polices et mises en forme et nous voyons immédiatement le résultat sur notre écran ! Lors de son apparition ce fut une révolution comparé aux encombrants éditeurs basés sur des fenêtres de formatage de code ou à ceux qui ne proposaient pas de mise en forme du tout. Cependant il y a quelques inconvénients.
+Le texte enrichi comme MS Word ou le format `.rtf` sont devenus populaires en faisant la promesse du WYSIWYG (What You See Is What You Get). Nous pouvons utiliser le gras, l'italique, différentes polices ou mises en forme et nous voyons immédiatement le résultat sur notre écran ! Lors de son apparition ce fut une véritable révolution comparé aux encombrants éditeurs qui affichaient des fenêtres de formatage de code ou à ceux qui ne proposaient pas de mise en forme du tout. Cependant, il y a quelques inconvénients.
 
 {% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/plain-text-vs-rich-text-plain-text.png" description="Comparaison des deux formats de fichier" %}
 
-Au format texte brut, le texte _est_ la source. Avec le texte enrichi nous voyons une simulation. Ce que nous voyons peut nous plaire, mais en dessous de la surface, notre traitement de texte génère en secret un texte bien plus complexe sous forme de code. Vous pouvez voir ce monde enfoui en créant un document Pages ou Word, tapez "Bonjour monde" et sauvegardez, puis changez l'extension de fichier en `.zip` et décompressez l'archive. Bienvenue en 1979 ![^2]
+Au format texte brut, le texte _est_ la source. Avec le texte enrichi, ce que nous voyons est une simulation. Ce que nous voyons peut nous plaire, mais sous la surface, notre traitement de texte génère en secret un texte encodé bien plus complexe. Vous pouvez visiter ce monde enfoui en créant un document Pages ou Word, tapez "Bonjour monde" et sauvegardez, puis changez l'extension de fichier en `.zip` et décompressez l'archive. Bienvenue en 1979 ![^2]
 
 {% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/hello-world.png" description="Contenu d'un fichier Word" %}
 
-Si vous êtes assez téméraire pour aller inspecter le contenu du dossier généré, vous allez peut-être commencer à vous demander si vous avez tapé "Bonjour monde" ou "Bonjour l'enfer" :
+Si vous êtes assez téméraires pour aller inspecter le contenu du dossier généré, vous allez peut-être commencer à vous demander si vous avez tapé "Bonjour monde" ou "Bonjour l'enfer" :
 
 ![fenêtres montrant du code source de fichiers texte au format XML](https://ia.net/content/4-know-how/20160610-multichannel-text-processing/hello-hell.png)
 
 Les formats personnalisés sont plus lourds que les formats en texte brut. Le souci majeur de ces formats personnalisés est la relation entre le code source et le texte — entre ce que nous voyons et ce que nous ne voyons pas — est fantasque. Voici ce que vous obtenez vraiment quand vous travaillez avec ces formats en 2016 :
 
-**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait pas bien si nous sommes face à un bug ou un erreur d'ergonomie.
+**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait pas bien si nous sommes face à une anomalie ou un erreur d'ergonomie du logiciel.
 
-**Pâtés de copier-coller** Le défi majeur des formats personnalisés dans un environnement de publication multicanal est qu'ils déglinguent le copier-coller. Nous copions un simple paragraphe à partir d'un fichier PDF et quand on le colle dans notre email, le texte en français se transforme en Western spaghetti italien avec beaucoup d'espaces dramatiques et de retours à la ligne. Et cela ne concerne pas que le PDF. Avec le texte formaté nous ne savons jamais ce que nous obtiendrons lorsque nous allons coller notre texte.
+**Spaghettis de copier-coller** Le principal souci avec les formats personnalisés dans un environnement de publication multicanal est qu'ils empêchent le copier-coller. Nous copions un simple paragraphe à partir d'un fichier PDF et quand on le colle dans notre email, le texte en français se transforme en Western spaghetti italien avec beaucoup d'espaces dramatiques et de retours à la ligne. Et cela ne concerne pas que le PDF. Avec le texte formaté nous ne savons jamais ce que nous obtiendrons lorsque nous allons coller notre texte.
 
 **Compatibilité** Bien que le `.rtf` soit un format assez établi et que la plupart des traitements de texte lisent les `.docx`, des  applications diverses interpréteront ces formats différemment. Vous ne pouvez pas ajouter de texte au format RTF ou Docx de manière fiable dans votre CMS. Et n'imaginez même pas pouvoir aller et venir à votre aise d'un CMS à un document Word.
 
-**Déclinaisons** Exporter se faire peut être *en un clic*, mais décliner votre texte en plusieurs versions complique votre processus de travail. Les retours ou les propositions de modification ne peuvent pas être incorporés facilement dans un fichier principal. Gérer ces versions devient rapidement un cauchemar.
+**Déclinaisons** Exporter se fait peut être *en un clic*, mais décliner votre texte en plusieurs versions complique votre processus de travail. Les retours ou les propositions de modification ne peuvent pas être incorporés facilement dans un fichier principal. Gérer ces versions devient rapidement un cauchemar.
 
 **Accessibilité** Le format texte enrichi ne vous permet pas de toucher à la source de votre document. Peut-être que le texte est dans un dossier qui prétend être un fichier ou caché quelque part "à l'abri de l'utilisateur", enfoui dans les profondeurs de dossiers de code spaghetti ou chiffré dans le Fort Know d'une base de données secrète.
 
-Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne ordinaire qui écrit du texte en 2016, en utilisant différents appareils, applications , plateformes et formats, pas du tout. Et qui sait quel sera notre sentiment à propos de `.docx` dans 10 ans ? Ou dans 30 ans.
+Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne lambda qui écrit du texte en 2016, en utilisant différents appareils, applications , plateformes et formats, vous ne les aimez pas du tout. Après tout, qui sait quel sera notre sentiment à propos de `.docx` dans 10 ans ? Et dans 30 ans ?
 
 > Même si les logiciels de traitement de texte modernes peuvent faire des trucs super — comme ajouter des graphiques, des tableaux et des images, en appliquant des styles sophistiqués —  il y a une chose qu'ils ne savent pas faire : garantir que les mots que j'écris aujourd'hui seront encore lisibles dans dix ans. C'est une des raisons pour lesquelles je préfère travailler en texte brut : c'est éternel. Mes petits-enfants pourront lire un fichier texte que j'ai écrit aujourd'hui, longtemps après que quelqu'un se souvienne ce que diable est un fichier `.dotx` [^3]
 
-Dans l'environnement de texte multicanal d'aujourd'hui le format de fichier texte enrichi crée plus de barrières qu'à l'époque où les choses étaient plus simples. Le fait de devoir installer une certaine version d'une application sur une certaine version d'un système d'exploitation pour ouvrir un fichier est une vaste blague. Pour pouvoir être partagé entre différentes applications et plateformes, le texte lui-même doit être libéré des chaînes d'une application, d'une plateforme ou d'un appareil.
+Dans l'environnement de texte multicanal d'aujourd'hui le format de fichier texte enrichi crée plus de barrières qu'à l'époque où les choses étaient plus simples. Le fait de devoir installer une certaine version d'une application sur une certaine version d'un système d'exploitation pour ouvrir un fichier est une vaste fumisterie. Pour pouvoir être partagé entre différentes applications et plateformes, le texte lui-même doit être libéré des chaînes d'une application, d'une plateforme ou d'un appareil.
 
 ## 2. Le texte brut
 
@@ -68,7 +66,7 @@ Le seul format de fichier qui fonctionne partout comme prévu, c'est pas de form
 
 Le texte brut est simple. Il vous aide à vous concentrer ce que vous voulez dire.
 
-Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail 1997 de votre oncle… pas besoin de mettre une veste pour entrer.
+Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail des années 1990 de votre oncle… pas besoin de mettre une veste pour entrer.
 
 Le texte brut est léger.
 
@@ -78,15 +76,15 @@ La transition du texte brut au texte formaté est généralement brusque et irr�
 
 ## 3. Markdown
 
-Les langages de balisage comme Markdown, MediaWiki ou LaTeX vous permettent de structurer vos mots sans construire un royaume invisible sous le text brut. Hélas…
+Les langages de balisage, comme Markdown, MediaWiki ou LaTeX, vous permettent de structurer vos mots sans construire un royaume invisible sous le text brut. Hélas…
 
 ### 3.1 Markdown ça craint !
 
-Vous avez peut être essayé d'écrire du Markdown ou de modifier une entrée dans Wikipédia et vous avez détesté ça, pour la simple et bonne raison que "Mais pourquoi devrais-je apprendre une nouvelle 'syntaxe' pour formater du texte quand j'ai un outil qui fait ça en appuyant sur un bouton et que qui me montre exactement ce que j'obtiendrais ?"[^5] Et vous avez raison :
+Vous avez peut être essayé d'écrire du Markdown ou de modifier une entrée dans Wikipédia et vous avez détesté ça, parce que vous vous demandiez "Mais pourquoi devrais-je apprendre une nouvelle 'syntaxe' pour formater du texte quand j'ai un outil qui fait ça en appuyant sur un bouton et que qui me montre exactement ce que j'obtiendrais ?"[^5] Et vous avez raison :
 
 * Baliser du texte peut vous éviter des problèmes de copier-coller mais le Markdown brut a toujours l'air compliqué.
 * Bien que Markdown soit plus simple que le HTML, vous devez toujours vous souvenir de la syntaxe et rechercher comment ajouter un lien à chaque fois vous tire en dehors du flux.
-* Balisage, Markdown, MultiCeQueVousVoulez… ces formats ont leur propres problèmes de compatibilité.
+* Balisage, Markdown, MultiMachin… ces formats ont leur propres problèmes de compatibilité.
 
 Markdown n'est pas la solution parfaite pour tous les types de rédacteurs ou toutes les formes et les étapes d'écriture. Mais si vous faîtes vous-même tout de la prise de notes à la publication, c'est la solution la plus efficace à ce jour. Si votre éditeur vous impose des outils de rédaction, Markdown est une option moins évidente. Mais encore une fois, la possibilité de pouvoir partager plus simplement qu'avec les formats de fichier traditionnels rend la collaboration considérablement plus fluide…
 
@@ -116,13 +114,13 @@ Avec le format MultiMarkdown[^7] (une version améliorée de Markdown) vous pouv
 
 #### Notes de bas de page
 
-MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu rigide comme pour les liens, mais c'est déjà mieux que le fouilli des éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
+MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu lourdingue comme pour les liens, mais c'est aussi abscon dans les éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
 
-Mieux vous maîtriserez Markdown, plus vous passerez rapidement et facilement du texte brut au texte formaté. C'est là où Markdown tue : en comblant le fossé entre le texte brut et le texte enrichi, il vous permet de constamment modeler le texte — de la première note prise au hasard jusqu'à la publication multicanal.
+PLus vous maîtriserez Markdown, plus vous passerez rapidement et facilement du texte brut au texte formaté. C'est là où Markdown excelle : en comblant le fossé entre le texte brut et le texte enrichi, il vous permet de constamment modeler le texte — de la première note prise au hasard jusqu'à la publication multicanale.
 
 #### Rendu en temps réel
 
-Il existe des moyens pour améliorer le rendu de Markdown, comme en masquant certaines parties, mais si vous générez le rendu du Markdown dans le texte, WYSIWYG, vous réintroduisez tous les problèmes qui rendent les éditeurs de texte enrichi obsolètes et vous en ajoutez de nouveaux. Si vous essayez de faire tout ce que sait faire Word avec Markdown, vous allez créer un nouveau Word avec un langage qui n'est pas fait pour le WYSIWYG. C'est pour cette raison qu'iA Writer ne masque aucun caractère Markdown.
+Il existe différentes manières d'améliorer le rendu de Markdown, comme en en masquant certaines parties, mais si vous générez le rendu du Markdown dans le texte, WYSIWYG, vous réintroduisez tous les problèmes qui rendent les éditeurs de texte enrichi obsolètes et vous en ajoutez de nouveaux. Si vous essayez de faire tout ce que sait faire Word avec Markdown, vous allez créer un nouveau Word avec un langage qui n'est pas fait pour le WYSIWYG. C'est pour cette raison qu'iA Writer ne masque aucun caractère Markdown.
 
 ## 4. Un flux de travail contemporain
 
