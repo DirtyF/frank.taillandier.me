@@ -1,7 +1,7 @@
 ---
 ---
 /* AUTHOR */
-	Frank Taillandier, consultant web agile
+	Frank Taillandier, consultant web
 	Contact: frank [at] taillandier [dot] me
 	Twitter: @DirtyF
 	From: Toulouse, France
