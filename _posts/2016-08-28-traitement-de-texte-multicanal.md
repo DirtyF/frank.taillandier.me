@@ -42,9 +42,9 @@ Si vous êtes assez téméraires pour aller inspecter le contenu du dossier gén
 
 Les formats personnalisés sont plus lourds que les formats en texte brut. Le souci majeur de ces formats personnalisés est que la relation entre le code source et le texte — entre ce que nous voyons et ce que nous ne voyons pas — est fantasque. Voici ce que vous obtenez vraiment quand vous travaillez avec ces formats en 2016 :
 
-**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait plus très bien si nous sommes face à une anomalie ou un erreur d'ergonomie du logiciel.
+**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait plus très bien si nous sommes face à une anomalie ou une erreur d'ergonomie du logiciel.
 
-**Spaghettis de copier-coller** Le principal souci avec les formats personnalisés dans un environnement de publication multicanal est qu'ils empêchent le copier-coller. Nous copions un simple paragraphe à partir d'un fichier PDF et quand on le colle dans notre email, le texte en français se transforme en Western spaghetti italien avec beaucoup d'espaces dramatiques et de retours à la ligne. Et cela ne concerne pas que le PDF. Avec le texte formaté nous ne savons jamais ce que nous obtiendrons lorsque nous allons coller notre texte.
+**Spaghettis de copier-coller** Le principal souci avec les formats personnalisés dans un environnement de publication multicanal est qu'ils empêchent le copier-coller. Nous copions un simple paragraphe à partir d'un fichier PDF et quand on le colle dans notre email, le texte en français se transforme en Western spaghetti italien dramatique avec tout un tas d'espaces et de retours à la ligne. Et cela ne concerne pas que le PDF. Avec le texte formaté nous ne savons jamais ce que nous obtiendrons lorsque nous allons coller notre texte.
 
 **Compatibilité** Bien que le `.rtf` soit un format assez établi et que la plupart des traitements de texte lisent les `.docx`, des  applications diverses interpréteront ces formats différemment. Vous ne pouvez pas ajouter de texte au format RTF ou Docx de manière fiable dans votre CMS. Et n'imaginez même pas pouvoir aller et venir à votre aise d'un CMS à un document Word.
 
@@ -52,11 +52,11 @@ Les formats personnalisés sont plus lourds que les formats en texte brut. Le so
 
 **Accessibilité** Le format texte enrichi ne vous permet pas de toucher à la source de votre document. Peut-être que le texte est dans un dossier qui prétend être un fichier ou caché quelque part "à l'abri de l'utilisateur", enfoui dans les profondeurs de dossiers de code spaghetti ou chiffré dans le Fort Know d'une base de données secrète.
 
-Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne qui écrit du texte en 2016, en utilisant différents appareils, applications , plateformes et formats, vous ne les aimez pas du tout. Après tout, qui sait quel sera notre ressenti vis à vis de `.docx` dans 10 ans ? Et dans 30 ans ?
+Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne qui écrit du texte en 2016, en utilisant différents appareils, applications, plateformes et formats, vous ne les aimez pas du tout. Après tout, qui sait quel sera notre ressenti vis à vis des `.docx` dans 10 ans ? Et dans 30 ans ?
 
 > Même si les logiciels de traitement de texte modernes peuvent faire des trucs super — comme ajouter des graphiques, des tableaux et des images, en appliquant des styles sophistiqués —  il y a une chose qu'ils ne savent pas faire : garantir que les mots que j'écris aujourd'hui seront encore lisibles dans dix ans. C'est une des raisons pour lesquelles je préfère travailler en texte brut : c'est éternel. Mes petits-enfants pourront lire un fichier texte que j'ai écrit aujourd'hui, longtemps après que quelqu'un se souvienne ce que diable est un fichier `.dotx` [^3]
 
-Dans l'environnement de texte multicanal d'aujourd'hui le format de fichier texte enrichi crée plus de barrières qu'à l'époque où les choses étaient plus simples. Le fait de devoir installer une certaine version d'une application sur une certaine version d'un système d'exploitation pour ouvrir un fichier est une vaste fumisterie. Pour pouvoir être partagé entre différentes applications et plateformes, le texte lui-même doit être libéré des chaînes d'une application, d'une plateforme ou d'un appareil.
+Dans l'environnement de texte multicanal d'aujourd'hui le format de fichier texte enrichi crée plus de barrières qu'à l'époque où les choses étaient plus simples. Le fait de devoir installer une certaine version d'une application sur une certaine version d'un système d'exploitation pour ouvrir un fichier est une vaste fumisterie. Pour pouvoir être partagé entre différentes applications et plateformes, le texte lui-même doit être libéré des carcans d'une application, d'une plateforme ou d'un appareil.
 
 ## 2. Le texte brut
 
@@ -66,7 +66,7 @@ Le seul format de fichier qui fonctionne partout comme prévu, c'est pas de form
 
 Le texte brut est simple. Il vous aide à vous concentrer ce que vous voulez dire.
 
-Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail 1997 de votre oncle… pas besoin de montrer patte blanche.
+Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail 1997 de votre oncle… pas besoin de sortir le porte-monnaie.
 
 Le texte brut est léger.
 
