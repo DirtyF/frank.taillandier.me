@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Traitement de texte multicanal
-description: Markdown, une syntaxe au format texte qui assure une compatibilité et une pérénnité à vos documents.
+description: Un plaidoyer pour Markdown, une syntaxe au format texte qui assure une compatibilité et une pérénnité à vos documents.
 image: https://ia.net/content/4-know-how/20160610-multichannel-text-processing/full-multichannel-text-processing.png
 comments: true
 ---
