@@ -40,19 +40,19 @@ Si vous êtes assez téméraires pour aller inspecter le contenu du dossier gén
 
 ![fenêtres montrant du code source de fichiers texte au format XML](https://ia.net/content/4-know-how/20160610-multichannel-text-processing/hello-hell.png)
 
-Les formats personnalisés sont plus lourds que les formats en texte brut. Le souci majeur de ces formats personnalisés est la relation entre le code source et le texte — entre ce que nous voyons et ce que nous ne voyons pas — est fantasque. Voici ce que vous obtenez vraiment quand vous travaillez avec ces formats en 2016 :
+Les formats personnalisés sont plus lourds que les formats en texte brut. Le souci majeur de ces formats personnalisés est que la relation entre le code source et le texte — entre ce que nous voyons et ce que nous ne voyons pas — est fantasque. Voici ce que vous obtenez vraiment quand vous travaillez avec ces formats en 2016 :
 
-**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait pas bien si nous sommes face à une anomalie ou un erreur d'ergonomie du logiciel.
+**Des bugs et des problèmes d'ergonomie** Comment sortir d'une liste ou supprimer une indentation ? Comment supprimer un lien ? Comment supprimer cette mise en gras, cet espacement de ligne ou cette taille de titre ? Et comment diable placer deux images côte à côte ? Parfois on ne sait plus très bien si nous sommes face à une anomalie ou un erreur d'ergonomie du logiciel.
 
 **Spaghettis de copier-coller** Le principal souci avec les formats personnalisés dans un environnement de publication multicanal est qu'ils empêchent le copier-coller. Nous copions un simple paragraphe à partir d'un fichier PDF et quand on le colle dans notre email, le texte en français se transforme en Western spaghetti italien avec beaucoup d'espaces dramatiques et de retours à la ligne. Et cela ne concerne pas que le PDF. Avec le texte formaté nous ne savons jamais ce que nous obtiendrons lorsque nous allons coller notre texte.
 
 **Compatibilité** Bien que le `.rtf` soit un format assez établi et que la plupart des traitements de texte lisent les `.docx`, des  applications diverses interpréteront ces formats différemment. Vous ne pouvez pas ajouter de texte au format RTF ou Docx de manière fiable dans votre CMS. Et n'imaginez même pas pouvoir aller et venir à votre aise d'un CMS à un document Word.
 
-**Déclinaisons** Exporter se fait peut être *en un clic*, mais décliner votre texte en plusieurs versions complique votre processus de travail. Les retours ou les propositions de modification ne peuvent pas être incorporés facilement dans un fichier principal. Gérer ces versions devient rapidement un cauchemar.
+**Versions** Exporter se fait peut être *en un clic*, mais décliner votre texte en plusieurs versions complique votre processus de travail. Les retours ou les propositions de modification ne peuvent pas être incorporés facilement dans un fichier principal. Gérer ces versions devient rapidement un cauchemar.
 
 **Accessibilité** Le format texte enrichi ne vous permet pas de toucher à la source de votre document. Peut-être que le texte est dans un dossier qui prétend être un fichier ou caché quelque part "à l'abri de l'utilisateur", enfoui dans les profondeurs de dossiers de code spaghetti ou chiffré dans le Fort Know d'une base de données secrète.
 
-Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne lambda qui écrit du texte en 2016, en utilisant différents appareils, applications , plateformes et formats, vous ne les aimez pas du tout. Après tout, qui sait quel sera notre sentiment à propos de `.docx` dans 10 ans ? Et dans 30 ans ?
+Bien entendu, en tant qu'homme d'affaires vous aimez les chaînes dorées des formats personnalisés. En tant que personne qui écrit du texte en 2016, en utilisant différents appareils, applications , plateformes et formats, vous ne les aimez pas du tout. Après tout, qui sait quel sera notre ressenti vis à vis de `.docx` dans 10 ans ? Et dans 30 ans ?
 
 > Même si les logiciels de traitement de texte modernes peuvent faire des trucs super — comme ajouter des graphiques, des tableaux et des images, en appliquant des styles sophistiqués —  il y a une chose qu'ils ne savent pas faire : garantir que les mots que j'écris aujourd'hui seront encore lisibles dans dix ans. C'est une des raisons pour lesquelles je préfère travailler en texte brut : c'est éternel. Mes petits-enfants pourront lire un fichier texte que j'ai écrit aujourd'hui, longtemps après que quelqu'un se souvienne ce que diable est un fichier `.dotx` [^3]
 
@@ -66,11 +66,11 @@ Le seul format de fichier qui fonctionne partout comme prévu, c'est pas de form
 
 Le texte brut est simple. Il vous aide à vous concentrer ce que vous voulez dire.
 
-Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail des années 1990 de votre oncle… pas besoin de mettre une veste pour entrer.
+Le texte brut est gratuit. TextPad, TextEdit, Vim, votre téléphone cellulaire, l'application AOL Mail 1997 de votre oncle… pas besoin de montrer patte blanche.
 
 Le texte brut est léger.
 
-Le texte brut coule comme de l'eau. Mais contrairement à l'eau, il n'étanche pas toutes les soifs. Que ce soit pour l'impression, un article de blog, un PDF, un email ou même un fax, à un moment ou à un autre, le texte va devoir prendre forme sur un médium approprié pour être lu. Comme nos mots prennent forme à l'intérieur d'un medium, ils exigent une structure visuelle. Les documents d'entreprise ont besoin d'en-têtes, de pieds de page et de pages de couverture. Certains textes ne prennent vie que lorsque ils sont illustrés et enrichis avec des photos, des vidéos ou des tableaux. Nous voulons des liens quand nous écrivons en ligne. Nous avons besoin de notes de bas de page dans un livre blanc.
+Le texte brut s'écoule comme de l'eau. Mais contrairement à l'eau, il n'étanche pas toutes les soifs. Que ce soit pour l'impression, un article de blog, un PDF, un email ou même un fax, à un moment ou à un autre, le texte va devoir prendre forme sur un médium approprié pour être lu. Comme nos mots prennent forme à l'intérieur d'un medium, ils exigent une structure visuelle. Les documents d'entreprise ont besoin d'en-têtes, de pieds de page et de pages de couverture. Certains textes ne prennent vie que lorsque ils sont illustrés et enrichis avec des photos, des vidéos ou des tableaux. Nous voulons des liens quand nous écrivons en ligne. Nous avons besoin de notes de bas de page dans un livre blanc.
 
 La transition du texte brut au texte formaté est généralement brusque et irréversible. Vous écrivez dans TextEdit ou Notepad, mais une fois que vous vous passez en RTF, docx ou HTML il n'y a plus de retour en arrière possible. Mais le texte veut naturellement et lentement se transformer à partir de simples mots en de la prose formatée . C'est là que Markdown entre en scène.
 
@@ -80,13 +80,13 @@ Les langages de balisage, comme Markdown, MediaWiki ou LaTeX, vous permettent de
 
 ### 3.1 Markdown ça craint !
 
-Vous avez peut être essayé d'écrire du Markdown ou de modifier une entrée dans Wikipédia et vous avez détesté ça, parce que vous vous demandiez "Mais pourquoi devrais-je apprendre une nouvelle 'syntaxe' pour formater du texte quand j'ai un outil qui fait ça en appuyant sur un bouton et que qui me montre exactement ce que j'obtiendrais ?"[^5] Et vous avez raison :
+Vous avez peut être essayé d'écrire du Markdown ou de modifier une entrée dans Wikipédia et vous avez détesté ça, parce que vous vous demandiez "Mais pourquoi devrais-je apprendre une nouvelle 'syntaxe' pour formater du texte quand j'ai un outil qui fait ça en appuyant sur un bouton et qui me montre exactement ce que j'obtiendrais ?"[^5] Et vous avez raison :
 
-* Baliser du texte peut vous éviter des problèmes de copier-coller mais le Markdown brut a toujours l'air compliqué.
-* Bien que Markdown soit plus simple que le HTML, vous devez toujours vous souvenir de la syntaxe et rechercher comment ajouter un lien à chaque fois vous tire en dehors du flux.
+* Baliser du texte peut vous éviter des problèmes de copier-coller mais le Markdown brut a toujours l'air compliqué,
+* Bien que Markdown soit plus simple que le HTML, vous devez toujours vous souvenir de la syntaxe et rechercher à chaque fois comment ajouter un lien vous sort de votre flux,
 * Balisage, Markdown, MultiMachin… ces formats ont leur propres problèmes de compatibilité.
 
-Markdown n'est pas la solution parfaite pour tous les types de rédacteurs ou toutes les formes et les étapes d'écriture. Mais si vous faîtes vous-même tout de la prise de notes à la publication, c'est la solution la plus efficace à ce jour. Si votre éditeur vous impose des outils de rédaction, Markdown est une option moins évidente. Mais encore une fois, la possibilité de pouvoir partager plus simplement qu'avec les formats de fichier traditionnels rend la collaboration considérablement plus fluide…
+Markdown n'est pas la solution parfaite pour tous les types de rédacteurs ou toutes les formes et les étapes d'écriture. Mais si vous tout faîtes vous-même, de la prise de notes à la publication, c'est la solution la plus efficace à ce jour. Si votre éditeur vous impose des outils de rédaction, Markdown est une option moins évidente. Mais encore une fois, la possibilité de pouvoir partager plus simplement qu'avec les formats de fichier traditionnels rend la collaboration considérablement plus fluide…
 
 ### 3.2 Un plaidoyer pour Markdown
 
@@ -96,11 +96,11 @@ Si vous connaissez ces trois choses, *, ** et #, vous en savez assez sur Markdow
 
 #### Les liens
 
-Les liens Markdown peuvent complètement ruiner l'aspect de votre texte. C'est utile de voir les liens dans le texte et pouvoir se passer de  clics droits et de fenêtres intrusives, mais si vous utilisez beaucoup trop de liens dans un texte, c'est affreux. Une manière de contourner le problème est d'utiliser le format des liens de références. Un autre pourrait être de masquer les liens dans l'éditeur, mais cela reviendrait à reproduire les problèmes du texte enrichi.
+Les liens Markdown peuvent complètement ruiner l'aspect de votre texte. C'est utile de voir les liens dans le texte et pouvoir se passer de clics droits et de fenêtres intrusives, mais si vous utilisez beaucoup trop de liens dans un texte, c'est affreux. Une manière de contourner le problème est d'utiliser le format des liens de références. Un autre pourrait être de masquer les liens dans l'éditeur, mais cela reviendrait à reproduire les problèmes du texte enrichi.
 
 #### Le multimedia
 
-Avoir plus de libertés avec les images dans le texte est cool. Si vous voulez un logiciel qui permet de parfaitement mettre en page les images, utilisez InDesign, ou faites le dans votre CMS. N'essayez pas avec Word, et n'allez pas croire que votre éditeur de Markdown fera tout aussi bien qu'il vous aide à trouver vos mots. Et oui, vous pouvez utiliser Markdown dans InDesign.[^6]
+Avoir plus de libertés avec les images dans le texte est cool. Si vous voulez un logiciel qui permet de parfaitement mettre en page les images, utilisez InDesign, ou faites-le dans votre CMS. N'essayez pas avec Word et n'allez pas croire que votre éditeur de Markdown fera tout aussi bien qu'il vous aide à trouver vos mots. Oui, vous pouvez utiliser Markdown dans InDesign.[^6]
 
 #### Les tableaux
 
@@ -110,27 +110,27 @@ Les tableaux en texte brut ont mauvaise réputation. S'ils sont complexes, c'est
 
 #### Automatisation
 
-Avec le format MultiMarkdown[^7] (une version améliorée de Markdown) vous pouvez créer des tables des matières automatiquement et avec des variables de métadonnées vous pouvez même créer des modèles de lettres. Okay, ça a l'air hardcore. Et *c'est* hardcore. Mais vous devriez [essayer](http://vimeo.com/158324329). Vous n'avez pas besoin d'être un hacker ninja rockstar pour comprendre les bases. Et une fois que vous comprenez les bases, cela devient plus facile de [générer une table des matières en MultiMarkdown](https://vimeo.com/158311378) que dans MS Word.
+Avec le format MultiMarkdown[^7] (une version améliorée de Markdown) vous pouvez créer des tables des matières automatiquement et à l'aide des variables de métadonnées vous pouvez même créer des modèles de lettres. Okay, ça a l'air hardcore. Et *c'est* hardcore. Mais vous devriez [essayer](http://vimeo.com/158324329). Vous n'avez pas besoin d'être un hacker ninja rockstar pour comprendre les bases. Et une fois que vous comprenez les bases, cela devient plus facile de [générer une table des matières en MultiMarkdown](https://vimeo.com/158311378) que dans MS Word.
 
 #### Notes de bas de page
 
-MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu lourdingue comme pour les liens, mais c'est aussi abscon dans les éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
+MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu lourdingue comme pour les liens mais c'est aussi abscon dans les éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
 
-PLus vous maîtriserez Markdown, plus vous passerez rapidement et facilement du texte brut au texte formaté. C'est là où Markdown excelle : en comblant le fossé entre le texte brut et le texte enrichi, il vous permet de constamment modeler le texte — de la première note prise au hasard jusqu'à la publication multicanale.
+Plus vous maîtriserez Markdown, plus vous passerez rapidement et facilement du texte brut au texte formaté. C'est là où Markdown excelle : en comblant le fossé entre le texte brut et le texte enrichi, il vous permet de constamment modeler le texte — de la première note prise au hasard jusqu'à la publication multicanale.
 
 #### Rendu en temps réel
 
 Il existe différentes manières d'améliorer le rendu de Markdown, comme en en masquant certaines parties, mais si vous générez le rendu du Markdown dans le texte, WYSIWYG, vous réintroduisez tous les problèmes qui rendent les éditeurs de texte enrichi obsolètes et vous en ajoutez de nouveaux. Si vous essayez de faire tout ce que sait faire Word avec Markdown, vous allez créer un nouveau Word avec un langage qui n'est pas fait pour le WYSIWYG. C'est pour cette raison qu'iA Writer ne masque aucun caractère Markdown.
 
-## 4. Un flux de travail contemporain
+## 4. Un processus de publication moderne
 
-Nous pouvons fantasmer les différentes étapes d'un procédé d'écriture comme étant composé de phases distinctes que nous pouvons contrôler et classer par ordre chronologique. En réalité, nous prenons des notes en amont de l'écriture et nous continuons d'assembler des matériaux jusqu'à la publication. L'édition commence avec le premier brouillon et — pas seulement dans les médias numériques — se poursuit bien après la publication.[^8]
+Nous pouvons imaginer que les différentes étapes d'un procédé d'écriture comme étant composées de phases distinctes que nous pouvons contrôler et classer par ordre chronologique. En réalité, nous prenons des notes en amont de l'écriture et nous continuons d'assembler des matériaux jusqu'à la publication. L'édition commence avec le premier brouillon et — pas seulement dans les médias numériques — se poursuit bien après la publication.[^8]
 
 Distinguer les étapes d'un procédé créatif est nécessaire mais les processus de travail agiles ne ressemblent pas à une cascade : ils se chevauchent, interagissent, s'influencent mutuellement et notre écriture et nos outils de publication devraient nous permettre d'aller et venir comme nous le souhaitons.[^9] L'écriture est espiègle par nature.
 
 {% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/workflow-note-draft-edit-publish.png" description="" %}
 
-Écrire en étant concentré ne veut pas dire écrire avec des œillères, cela signifie que votre attention est principalement dirigée sur un seul aspect du procédé global. C'est même utile d'aller et venir consciemment entre deux étapes voisines. Markdown vous permet de ne pas vous soucier des frontières entre chaque étape.
+Écrire en étant concentré ne veut pas dire écrire avec des œillères, cela signifie que votre attention est principalement dirigée sur un seul aspect du procédé global. Il peut être même utile d'aller et venir consciemment entre deux étapes voisines. Markdown vous permet de ne pas vous soucier de ces transitions.
 
 ## 4.1 Écrire et prévisualiser
 
@@ -156,11 +156,11 @@ Publier directement depuis votre application d'écriture est cool. Mais l'import
 
 Nous utilisons différents appareils pour prendre des notes, différentes applications pour créer des brouillons et faire des modifications, nous envoyons du texte à d'autres personnes et nous utilisons différentes plateformes pour mettre en forme et publier nos textes. Le procédé de production et la forme finale de notre texte sont plus difficiles à anticiper. Nous avons besoin de quelque chose de mieux que les formats de texte traditionnels, qui nous enferment dans un cadre format/application/plateforme/appareil défini, pour faire face à la réalité complexe d'aujourd'hui pour ce qui est de la mise en forme et de la publication.
 
-De par son universalité et sa simplicité, le texte brut nous emmène plus loin que tout autre type de format. Et pourtant, les éditeurs de texte brut ne sont pas fait pour visualiser la structure du texte, optimiser des mises en page complexes, batailler avec des détails typographiques ou lier entre eux des corps de texte. Ils sont géniaux pour trouver les bons mots, mais ont du mal lorsque le texte devient plus long. Un procédé d'écriture contemporain doit nous permettre d'aller et venir librement entre le text brut et le texte mis en forme, grâce à des processus de travail automatisés ou du copier-coller.
+De par son universalité et sa simplicité, le texte brut nous emmène plus loin que tout autre type de format. Et pourtant, les éditeurs de texte brut ne sont pas fait pour visualiser la structure du texte, optimiser des mises en page complexes, batailler avec des détails typographiques ou lier entre eux des corps de texte. Ils sont géniaux pour vous aider à trouver les bons mots, mais ont du mal lorsque le texte devient plus long. Un procédé d'écriture contemporain doit nous permettre d'aller et venir librement entre le text brut et le texte mis en forme, grâce à des processus de travail automatisés ou du copier-coller.
 
-Jusqu'à présent les langages de balisage légers comme Markdown sont les seuls à permettre cela. Markdown peut avoir l'air un peu bordélique et oui, tout un tas d'améliorations sont possibles et nécessaires. Malgré ces lacunes, il résout des problèmes méthodiques complexes, là où la séparation entre le texte brut et le texte mis en forme échoue. Cela nous permet de pouvoir utiliser notre texte et le fichier qui le contient partout, indépendamment de l'appareil, de la plateforme ou de l'application. Le moment où vous passez du texte à la mise en forme, du conditionnement au contenu, du texte de labeur à la mise en page, doit être une phase où vous pouvez aller et venir à votre guise. Markdown rend cela possible.
+Pour le moment les langages de balisage légers comme Markdown sont les seuls à permettre cela. Markdown peut avoir l'air un peu brouillon et oui, tout un tas d'améliorations sont possibles et nécessaires. Malgré ces lacunes, il résout des problèmes méthodiques complexes, là où la séparation entre le texte brut et le texte mis en forme échoue. Cela nous permet de pouvoir utiliser notre texte et le fichier qui le contient partout, indépendamment de l'appareil, de la plateforme ou de l'application. Le moment où vous passez du texte à la mise en forme, du conditionnement au contenu, du corps de texte à la mise en page, doit être une phase où vous pouvez aller et venir à votre guise. Markdown rend cela possible.
 
-Si vous vous voulez des mises en forme plus complexes comme les liens, les images, les notes de bas de page et une table des matières, utilisez l'interface ou les raccourcis clavier. Pour améliorer vos compétences en Markdown avec la syntaxe plus avancée, faites vous aider par un éditeur qui propose un aperçu en temps réel. Cela vous donne aussi un aperçu de la mise en forme très tôt et vous permet d'utiliser un balisage plus complexe car vous pouvez trouver rapidement n'importe quelle erreur.
+Si vous vous voulez des mises en forme plus complexes comme les liens, les images, les notes de bas de page et une table des matières, utilisez l'interface ou les raccourcis clavier. Pour améliorer vos compétences en Markdown avec la syntaxe plus avancée, faites vous aider par un éditeur qui propose un aperçu en temps réel. Cela vous donne aussi un aperçu de la mise en forme très tôt et vous permet d'utiliser un balisage plus complexe car vous pouvez identifier rapidement n'importe quelle erreur.
 
 L'automatisation entre un service en ligne, une application de prise de notes, un éditeur de texte et un environnement de publication est cool, mais pas essentiel. Ce qui est fondamental, c'est la capacité de pouvoir  copier-coller votre texte à loisir sans perdre de mise en forme ou d'information. Seul le format texte brut garantie cela. Configurez vos plateformes de publication pour interpréter le Markdown, de manière à pouvoir vous balader librement entre l'écriture, la modification et la publication. Il y a plusieurs manières et plusieurs applications pour y parvenir. Et c'est précisément l'idée. Le texte brut est léger et gratuit et doit le rester. Évitez les applications qui veulent vous enchaîner.
 
