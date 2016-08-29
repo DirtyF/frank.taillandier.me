@@ -1,24 +1,24 @@
 ---
 layout: post
 title: Traitement de texte multicanal
-description: Un plaidoyer pour Markdown, une syntaxe au format texte qui assure une compatibilité et une pérénnité à vos documents.
+description: Un plaidoyer pour Markdown, une syntaxe au format texte qui assure une compatibilité et une pérennité à vos documents.
 image: https://ia.net/content/4-know-how/20160610-multichannel-text-processing/full-multichannel-text-processing.png
 comments: true
 ---
 
-Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), il est important de bien choisir le format de fichier dans lesquel nous alllons stocker nos écrits. C'est souvent  la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilite à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
+Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), il est important de bien choisir le format de fichier dans lesquels nous allons stocker nos écrits. C'est souvent  la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilité à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
 
 <!-- excerpt -->
 
 Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le contexte l'éditeur [Atom](https://atom.io/) et [quelques](https://github.com/zhuochun/md-writer) [plugins](https://github.com/lloeki/linter-markdownlint) ou [iA Writer](https://ia.net/writer) pour m'y aider.
 
-Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandisssante depuis quelques années.
+Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandissante depuis quelques années.
 
 {% include figure.html url="/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
 
 Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels devrait vous intéresser.
 
-J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent le mieux et surtout que vos écrits ne dépendendront plus de formats qui les emprisonnent.
+J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent le mieux et surtout que vos écrits ne dépendront plus de formats qui les emprisonnent.
 
 ---
 
@@ -114,7 +114,7 @@ Avec le format MultiMarkdown[^7] (une version améliorée de Markdown) vous pouv
 
 #### Notes de bas de page
 
-MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu lourdingue comme pour les liens mais c'est aussi abscon dans les éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
+MultiMarkdown gère aussi les notes de bas de page. La syntaxe est un petit peu lourdingue comme pour les liens mais c'est aussi abscond dans les éditeurs de texte enrichi. Avec [un éditeur de Markdown qui propose un fonction aperçu](https://vimeo.com/158933545) vous pouvez apprendre la syntaxe tout en ~~écrivant~~ cliquant.
 
 Plus vous maîtriserez Markdown, plus vous passerez rapidement et facilement du texte brut au texte formaté. C'est là où Markdown excelle : en comblant le fossé entre le texte brut et le texte enrichi, il vous permet de constamment modeler le texte — de la première note prise au hasard jusqu'à la publication multicanale.
 
