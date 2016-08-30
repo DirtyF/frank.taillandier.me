@@ -37,6 +37,7 @@ social:
 
 kramdown:
   input: GFM
+  hard_wrap: false
 
 branch: gh-pages
 
