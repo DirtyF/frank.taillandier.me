@@ -3,9 +3,11 @@ title: 10 façons de rendre un produit excellent
 description: La meilleure façon de développer des produits, qu'ils soient propriétaires, publics ou open-source selon Ben Balter, chef de produit chez Github.
 ---
 
-Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation nait la qualité et l'innovation. On retrouve ses valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub (Jekyll). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous Ben Balter, contributeur open-source invétéré et en charge de GitHub Pages, le service d'hébergement gratuit de sites web de GitHub.
+Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation nait la qualité et l'innovation. On retrouve ses valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub (Jekyll). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous @benbalter, contributeur open-source invétéré et en charge de GitHub Pages, le service d'hébergement gratuit de sites web de GitHub.
 
 <!-- excerpt -->
+
+---
 
 _Traduction de l'article [10 ways to make a product great](http://ben.balter.com/2016/08/22/ten-ways-to-make-a-product-great/) publié le 22 août 2016_
 
@@ -73,5 +75,7 @@ Les obstacles à la libre circulation de l'information créent des frictions, r�
 Résultat, l'environnement de développement local des utilisateurs se rapproche au plus près de celui de leur site en ligne et les anomalies sont détectées plus vite et corrigées lorsqu'elles sont découvertes.
 
 GitHub Pages est loin d'être parfait, mais j'ai beaucoup appris en passant les trois dernières années à hacker un même produit (une éternité en années techniques) et davantage en hackant un projet open-source et des projets gouvernementaux auparavant. Ce sont les leçons que j'ai tirées de ce qui marche et plus important, de ce qui ne marche pas. Cela m'a appris ce que pense être le meilleur moyen de développer des produits, mais je suis sur qu'il y a encore beaucoup, beaucoup plus à apprendre. Quelles sont les règles qui dictent comment vous abordez un produit (ou comme je le pensais auparavant, un projet open-source) ?
+
+---
 
 [^Gem]: nom donné aux paquets logiciels dans l'écosystème du langage Ruby
