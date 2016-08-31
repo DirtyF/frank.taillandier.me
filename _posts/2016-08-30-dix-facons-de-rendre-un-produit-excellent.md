@@ -1,6 +1,6 @@
 ---
 title: 10 façons de rendre un produit excellent
-description: La meilleure façon de développer des produits, qu'ils soient propriétaires, publics ou open-source selon Ben Balter, chef de produit chez Github.
+description: La meilleure manière de développer des produits, qu'ils soient propriétaires, publics ou open-source selon Ben Balter, chef de produit chez Github.
 ---
 
 Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation nait la qualité et l'innovation. On retrouve ses valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub (Jekyll). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous @benbalter, contributeur open-source invétéré et en charge de GitHub Pages, le service d'hébergement gratuit de sites web de GitHub.
