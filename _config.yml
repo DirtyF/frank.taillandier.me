@@ -37,6 +37,7 @@ social:
 
 kramdown:
   input: GFM
+  hard_wrap: false
 
 branch: gh-pages
 
@@ -71,3 +72,4 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-mentions
