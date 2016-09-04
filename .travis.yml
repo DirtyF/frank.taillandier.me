@@ -6,7 +6,7 @@ rvm:
 matrix:
     include:
         - rvm: 2.1
-          env: JEKYLL_VERSION=3.15
+          env: JEKYLL_VERSION=3
     fast_finish: true
 
 before_script: bundle update
