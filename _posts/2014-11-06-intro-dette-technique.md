@@ -110,7 +110,7 @@ Ceci n’est pas une négociation sur la dette technique. Les vraies négociatio
 
 Mais de toute façon est-ce que cette société ne contracte pas de la dette ? La réponse est _non_. Et c’est c’est pour cela que l’analogie avec la dette commence à atteindre ses limites dans ce cas de figure. La demande du manager n’est pas de sacrifier à court terme en tout connaissance de cause la conception du code pour l’améliorer par la suite, c’est donner carte blanche au développeur inexpérimenté pour simplement écrire du _mauvais_ code.
 
-Les problèmes avec cette approche sont énoncés de manière limpide par Chad Fowler dans cet article [Killing the Crunch Mode Antipattern](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/). D’après Fowler, voici _quelques-unes_ des conséquences de travailler en permanence avec des délais très courts et une piètre qualité :
+Les problèmes avec cette approche sont énoncés de manière limpide par Chad Fowler dans cet article [Killing the Crunch Mode Antipattern](http://chadfowler.com/2014/01/22/the-crunch-mode-antipattern.html). D’après Fowler, voici _quelques-unes_ des conséquences de travailler en permanence avec des délais très courts et une piètre qualité :
 
 *   Même les développeurs expérimentés tombent dans des pièges de débutants ;
 *   Ca tue la passion du développeur pour son métier, quelques fois de façon permanente, cela entraîne le départ des meilleurs développeurs ;
@@ -226,7 +226,7 @@ Cinquièmement, étant donné qu’une partie du problème vient de l’inexpér
 
 Sixièmement, en général, la planification n’est pas particulièrement le point fort du genre de projet qui nécessite une réécriture. Est-ce que la réécriture sera correctement planifiée ?
 
-Toutes ces problématiques et beaucoup plus sont abordées dans la série d’articles [The Big Rewrite](http://chadfowler.com/blog/2006/12/27/the-big-rewrite/) de Chad Fowler.
+Toutes ces problématiques et beaucoup plus sont abordées dans la série d’articles [The Big Rewrite](http://chadfowler.com/2006/12/27/the-big-rewrite.html) de Chad Fowler.
 
 Donc, la seule option réaliste devant du code *legacy* est de _radicalement_ améliorer l’état du code _actuel_ de manière cyclique. Cela _doit_ être fait en introduisant des tests, même si c’est très dur et que cela prend du temps. L’application monolithique doit être découpée en petites pièces découplées. Et toutes les migrations de données et changements plus radicaux doivent être parfaitement planifiés et synchronisés.
 
