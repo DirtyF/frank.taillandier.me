@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve --incremental --drafts
+web: bundle exec jekyll serve --livereload --incremental --drafts
