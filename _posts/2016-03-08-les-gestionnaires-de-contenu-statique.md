@@ -60,9 +60,9 @@ Ce qui est chouette, c'est que vous pouvez apprendre à votre rythme et commence
 
 Vous pouvez aussi créer facilement [vos propres structures de données][18] et définir autant de [variables dont vous avez besoin via les entêtes Front Matter au format YAML][19].
 
-Point important, à l'inverse des flat CMS comme [Kirby](https://getkirby.com/) ou [Grav](https://getgrav.org/), il n'y a pas d'interface graphique fournie par défaut, même si elles commencent à arriver via l'ajout de plugins ou en faisant appel à des services dédiés.
+Point important, à l'inverse des flat CMS comme [Kirby](https://getkirby.com/) ou [Grav](https://getgrav.org/), il n'y a pas d'interface graphique fournie par défaut, même si elles commencent à arriver via l'ajout de plugins ou en faisant appel à des services dédiés[^headless-cms].
 
-{% include figure.html url="https://d1qmdf3vop2l07.cloudfront.net/nice-tank.cloudvent.net/compressed/03507bd3b640623f942dfb5de0de99c1.png" description="L'éditeur de contenu de Cloudcannon" %}
+{% include figure.html url="/assets/img/2016/03/cloudcannon-editor.png" description="L'éditeur de contenu de Cloudcannon" %}
 
 Fidèle à la philosophie UNIX, les générateurs se contentent de faire une seule chose à la fois : transformer des contenus en site statique. C'est surement pour cette raison qu'il y en a autant. Certains vont plus loin que d'autres en intégrant notamment des commandes pour le déploiement. Comme dans les CMS l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres plugins.
 
@@ -175,6 +175,8 @@ Une [prochaine présentation](https://www.paris-web.fr/2016/conferences/ne-passo
 [^1]:	[Jeyll][13] est le gestionnaire de contenu statique le plus populaire, en partie car il est supporté nativement par [Github Pages][14].
 
 [^2]:	Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia][17].
+
+[^headless-cms]: Quelques services d'édition de contenu en ligne :  [Cloudcannon](http://cloudcannon.com/) et  [Siteleaf](http://www.siteleaf.com/) pour Jekyll, [Forestry.io](https://forestry.io/) pour Jekyll et Hugo, ou [Bowtie](https://bowtie.io) pour n'importe quel générateur de site statique.
 
 [1]:	https://ia.net/writer
 [2]:	http://www.nointerface.com/book/
