@@ -1,9 +1,9 @@
 ---
 ---
 /* AUTHOR */
-	Frank Taillandier, consultant web
-	Contact: frank [at] taillandier [dot] me
-	Twitter: @DirtyF
+	{{ site.author.name }}, {{ site.description }}
+	Contact: {{ site.author.email }}
+	Twitter: @{{ site.twitter.username }}
 	From: Toulouse, France
 
 /* SITE */
