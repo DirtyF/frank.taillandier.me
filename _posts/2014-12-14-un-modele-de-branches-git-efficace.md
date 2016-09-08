@@ -12,7 +12,7 @@ Dans cet article je présente le modèle de développement que j’ai  commencé
 
 ![modèle de branches Git](http://nvie.com/img/git-model@2x.png)
 
-C’est axé autour de Git comme outil de versionnement pour tout le code source
+C’est axé autour de Git comme outil de versionnement pour tout le code source.
 
 ## Pourquoi Git ?
 
@@ -42,7 +42,7 @@ A la base, ce modèle de développement s’inspire fortement de modèles exista
 * `master`
 * `develop`
 
-Les branches `master` et origin devraient être familières à tout utilisateur de Git. Parallèlement à la branch `master`, une autre branche appelée `develop` est présente.
+Les branches `master` et `origin` devraient être familières pour tout utilisateur de Git. Parallèlement à la branch `master`, une autre branche appelée `develop` est présente.
 
 Nous considérons `origin/master` comme étant la branche principale où le code source de `HEAD` reflète l’état de *prêt pour la production*.
 
@@ -84,18 +84,18 @@ Les branches de fonctionnalités n’existent typiquement que dans les dépôts 
 
 ### Créer une branche de fonctionnalité
 
-Lorsqu’on commence à travailler sur une nouvelle fonctionnalité, partez de la branche `develop`
+Lorsqu’on commence à travailler sur une nouvelle fonctionnalité, partez de la branche `develop` :
 
-{% highlight shell %}
+```sh
 $ git checkout -b myfeature develop
 Switched to a new branch "myfeature"
-{% endhighlight %}
+```
 
 ### Incorporer une fonctionnalité terminée dans develop
 
 Les fonctionnalités terminées peuvent être fusionnées dans la branche `develop` pour être ajoutées à la prochaine version :
 
-{% highlight shell  %}
+```sh
 $ git checkout develop
 Switched to branch 'develop'
 $ git merge --no-ff myfeature
@@ -104,7 +104,7 @@ Updating ea1b82a..05e9557
 $ git branch -d myfeature
 Deleted branch myfeature (was 05e9557).
 $ git push origin develop
-{% endhighlight %}
+```
 
 L’option `—no-ff` va créer un nouveau commit lors de la fusion, même si la fusion aurait pu se faire avec un fast-forward. Cela évite de perdre l’information de l’existence historique d’une branche de fonctionnalité et groupe ensemble tous les commits qui ont été ajoutés à la fonctionnalité.
 Comparez :
@@ -138,7 +138,7 @@ C’est précisément au début d’une branche de version que la prochaine vers
 
 Les branches de version sont créées à partir de la branche `develop`. Par exemple, disons que la version 1.1.5 est la version courante de production et que nous avons une nouvelle version majeure qui arrive. L’état de `develop` est prêt pour la « prochaine version » et nous avons décidé que cela deviendra la version 1.2 (plutôt que 1.1.6 ou 2.0). Donc nous bifurquons et donnons à la branche de version un nom qui reflète le nouveau numéro de version :
 
-{% highlight shell %}
+```sh
 $ git checkout -b release-1.2 develop
 Switched to a new branch "release-1.2"
 $ ./bump-version.sh 1.2
@@ -146,7 +146,7 @@ Files modified successfully, version bumped to 1.2.
 $ git commit -a -m "Bumped version number to 1.2"
 [release-1.2 74d9424] Bumped version number to 1.2
 1 files changed, 1 insertions(+), 1 deletions(-)
-{% endhighlight %}
+```
 
 Après avoir crée une nouvelle branche, et nous être positionné dessus, nous incrémentons le numéro de version. Ici, `bump-version.sh` est un script shell fictif qui change quelques fichiers dans notre dossier de travail pour refléter la nouvelle version. (Cela peut bien évidemment être un changement manuel - le propos étant que *certains* fichiers changent.)Puis, le changement de numéro de version est enregistré.
 
@@ -158,14 +158,14 @@ Quand l’état de la branche de version est prêt à deviner une vraie version,
 
 Les deux premieres étapes dans Git :
 
-{% highlight shell %}
+```sh
 $ git checkout master
 Switched to branch 'master'
 $ git merge --no-ff release-1.2
 Merge made by recursive.
 (Résumé des changements)
 $ git tag -a 1.2
-{% endhighlight %}
+```
 
 La version est maintenant terminée et targuée pour toute référence future.
 
@@ -173,22 +173,23 @@ Remarque : Vous pouvez tout aussi bien vouloir utiliser les options `-s` or `-u`
 
 Pour garder les changements effectués dans la branche de version, nous avons besoin de les fusionner dans `develop`. Avec Git :
 
-{% highlight shell %}
+```sh
 $ git checkout develop
 Switched to branch 'develop'
 $ git merge --no-ff release-1.2
 Merge made by recursive.
 (Résumé des changements)
-{% endhighlight %}
+```
 
 Cette étape peut mener à une conflit de fusion (probablement même, puisque nous avons changé le numéro de version. Si c’est le cas, corrigez-le et comptez.
 
 Maintenant nous avons vraiment terminé et la branche de version peut être supprimée, puisque nous n’en avons plus besoin :
 
-{% highlight shell %}
+```sh
 $ git branch -d release-1.2
+
 Deleted branch release-1.2 (was ff452fe).
-{% endhighlight %}
+```
 
 ### Les branches de correctifs
 
@@ -211,7 +212,7 @@ L’objectif est que le travail des membres de l’équipe (sur la branche `deve
 
 Les branches de correctif sont créées à partir de la branche `master`. Par exemple, disons que la version 1.2 est la version qui tourne actuellement en production et que plusieurs anomalies posent problème. Dans le même temps les modifications effectuées sur `develop` sont encore instables. Nous pouvons alors créer une branche de correctif et commencer à corriger le problème :
 
-{% highlight shell %}
+```sh
 $ git checkout -b hotfix-1.2.1 master
 Switched to a new branch "hotfix-1.2.1"
 $ ./bump-version.sh 1.2.1
@@ -219,17 +220,17 @@ Files modified successfully, version bumped to 1.2.1.
 $ git commit -a -m "Bumped version number to 1.2.1"
 [hotfix-1.2.1 41e61bb] Bumped version number to 1.2.1
 1 files changed, 1 insertions(+), 1 deletions(-)
-{% endhighlight %}
+```
 
 N’oubliez pas de modifier le numéro de version après la création de la branche !
 
 Ensuite, corrigez le bug et enregistrez le correctif dans un ou plusieurs commits séparés.
 
-{% highlight shell %}
+```sh
 $ git commit -m "Fixed severe production problem"
 [hotfix-1.2.1 abbe5d6] Fixed severe production problem
 5 files changed, 32 insertions(+), 17 deletions(-)
-{% endhighlight %}
+```
 
 ### Finalisation d’une branche de correctif
 
@@ -237,35 +238,35 @@ Lorsque c’est terminé, le correctif a besoin d’être reporté dans  `master
 
 Premièrement, mettez à jour `master` et tagguez la version :
 
-{% highlight shell %}
+```sh
 $ git checkout master
 Switched to branch 'master'
 $ git merge --no-ff hotfix-1.2.1
 Merge made by recursive.
 (Résumé des modifications)
 $ git tag -a 1.2.1
-{% endhighlight %}
+```
 
 Remarque : Vous pouvez tout aussi bien vouloir utiliser les options `-s` or `-u` `<clef>` pour signer votre tag de manière chiffrée.
 
 Ensuite, déployez également le correctif dans `develop` :
 
-{% highlight shell %}
+```sh
 $ git checkout develop
 Switched to branch 'develop'
 $ git merge --no-ff hotfix-1.2.1
 Merge made by recursive.
 (Résumé des modifications)
-{% endhighlight %}
+```
 
 La seule exception à la règle ici est que, **lorsqu’une branche de version en cours de developpement existe, le correctif a besoin d’être reporté dans cette branche de version, plutôt que dans `develop`**. Le report de l’anomalie dans la branche de version finira par être reporté dans develop à son tour, lorsque la branche de version sera terminée. (Si le travail en cours sur develop nécessite que l’anomalie soit corrigée immédiatement sans attendre la fin de la branche de version, vous pouvez tout aussi bien reporter dès à présent le correctif également sur develop.)
 
 Enfin, supprimer la branche temporaire :
 
-{% highlight shell %}
+```sh
 $ git branch -d hotfix-1.2.1
 Deleted branch hotfix-1.2.1 (was abbe5d6).
-{% endhighlight %}
+```
 
 ## En résumé
 
