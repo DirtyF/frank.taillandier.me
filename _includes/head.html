@@ -19,10 +19,15 @@
   {% include favicons.html %}
 
   <!-- Profiles -->
-	<link type="text/plain" rel="author" href="/humans.txt" />
-	<link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ site.baseurl }}/foaf.rdf" />
+  <link type="text/plain" rel="author" href="/humans.txt" />
+  <link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ site.baseurl }}/foaf.rdf" />
 
   <!-- Analytics-->
-  {% if site.analytics.google.site_verification %}<meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">{% endif %}
-  {% include analytics.html %}
+  {% if site.analytics.google.site_verification %}
+    <meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">
+  {% endif %}
+
+  {% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
