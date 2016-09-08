@@ -1,30 +1,24 @@
-# Setup
-title:               Frank Taillandier
-description:         Consultant web
+# Configuration
+title: Frank Taillandier
+description: Consultant web
 github:
   url: http://frank.taillandier.me
 repository: DirtyF/frank.taillandier.me
+branch: gh-pages
 
-baseurl:             ""
-permalink:           pretty
-excerpt_separator:   <!-- excerpt -->
-paginate:            10
+baseurl: ""
+permalink: pretty
+excerpt_separator: <!-- excerpt -->
+paginate: 10
 
-# About/contact
-author:
-  name: Frank Taillandier
-  email: frank.taillandier@gmail.com
-  twitter: DirtyF
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-analytics:
-  google:
-    tracking_id: UA-15560088-1
-    site_verification: KhnXRq1e9zCBkD6X4vs_xwVc-6c-5an2vE7f0_-XMiE
+sass:
+  style: compressed
 
-disqus:
-  shortname: franktaillandier
-
-# SEO
+# seo-tag
 logo: /assets/img/frank-taillandier.jpg
 twitter:
   username: DirtyF
@@ -34,15 +28,6 @@ social:
     - https://github.com/DirtyF
     - http://lanyrd.com/profile/dirtyf/
     - http://www.last.fm/user/DirtyF
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-branch: gh-pages
-
-sass:
-  style: compressed
 
 defaults:
   # _posts
@@ -73,3 +58,18 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-mentions
+
+# About
+author:
+  name: Frank Taillandier
+  email: frank@taillandier.me
+  twitter: DirtyF
+
+# External apps
+analytics:
+  google:
+    tracking_id: UA-15560088-1
+    site_verification: KhnXRq1e9zCBkD6X4vs_xwVc-6c-5an2vE7f0_-XMiE
+
+disqus:
+  shortname: franktaillandier
