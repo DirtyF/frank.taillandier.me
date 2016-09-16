@@ -1,11 +1,12 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
+gem "github-pages", :group => :jekyll_plugins
 
 group :development do
-  gem 'foreman', '~> 0.78.0'
+  gem "rake"
+  gem "launchy"
 end
 
 group :test do
-  gem 'html-proofer'
+  gem "html-proofer"
 end
