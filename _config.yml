@@ -48,7 +48,8 @@ exclude:
   - Gemfile.lock
   - Procfile
   - README.md
-  - CNAME
+  - tmp
+  - Rakefile
 
 # CSP
 
