@@ -67,6 +67,7 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-mentions
+  - jemoji
 
 # About
 author:
