@@ -84,7 +84,7 @@ Enfin quand Christophe Porteneuve, encore lui, m'a dit qu'il lançait [le nouvea
 
 Il semblerait donc que ce soit encore cantonné à quelques experts, mais je ne doute pas que la France rattrape ses cinq ans de retard très bientôt.
 
-Les [exemples dans les slides de la conférence](/presentations/ne-passons-pas-a-cote-des-choses-simples/#29) mentionnent des sites très bien conçus comme celui de l'agence [Instrument](http://www.instrument.com/), qui a notamment été commissionnée pour la conception [https://design.google.com/](https://design.google.com/). Il me semble que c'est Nanoc qui a été utilisé sur ce projet.
+Les [exemples dans les slides de la conférence](/presentations/ne-passons-pas-a-cote-des-choses-simples/) mentionnent des sites très bien conçus comme celui de l'agence [Instrument](http://www.instrument.com/), qui a notamment été commissionnée pour la conception [https://design.google.com/](https://design.google.com/). Il me semble que c'est Nanoc qui a été utilisé sur ce projet.
 
 Brad Frost est développeur front et utilise lui aussi [Jekyll](http://jekyllrb.com/) pour générer la documentation de son projet [PatternLab](http://patternlab.io/), c'est donc tout à fait accessible.
 
