@@ -15,8 +15,10 @@ namespace :site do
     # Generate the site in server mode.
     puts "Running Jekyll..."
     options = {
-      "watch"   => true,
-      "serving" => true
+      "watch"       => true,
+      "serving"     => true,
+      "incremental" => true,
+      "config"      => %w(_config.yml _config_local.yml)
     }
     Jekyll::Commands::Build.process(options)
     Jekyll::Commands::Serve.process(options)
