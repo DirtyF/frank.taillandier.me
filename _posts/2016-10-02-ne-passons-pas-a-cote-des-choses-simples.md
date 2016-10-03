@@ -4,9 +4,13 @@ description: "Générer des sites performants et sécurisés, c'est possible san
 image: /assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets.png
 ---
 
-Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les processus modernes de développement et de déploiement, ainsi que tout l'écosystème actuel à disposition pour servir des sites beaucoup plus performants et sécurisés. Avec [Bertrand](http://bertrandkeller.info/), nous voulions aussi partager nos retours d'expérience et le plaisir retrouvé que nous avions à apprendre et à concevoir itérativement des sites de qualité où le contenu est roi.
+Ce texte est destiné à servir de support pour les [slides de présentation](/presentations/ne-passons-pas-a-cote-des-choses-simples/) de la mini-conférence donnée à [Paris Web 2016](http://www.paris-web.fr/2016/).
 
-C'était la mission impossible que nous nous étions fixés en proposant une [mini-conférence à Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php). Et pour ne pas rester sur la frustration de n'avoir pas pu traiter ce sujet plus en détail, je vous propose de revenir si vous le voulez bien sur les problèmes récurrents que nous pouvons rencontrer aujourd'hui et comment en utilisant des outils de développement adaptés, ils peuvent être aisément résolus.
+Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les processus modernes de développement et de déploiement, ainsi que tout l'écosystème actuel à disposition pour servir des sites beaucoup plus performants et sécurisés.
+
+Avec [Bertrand](http://bertrandkeller.info/), nous voulions surtout partager nos retours d'expérience et le plaisir retrouvé que nous avions à apprendre et à concevoir itérativement des sites de qualité où le contenu est roi. Donner envie aux développeurs front de reprendre la main sur leur code tout en proposant une expérience optimale aux utilisateurs.
+
+C'était la mission impossible que nous nous étions fixés en proposant une [mini-conférence à Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php). Et pour ne pas rester sur la frustration de n'avoir pas pu traiter ce sujet plus en détail, voyant bien que Matthias agitait frénétiquement le carton indiquant la fin du temps qui nous était imparti, je vous propose de revenir rapidement si vous le voulez bien sur les problèmes récurrents que nous pouvons rencontrer aujourd'hui en production et comment en utilisant des process adaptés, ils peuvent aisément être résolus.
 
 <!-- excerpt -->
 
@@ -82,7 +86,9 @@ C'est par exemple le cas pour le site de campagne d'[Hillary Clinton](https://ww
 
 Enfin quand Christophe Porteneuve, encore lui, m'a dit qu'il lançait [le nouveau site de sa société](http://beta.delicious-insights.com/), je n'ai pas été étonné qu'il ait utilisé Middleman, un générateur de site statique en Ruby. Même chose pour [Cedexis](http://www.cedexis.com/), dont la performance est le cœur de métier et qui utilise aussi Middleman pour son site.
 
-Il semblerait donc que ce soit encore cantonné à quelques experts, mais je ne doute pas que la France rattrape ses cinq ans de retard très bientôt.
+Certains générateurs comme Gatsby ou Phenomic utilisent nodeJS et React pour embarquer des composants dynamiques dans les pages, c'est une manière hybride de concilier les contenus statiques et le développment d'application web. J'attends de voir
+
+Il semblerait donc que ce soit surtout cantonné à quelques experts - j'adorerai qu'on me prouve le contraire - mais je ne doute pas que la France rattrape ses cinq ans de retard très bientôt.
 
 Les [exemples dans les slides de la conférence](/presentations/ne-passons-pas-a-cote-des-choses-simples/) mentionnent des sites très bien conçus comme celui de l'agence [Instrument](http://www.instrument.com/), qui a notamment été commissionnée pour la conception [https://design.google.com/](https://design.google.com/). Il me semble que c'est Nanoc qui a été utilisé sur ce projet.
 
@@ -98,11 +104,13 @@ Je vous laisse méditer avec une citation du penseur de la technique, [Jacques E
 
 > La spécialisation doit-elle se payer par une parcellisation absurde où la connaissance se disloque en mille savoirs clos ?
 
-Un grand merci à Bertrand pour m'avoir poussé à travailler sur cette conférence, la prise de parole en public est un exercice auquel je me prête peu, mais l'expérience s'est à priori révélée positive, si j'en crois les quelques retours positifs que j'ai eu. On ne s'improvise pas acteur, ça a du se voir, mais nous avons essayé de proposer un format aussi vivant que possible.
+Un grand merci à Bertrand pour m'avoir incité à travailler sur cette conférence, la prise de parole en public est un exercice auquel je me prête peu, enfin sur scène, mais l'expérience s'est à priori révélée positive, si j'en crois les quelques retours positifs que j'ai eu. On ne s'improvise pas acteur, ça a du se voir, mais nous avons essayé de proposer un format aussi vivant que possible.
+
+Le fait qu'il y ait eu d'autres conférences sur l'importance de l'accès aux données, sur les nouvelles APIs qui permettent de mieux gérer le cache navigateur, le déploiement continu, des ateliers JS et Git, fait que notre sujet s'insérait vraiment bien au milieu du programme.
 
 Un immense bravo à toute l'équipe de Paris-Web qui accomplit un travail phénoménal chaque année, C'était un sans-faute pour moi niveau organisation comme d'habitude.
 
-J'en profite pour vous donner rendez-vous à [Sud Web](https://sudweb.fr/) :sunny: en mai prochain, dont le site est bien entendu propulsé en statique :rocket:
+Je profite de l'occasion pour vous donner rendez-vous à [Sud Web](https://sudweb.fr/) :sunny: en mai prochain, dont le site est bien entendu propulsé en statique :rocket:
 
 ---
 
