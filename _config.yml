@@ -9,7 +9,7 @@ branch: gh-pages
 baseurl: ""
 permalink: pretty
 excerpt_separator: <!-- excerpt -->
-paginate: 10
+paginate: 15
 
 kramdown:
   input: GFM
