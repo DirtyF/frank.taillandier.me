@@ -84,9 +84,9 @@ De plus en plus d'agences privilégient aussi ces process pour leurs clients, no
 
 C'est par exemple le cas pour le site de campagne d'[Hillary Clinton](https://www.hillaryclinton.com/), le site de l'ICIJ à l'origine des [Panama Papers](https://panamapapers.icij.org/). En France, mis à part des blogs, je ne sais pas si beaucoup d'agences l'utilisent pour des projets aussi importants.
 
-Enfin quand Christophe Porteneuve, encore lui, m'a dit qu'il lançait [le nouveau site de sa société](http://beta.delicious-insights.com/), je n'ai pas été étonné qu'il ait utilisé Middleman, un générateur de site statique en Ruby. Même chose pour [Cedexis](http://www.cedexis.com/), dont la performance est le cœur de métier et qui utilise aussi Middleman pour son site.
+Enfin quand Christophe Porteneuve, encore lui, m'a dit qu'il lançait [le nouveau site de sa société](http://beta.delicious-insights.com/), je n'ai pas été étonné qu'il ait utilisé [Middleman](https://middlemanapp.com/), un générateur de site statique en Ruby. Même chose pour [Cedexis](http://www.cedexis.com/), dont la performance est le cœur de métier et qui utilise aussi Middleman pour son site.
 
-Certains générateurs comme Gatsby ou Phenomic utilisent nodeJS et React pour embarquer des composants dynamiques dans les pages, c'est une manière hybride de concilier les contenus statiques et le développment d'application web. J'attends de voir
+Certains générateurs comme Gatsby ou Phenomic utilisent nodeJS et React pour embarquer des composants dynamiques dans les pages, c'est une manière hybride de concilier les contenus statiques et le développment d'application web.
 
 Il semblerait donc que ce soit surtout cantonné à quelques experts - j'adorerai qu'on me prouve le contraire - mais je ne doute pas que la France rattrape ses cinq ans de retard très bientôt.
 
@@ -100,7 +100,7 @@ Faites plaisir à vos utilisateurs, soyez pertinents : *Keep It Static Stupid*.
 
 Pour les équipes, tout l'enjeu est de collaborer étroitement avec vos clients, vos collègues à l'appropriation collective du process que vous aurez mis en place, cela n'est pas forcément évident selon le contexte, ça demande de casser les silos. Vive les équipes multi-disciplinaires.
 
-Je vous laisse méditer avec une citation du penseur de la technique, [Jacques Ellul](https://fr.wikipedia.org/wiki/Jacques_Ellul) :
+Je vous laisse méditer avec une citation du penseur de la technique, [Jacques Ellul](https://fr.wikipedia.org/wiki/Jacques_Ellul)&nbsp;:
 
 > La spécialisation doit-elle se payer par une parcellisation absurde où la connaissance se disloque en mille savoirs clos ?
 
