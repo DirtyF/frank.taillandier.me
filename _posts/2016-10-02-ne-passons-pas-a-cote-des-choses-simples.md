@@ -42,11 +42,11 @@ Ce qu'il est important de retenir, c'est que cela permet à des personnes qui n'
 
 Il n'y a pas que dans les entreprises de logiciels, où les rédacteurs sont bien accompagnés par les équipes de développeurs, que ce genre de workflow est mis en place.
 
-[Certains éditeurs ont franchi le pas](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en workflow de travail idéal pour l'édition et la publication.
+[Certains éditeurs ont franchi le pas](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en font un workflow de travail idéal pour l'édition et la publication.
 
 Ces processus de travail, les développeurs les connaissent de mieux en mieux, d'abord avec l'avènement de [Git](https://git-scm.com/book/fr/v2), crée il y a maintenant dix ans et la popularité grandissante de plates-formes de développement collaboratif comme GitHub, GitLab ou Bitbucket basées sur le versionnement de fichiers.
 
-Parallèlement à ces évolutions, nous avons pu assisté également à la mise à disposition d'APIs, toujours plus nombreuses et plus riches. Elles facilitent la réutilisation de données, en les rendant accessibles via des requêtes HTTP. Il est aujourd"hui trivial de récupérer du JSON avec ES2015 comme nous l'avons vu le lendemain en atelier.
+Parallèlement à ces évolutions, nous avons pu assisté également à la mise à disposition d'APIs, toujours plus nombreuses et plus riches. Elles facilitent la réutilisation de données, en les rendant accessibles via des requêtes HTTP. Il est aujourd'hui trivial de récupérer du JSON avec ES2015 comme nous l'avons vu le lendemain en atelier. Promis.
 
 Afin d'illustrer tout cela, comme nous étions à Paris-Web, j'ai choisi de présenter une preuve de concept ingénieuse, développée par [Tim Carry](http://www.pixelastic.com/), évangéliste chez Algolia, qui propose une API de recherche très performante pour vos documents. Tim a ensuite utilisé [Brunch](http://brunch.io/) pour générer ce qu'on appelle dans notre jargon une *single page app*, une page dont le côté dynamique est entièrement assuré par JavaScript dans le navigateur. C'est plutôt cool le développement web en 2016.
 
@@ -64,7 +64,7 @@ Cela décrit assez bien le processus de conception des applications web d'aujour
 
 Vous avez donc compris que ces sites ne sont donc pas forcément si *statiques* que ça. Forcément, le web a beaucoup évolué depuis les premières page HTML que nous mettions en ligne avec un logiciel FTP, les navigateurs sont devenus très performants, [JavaScript est désormais partout](https://www.paris-web.fr/2016/conferences/nodejs-partout.php), comme se tue à le répéter Christophe Porteneuve depuis plusieurs années déjà. Le versionnement des projets facilite grandement la collaboration et l'automatisation les processus de déploiement. Nous avons pu le constater lors de [la présentation de David Sferuzza](https://www.paris-web.fr/2016/conferences/le-deploiement-manuel-non-merci-jessaie-darreter.php).
 
-Même si on ne développe pas de *Single Page App* comme Tim, l'adoption d'un workflow similaire pour la génération de sites de contenus est une aubaine pour les développeurs et designers web. Ils ont la possibilité de se concentrer uniquement sur leur domaine de prédilection. C'est également un très bon terrain de jeu et d'expérimentation pour s'amuser à utiliser des APIs, récupérer des fichiers JSON, moduler des données comme bon nous semble à l'aide du sucre syntawique qu'offre YAML et utiliser le langage de *templating* de son choix pour façonner son code à la manière d'un artisan.
+Même si on ne développe pas de *Single Page App* comme Tim, l'adoption d'un workflow similaire pour la génération de sites de contenus est une aubaine pour les développeurs et designers web. Ils ont la possibilité de se concentrer uniquement sur leur domaine de prédilection. C'est également un très bon terrain de jeu et d'expérimentation pour s'amuser à utiliser des APIs, récupérer des fichiers JSON, moduler des données comme bon nous semble à l'aide du sucre syntaxique qu'offre YAML et utiliser le langage de *templating* de son choix pour façonner son code à la manière d'un artisan.
 
 Avoir le choix dans les outils, surtout quand ils sont aussi nombreux, c'est toujours un dilemme, mais en ce qui concerne les générateurs, le choix sera de toute façon influencé par votre expérience passée, l'écosystème que vous maîtrisez le mieux.
 
@@ -74,7 +74,7 @@ Vous pouvez commencer par identifier un *content-driven* projet comme un blog ou
 
 Ce qui compte avant tout c'est de **retrouver du plaisir et de la sérénité**. Dans son livre *[La vérité sur ce qui nous motive](https://www.amazon.fr/vérité-sur-qui-nous-motive/dp/208137952X/)*, Daniel Pink décrypte les trois éléments clés de la motivation : **l'autonomie**, **l'envie de progresser** dans son domaine pour devenir bon, de maîtriser son art et enfin la finalité et **le sens de notre action**.
 
-Ce workflow **simple**, n'est pas synonyme de _facile_ et rassemble ces trois composantes. C'est surement pour cela qu'il est devenu celui de nombreux projets open-source, notamment de documentation ou de présentation de produit. Comme GitHub et GitLab hébergent gratuitement le code open-source, l'hébergement ne coûte plus rien.
+Ce workflow **simple**, n'est pas synonyme de *facile* et rassemble ces trois composantes. C'est surement pour cela qu'il est devenu celui de nombreux projets open-source, notamment de documentation ou de présentation de produit. Comme GitHub et GitLab hébergent gratuitement le code open-source, l'hébergement ne coûte plus rien.
 
 Si le logiciel open-source montre toujours la voie, il ne faut pas très longtemps pour que les équipes les plus chevronnées emboitent le pas.
 
@@ -92,15 +92,15 @@ Il semblerait donc que ce soit surtout cantonné à quelques experts - j'adorera
 
 Les [exemples dans les slides de la conférence](/presentations/ne-passons-pas-a-cote-des-choses-simples/) mentionnent des sites très bien conçus comme celui de l'agence [Instrument](http://www.instrument.com/), qui a notamment été commissionnée pour la conception [https://design.google.com/](https://design.google.com/). Il me semble que c'est Nanoc qui a été utilisé sur ce projet.
 
-Brad Frost est développeur front et utilise lui aussi [Jekyll](http://jekyllrb.com/) pour générer la documentation de son projet [PatternLab](http://patternlab.io/), c'est donc tout à fait accessible.
+Brad Frost est développeur front et utilise lui aussi [Jekyll](http://jekyllrb.com/) pour générer la documentation de son projet [PatternLab](http://patternlab.io/). Les intégrateurs, UX designers et autres développeurs front devraient donc s'intéresser selon moi de plus prêt à ces outils. Non seulement, car ils savent suffisamment s'éffacer pour vous laisser jouer avec la matière première des technos web, mais parce qu'ils sont aujourd'hui la meilleure réponse à un web plus performant. Pourquoi veut-on aller si vite, ça c'est une autre question.
 
-Enfin voilà, le message que nous souhaitions faire passer avec Bertrand, c'est que même si l'écosystème n'est peut-être pas encore aussi riche que celui des CMS dont la conception correspond à l'état du web de la fin des années 90, il y a surement des projets sur lesquels vous allez avant tout vouloir vous concentrer sur la stratégie éditoriale, l'expérience utilisateur et la performance. Ce workflow, c'est toujours plus d'autonomie, de maîtrise et de sérénité de gagné.
+Enfin voilà, le message que nous souhaitions faire passer avec Bertrand, c'est que même si l'écosystème n'est peut-être pas encore aussi riche que celui des CMS dont la conception correspond à l'état du web de la fin des années 90, il y a surement des projets sur lesquels vous allez avant tout vouloir vous concentrer sur la stratégie éditoriale, l'expérience utilisateur et la performance. Cette stack, ce workflow c'est la garantie de plus d'autonomie, de maîtrise et de sérénité de gagné. Je fais le pari que dans quelques années, ces solutions seront plus matures et plus répandues, c'est jamais gagné un pari vers le retour à la simplicité, mais a-t-on vraiment encore le choix ? Vous avez deux heures.
 
-Faites plaisir à vos utilisateurs, soyez pertinents : *Keep It Static Stupid*.
+Si vous ne devez retenir qu'une chose de tout ça, c'est qu'en adoptant une démarche centrée utilisateur, vous pouvez aussi vous faire plaisir, être créatif et faire de beaux projets. Sachez être pertinent quand c'est possible : *Keep It Static Stupid*.
 
-Pour les équipes, tout l'enjeu est de collaborer étroitement avec vos clients, vos collègues à l'appropriation collective du process que vous aurez mis en place, cela n'est pas forcément évident selon le contexte, ça demande de casser les silos. Vive les équipes multi-disciplinaires.
+Pour les équipes, tout l'enjeu est de collaborer étroitement avec vos clients, vos collègues à l'appropriation collective du process que vous aurez mis en place, cela n'est pas forcément évident selon le contexte, ça demande de casser les silos. Vive les équipes multi-disciplinaires auto-organisées, ça marche dans des Design Sprint chez les militaires, y'a pas de raison que ça ne marche pas chez vous.
 
-Je vous laisse méditer avec une citation du penseur de la technique, [Jacques Ellul](https://fr.wikipedia.org/wiki/Jacques_Ellul)&nbsp;:
+Je vous laisse méditer avec une citation du penseur de la technique, [Jacques Ellul](https://fr.wikipedia.org/wiki/Jacques_Ellul)&nbsp; :
 
 > La spécialisation doit-elle se payer par une parcellisation absurde où la connaissance se disloque en mille savoirs clos ?
 
@@ -108,9 +108,15 @@ Un grand merci à Bertrand pour m'avoir incité à travailler sur cette confére
 
 Le fait qu'il y ait eu d'autres conférences sur l'importance de l'accès aux données, sur les nouvelles APIs qui permettent de mieux gérer le cache navigateur, le déploiement continu, des ateliers JS et Git, fait que notre sujet s'insérait vraiment bien au milieu du programme.
 
+Je ne suis pas architecte logiciel, je ne prétend pas tout savoir sur ces sujets, simplement j'observe, j'expérimente et je tâche de comprendre comment améliorer nos façons de travailler.
+
+J'aurais adoré pouvoir échanger avec des gens comme [Bastien Jaillot](https://twitter.com/bastnic) sur ce type de sujet avant de préparer cette intervention, j'espère que nous en aurons l'occasion. En tout cas si vous êtes architecte logiciel et que vous souhaite partager votre vision, lâchez-vous. Pour le moment, j'ai l'impression qu'on se dirige vers un meilleur découplage des responsabilités, mais sans pour autant non plus tout passer en microservices ou en architecture serverless. Nous avons pu entendre Matthieu Pillard de chez Mozilla être assez critique à ce niveau.
+
+Ce qui bien avec le Web, c'est qu'on ne sait jamais trop comment ça va évoluer, c'est en perpétuel mouvement et le mouvement c'est la vie.
+
 Un immense bravo à toute l'équipe de Paris-Web qui accomplit un travail phénoménal chaque année, C'était un sans-faute pour moi niveau organisation comme d'habitude.
 
-Je profite de l'occasion pour vous donner rendez-vous à [Sud Web](https://sudweb.fr/) :sunny: en mai prochain, dont le site est bien entendu propulsé en statique :rocket:
+Je profite de l'occasion pour vous donner rendez-vous à [Sud Web](https://sudweb.fr/) :sunny: en mai prochain, dont le site est bien entendu propulsé en *statique* :rocket:
 
 ---
 
