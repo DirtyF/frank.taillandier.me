@@ -51,14 +51,6 @@ exclude:
   - tmp
   - Rakefile
 
-# CSP
-
-webrick:
-  headers:
-    Content-Security-Policy: "default-src 'none'; script-src 'self' https://google-analytics.com https://disqus.com; style-src 'self' data:; media-src vimeo.com youtube.com; font-src https://fonts.googleapis.com"
-    X-Content-Security-Policy: "default-src 'none'; script-src 'self' https://google-analytics.com https://disqus.com; style-src 'self' data:; media-src vimeo.com youtube.com; font-src https://fonts.googleapis.com"
-    X-WebKit-CSP: "default-src 'none'; script-src 'self' https://google-analytics.com https://disqus.com; style-src 'self' data:; media-src vimeo.com youtube.com; font-src https://fonts.googleapis.com"
-
 gems:
   - jekyll-github-metadata
   - jekyll-sitemap
