@@ -4,11 +4,10 @@ permalink: /
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-
+  {% for post in site.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}" title="Lire {{ post.title }}" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
         {{ post.title }}
       </a>
     </h1>
@@ -27,14 +26,12 @@ permalink: /
         {{ reading_time }} minutes
       {% endif %}
     </span>
-
-    {{ post.excerpt }}
-
   </div>
-
+  <hr />
 {% endfor %}
 </div>
 
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Précédent</a>
@@ -51,5 +48,6 @@ permalink: /
     <span class="pagination-item newer">Suivant</span>
   {% endif %}
 </div>
+{% endcomment %}
 
 <p class="copy"></p>

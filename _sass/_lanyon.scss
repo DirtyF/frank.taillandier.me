@@ -305,8 +305,7 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page,
-.post {
+.page {
   margin-bottom: 4em;
 }
 
@@ -314,6 +313,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
+  font-size: 1.5rem;
   color: #303030;
 }
 .page-title,
