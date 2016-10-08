@@ -1,11 +1,9 @@
 # Configuration
 title: Frank Taillandier
 description: Consultant web
-github:
-  url: http://frank.taillandier.me
+url: http://frank.taillandier.me
 repository: DirtyF/frank.taillandier.me
-branch: gh-pages
-
+branch: master
 baseurl: ""
 permalink: pretty
 excerpt_separator: <!-- excerpt -->
@@ -14,8 +12,6 @@ kramdown:
   auto_ids: true
   input: GFM
   hard_wrap: false
-
-
 
 sass:
   style: compressed
