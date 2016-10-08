@@ -7,7 +7,7 @@ permalink: /
   {% for post in site.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
+      <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
         {{ post.title }}
       </a>
     </h1>
