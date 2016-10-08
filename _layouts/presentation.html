@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% seo %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/big.css">
-    <script src="{{ site.baseurl }}/assets/js/big.js"></script>
+
+    <link rel="stylesheet" href="{{ "/assets/css/big.css" | relative_url }}">
+    <script src="{{ "/assets/js/big.js" | relative_url }}"></script>
+
     {% include analytics.html %}
   </head>
   <body>
 
   {{ content }}
 
-  <footer class="small">{{page.title}} &mdash; <a href="{{ site.github.url }}">Frank Taillandier</a> &amp; <a href="">Bertrand Keller</a> &mdash; Paris Web 2016</footer>
+  <footer class="small">{{page.title}} &mdash; <a href="{{ "/" | absolute_url }}">Frank Taillandier</a> &amp; <a href="http://bertrandkeller.info/">Bertrand Keller</a> &mdash; Paris Web 2016</footer>
   </body>
 </html>

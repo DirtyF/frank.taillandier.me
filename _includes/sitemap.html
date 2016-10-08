@@ -4,7 +4,7 @@
     {% for post in site.posts limit:5 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a href="{{ post.url | aboslute_url }}">
             {{ post.title }}
             <small>{% include fr_date.html date=post.date %}</small>
           </a>

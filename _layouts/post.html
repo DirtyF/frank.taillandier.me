@@ -29,12 +29,12 @@ layout: default
 </div>
 
 <div class="related">
-  <h2>Articles recents</h2>
+  <h2>Articles récents</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a href="{{ post.url | relative_url }}">
             {{ post.title }}
             <small>{% include fr_date.html date=post.date %}</small>
           </a>
@@ -45,7 +45,7 @@ layout: default
 </div>
 
 <p>
-  Pour être informé des prochains articles, abonnez vous au <a href="{{ site.baseurl }}/feed.xml">flux RSS</a>.
+  Pour être informé des prochains articles, abonnez vous au <a href="{{ "/feed.xml" | relative_url }}">flux RSS</a>.
 </p>
 
 <p class="copy"></p>

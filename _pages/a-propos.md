@@ -25,7 +25,7 @@ Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username
 {% include sitemap.html %}
 
 <p>
-  Pour être informé des prochains articles, abonnez vous au <a href="{{ site.baseurl }}/feed.xml">flux RSS</a>.
+  Pour être informé des prochains articles, abonnez vous au <a href="{{ "/feed.xml" | relative_url }}">flux RSS</a>.
 </p>
 
 <p class="copy"></p>
