@@ -164,9 +164,9 @@ Cet article a été rédigé suite à une [présentation][61] faite lors d'un ap
 
 <p><script async class="speakerdeck-embed" data-id="03e3e66c6d2845158240a3aa50f50b11" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
 
-Une [prochaine présentation](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php) aura lieu à Paris-Web 2016 avec l'ami Bertrand Keller.
+**[Ne passez pas à côté des choses simples](/2016/10/02/ne-passons-pas-a-cote-des-choses-simples/)**, c'est le message que vous avons voulu faire passer avec l'ami Bertrand Keller lors de [Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php).
 
-<a href="http://jekyll-fr.org/">Jekyll-fr</a> est le groupe francophone des utilisateurs de Jekyll. Nous publions des liens d'<a href="https://twitter.com/jekyll_fr">actualité autour de Jekyll sur Twitter</a>. Nous échangeons et nous entraidons sur notre <a href="https://jekyll-fr.herokuapp.com/">channel Slack</a>.
+<a href="http://jekyll-fr.org/">Jekyll-fr</a> regroupe quelques utilisateurs francophones de générateurs de site statique. Nous publions des liens d'<a href="https://twitter.com/jekyll_fr">actualité autour des générateurs sur Twitter</a>. Nous échangeons et nous nous entraidons sur le <a href="https://jekyll-fr.herokuapp.com/">channel Slack</a>.
 
 ----
 
