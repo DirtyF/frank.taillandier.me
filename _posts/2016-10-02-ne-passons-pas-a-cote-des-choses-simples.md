@@ -6,6 +6,8 @@ image: /assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets
 
 Ce texte est destiné à servir de support pour les [slides de présentation](/presentations/ne-passons-pas-a-cote-des-choses-simples/) de la mini-conférence donnée à [Paris Web 2016](http://www.paris-web.fr/2016/).
 
+{% include figure.html url="/assets/img/2016/09/frank-paris-web-2016.jpg" description="<a href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo de Franck Paul</a>" %}
+
 Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les processus modernes de développement et de déploiement, ainsi que tout l'écosystème actuel à disposition pour servir des sites beaucoup plus performants et sécurisés.
 
 Avec [Bertrand](http://bertrandkeller.info/), nous voulions surtout partager nos retours d'expérience et le plaisir retrouvé que nous avions à apprendre et à concevoir itérativement des sites de qualité où le contenu est roi. Donner envie aux développeurs front de reprendre la main sur leur code tout en proposant une expérience optimale aux utilisateurs.
