@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-mentions"
   gem "jemoji"
+  gem "jekyll-offline", :git => "git://github.com/jeremiak/jekyll-offline.git"
 end
 
 group :development do

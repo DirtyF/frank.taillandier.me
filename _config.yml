@@ -39,6 +39,9 @@ defaults:
 include:
   - "_pages"
 
+offline:
+  strategy: cache-then-network
+
 exclude:
   - vendor
   - script
@@ -57,6 +60,8 @@ gems:
   - jekyll-redirect-from
   - jekyll-mentions
   - jemoji
+  - jekyll-offline
+
 
 # About
 author:
