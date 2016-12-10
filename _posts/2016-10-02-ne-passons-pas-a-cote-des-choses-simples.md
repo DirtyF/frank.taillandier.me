@@ -252,7 +252,7 @@ Ce qu'il est important de retenir, c'est que cela permet à des personnes qui n'
 
 Il n'y a pas que dans les entreprises de logiciels, où les rédacteurs sont bien accompagnés par les équipes de développeurs, que ce genre de workflow est mis en place.
 
-[Certains éditeurs ont franchi le pas](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en font un [workflow de travail](/2016/08/28/traitement-de-texte-multicanal/#un-processus-de-publication-moderne) idéal pour l'édition et la publication.
+[Certains éditeurs ont franchi le pas](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en font un [workflow de travail](/2016/08/28/traitement-de-texte-multicanal/#4-un-processus-de-publication-moderne) idéal pour l'édition et la publication.
 
 Ces processus de travail, les développeurs les connaissent de mieux en mieux, d'abord avec l'avènement de [Git](https://git-scm.com/book/fr/v2), créé il y a maintenant dix ans et la popularité grandissante de plates-formes de développement collaboratif comme GitHub, GitLab ou Bitbucket basées sur le versionnement de fichiers.
 
