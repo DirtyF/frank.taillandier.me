@@ -5,7 +5,7 @@ image: /assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets
 last-modified: 2016-12-09 12:56:27 +0200
 ---
 
-Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Paris Web 2016](http://www.paris-web.fr/2016/) sur la disparition progressive des serveurs au profit de services, d'APIs, de JavaScript côté client, aux plateformes d'intégration continu et aux générateurs de site pas forcément si statique que ça. L'écosystème actuel permet aux développeurs front-end, aux freelance, de passer plus de temps sur la conception, l'UX, la performance et la qualité que sur de la maintenance. Dites adieu à vos serveurs et rejoignez [la mouvance statique]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}).
+Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Paris Web 2016](http://www.paris-web.fr/2016/) sur la disparition progressive des serveurs au profit de services, d'APIs, de JavaScript côté client, de plateformes d'intégration continu et de générateurs de site pas forcément si statiques que ça. L'écosystème actuel permet aux développeurs front-end, aux _freelance_, de passer plus de temps sur la conception, l'UX, la performance et la qualité que sur de la maintenance. Dites adieu à vos serveurs et rejoignez [la mouvance statique]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}).
 
 <!-- excerpt -->
 
@@ -29,7 +29,7 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Bertrand : Erreur MySQL, qu'est-ce que tu veux que je fasse ? Tu peux te débrouiller s'il te plait ?
 >
-> Frank : Euh  Ben…
+> Frank : Euh ben…
 >
 > Bertrand : Je veux bien t'aider, mais je sais pas… qu'est-ce qu'on fait ?
 >
@@ -49,7 +49,7 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Là c'est en prod, mon client, putain…
 >
-> C'est quoi ça, c'est du Wordpress ?
+> C'est quoi ça, c'est du WordPress ?
 >
 > Frank : Oui je crois, ce sont des gens spécialisés dans la performance mais ils utilisent encore un backend, du coup des fois ils sont dépendants du backend.
 >
@@ -71,19 +71,19 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Bertrand : Non, j'ai des développeurs, mais des fois ils sont en vacances donc c'est un peu chiant quoi.
 >
-> Frank : Ils prennent des vacances les développeurs, d'accord, OK.
+> Frank : Ils prennent des vacances les développeurs ? D'accord, OK.
 >
 > (rires)
 >
-> Frank : Et quand l'équipe de Dru pal, elle te dit qu'il y a un patch de sécurité à appliquer dans les 7 heures sinon ton site il est hacké, tu fais quoi en fait ?
+> Frank : Et quand l'équipe de Drupal, elle te dit qu'il y a un patch de sécurité à appliquer dans les 7 heures sinon ton site il est hacké, tu fais quoi en fait ?
 >
-> Bertrand: Ben moi je sais pas en fait, je me lève, je regarde le site, s'il est pas hacké je me rendort (rires)
+> Bertrand: Ben moi je sais pas en fait, je me lève, je regarde le site, s'il est pas hacké je me rendort
+> (rires)
+> Frank : Bon, vous avez compris, 70% des sites sous WordPress sont vulnérables, des millions de sites sous Drupal ont aussi ces problèmes là. Aujourd'hui on est en 2016, la stack LAMP c'était bien dans les années 2000, aujourd'hui le Web a changé, les navigateurs ont changé, JavaScript a évolué et on peut vraiment dans beaucoup de cas se passer de backend et ne plus dépendre de serveur, de requêtes etc. Il y a tout le mouvement Serverless, Christophe en parlait hier avec Amazon Lambda. On est plus obligé de travailler comme ça, pas pour tous les projets, mais une grande partie, j'ai discuté avec certaines personnes qui pensent que 80% des sites ne devraient pas dépendre d'une base de données. Donc aujourd'hui il y a vraiment d'autres solutions.
 >
-> Frank : Bon, vous avez compris tout ça, 70% des sites sous Wordpress sont vulnérables, des millions de sites sous Drupal ont aussi ces problèmes là. Donc aujourd'hui on est en 2016, la stack LAMP c'était bien dans les années 2000, aujourd'hui le web a changé, les navigateurs ont changé, JavaScript a évolué, et du coup on peut vraiment dans beaucoup de cas se passer de backend et ne plus dépendre de serveur, de requêtes, etc. Il y a tout le mouvement Serverless, Christophe en parlait hier avec Amazon Lambda. On est plus obligé de travailler comme ça, pas pour tous les projets, mais une grande partie, j'ai discuté avec certaines personnes qui pensent que 80% des sites ne devraient pas dépendre d'une base de données. Donc aujourd'hui il y a vraiment d'autres solutions.
+> Bertrand : Explique nous, _NoBackend_, c'est quoi le principe fondamental ?
 >
-> Bertrand : Explique nous, No Backend, c'est quoi le principe fondamental ?
->
-> Frank : En No Backend, tu n'as plus de base de données, donc tes données il faut que tu les aies en local sous forme de fichiers.
+> Frank : En _NoBackend_, tu n'as plus de base de données, donc tes données il faut que tu les aies en local sous forme de fichiers.
 >
 > Bertrand : Des fichiers ?
 >
@@ -104,23 +104,23 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Bertrand : CDN ?
 >
-> Frank : Du coup t'auras juste une connexion entre le navigateur et le CDN et on l'a vu tout à l'heure avec Bruce, si tu ajoutes (de quoi en faire) des Progressive Web Apps, t'as un site qui dépote, ça va super vite.
+> Frank : Du coup t'auras juste une connexion entre le navigateur et le CDN et on l'a vu tout à l'heure avec Bruce, si tu ajoutes (de quoi en faire) des [Progressive Web Apps]({% post_url 2016-06-28-que-sont-les-progressive-web-apps %}), t'as un site qui dépote, ça va super vite.
 >
-> Bertrand : OK, je vois, donc ce que t'es en train de me dire c'est qu'il y a une séparation entre le front et le back ? Mais c'est quoi l'intérêt finalement.
+> Bertrand : OK, je vois, donc ce que t'es en train de me dire c'est qu'il y a une séparation entre le front et le back ? Mais c'est quoi l'intérêt finalement ?
 >
-> Frank : Ben l'intéret c'est que c'est donc performant, si t'as un pic de visites comme ça avait l'air d'être le cas chez Dareboost la dernière fois, y'aura pas trop de soucis, c'est des réseaux de serveurs qui sont fait pour ça, et puis c'est moins cher, car l'hébergement faut le payer, le maintenir, tout ça, donc là tu t'enlèves cette problématique.
+> Frank : Ben l'intérêt c'est que c'est performant, si t'as un pic de visites comme ça avait l'air d'être le cas chez Dareboost la dernière fois, y'aura pas trop de soucis, c'est des réseaux de serveurs qui sont fait pour ça et puis c'est moins cher, car l'hébergement faut le payer, le maintenir, tout ça, donc là tu t'enlèves cette problématique.
 >
-> Bertrand : Ah oui tu m'intéresses là. Quand tu parles performance, moi j'essaie d'en faire un petit peu…  je vais parler un peu de moi…
+> Bertrand : Ah oui tu m'intéresses là. Quand tu parles performance, moi j'essaie d'en faire un petit peu…  Je vais parler un peu de moi…
 >
-> C'est vrai qu'à la base je suis intégrateur, du coup je me suis mis aux générateurs de sites statiques pour faire des prototypes. J'étais comme quelqu'un qui débute, on a ses fichiers HTML d'un côté, ses fichiers CSS, on fait des gabarits, on les livre avec des -v1, -v3, etc.
+> C'est vrai qu'à la base je suis intégrateur, du coup je me suis mis aux générateurs de sites statiques pour faire des prototypes. J'étais comme quelqu'un qui débute, on a ses fichiers HTML d'un côté, ses fichiers CSS, on fait des gabarits, on les livre avec des -v1, -v3 etc.
 >
-> Les générateurs de site statique c'est pratique pour pouvoir générer des gabarits facilement, on peut mutualiser les gabarits, et en utilisant du vrai contenu. Alors c'est peut-être du faux contenu, mais en tout cas on utilise des vrais fichiers. Des vrais fichiers c'est comme on l'a dit du Markdown, des fichiers avec du contenu à peu près mis en forme, normalement très bien mis en forme, et eventuellement des fichiers YAML. Donc ça permet quand on fait des gabarits d'avoir du vrai contenu et de les mettre, de développer ses sites et ses gabarits de façon à la présenter de façon cohérente. Et moi ça me permet de développer des modules CSS, enfin des modules, on devait pas en parler hein ? En tout cas de développer mes librairies, mes fichiers CSS et de progresser à ce niveau là, de plus être dans la maintenance de mes gabarits. Et puis j'ai progressé et j'ai fait pas mal de choses dessus.
+> Les générateurs de site statique c'est pratique pour pouvoir générer des gabarits facilement, on peut mutualiser les gabarits et en utilisant du vrai contenu. Alors ça peut-être du faux contenu, mais en tout cas on utilise des vrais fichiers. Des vrais fichiers c'est comme on l'a dit du Markdown, des fichiers avec du contenu à peu près mis en forme, normalement très bien mis en forme et eventuellement des fichiers YAML. Donc ça permet quand on fait des gabarits d'avoir du vrai contenu et de les mettre, de développer ses sites et ses gabarits de façon à la présenter de façon cohérente. Et moi ça me permet de développer des modules CSS, enfin des modules, on devait pas en parler hein ? En tout cas de développer mes librairies, mes fichiers CSS et de progresser à ce niveau là, de ne plus être dans la maintenance de mes gabarits. Et puis j'ai progressé et j'ai fait pas mal de choses dessus.
 >
 > Frank : OK, du coup tu génères le site. Et tu génères de la doc un petit peu des choses comme ça ?
 >
-> Bertrand : Ben oui, c'est exactement ça oui, ça me permet de suivre toute la mouvance de la documentation. Je sais pas si vous avez vu aujourd'hui, les sites, les équipes, les entreprises centralisent leurs développements autour de la documentation. IL y a beaucoup de métiers de l'entreprise qui travaillent autour de la construction de la documentation. Ah oui t'as un exemple en plus.
+> Bertrand : Ben oui, c'est exactement ça oui, ça me permet de suivre toute la mouvance de la documentation. Je sais pas si vous avez vu aujourd'hui, les sites, les équipes, les entreprises centralisent leurs développements autour de la documentation. Il y a beaucoup de métiers de l'entreprise qui travaillent autour de la construction de la documentation. Ah oui t'as un exemple en plus.
 >
-> Frank : Oui, voilà, j'en ai pris un, y'en a plein, tout le monde fait ça aujourd'hui, en tout cas beaucoup de monde, donc là c'est Mailchimp qui a expliqué il y a pas longtemps comment ils avaient produit, toute leur doc, tous leurs guides, ils en ont beaucoup en ligne. Et donc ça c'est généré, leur site aussi. Leur site front si on regarde bien c'est que des contenus, c'est de la présentation de produits, c'est une page de prix, c'est de la doc, c'est un bloc, donc c'est que du statique, y'a pas besoin de serveur pour ça.
+> Frank : Oui, voilà, j'en ai pris un, y'en a plein, tout le monde fait ça aujourd'hui, en tout cas beaucoup de monde, donc là c'est Mailchimp qui a expliqué il y a pas longtemps comment ils avaient produit toute leur doc, tous leurs guides, ils en ont beaucoup en ligne. Et donc ça c'est généré, leur site aussi. Leur site front si on regarde bien c'est que des contenus, c'est de la présentation de produit, c'est une page de prix, c'est de la doc, c'est un bloc, donc c'est que du statique, y'a pas besoin de serveur pour ça.
 >
 > Bertrand : Ça ressemble à un proto quoi.
 >
@@ -128,11 +128,11 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Bertrand : Et c'est les seuls à faire ça ?
 >
-> Frank : Alors la question qu'on pourrait se poser, c'est que OK c'est bien joli, c'est des gens chez Mailchimp, ils ont des super équipes tout ça, mais bon ton client si je dois le mettre la dessus, il fait comment pour rajouter des contenus ?
+> Frank : Alors la question qu'on pourrait se poser, c'est que OK c'est bien joli, c'est des gens chez Mailchimp, ils ont des super équipes tout ça, mais bon ton client si je dois le mettre là dessus, il fait comment pour rajouter des contenus ?
 >
-> Bertrand : Bon tu commences à me faire chier avec tes questions, mais alors bon la contribution, effectivement, c'est un gros problème. On utilise parfois des systèmes de backend pour que le client il puisse éditer. Mais bon la contribution au final, quand on utilise des générateurs de site statique, bah on est pas trop limité. Moi par exemple y'a des maquettes, j'ai travaillé avec plusieurs métiers, et au bout d'un moment ça c'est transformé en site et puis il fallait intégrer du contenu, ben on a dit au client d'aller modifier le contenu, ben directement sur le dépôt quoi.
+> Bertrand : Bon tu commences à me faire chier avec tes questions, mais alors bon la contribution, effectivement, c'est un gros problème. On utilise parfois des systèmes de backend pour que le client il puisse éditer. Mais bon la contribution au final, quand on utilise des générateurs de site statique, bah on est pas trop limité. Moi par exemple y'a des maquettes, j'ai travaillé avec plusieurs métiers et au bout d'un moment ça c'est transformé en site et puis il fallait intégrer du contenu, ben on a dit au client d'aller modifier le contenu, ben directement sur le dépôt quoi.
 >
-> Frank : OK. Sinon ce que tu peux faire, c'est utiliser ce qu'on appelle un headless CMS, c'est un CMS qui va pas être chargé de tout, il va juste être chargé de la partie gestion de contenus, tu vas pouvoir ensuite aller consommer ces contenus via une API, et du coup pas de problème, tu peux générer ton site, le déposer, et à chaque fois que tu vas avoir un contributeur qui va utiliser cet outil, ça va générer une nouvelle version du site, qui sera mise en production.
+> Frank : OK. Sinon ce que tu peux faire, c'est utiliser ce qu'on appelle un _headless_ CMS, c'est un CMS qui va pas être chargé de tout, il va juste être chargé de la partie gestion de contenus, tu vas pouvoir ensuite aller consommer ces contenus via une API et du coup pas de problème, tu peux générer ton site, le déposer et à chaque fois que tu vas avoir un contributeur qui va utiliser cet outil, ça va générer une nouvelle version du site, qui sera mise en production.
 >
 > Bertrand : D'accord, ça m'a l'air puissant ton truc.
 >
@@ -144,58 +144,58 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Bertrand : Je pense qu'ils ont rien suivi là.
 >
-> Frank : Y'a christophe dans la salle, je pense que c'est évident pour tout le monde, tout le monde utilise Git aujourd'hui, enfin je sais pas… Tes contenus sont versionnés.
+> Frank : Y'a Christophe (Porteneuve) dans la salle, je pense que c'est évident pour tout le monde, tout le monde utilise Git aujourd'hui, enfin je sais pas… Tes contenus sont versionnés.
 >
 > Bertrand : Il faudrait qu'ils utilisent des générateurs de site statique aussi.
 >
-> Frank : Donc ce qu'on voit aujourd'hui, y'a des APIs, y'a de plus en plus de CMS en ligne qui existent, où vous allez vous brancher sur votre dépôt GitHub ou ce que vous voulez et vous allez avoir une interface… j'ai testé avec Nathalie, il y a quelques jours, on a fait une revue de l'utilisabilité de tout ça, ça se prend en main en quelques minutes pour quelqu'un qui vient du CMS. Si vous comparez Drupal ou Jahia à ça, c'est beaucoup plus simple, il y a moins de boutons, vous avez juste les articles à éditer.
+> Frank : Donc ce qu'on voit aujourd'hui, y'a des APIs, y'a de plus en plus de CMS en ligne qui existent, où vous allez vous brancher sur votre dépôt GitHub ou ce que vous voulez et vous allez avoir une interface… j'ai testé avec Nathalie (Rosenberg), il y a quelques jours, on a fait une revue de l'utilisabilité de tout ça, ça se prend en main en quelques minutes pour quelqu'un qui vient du CMS. Si vous comparez Drupal ou Jahia à ça, c'est beaucoup plus simple, il y a moins de boutons, vous avez juste les articles à éditer.
 >
-> Bertrand : C'est surtout qu'on édite que du MArkdown, éventuellement quelques fichiers YAML, en fait la complexité des interfaces est très limitée quoi.
+> Bertrand : C'est surtout qu'on édite que du Markdown, éventuellement quelques fichiers YAML, en fait la complexité des interfaces est très limitée quoi.
 > On a un fichier Markdown, dans un fichier Markdown on peut ajouter des meta, donc on a peut-être quelques champs pour utiliser des meta, mais d'un site à un autre, c'est toujours la même chose et les interfaces sont très simples. Les rédacteurs s'y retrouvent du coup.
 >
 > Frank : Oui parce que pour eux, c'est un niveau au dessus, ils vont pas faire `git commit`, machin tout ça, donc c'est transparent, ils font sauvegarder, ça sauvegarde dans Git, tout ça c'est des APIs qui communiquent entre elles, ce qui importe pour l'utilisateur, c'est que pour lui ça ne change pas sa manière de contribuer.
 >
 > Bertrand : En gros, tout le monde travaille un petit peu sur le même dépôt quoi ?
 >
-> Frank : Oui, après t'as tes branches tout ça, tu peux faire ce que tu veux ouais. Ce qu'on voit, c'est que les APIs aujourd'hui vont permettre de connecter plein de services, elles sont partout. On peut faire plein de choses avec. Forcément des fois, par exemple pour les commentaires, Thibault disait hier que Disqus c'est peut être pas la panacée…
+> Frank : Oui, après t'as tes branches tout ça, tu peux faire ce que tu veux ouais. Ce qu'on voit, c'est que les APIs aujourd'hui vont permettre de connecter plein de services, elles sont partout. On peut faire plein de choses avec. Forcément des fois, par exemple pour les commentaires, Thibault disait hier que Disqus c'est peut-être pas la panacée…
 >
-> Bertrand : Oui, il faut réfléchir à la conception
+> Bertrand : Oui, il faut réfléchir à la conception.
 >
 > Frank : Il faut inventer aussi des choses dans le monde open-source, il manque encore peut-être des services qui ne soient pas intéressés par nos données.
 >
 > Bertrand : Des dépôts de données qu'il faut peut-être créer et y brancher des APIs.
 >
-> Frank : Moi ce qui m'intéressait aujourd'hui c'est de casser l'image du site statique à l'époque de Daniel Glazman ou du W3C en 1995. C'est plus du tout la même chose, en fait vous avez compris, c'est vraiment un workflow de développement, que tous les développeurs utilisent en fait aujourd'hui, mais aujourd'hui l'enjeu, c'est d'emmener toute l'équipe avec nous, que ce soit les designer, les contributeurs, pour que ce workflow qui est éprouvé, qui est mature, qui est professionnel, qui a plein de qualités, à tous les niveaux, que ce soit au niveau de Git dès le début ou à la fin quand c'est servi en front, l'idée c'est d'adopter ce truc là quand c'est pertinent, parce qu'encore une fois il y a plein de sites (pour lesquels le statique n'est pertinent).
+> Frank : Moi ce qui m'intéressait aujourd'hui c'est de casser l'image du site statique à l'époque de Daniel Glazman ou du W3C en 1995. C'est plus du tout la même chose, en fait vous avez compris, c'est vraiment un workflow de développement que tous les développeurs utilisent en fait aujourd'hui, mais aujourd'hui l'enjeu, c'est d'emmener toute l'équipe avec nous, que ce soit les designers, les contributeurs, pour que ce workflow, qui est éprouvé, qui est mature, qui est professionnel, qui a plein de qualités, à tous les niveaux, que ce soit au niveau de Git dès le début ou à la fin quand c'est servi en front, l'idée c'est d'adopter ce truc là quand c'est pertinent, parce qu'encore une fois il y a plein de sites (pour lesquels le statique n'est pertinent).
 >
-> Donc plutôt que d'appeler ça du statique, il y en a qui appelle ça la JAMStack (j'ai perdu ma slide, ah la voilà).
+> Donc plutôt que d'appeler ça du statique, il y en a qui appelle ça la [JAMStack]({% post_url 2016-05-21-la-JAMStack %})… j'ai perdu ma slide, ah la voilà…
 >
-> Bertrand : Juste pour revenir sur la maturité, tu me disais que tu voulais faire référence à la conférence de Christophe (Porteneuve), qu'il y avait beaucoup de serveurs en node, que ça répondait vite, et que c'est parce qu'il y a ça aussi qu'on a ce système d'APIs…
+> Bertrand : Juste pour revenir sur la maturité, tu me disais que tu voulais faire référence à la conférence de Christophe (Porteneuve), qu'il y avait beaucoup de serveurs en node, que ça répondait vite et que c'est parce qu'il y a ça aussi qu'on a ce système d'APIs…
 >
-> Frank : Ouais, mais ce qui m'intérresse, c'est que plus que le générateur en lui même —  il y a en plein, il y en a des centaines — ce qu'il faut bien voir c'est tout l'écosystème complet, avec les navigateurs qui ont évolué, JavaScript côté client qui est hyper performant aujourd'hui, toutes les APIs à disposition et tout le côté garder la main sur ses contenus et pouvoir servir par exemple votre site web mais aussi vos applis mobiles ou autre chose. Tout cet écosystème là il est assez intéressant, je sais pas si Tim est dans la salle - bonjour - Tim a fait un petit cadeau à l'équipe de Paris-Web et il a donc utilisé ces technos là, il a été parsé les sites des anciennes  éditions, il a tout récupéré dans du JSON et grâce à un générateur et une API, celle d'Algolia, qu est donc une API qui permet de rechercher sur le site, alors j'ai pas internet, on va pas pouvoir le voir, mais vous voyez juste que les résultats c'est en millisecondes, donc ça va c'est assez rapide, si vous avez joué avec déjà, vous avez vu que c'est extrêment performant et qu'avec la recherche pour le coup, vous avez vraiment quelque chose qui est dynamique côté client, y'a aucun serveur là-dedans, y'a rien du tout.
+> Frank : Ouais, mais ce qui m'intérresse, c'est que plus que le générateur en lui même —  il y a en plein, il y en a des centaines — ce qu'il faut bien voir c'est tout l'écosystème complet, avec les navigateurs qui ont évolué, JavaScript côté client qui est hyper performant aujourd'hui, toutes les APIs à disposition et tout le côté garder la main sur ses contenus et pouvoir servir par exemple votre site web mais aussi vos applis mobiles ou autre chose. Tout cet écosystème là il est assez intéressant, je sais pas si Tim (Carry) est dans la salle - bonjour - Tim a fait [un petit cadeau à l'équipe de Paris-Web](https://pixelastic.github.io/parisweb/) et il a donc utilisé ces technos là, il a été parsé les sites des anciennes  éditions, il a tout récupéré dans du JSON et grâce à un générateur et une API, celle d'Algolia, qu est donc une API qui permet de rechercher sur le site, alors j'ai pas internet, on va pas pouvoir le voir, mais vous voyez juste que les résultats c'est en millisecondes, donc ça va c'est assez rapide, si vous avez joué avec déjà, vous avez vu que c'est extrêment performant et qu'avec la recherche pour le coup, vous avez vraiment quelque chose qui est dynamique côté client, y'a aucun serveur là-dedans, y'a rien du tout.
 >
-> Bertrand : Ce qu'il faut préciser aussi, c'est qu'il va chercher un JSON ou il crée un JSON, donc ce JSON soit il va le chercher de façon dynamique, soit éventuellement au moment du build du site, il va aller le prendre et le poser sur son serveur, ce qui fait que là on va aller chercher un JSON en local et là c'est hyper rapide et on a que du statique dans le sens où le contenu bouge plus quoi.
+> Bertrand : Ce qu'il faut préciser aussi, c'est qu'il va chercher un JSON ou il crée un JSON, donc ce JSON soit il va le chercher de façon dynamique, soit éventuellement au moment du _build_s du site, il va aller le prendre et le poser sur son serveur, ce qui fait que là on va aller chercher un JSON en local et là c'est hyper rapide et on a que du statique dans le sens où le contenu bouge plus quoi.
 >
-> Frank : Voilà, donc j'ai été cherché la définition de simple dans le dictionnaire, dans le Larousse, pas dans le petit Robert, du coup simple c'est pas facile, c'est pas la même chose, c'est des fois compliqué à mettre en place, c'est beaucoup d'habitudes à prendre et de changement, et en fait ce qu'on voit ce sont des petits éléments organisés de manière assez claire, avec un périmètre, un scope qui est limité, et du coup c'est bien parce que lorsque vous devez intervenir quelque part, vous avez plus tout l'ensemble qui est touché, vous avez juste une petite partie, alors sans parler de microservices, c'est un peu la même idée, c'est comme dans UNIX si vous voulez, quand vous commencez à utiliser `ls`, plus une autre commande, plus `grep`, plus `machin`, vous obtenez quelque chose de très puissant, c'est la même chose là, avec tout ce qu'on a vu là, ça fait un workflow assez solide.
+> Frank : Voilà, donc j'ai été cherché la définition de simple dans le dictionnaire, dans le Larousse, pas dans le petit Robert, simple c'est pas facile, c'est pas la même chose, c'est des fois compliqué à mettre en place, c'est beaucoup d'habitudes à prendre et de changement et en fait ce qu'on voit ce sont des petits éléments organisés de manière assez claire, avec un périmètre, un scope qui est limité et du coup c'est bien parce que lorsque vous devez intervenir quelque part, vous n'avez plus tout l'ensemble qui est touché, vous avez juste une petite partie, alors sans parler de microservices, c'est un peu la même idée, c'est comme dans UNIX si vous voulez, quand vous commencez à utiliser `ls`, plus une autre commande, plus `grep`, plus `machin`, vous obtenez quelque chose de très puissant, c'est la même chose là, avec tout ce qu'on a vu là, ça fait un _workflow_ assez solide.
 >
-> Bertrand : Workflow, c'est un mot anglais, vous chercherez on a pas mis la définition
+> Bertrand : _Workflow_, c'est un mot anglais, vous chercherez on a pas mis la définition.
 >
-> Frank : Donc retenez, si vous entendez site statique, essayez de vous enlever le côté statique de la tête, statique c'est juste qu'à chaque génération le site est le même pour tout le monde et ça va pas bouger.
+> Frank : Donc retenez, si vous entendez site statique, essayez de vous enlever le côté statique de la tête, statique c'est juste qu'à chaque génération le site est le même pour tout le monde et que ça va pas bouger (jusqu'à la prochaine génération).
 >
-> Bertrand : Voilà c'est ça. Et t'as oublié de dire tout à l'heure, parce que moi je reviens à mon problème de base de données, c'est qui si la base de données elle plante, ben le jour où je vais la remettre, si la base de données est plantée, faudra que je retrouve une sauvegarde, alors que là le contenu (il est versionné)
+> Bertrand : Voilà c'est ça. Et t'as oublié de dire tout à l'heure, parce que moi je reviens à mon problème de base de données, c'est que si la base de données elle plante, ben le jour où je vais la remettre, si la base de données est plantée, faudra que je retrouve une sauvegarde, alors que là le contenu (il est versionné).
 >
-> Frank : Alors j'ai pas montré mais aujourd'hui, il y a des services comme Netlify et autres qui comme c'est branché avec des APIs de GitHub, si jamais il y a un problème à la génération, ça peut arriver je sais pas, t'as un petit bouton rollback, hop tu reviens à la version d'avant comme qui rigole quoi.
+> Frank : Alors j'ai pas montré mais aujourd'hui, il y a des services comme [Netlify](https://www.netlify.com) et autres qui comme c'est branché avec des APIs de GitHub, si jamais il y a un problème à la génération, ça peut arriver je sais pas, t'as un petit bouton rollback, hop tu reviens à la version d'avant comme qui rigole quoi.
 >
 > Bertrand: Et ça pour les gens qui sont pas sysadmin, si c'est des sites que je peux faire, ben c'est hyper pratique, je m'enlève quand même une sacrée épine du pied quoi. Ce qui permet que je fasse cette conférence notamment.
 >
-> Frank : Donc soit vous avez des devops dans les équipes et c'est super car c'est des profils qui connaissent tout ça par cœur, qui font pouvoir facilement relier tous ces services, soit aujourd'hui on voit que ça arrête pas de se batailler sur tout ces services là, qui vont être des services en front pour faire ça. Après niveau générateurs en eux-mêmes, y'en a plein comme j'ai dit, donc selon le milieu d'où vous venez, l'écosystème que vous connaissez, vous pouvez partir sur Ruby, Go, y'en a même en PHP, vous avez pas mal de choses en JS aussi, vous avez aussi des générateurs aujourd'hui qui utilisent JavaScript côté client comme Gatsby ou Phenomic, qui eux carrément vont embarquer des composants React, pour faire des éléments dynamiques dans la page, donc on est très loin du statique, on est sur quelque chose de très très dynamique.
+> Frank : Donc soit vous avez des DevOps dans les équipes et c'est super car c'est des profils qui connaissent tout ça par cœur, qui vont pouvoir facilement relier tous ces services, soit aujourd'hui on voit que ça n'arrête pas de se batailler sur tous ces services là, qui vont être des services en front pour faire ça. Après niveau générateurs en eux-mêmes, il y en a plein comme j'ai dit, donc selon le milieu d'où vous venez, l'écosystème que vous connaissez, vous pouvez partir sur Ruby, Go, y'en a même en PHP, vous avez pas mal de choses en JS aussi, vous avez aussi des générateurs aujourd'hui qui utilisent JavaScript côté client comme Gatsby ou Phenomic, qui eux carrément vont embarquer des composants React, pour faire des éléments dynamiques dans la page, donc on est très loin du statique, on est sur quelque chose de très très dynamique.
 >
 > Bertrand : La logique c'est que la technologie qu'on va choisir sera liée au proto qu'on devra faire, parce qu'on va être très proche de la technologie…
 >
-> Frank : Donc là on a terminé, on pourrait croire qu'on a moins de possibilité mais en étant ingénieux, en allant chercher des données, on peut faire des chouettes trucs, on peut expérimenter plein de choses grâce à Git et puis surtout ce qui est intéressant, finalement ce qu'on manipule c'est du HTTP avec les APIs, on revient vraiment sur notre métier, pour le front c'est pas mal, ça permet de se concentrer uniquement sur le contenu et la partie front, sans plus s'embêter avec le backend, on a besoin quand même de développeurs back, ils peuvnt se transformer un petit peu en devops tout ça, voilà, ils peuvent faire pas mal de choses. Du coup moi je sais pas toi Bertrand, t'es un peu stressé quand ton client t'appelle mais sinon pour le reste t'as l'air…
+> Frank : Donc là on a terminé, on pourrait croire qu'on a moins de possibilité mais en étant ingénieux, en allant chercher des données, on peut faire des chouettes trucs, on peut expérimenter plein de choses grâce à Git et puis surtout ce qui est intéressant, finalement ce qu'on manipule c'est du HTTP avec les APIs, on revient vraiment sur notre métier, pour le front c'est pas mal, ça permet de se concentrer uniquement sur le contenu et la partie front, sans plus s'embêter avec le backend, on a besoin quand même de développeurs back, ils peuvnt se transformer un petit peu en DevOps, ils peuvent faire pas mal de choses. Du coup moi je sais pas toi Bertrand, t'es un peu stressé quand ton client t'appelle mais sinon pour le reste t'as l'air (plutôt serein)…
 >
 > Bertrand : Ben disons qu'on a eu la motivation de faire cette conférence et de passer un petit peu une envie, c'était le but, bon on est pas trop joyeux là mais c'est vrai qu'on a beaucoup de plaisir à travailler et à travailler avec d'autres personnes car c'est facile de les faire rentrer dans les projets ou dans la contribution, alors bon on bidouille hein, c'est le web, mais bon on touche à la matière, on manipule la matière, on retrouve beaucoup de joie à faire des sites et à faire du web en fait finalement et à pas s'embêter avec de la maintenance de choses qui sont inutiles par rapport à ce qu'on fait, c'est à dire juste souvent et très souvent, juste publier du contenu simple, genre pages, articles etc.
 >
-> Frank: OK. Donc on a pas le temps pour les exemples, on pourra en parler
+> Frank: OK. Donc on a pas le temps pour les exemples, on pourra en parler après.
 >
 > Bertrand : On a pas le temps pour les exemples, on va prendre 5 minutes quand même…
 >
@@ -207,7 +207,7 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 >
 > Frank : Y'en a plein c'est pas grave.
 >
-> Bertrand : Juste par les exemples on voulait dire qu'i y avait beaucoup d'entreprises, enfin c'est difficile quand on vous montre un site de savoir s'il est généré par un générateur statique ou un site dynamique, parce que c'est les mêmes on fait exactement la même chose, il y a les mêmes possibilités, ça reste du web et y'a énormément d'entreprises qui aujourd'hui y passe, par simplicité, par facilité, en tout cas par choix aussi de fonctionnement interne.
+> Bertrand : Juste par les exemples on voulait dire qu'i y avait beaucoup d'entreprises, enfin c'est difficile quand on vous montre un site de savoir s'il est généré par un générateur statique ou un site dynamique, parce que c'est les mêmes, on fait exactement la même chose, il y a les mêmes possibilités, ça reste du web et y'a énormément d'entreprises qui aujourd'hui y passent, par simplicité, par facilité, en tout cas par choix aussi de fonctionnement interne.
 >
 > Frank : Voilà.
 >
@@ -260,7 +260,7 @@ Parallèlement à ces évolutions, nous avons pu assisté également à la mise 
 
 Afin d'illustrer tout cela, comme nous étions à Paris Web, j'ai choisi de présenter une preuve de concept ingénieuse, développée par [Tim Carry](http://www.pixelastic.com/), évangéliste chez Algolia, qui propose une API de recherche très performante pour vos documents. Tim a ensuite utilisé [Brunch](http://brunch.io/) pour générer ce qu'on appelle dans notre jargon une *single page app*, une page dont le côté dynamique est entièrement assuré par JavaScript dans le navigateur. C'est plutôt cool le développement web en 2016.
 
-Tim a décidé de faire un cadeau à Paris Web en proposant un moteur de recherche qui permet d'accéder à touts les supports de conférences des éditions passées. Tim a donc commencé par récupérer les données des 11 éditions de Paris Web au format JSON pour pouvoir ensuite les indexer à l'aide d'Algolia. Ajoutez une pincée de JavaScript et quelques gouttes de CSS, et vous obtenez une application web tout ce qu'il y a de plus dynamique et très performante. [Jugez-en par vous-même](https://pixelastic.github.io/parisweb/). C'est instantané ou presque, de l'ordre de la milliseconde.
+Tim a décidé de faire un cadeau à Paris Web en proposant un moteur de recherche qui permet d'accéder à touts les supports de conférences des éditions passées. Tim a donc commencé par récupérer les données des 11 éditions de Paris Web au format JSON pour pouvoir ensuite les indexer à l'aide d'Algolia. Ajoutez une pincée de JavaScript et quelques gouttes de CSS et vous obtenez une application web tout ce qu'il y a de plus dynamique et très performante. [Jugez-en par vous-même](https://pixelastic.github.io/parisweb/). C'est instantané ou presque, de l'ordre de la milliseconde.
 
 Pas de backend, des données versionnées et stockées dans un format standard, une API de qualité, un générateur pour assembler le tout, on pousse tout ça gratuitement sur GitHub Pages et hop le tour est joué.
 
