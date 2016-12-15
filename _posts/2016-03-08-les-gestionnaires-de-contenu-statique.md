@@ -166,7 +166,7 @@ Cet article a été rédigé suite à une [présentation][61] faite lors d'un ap
 
 **[Ne passez pas à côté des choses simples](/2016/10/02/ne-passons-pas-a-cote-des-choses-simples/)**, c'est le message que vous avons voulu faire passer avec l'ami Bertrand Keller lors de [Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php).
 
-<a href="http://jekyll-fr.org/">Jekyll-fr</a> regroupe quelques utilisateurs francophones de générateurs de site statique. Nous publions des liens d'<a href="https://twitter.com/jekyll_fr">actualité autour des générateurs sur Twitter</a>. Nous échangeons et nous nous entraidons sur le <a href="https://jekyll-fr.herokuapp.com/">channel Slack</a>.
+<a href="https://jamstatic.fr">Jamstatic</a> regroupe quelques utilisateurs francophones de générateurs de site statique. Nous publions des liens d'<a href="https://twitter.com/jamstatic_fr">actualité autour des générateurs sur Twitter</a>. Nous échangeons et nous nous entraidons sur le <a href="https://jamstatic.herokuapp.com/">channel Slack</a>.
 
 ----
 
