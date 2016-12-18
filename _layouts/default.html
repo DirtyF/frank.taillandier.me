@@ -27,24 +27,6 @@
   <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
   <script>
-    window.onload = function() {
-      setTimeout(function() {
-        window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
-        var t = performance.timing || {};
-
-        if (!t) {
-          //fail silently
-          return;
-        }
-        var start = t.navigationStart,
-          end = t.loadEventEnd
-        loadTime = (end - start) / 1000;
-
-        var copy = document.getElementsByClassName('copy');
-        copy[0].innerHTML += "<span class='loaded'>Page chargée en <strong>" + loadTime + " secondes</strong>.</span>";
-      }, 0);
-    };
-
     (function(document) {
       var toggle = document.querySelector('.sidebar-toggle');
       var sidebar = document.querySelector('#sidebar');
@@ -62,7 +44,29 @@
     })(document);
   </script>
   {% include symbols.svg %}
-  <script id="dsq-count-scr" src="//franktaillandier.disqus.com/count.js" async></script>
+  <script id="dsq-count-scr" src="//franktaillandier.disqus.com/count.js" async>
+  </script>
+  <script src="{{ "assets/js/instantclick.min.js " | relative_url }}" data-no-instant>
+  </script>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
+        var t = performance.timing || {};
+
+        if (!t) {
+          //fail silently
+          return;
+        }
+        var start = t.navigationStart,
+          end = t.loadEventEnd
+        loadTime = (end - start) / 1000;
+
+        var copy = document.getElementsByClassName('copy');
+        copy[0].innerHTML += "<span class='loaded'>Page chargée en <strong>" + loadTime + " secondes</strong>.</span>";
+      }, 0);
+    };
+  </script>
 </body>
 
 </html>
