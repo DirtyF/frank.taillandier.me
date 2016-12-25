@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "jemoji"
   gem "jekyll-offline", :git => "git://github.com/jeremiak/jekyll-offline.git"
+  gem "jekyll-paginate-v2"
 end
 
 group :development do

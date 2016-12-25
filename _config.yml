@@ -42,6 +42,15 @@ include:
 offline:
   strategy: cache-then-network
 
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 exclude:
   - vendor
   - script
@@ -61,6 +70,7 @@ gems:
   - jekyll-mentions
   - jemoji
   - jekyll-offline
+  - jekyll-paginate-v2
 
 
 # About

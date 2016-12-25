@@ -1,10 +1,12 @@
 ---
 layout: default
 permalink: /
+pagination:
+  enabled: true
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
@@ -29,6 +31,18 @@ permalink: /
   </div>
   <hr />
 {% endfor %}
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Billets plus récents</a>
+      {% else %}
+        <span class="pagination-item newer">Billets plus récents</span>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Billets plus anciens</a>
+    {% endif %}
+</div>
+{% endif %}
 </div>
 
 <p class="copy"></p>
