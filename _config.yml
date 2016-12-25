@@ -43,24 +43,24 @@ offline:
   strategy: cache-then-network
 
 exclude:
-  - vendor
-  - script
   - Gemfile
   - Gemfile.lock
   - Procfile
-  - README.md
-  - tmp
   - Rakefile
+  - README.md
+  - script
+  - tmp
+  - vendor
 
 gems:
-  - jekyll-github-metadata
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-redirect-from
+  - jekyll-github-metadata
   - jekyll-mentions
-  - jemoji
   - jekyll-offline
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 
 # About
