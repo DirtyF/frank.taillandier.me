@@ -11,7 +11,7 @@ Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Par
 
 Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rendre la présentation aussi interactive que possible, c'était un premier essai, nous ferons mieux la prochaine fois.
 
-<iframe src="//player.vimeo.com/video/194192874" width="100%" height="475" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/194192874" width="100%" height="475" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 [Les slides de présentation](/presentations/ne-passons-pas-a-cote-des-choses-simples/) de la mini-conférence
 
