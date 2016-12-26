@@ -32,7 +32,7 @@ Voyons ensemble les quelques tenants de base des _Progressive Web Apps_.
 
 ## Les _Service Workers_
 
-Les _Service Workers_ sont un outil à la fois incroyablement puissant et déroutant, qui se cache derrière une _Progressive Web App_. Il permet de passer en mode hors-ligne, d'envoyer des notifications, de mettre à jour les contenus en arrière-plan, de mettre en cache du ontenu et tout un tas d’autres trucs.
+Les _Service Workers_ sont un outil à la fois incroyablement puissant et déroutant, qui se cache derrière une _Progressive Web App_. Il permet de passer en mode hors-ligne, d'envoyer des notifications, de mettre à jour les contenus en arrière-plan, de mettre en cache du contenu et tout un tas d’autres trucs.
 
 Dit de manière simple, un _Service Worker_ est un script qui tourne en arrière-plan, indépendamment de votre application et qui s’exécute en réponse à des événements comme des requêtes réseau, des notifications push, des changements de connectivité et bien d'autres choses.
 
