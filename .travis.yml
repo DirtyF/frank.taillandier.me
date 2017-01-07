@@ -2,10 +2,10 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-- 2.3
+- 2.3.1
 matrix:
     include:
-        - rvm: 2.3
+        - rvm: 2.3.1
           env: JEKYLL_VERSION=3
     fast_finish: true
 
@@ -14,7 +14,7 @@ script: ./script/cibuild
 
 branches:
   only:
-  - gh-pages
+  - master
 
 env:
   global:
