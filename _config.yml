@@ -44,7 +44,7 @@ offline:
 
 pagination:
   enabled: true
-  per_page: 7
+  per_page: 10
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
@@ -66,11 +66,11 @@ gems:
   - jekyll-github-metadata
   - jekyll-mentions
   - jekyll-offline
+  - jekyll-paginate-v2
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - jekyll-paginate-v2
 
 
 # About
