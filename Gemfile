@@ -3,20 +3,20 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
-  gem "jekyll-github-metadata"
-  gem "jekyll-sitemap"
   gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem "jekyll-redirect-from"
+  gem "jekyll-github-metadata"
   gem "jekyll-mentions"
-  gem "jemoji"
-  gem "jekyll-offline", :git => "git://github.com/jeremiak/jekyll-offline.git"
+  gem "jekyll-offline", :git => "https://github.com/jeremiak/jekyll-offline.git"
   gem "jekyll-paginate-v2"
+  gem "jekyll-redirect-from"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jemoji"
 end
 
 group :development do
-  gem "rake"
   gem "launchy"
+  gem "rake"
 end
 
 group :test do
