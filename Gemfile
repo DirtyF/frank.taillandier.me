@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "gsl"
+# gem "gsl" not supported by Netlify
 gem "jekyll"
 
 group :jekyll_plugins do
