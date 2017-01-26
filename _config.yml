@@ -47,6 +47,8 @@ defaults:
 include:
   - "_pages"
 
+lsi: true
+
 offline:
   strategy: cache-then-network
 

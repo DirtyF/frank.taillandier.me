@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
+gem "gsl"
 gem "jekyll"
 
 group :jekyll_plugins do
+  gem "classifier-reborn"
   gem "jekyll_reading_time"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
