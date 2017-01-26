@@ -27,6 +27,14 @@ social:
     - http://lanyrd.com/profile/dirtyf/
     - http://www.last.fm/user/DirtyF
 
+# reading_time
+reading_time:
+  words_per_minute: 180
+  translations:
+    about:
+    minute: minute
+    minutes: minutes
+
 defaults:
   # _posts
   - scope:
