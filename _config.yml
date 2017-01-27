@@ -21,9 +21,11 @@ logo: /assets/img/frank-taillandier.jpg
 twitter:
   username: DirtyF
 social:
-  type: person
+  name: Frank Taillandier
   links:
     - https://github.com/DirtyF
+    - https://twitter.com/DirtyF
+    - https://keybase.io/dirtyf
     - http://lanyrd.com/profile/dirtyf/
     - http://www.last.fm/user/DirtyF
 
