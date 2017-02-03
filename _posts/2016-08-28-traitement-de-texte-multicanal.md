@@ -28,15 +28,15 @@ J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de tr
 
 Le texte enrichi comme MS Word ou le format `.rtf` sont devenus populaires en faisant la promesse du WYSIWYG (What You See Is What You Get). Nous pouvons utiliser le gras, l'italique, différentes polices ou mises en forme et nous voyons immédiatement le résultat sur notre écran ! Lors de son apparition ce fut une véritable révolution comparé aux encombrants éditeurs qui affichaient des fenêtres de formatage de code ou à ceux qui ne proposaient pas de mise en forme du tout. Cependant, il y a quelques inconvénients.
 
-{% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/plain-text-vs-rich-text-plain-text.png" description="Comparaison des deux formats de fichier" %}
+{% include figure.html url="https://ia.net/wp-content/uploads/migration/plain-text-vs-rich-text-plain-text.png" description="Comparaison des deux formats de fichier" %}
 
 Au format texte brut, le texte _est_ la source. Avec le texte enrichi, ce que nous voyons est une simulation. Ce que nous voyons peut nous plaire, mais sous la surface, notre traitement de texte génère en secret un texte encodé bien plus complexe. Vous pouvez visiter ce monde enfoui en créant un document Pages ou Word, tapez "Bonjour monde" et sauvegardez, puis changez l'extension de fichier en `.zip` et décompressez l'archive. Bienvenue en 1979 ![^2]
 
-{% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/hello-world.png" description="Contenu d'un fichier Word" %}
+{% include figure.html url="https://ia.net/wp-content/uploads/migration/hello-world.png" description="Contenu d'un fichier Word" %}
 
 Si vous êtes assez téméraires pour aller inspecter le contenu du dossier généré, vous allez peut-être commencer à vous demander si vous avez tapé "Bonjour monde" ou "Bonjour l'enfer" :
 
-![fenêtres montrant du code source de fichiers texte au format XML](https://ia.net/content/4-know-how/20160610-multichannel-text-processing/hello-hell.png)
+![fenêtres montrant du code source de fichiers texte au format XML](https://ia.net/wp-content/uploads/migration/hello-hell.png)
 
 Les formats personnalisés sont plus lourds que les formats en texte brut. Le souci majeur de ces formats personnalisés est que la relation entre le code source et le texte — entre ce que nous voyons et ce que nous ne voyons pas — est fantasque. Voici ce que vous obtenez vraiment quand vous travaillez avec ces formats en 2016 :
 
@@ -126,7 +126,7 @@ Nous pouvons imaginer que les différentes étapes d'un procédé d'écriture co
 
 Distinguer les étapes d'un procédé créatif est nécessaire mais les processus de travail agiles ne ressemblent pas à une cascade : ils se chevauchent, interagissent, s'influencent mutuellement et notre écriture et nos outils de publication devraient nous permettre d'aller et venir comme nous le souhaitons.[^9] L'écriture est espiègle par nature.
 
-{% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/workflow-note-draft-edit-publish.png" description="" %}
+{% include figure.html url="https://ia.net/wp-content/uploads/migration/workflow-note-draft-edit-publish.png" description="" %}
 
 Écrire en étant concentré ne veut pas dire écrire avec des œillères, cela signifie que votre attention est principalement dirigée sur un seul aspect du procédé global. Il peut être même utile d'aller et venir consciemment entre deux étapes voisines. Markdown vous permet de ne pas vous soucier de ces transitions.
 
@@ -134,7 +134,7 @@ Distinguer les étapes d'un procédé créatif est nécessaire mais les processu
 
 Aller et venir entre les différentes étapes d'un procédé est nécessaire et rafraîchissant. Si vous aimez travaillez dans un éditeur WYSIWYG ou imprimer votre texte de temps en temps, ou regarder l'aperçu sur votre blog avant de publier, vous savez déjà que : un formatage défini nous aide à nous mettre à la place du lecteur du texte. Voir notre texte imprimé change la perception que nous avons de lui. Vous obtenez le même effet quand vous sortez du Markdown pour aller regarder l'aperçu du rendu de votre texte en HTML.
 
-{% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/markdown-with-preview-plain-text.png" description="Écrire et prévisualiser" %}
+{% include figure.html url="https://ia.net/wp-content/uploads/migration/markdown-with-preview-plain-text.png" description="Écrire et prévisualiser" %}
 
 L'effet n'est peut être pas aussi frappant que le passage de l'écran au papier, mais il laisse entrevoir la forme du texte à venir. Avec le sentiment de la façon dont un lecteur verra votre texte, vous pouvez revenir à votre texte avec des yeux neufs. C'est plus rapide car cela évite l'exercice chronophage de devoir retaper les corrections manuscrites.
 
@@ -162,7 +162,7 @@ Si vous vous voulez des mises en forme plus complexes comme les liens, les image
 
 L'automatisation entre un service en ligne, une application de prise de notes, un éditeur de texte et un environnement de publication est cool, mais pas essentiel. Ce qui est fondamental, c'est la capacité de pouvoir  copier-coller votre texte à loisir sans perdre de mise en forme ou d'information. Seul le format texte brut garantie cela. Configurez vos plateformes de publication pour interpréter le Markdown, de manière à pouvoir vous balader librement entre l'écriture, la modification et la publication. Il y a plusieurs manières et plusieurs applications pour y parvenir. Et c'est précisément l'idée. Le texte brut est léger et gratuit et doit le rester. Évitez les applications qui veulent vous enchaîner.
 
-{% include figure.html url="https://ia.net/content/4-know-how/20160610-multichannel-text-processing/appleiigsandimagewriterii.png" description="" %}
+{% include figure.html url="https://ia.net/wp-content/uploads/migration/appleiigsandimagewriterii.png" description="" %}
 
 ---
 
