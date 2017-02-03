@@ -77,7 +77,6 @@ gems:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-mentions
-  - jekyll-offline
   - jekyll-paginate-v2
   - jekyll-redirect-from
   - jekyll-seo-tag
