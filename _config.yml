@@ -51,9 +51,6 @@ include:
 
 lsi: true
 
-offline:
-  strategy: cache-then-network
-
 pagination:
   enabled: true
   per_page: 10
@@ -82,7 +79,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-
 
 # About
 author:
