@@ -1,6 +1,7 @@
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', '{{site.analytics.google.tracking_id}}', 'auto');
+ga('set', 'transport', 'beacon');
 ga('require', 'eventTracker', {
   attributePrefix: 'data-ga-'
 });
@@ -14,6 +15,7 @@ ga('require', 'pageVisibilityTracker', {
   }
 });
 ga('send', 'pageview');
+
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 <script async src='{{ "/assets/js/autotrack.js" | relative_url }}'></script>
