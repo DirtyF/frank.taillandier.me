@@ -55,7 +55,7 @@ La personne d'après c'est juste le bot de GreeKeeper. Il est sympa. Sauf que ce
 
 La personne suivante a ouvert une pull request, sur un dépôt qui est assez actif et donc un autre mainteneur a déjà répondu. Vous jetez un coup d'œil rapide à la discussion, vous faîtes confiance à l'autre mainteneur pour s'occuper de celle-ci. Vous la marquez comme lue et vous passez à la suivante.
 
-La personne suivante se heurte ce qui apparait comme un comportement anormal et vous n'avez jamais rencontré ce cas de figure. Mais malheureusement elle ne fourni pas beaucoup de détails sur comment le problème est survenu. Avec quel navigateur ? Quelle version de Node ? Quelle version du projet ? Quel code a-t-elle utilisé pour générer cette anomie ? Vous lui demandez plus de renseignements et vous fermez cet onglet.
+La personne suivante se heurte ce qui apparait comme un comportement anormal et vous n'avez jamais rencontré ce cas de figure. Mais malheureusement elle ne fournit pas beaucoup de détails sur comment le problème est survenu. Avec quel navigateur ? Quelle version de Node ? Quelle version du projet ? Quel code a-t-elle utilisé pour générer cette anomalie ? Vous lui demandez plus de renseignements et vous fermez cet onglet.
 
 ## Un flux constant
 
