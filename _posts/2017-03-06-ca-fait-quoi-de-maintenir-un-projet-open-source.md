@@ -51,7 +51,7 @@ La personne suivante demande simplement "Où en est t-on à ce propos ?". Vous n
 
 Il y a plus de 20 commentaire sur ce problème en particulier et ça prendrait beaucoup de temps de tous les relire pour rafraîchir votre mémoire. Donc vous répondez juste : "Désolé, cette demande est ouverte depuis un moment maintenant mais personne ne l'a encore résolue. Nous essayons encore de comprendre l'étendu du problème, une pull request serait un bon début !".
 
-La personne d'après c'est juste le bot de GreeKeeper. Il est sympa. Sauf que ce dépôt là ne possède pas vraiment de tests fiables et les tests échouent pour une raison qui semble fallacieuse, vous devez donc les relancer pour qu'ils passent. Vous relancez les tests en vous disant qu'il faudra que vous pensiez à y regarder de nouveau de plus près une fois que les test seront passés de nouveau sur Travis.
+La personne d'après c'est juste le bot de GreenKeeper. Il est sympa. Sauf que ce dépôt là ne possède pas vraiment de tests fiables et les tests échouent pour une raison qui semble fallacieuse, vous devez donc les relancer pour qu'ils passent. Vous relancez les tests en vous disant qu'il faudra que vous pensiez à y regarder de nouveau de plus près une fois que les test seront passés de nouveau sur Travis.
 
 La personne suivante a ouvert une pull request, sur un dépôt qui est assez actif et donc un autre mainteneur a déjà répondu. Vous jetez un coup d'œil rapide à la discussion, vous faîtes confiance à l'autre mainteneur pour s'occuper de celle-ci. Vous la marquez comme lue et vous passez à la suivante.
 
