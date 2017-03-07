@@ -53,7 +53,7 @@ Il y a plus de 20 commentaire sur ce problème en particulier et ça prendrait b
 
 La personne d'après c'est juste le bot de GreeKeeper. Il est sympa. Sauf que ce dépôt là ne possède pas vraiment de tests fiables et les tests échouent pour une raison qui semble fallacieuse, vous devez donc les relancer pour qu'ils passent. Vous relancez les tests en vous disant qu'il faudra que vous pensiez à y regarder de nouveau de plus près une fois que les test seront passés de nouveau sur Travis.
 
-La personne suivante a ouvert une pull request, sur un dépôt qui est assez actif et donc un autre mainteneur a déjà répondu. Vous jetez un coup d'œil rapide à la discussion, vous faîtes confiance à l'autre mainteneur pour s'occuper de celle-ci. Vous la marquez comme lue et vous passez à la suivante.
+La personne suivante a ouvert une pull request, sur un dépôt qui est assez actif et duquel un autre mainteneur a déjà répondu. Vous jetez un coup d'œil rapide à la discussion, vous faîtes confiance à l'autre mainteneur pour s'occuper de celle-ci. Vous la marquez comme lue et vous passez à la suivante.
 
 La personne suivante se heurte ce qui apparait comme un comportement anormal et vous n'avez jamais rencontré ce cas de figure. Mais malheureusement elle ne fourni pas beaucoup de détails sur comment le problème est survenu. Avec quel navigateur ? Quelle version de Node ? Quelle version du projet ? Quel code a-t-elle utilisé pour générer cette anomie ? Vous lui demandez plus de renseignements et vous fermez cet onglet.
 
