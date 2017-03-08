@@ -12,18 +12,17 @@ _Nolan Lawson maintient un bon nombre de modules `npm` et a tenu à [partager so
 
 Devant votre porte des centaines de personnes font la queue. Elles attendent patiemment que vous répondiez à leurs questions, à leurs réclamations, à leurs propositions d'améliorations ou à leurs demandes de fonctionnalités.
 
-Vous aimeriez tous les aider, mais pour le moment vous remettez ça à plus tard.
-Vous avez peut-être passé une mauvaise journée au boulot ou vous êtes juste fatigué ou vous aimeriez simplement pouvoir profiter de votre week-end avec votre famille et vos amis.
+Vous aimeriez tous les aider, mais pour le moment vous remettez ça à plus tard. Vous avez peut-être passé une mauvaise journée au boulot ou vous êtes juste fatigué ou vous aimeriez simplement pouvoir profiter de votre week-end avec votre famille et vos amis.
 
 Mais si jamais vous allez consulter vos [notifications sur GitHub](https://github.com/notifications), cela vous rappelle en permanence le nombre de personnes qui attendent après vous.
 
 {% include figure.html url="https://nolanwlawson.files.wordpress.com/2017/03/out.png?w=570" description="Capture d'écran montrant 403 notifications GitHub non lues" %}
 
-Quand enfin vous parvenez à dégager un peu de temps libre, vous ouvrez la porte à la première personne. Ses intentions sont bonnes : elle a tenté d'utiliser votre projet mais se heurte à une problème confus avec l'API. La personne a pris le soin de coller le code dans un commentaire GitHub, mais elle a oublié ou elle ne sait pas comment faire pour le mettre en forme, du coup le code recopié ressemble à un gros pâté illisible.
+Quand enfin vous parvenez à dégager un peu de temps libre, vous ouvrez la porte à la première personne. Ses intentions sont bonnes : elle a tenté d'utiliser votre projet mais se heurte à un problème confus avec l'API. La personne a pris le soin de coller le code dans un commentaire GitHub, mais elle a oublié ou elle ne sait pas comment faire pour le mettre en forme, du coup le code recopié ressemble à un gros pâté illisible.
 
 Comme vous êtes serviable, vous éditez le commentaire de manière à formater convenablement le code. Mais ça fait toujours beaucoup de code à lire.
 
-De plus, vous éprouvez quelques difficultés à comprendre la description du problème. Peut-être que l'anglais n'est pas la langue maternelle de cette personne ou peut-être souffre t-elle d'un handicap qui rend difficile pour elle le fait de communiquer par écrit. Vous ne savez pas très bien. D'une manière ou d'une autre, vous avez du mal à comprendre les quelques paragraphes de texte que la personne a envoyé.
+De plus, vous éprouvez quelques difficultés à comprendre la description du problème. Peut-être que l'anglais n'est pas la langue maternelle de cette personne ou peut-être souffre t-elle d'un handicap qui rend difficile pour elle le fait de communiquer par écrit. Vous ne savez pas très bien. D'une manière ou d'une autre, vous avez du mal à comprendre les quelques paragraphes de texte que la personne a envoyés.
 
 Fatigué, vous jetez un œil à la centaine d'autres personnes qui font la queue derrière. Vous *pourriez* passer une demi-heure à essayer de comprendre le code de cette personne ou vous pourriez juste le parcourir rapidement et lui proposer de consulter des liens vers l'aide en ligne et la documentation, en espérant que ça puisse l'aider à résoudre ce problème. Allègrement, vous lui conseillez également d'aller tenter sa chance sur Stack Overflow ou sur le canal de discussion Slack dédié.
 
@@ -39,7 +38,7 @@ Une fois de plus, vous lancez un regard en direction des centaines de personnes 
 
 [^1]: NdT. _Looks Good To Me_ : abréviation souvent employée sur GitHub pour signifier que tout a l'air OK.
 
-Toutefois, vous vous êtes déjà fait avoir dans des situations similaires. Par la passé, vous avez accepté d'intégrer une modification sans l'évaluer à fond et au final cela vous a causé de nouveaux maux de tête car vous n'aviez pas anticipé certains problèmes. Peut-être que les tests passent mais que la performance s'en retrouve dix fois plus dégradée. Ou cela peut avoir introduit une fuite mémoire. Ou peut-être que cette modification sera déconcertante pour les nouveaux utilisateurs du projet car elle complexifie de manière excessive l'ensemble de l'API.
+Toutefois, vous vous êtes déjà fait avoir dans des situations similaires. Par le passé, vous avez accepté d'intégrer une modification sans l'évaluer à fond et au final cela vous a causé de nouveaux maux de tête car vous n'aviez pas anticipé certains problèmes. Peut-être que les tests passent mais que la performance s'en retrouve dix fois plus dégradée. Ou cela peut avoir introduit une fuite mémoire. Ou peut-être que cette modification sera déconcertante pour les nouveaux utilisateurs du projet car elle complexifie de manière excessive l'ensemble de l'API.
 
 Si vous intégrez cette modification maintenant, vous allez peut-être vous retrouver avec plus de problèmes le lendemain, car vous avez impacté le travail de quelqu'un d'autre en voulant résoudre le problème de cette personne (un cas très limite). Vous mettez donc cela de côté pour le moment. Vous y reviendrez quand vous aurez plus de temps.
 
@@ -47,11 +46,11 @@ Le prochaine personne a trouvé un nouveau bug, mais vous savez que c'est en ré
 
 Vous répondez que ça ressemble bien à un véritable problème, mais qu'il serait plus judicieux de le reporter sur le dépôt de l'autre projet. Vous fermez donc cette demande et la recopiez dans l'autre dépôt en suggérant dans quelle partie du code commencer à regarder pour résoudre le problème. Vous doutez qu'ils fassent de la sorte. Peu de gens le font.
 
-La personne suivante demande simplement "Où en est t-on à ce propos ?". Vous n'êtes pas sur de comprendre à quoi elle fait référence, vous vous replongez donc dans le contexte. Cette personne a commenté dans un long fil de discussion à propos d'un vieux problème dans le projet. Beaucoup de personnes sont en désaccord quant à la solution à apporter au problème, du coup ça a généré beaucoup d'échanges.
+La personne suivante demande simplement "Où en est-on à ce propos ?". Vous n'êtes pas sur de comprendre à quoi elle fait référence, vous vous replongez donc dans le contexte. Cette personne a commenté dans un long fil de discussion à propos d'un vieux problème dans le projet. Beaucoup de personnes sont en désaccord quant à la solution à apporter au problème, du coup ça a généré beaucoup d'échanges.
 
-Il y a plus de 20 commentaire sur ce problème en particulier et ça prendrait beaucoup de temps de tous les relire pour rafraîchir votre mémoire. Donc vous répondez juste : "Désolé, cette demande est ouverte depuis un moment maintenant mais personne ne l'a encore résolue. Nous essayons encore de comprendre l'étendu du problème, une pull request serait un bon début !".
+Il y a plus de 20 commentaires sur ce problème en particulier et ça prendrait beaucoup de temps de tous les relire pour rafraîchir votre mémoire. Donc vous répondez juste : "Désolé, cette demande est ouverte depuis un moment maintenant mais personne ne l'a encore résolue. Nous essayons encore de comprendre l'étendu du problème, une pull request serait un bon début !"
 
-La personne d'après c'est juste le bot de GreenKeeper. Il est sympa. Sauf que ce dépôt là ne possède pas vraiment de tests fiables et les tests échouent pour une raison qui semble fallacieuse, vous devez donc les relancer pour qu'ils passent. Vous relancez les tests en vous disant qu'il faudra que vous pensiez à y regarder de nouveau de plus près une fois que les test seront passés de nouveau sur Travis.
+La personne d'après c'est juste le bot de GreenKeeper. Il est sympa. Sauf que ce dépôt là ne possède pas vraiment de tests fiables et les tests échouent pour une raison qui semble fallacieuse, vous devez donc les relancer pour qu'ils passent. Vous relancez les tests en vous disant qu'il faudra que vous pensiez à y regarder de nouveau de plus près une fois que les tests seront passés de nouveau sur Travis.
 
 La personne suivante a ouvert une pull request, sur un dépôt qui est assez actif et donc un autre mainteneur a déjà répondu. Vous jetez un coup d'œil rapide à la discussion, vous faîtes confiance à l'autre mainteneur pour s'occuper de celle-ci. Vous la marquez comme lue et vous passez à la suivante.
 
@@ -73,8 +72,7 @@ Par le passé, pour une raison ou pour une autre, vous avez *vraiment* laisser l
 
 Avec l'expérience vous savez maintenant que la réponse la plus pragmatique à ces demandes périmées est souvent de dire : "Je ferme les vieilles issues. Merci de les rouvrir si c'est toujours un problème pour vous ou si vous pouvez fournir plus de détails". La plupart du temps il n'y a pas de réponse. Parfois il y en a, mais c'est juste un commentaire rageur sur le fait que vous les ayez fait attendre aussi longtemps.
 
-À présent, vous faites donc en sorte de consulter de manière plus régulière vos notifications. Des centaines de personnes qui font la queue, c'est beaucoup trop. Vous aimeriez passer sous la barre de la centaine, voire de la douzaine, voire à la mythique [inbox
-zero](https://twitter.com/eranhammer/status/616137191131996160). Vous poursuivez donc dans cette voie.
+À présent, vous faites donc en sorte de consulter de manière plus régulière vos notifications. Des centaines de personnes qui font la queue, c'est beaucoup trop. Vous aimeriez passer sous la barre de la centaine, voire de la douzaine, voire à la mythique [inbox zero](https://twitter.com/eranhammer/status/616137191131996160). Vous poursuivez donc dans cette voie.
 
 ## Attirer de nouveaux contributeurs
 
@@ -88,7 +86,7 @@ Un de vos projets a presque atteint le stade de l'auto-suffisance. Vous n'y avez
 
 ## Regarder devant soi
 
-Vous hésitez à créer de nouveaux projets car vous savez qu'ils ne font faire qu'accroître votre travail de maintenance. C'est un vrai effet pervers : plus vous réussissez, plus vous êtes "punis" par le nombre de notifications GitHub.
+Vous hésitez à créer de nouveaux projets car vous savez qu'ils ne vont faire qu'accroître votre travail de maintenance. C'est un vrai effet pervers : plus vous réussissez, plus vous êtes "punis" par le nombre de notifications GitHub.
 
 Vous vous remémorez encore le frisson de la création, la joie d'écrire un nouveau projet en partant de zéro et de résoudre un problème qui ne l'avait pas encore été jusqu'ici. Mais maintenant vous relativisez cette joie en sachant que chaque nouveau projet sera du temps de pris au détriment de vos anciens projets. Vous vous demandez si ce n'est pas le moment de déclarer un de vos anciens dépôts comme déprécié ou de [le déclarer non maintenu](http://unmaintained.tech/).
 
@@ -114,7 +112,7 @@ J'ai déjà mis en place tout un tas de mesures pour me préserver. Je n'utilise
 
 Souvent je vais recevoir des mails venus de je ne sais où qui me demandent de l'aide sur un projet que j'ai arrêté de maintenir depuis longtemps (je reçois toujours en moyenne un mail par mois au sujet de [celui ci](https://github.com/nolanlawson/catlog) par exemple) et je ne prends généralement pas la peine de répondre. J'ai aussi tendance à faire abstraction des commentaires sur mes billets de blog, des réponses aux questions sur Stack Overflow et aux questions postées sur les listes de diffusion. Je me désabonne ardemment du suivi des dépôts dont j'estime qu'ils sont suffisamment bien maintenus.
 
-Une des raisons pour laquelle cette situation est si frustrante est qu'il se trouve que le tri des demandes prend plus de temps que la _maintenance_ du projet en elle-même. En d'autres mots, j'ai souvent juste le temps de passer les issues en revue et de dire : "Désolé, j'ai pas le temps de me pencher là-dessus de suite". Rien que le fait de répondre peut rapidement prendre la majeure partie du temps que j'ai choisi de consacrer à l'open source.
+Une des raisons pour laquelle cette situation est si frustrante est qu'il se trouve que le tri des demandes prend plus de temps que la _maintenance_ du projet en elle-même. En d'autres mots, j'ai souvent juste le temps de passer les issues en revue et de dire : "Désolé, je n'ai pas le temps de me pencher là-dessus de suite". Rien que le fait de répondre peut rapidement prendre la majeure partie du temps que j'ai choisi de consacrer à l'open source.
 
 [Des modèles de demandes](https://github.com/blog/2111-issue-and-pull-request-templates),
 [GreenKeeper](https://greenkeeper.io/),
@@ -126,14 +124,12 @@ J'ai déjà dit à ma compagne que si nous décidions d'avoir des enfants, je qu
 
 ## Pensées finales
 
-Si vous m'avez lu jusqu'ici et que le fléau qui ronge les communautés open source vous intéresse, vous aurez peut-être envie d'aller jeter un œil à [“Roads and
-Bridges”](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure)
-de [Nadia Eghbal](https://twitter.com/nayafia). C'est à coup sur l'analyse la plus limpide et la plus poussée du problème.
+Si vous m'avez lu jusqu'ici et que le fléau qui ronge les communautés open source vous intéresse, vous aurez peut-être envie d'aller jeter un œil à [“Roads and Bridges”](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure) de [Nadia Eghbal](https://twitter.com/nayafia). C'est à coup sur l'analyse la plus limpide et la plus poussée du problème.
 
 Je suis également ouvert aux suggestions, mais gardez bien en tête que je rechigne à mélanger l'argent et le travail sur des projets open source (pour des raisons idéalistes peut-être stupides). Alors même que j'ai pu constater que cela marche bien pour [d'autres projets](https://vuejs.org/support-vuejs/).
 
 Notez que malgré toute la négativité exprimée plus haut, je considère toujours que l'open source est quelque chose de positif dans mon existence et que je ne regrette rien de tout cela. Mais j'espère que cela permet de partager ouvertement ce que cela peut faire de se retrouver victime de son propre succès et de se sentir accablé par tout le travail resté inachevé.
 
-S'il y a bien une chose que j'ai apprise grâce à l'open source c'est : plus vous travaillez, plus on va vous demandez de fournir du travail. Il n'y a à ma connaissance pas de solution à ce problème.
+S'il y a bien une chose que j'ai apprise grâce à l'open source c'est : plus vous travaillez, plus on va vous demander de fournir du travail. Il n'y a à ma connaissance pas de solution à ce problème.
 
 [Voir l'article original](https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/)
