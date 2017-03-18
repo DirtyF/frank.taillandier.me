@@ -2,7 +2,7 @@
 title: La mouvance statique
 description: Un plaidoyer en faveur des gestionnaires de contenu statique
 image: /assets/img/2016/03/jekyll-terminal.png
-last-modified: 2016-08-03 14:30:27 +0200
+last-modified: 2017-03-18 18:30:27 +0200
 ---
 
 En quelques années, les gestionnaires de contenu statique, Jekyll en tête sont devenus très populaires, de Google à Netflix en passant par Mailchimp, Mapbox ou NodeJS, ils sont partout et sont devenus le choix de la raison pour les sites de contenus à fort trafic. Leurs usages évoluent et de nouveaux services dédiés viennent enrichir et faciliter l'expérience utilisateur des contributeurs et des développeurs.
@@ -43,7 +43,7 @@ Des blogueurs comme le webdesigner Dan Cederholm, fondateur de Dribbble, [confes
 
 Pour la petite histoire, [Ben Balter][8] était un ancien contributeur Wordpress, quand il a découvert Jekyll. Il a eu une révélation et s’est empressé de développer un outil de [migration de Wordpress à Jekyll][9]. Ben travaille aujourd’hui pour Github, où il est chargé de [sensibiliser les gouvernements à l’open-source][10] et c’est un des principaux contributeurs à Jekyll et Github Pages. Il est vraiment tombé amoureux de cette stack.
 
-On recense à ce jour plus de [430 gestionnaires de contenu statique][11], écrits dans différents langages et différents formats pour concevoir les modèles de page, certains entièrement basés sur JavaScript et les standards web. Il y en a bien un qui sera le bon outil pour vous. Tout dépend de votre besoin, de votre stack actuelle et des compétences de votre équipe.
+On recense à ce jour plus de [450 gestionnaires de contenu statique][11], écrits dans différents langages et différents formats pour concevoir les modèles de page, certains entièrement basés sur JavaScript et les standards web. Il y en a bien un qui sera le bon outil pour vous. Tout dépend de votre besoin, de votre stack actuelle et des compétences de votre équipe.
 
 Jekyll, écrit en Ruby par un cofondateur de GitHub, reste le plus populaire, car il bénéficie d'une large communauté et d'un riche écosystème. Lorsqu'en 2008 Tom Preston-Werner explique [comment bloguer comme un hacker][12], il pose les bases d'une architecture volontairement simple qui place le format des contenus, le versionnement, le déploiement, la sécurité et la performance au cœur de la philosophie de son logiciel.
 
@@ -64,11 +64,11 @@ Point important, à l'inverse des flat CMS comme [Kirby](https://getkirby.com/) 
 
 {% include figure.html url="/assets/img/2016/03/cloudcannon-editor.png" description="L'éditeur de contenu de Cloudcannon" %}
 
-Fidèle à la philosophie UNIX, les générateurs se contentent de faire une seule chose à la fois : transformer des contenus en site statique. C'est surement pour cette raison qu'il y en a autant. Certains vont plus loin que d'autres en intégrant notamment des commandes pour le déploiement. Comme dans les CMS l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres plugins.
+Fidèles à la philosophie UNIX, les générateurs se contentent de faire une seule chose à la fois : transformer des contenus en site statique. C'est surement pour cette raison qu'il y en a autant. Certains vont plus loin que d'autres en intégrant notamment des commandes pour le déploiement. Comme dans les CMS l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres plugins.
 
 {% include figure.html url="/assets/img/2016/03/jekyll-terminal.png" description="Jekyll en action dans le terminal" %}
 
-Plus vous aurez de fichiers à générer, plus l'étape de _build_ prendra du temps. Il vous faudra donc faire en sorte de limiter ce temps au minimum si vous souhaitez que vos mises en production ne prennent que quelques secondes. Si des gestionnaires de contenu statiques plus récents comme [Hugo][20] écrit en Go sont très performants, il sera parfois plus judicieux de [découper vos contenus en plusieurs parties et ne générer que le strict nécessaire](https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/).
+Plus vous aurez de fichiers à générer, plus l'étape de _build_ prendra du temps. Il vous faudra donc faire en sorte de limiter ce temps au minimum si vous souhaitez que vos mises en production ne prennent que quelques secondes. Si des gestionnaires de contenu statiques plus récents comme [Hugo][20] écrit en Go sont très performants, il sera parfois plus judicieux de [découper vos contenus en plusieurs parties et de ne générer que le strict nécessaire](https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/).
 
 Le gros avantage de cette stack c'est de pouvoir l'adapter à vos besoins et comme avec des LEGO™ vous pouvez créer votre propre système de publication.
 
