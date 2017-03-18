@@ -264,7 +264,7 @@ Tim a décidé de faire un cadeau à Paris Web en proposant un moteur de recherc
 
 Pas de backend, des données versionnées et stockées dans un format standard, une API de qualité, un générateur pour assembler le tout, on pousse tout ça gratuitement sur GitHub Pages et hop le tour est joué.
 
-Afin de mieux décrire ce genre de procédé, Matthias Billman le fondateur de Netlify, une plateforme d'hébergement et de déploiement automatisé de sites *statiques* a proposé le terme de [JAMStack](http://jamstack.org/fr/) lors d'une *Smashing Conf* à San Francisco. JAM pour **JavaScript, APIs and Markup**. Cet acronyme liste une partie des ingrédients de la recette qui permettent de générer des sites performants et sécurisés. Peu importe le nom qu'on lui donne, l'important c'est le résultat, ça booste. Alors est-ce si compliqué que cela ?
+Afin de mieux décrire ce genre de procédé, Mathias Biilmann le fondateur de Netlify, une plateforme d'hébergement et de déploiement automatisé de sites *statiques* a proposé le terme de [JAMStack](http://jamstack.org/fr/) lors d'une *Smashing Conf* à San Francisco. JAM pour **JavaScript, APIs and Markup**. Cet acronyme liste une partie des ingrédients de la recette qui permettent de générer des sites performants et sécurisés. Peu importe le nom qu'on lui donne, l'important c'est le résultat, ça booste. Alors est-ce si compliqué que cela ?
 
 Si l'on regarde la définition du mot **simple** dans le Larousse, on peut y lire :
 

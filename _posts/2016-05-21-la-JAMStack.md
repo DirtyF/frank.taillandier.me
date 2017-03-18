@@ -1,14 +1,14 @@
 ---
-title: La JAMStack
+title: La JAMstack
 description: La combinaison JavaScript, APIs et Markup (JAM) constitue une plateforme technologique web moderne et performante.
 image: /assets/img/2016/05/a-new-stack.png
 redirect_from: /2016/05/21/la-stack-jam/
 ---
 
-Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), l'idée sous-jacente n'était pas tant de se focaliser les outils qui permettent de génèrer une version statique, que d'expliquer qu'il y avait désormais tout un contexte technologique à prendre en compte et que de les processus de travail actuels découlent de cet écosystéme.
+Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), l'idée sous-jacente n'était pas tant de se focaliser les outils qui permettent de générer une version statique, que d'expliquer qu'il y avait désormais tout un contexte technologique à prendre en compte et que de les processus de travail actuels découlent de cet écosystème.
 
 Lors de la dernière _Smashing Conference_ à San Francisco, [Mathias Biilmann](http://mathias-biilmann.net/)
-le fondateur de Netlify, un service de déploiement de sites maladroitement appelés *statiques* a présenté ce qui pour lui représente la _stack_ front-end du moment, à savoir l’association de différentes technologies qui permettent de bâtir des sites et des applications web entièrement côté client en se reposant sur JavaScript, des APIs et du Markup (Markdown, YAML, JSON), ce que Matthias appelle la *JAMStack*.
+le fondateur de Netlify, un service de déploiement de sites maladroitement appelés *statiques* a présenté ce qui pour lui représente la _stack_ front-end du moment, à savoir l’association de différentes technologies qui permettent de bâtir des sites et des applications web entièrement côté client en se reposant sur JavaScript, des APIs et du Markup (Markdown, YAML, JSON), ce que Mathias appelle la *JAMStack*.
 
 <!-- excerpt -->
 
@@ -18,11 +18,9 @@ Pour mieux comprendre le propos de Mathias, je vous invite à aller [regarder la
 
 On retiendra une séparation stricte des problématiques : génération du site, hébergement, code client et code serveur. Les bonnes pratiques à respecter : héberger sur un CDN pour la performance, des déploiements unitaires, une invalidation instantanée du cache, un code source versionné dans git et des process automatisés — bonnes pratiques qui restent valables même si vous utilisez encore une bonne vieille base de données.
 
-Afin de préciser son propos Matthias a mis en ligne [JAMStack.org](http://jamstack.org/) qui présente rapidement les concepts et la philosophie derrière cet acronyme un peu abscon.
+Afin de préciser son propos Mathias a mis en ligne [JAMStack.org](http://jamstack.org/) qui présente rapidement les concepts et la philosophie derrière cet acronyme un peu abscon.
 
-Je relaie ici son message à l'aide d'une traduction en français car d'une part ce texte permet d'avoir une bonne vision des architectures et des technologies web modernes et de l'autre il permet de comprendre que tout cela va bien au délà de la simple génération de la version _statique_ d'un site.
-
-_Mise à jour : La traduction est maintenant publiée sur [http://jamstack.org/fr/](http://jamstack.org/fr/)_
+Je relaie ici son message à l'aide d'une traduction en français car d'une part ce texte permet d'avoir une bonne vision des architectures et des technologies web modernes et de l'autre il permet de comprendre que tout cela va bien au delà de la simple génération de la version _statique_ d'un site.
 
 ![JAMStack](/assets/img/2016/05/jamstack.png)
 
@@ -38,10 +36,12 @@ _Mise à jour : La traduction est maintenant publiée sur [http://jamstack.org/f
 >
 >  La *JAMStack* utilise des langages de balisage comme HTML, CSS et Markdown pour formater et mettre en forme notre contenu, du JavaScript côté client pour rendre le tout interactif et engageant, des APIs pour ajouter de la persistence, de la synchronisation en temps réel, des interactions concrêtes, des commentaires, des paniers d'achat et ainsi de suite.
 >
-> Les navigateurs sont le nouveau système d'exploitation. Les serveurs sont absorbés par les CDns et les APIs. Les sites sont ou dépourvus de base de données et générés en amont ou font appel à de services de bases de données hébergées  et servies directement depuis le navigateur. JavaScript est en charge de toute programmation dynamique pendant le cycle requête/réponse et tourne entièrement côte client.
+> Les navigateurs sont le nouveau système d'exploitation. Les serveurs sont absorbés par les CDNs et les APIs. Les sites sont ou dépourvus de base de données et générés en amont ou font appel à de services de bases de données hébergées et servies directement depuis le navigateur. JavaScript est en charge de toute la programmation dynamique pendant le cycle requête/réponse et tourne entièrement côte client.
 
-Comme à chaque fois qu'il y a changement, les réactions sont mitigées sur cette manière de bâtir des sites et c'est normal, elle ne saurait constituer _la_ solution pour tous les cas de figure, comme d'habitude c'est le contexte qui prime. De plus l'opinion d'une personne directement impliquée dans cet écosystème peut être à juste titre considérée comme biaisée mais il serait vain de nier que cette _stack_ est de plus en plus utilisée et ce pour de bonnes raisons. Peu importe le nom qu'on lui donne, en publiant ce texte mon objectif est avant tout de souligner que le dynamique est bien présent dans ce qui encore trop souvent désigné par la seule appellation _statique_. Ces évolutions ont beaucoup d'impacts, notamment sur les compétences à privilégier dans les équipes.
+Comme à chaque fois qu'il y a changement, les réactions sont mitigées sur cette manière de bâtir des sites et c'est normal, elle ne saurait constituer _la_ solution pour tous les cas de figure, comme d'habitude c'est le contexte qui prime. De plus l'opinion d'une personne directement impliquée dans cet écosystème peut être à juste titre considérée comme biaisée mais il serait vain de nier que cette _stack_ est de plus en plus utilisée et ce pour de bonnes raisons. Peu importe le nom qu'on lui donne, en publiant ce texte mon objectif est avant tout de souligner que le dynamique est bien présent dans ce qui encore trop souvent désigné par la seule appellation _statique_. Ces évolutions ont beaucoup d'impacts, notamment sur les compétences à développer au sein les équipes.
 
-C'est une évolution et non pas une nouvelle mode, le résultat de l'évolution de tout un écosystème dont JavaScript est plus que jamais la pierre angulaire. Ce n'est pas un hasard si Hexo, Brunch, Metalsmith, Harp ou Assemble font partie des [générateurs les plus populaires](https://www.staticgen.com/) et si ceux basés sur la bibliothèque JavaScript [React](http://facebook.github.io/react/) comme [Gatsby](https://www.staticgen.com/gatsby) ou [Phenomic](https://www.staticgen.com/phenomic) connaissent une popularité croissante.
+C'est une évolution et non une nouvelle mode, le résultat de l'évolution de tout un écosystème dont JavaScript est plus que jamais la pierre angulaire. Ce n'est pas un hasard si Hexo, Brunch, Metalsmith, Harp ou Assemble font partie des [générateurs les plus populaires](https://www.staticgen.com/) et si ceux basés sur la bibliothèque JavaScript [React](http://facebook.github.io/react/) comme [Gatsby](https://www.staticgen.com/gatsby) ou [Phenomic](https://www.staticgen.com/phenomic) connaissent une popularité croissante.
 
-Comme toute chose dans l'univers, le web est en perpetuelle évolution. La sagesse et les arts martiaux nous enseignent qu'il est toujours plus fluide d'accompagner un mouvement que de tenter de lui résister, alors laissez vous simplement porter par la vague.
+Comme toute chose dans l'univers, le web est en perpétuelle évolution. La sagesse et les arts martiaux nous enseignent qu'il est toujours plus fluide d'accompagner un mouvement que de tenter de lui résister, alors laissez vous simplement porter par la vague.
+
+**Pour en savoir plus sur le sujet, je vous invite à aller lire les articles en français publiés sur [jamstatic.fr](https://jamstatic.fr), le site francophone qui relaie les informations autour de cette stack technologique.**
