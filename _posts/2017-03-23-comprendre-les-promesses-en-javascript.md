@@ -9,10 +9,10 @@ image: "https://cloud.githubusercontent.com/assets/4581495/22322821/a770251c-e36
 ---
 
 Cet article est une **introduction** alternative aux promesses en JavaScript.
-Ce sont des croquis griffonés sur mon carnet de notes en lisant différents articles sur les promesses. Si vous cherchez un didactiel plus poussé, reportez vous aux suggestions de lecture en bas de l'article. 👇
+Ce sont des croquis griffonés sur mon carnet de notes pendant la lecture de différents articles sur les promesses. Si vous cherchez un didacticiel plus poussé, reportez vous aux suggestions de lecture en bas de l'article. 👇
 {: .message }
 
-Il y a quelques semaines, je discurais de comment je pouvais implémenter une fonctionnalité en JavaScript. Il fallait que ce soit de l'asynchrone pour accéder à des données externes. J'ai dit "Bon, utilisons `fetch()`… pour que dans le code… euh…" et le personne avec qui je parlais a dit "Ça retourne une promesse". Mon cerveau s'est arrêté et j'ai dit : "Honnêtement, je vois pas de quoi tu parles…"
+Il y a quelques semaines, je discutais de comment je pouvais implémenter une fonctionnalité en JavaScript. Il fallait que ce soit de l'asynchrone pour accéder à des données externes. J'ai dit "Bon, utilisons `fetch()`… pour que dans le code… euh…" et le personne avec qui je parlais a dit "ça retourne une promesse". Mon cerveau s'est arrêté et j'ai dit : "Honnêtement, je vois pas de quoi tu parles…"
 
 J'avais écrit du code basé sur des promesses à maintes reprises, mais d'une manière ou d'une autre ça n'a pas fait tilt cette fois là. Je me suis rendu compte qu'en fin de compte je ne **comprenais** pas vraiment les promesses.
 
@@ -73,11 +73,11 @@ Afin de pouvoir prendre les commandes aussi vite que possible, le cabanon du Bur
 
 ![promesse](https://cloud.githubusercontent.com/assets/4581495/22322842/ca748288-e36c-11e6-9ee5-dcac2edaf041.png)
 
-Le plateau est une _promesse_ de la part du cabanon du Burger, ils y déposeront leur délicieux burger une fois qu'il sera prêt, le bipeur est un indicateur de l'état de la commande. Quand le bippeur ne sonne pas, ça veut dire que la commande est **en attente** - l'équipe en cuisine s'affaire à préparer votre commande. Quand le bipeur passe au rouge et sonne, ça veut dire que la commande est **traitée**.
+Le plateau est une _promesse_ de la part du cabanon du Burger, ils y déposeront leur délicieux burger une fois qu'il sera prêt, le bipeur est un indicateur de l'état de la commande. Quand le bipeur ne sonne pas, ça veut dire que la commande est **en attente** - l'équipe en cuisine s'affaire à préparer votre commande. Quand le bipeur passe au rouge et sonne, ça veut dire que la commande est **traitée**.
 
 Attardons nous plus précisément sur ce que veut dire **traitée**. Cela ne veut pas dire "prête". Cela signifie que la commande a été traitée en cuisine et qu'on prévient le client pour lui demander ce qu'il veut faire. Vous avez surement envie (en tant que client) d'aller chercher votre commande au comptoir, mais dans certains cas, il se peut que vous décidiez de partir car l'attente est trop longue. Ça depend de vous.
 
-Regardons ce que vous avons jusque ici dans le code. Quand vous appelez la fonction `commander`, elle "retourne une promesse" (elle vous donne un plateau avec un bipeur). Une valeur en retour (un burger) devrait arriver sur votre plateeau une fois que la promesse a été tenue et une fonction de callback est appelée. On va en parler plus en détail dans la prochaine partie !
+Regardons ce que vous avons jusque ici dans le code. Quand vous appelez la fonction `commander`, elle "retourne une promesse" (elle vous donne un plateau avec un bipeur). Une valeur en retour (un burger) devrait arriver sur votre plateau une fois que la promesse a été tenue et une fonction de callback est appelée. On va en parler plus en détail dans la prochaine partie !
 
 ![code1](https://cloud.githubusercontent.com/assets/4581495/22364172/9663c05e-e43d-11e6-8824-234617eca8cd.png)
 
@@ -93,7 +93,7 @@ Youpi ! Votre burger est prêt, l'équipe en cuisine vous tend un burger fraîch
 
 #### 2. La commande est rejetée
 
-On dirait que la cuisine est à cours de steacks pour burger, la promesse d'un burger a été rejetée. Demandez à vous faire rembourser !
+On dirait que la cuisine est à cours de steaks pour burger, la promesse d'un burger a été rejetée. Demandez à vous faire rembourser !
 
 Voici comment vous pourriez vous préparer à ces deux cas de figure dans le code.
 
@@ -115,7 +115,7 @@ Regardons comment ça fonctionne dans le code. Enchaîner une promesse est aussi
 
 ![enchaînement](https://cloud.githubusercontent.com/assets/4581495/22324122/5913c8d4-e375-11e6-8171-29f232dd0d0b.png)
 
-Maintenant que vous avez un burger et un milshake, la fête du Burger peut commencer 🎉
+Maintenant que vous avez un burger et un milkshake, la fête du Burger peut commencer 🎉
 
 ## Encore plus de trucs pour faire la fête !
 
@@ -123,12 +123,12 @@ Il existe d'autres méthodes pour les promesses qui vous permettent de faire des
 
 `Promise.all()` crée une promesse qui prend en entrée un tableau de promesses (les éléments du tableau). La promesse est tenue quand chacun des éléments (les promesses) sont tenues. Imaginez que vous commandiez cinq burgers différents pour votre groupe d'amis mais que vous souhaitiez optimiser les trajets au comptoir une fois que les cinq commandes sont prêtes. `Promise.all()` est une bonne solution dans ce cas.
 
-`Promise.race()` ressemble à `Promise.all()`. Mais elle est tenue ou rejetée dès que l'une d'entre elles est tenue ou rejetée. On peut l'utiliser pour tenter d'attraper des trucs. Si vous êtes super affamé, vous pourriez commander un burger, un cheesburger et un hot dog d'un coup, pour ne prendre que la première commmande terminée qui sortirait de la cuisine. (Remarquez dans cette analogie que si la cuisine est à cours de steacks et refuse la première commande de burger, alors la totalité de la course des promesses sera refusée.)
+`Promise.race()` ressemble à `Promise.all()`. Mais elle est tenue ou rejetée dès que l'une d'entre elles est tenue ou rejetée. On peut l'utiliser pour tenter d'attraper des trucs. Si vous êtes super affamé, vous pourriez commander un burger, un cheeseburger et un hot dog d'un coup, pour ne prendre que la première commande terminée qui sortirait de la cuisine. (Remarquez dans cette analogie que si la cuisine est à cours de steaks et refuse la première commande de burger, alors la totalité de la course des promesses sera refusée.)
 
 Il y a bien plus de choses à savoir sur les promesses. Voici quelques suggestions de lecture pour aller plus loin :
 
 -   [Premiers pas avec NodeJS](https://oncletom.io/node.js/chapter-02/), extrait du livre à paraître de Thomas Parisot
--   [Promets moi que ça ne fera pas mal](https://github.com/stevekane/promise-it-wont-hurt) un didactiel interactif en français (`npm install -g promise-it-wont-hurt && promise-it-wont-hurt -l fr`)
+-   [Promets moi que ça ne fera pas mal](https://github.com/stevekane/promise-it-wont-hurt) un didacticiel interactif en français (`npm install -g promise-it-wont-hurt && promise-it-wont-hurt -l fr`)
 -   [promise-cookbook](https://github.com/mattdesl/promise-cookbook/blob/master/README.md) en anglais
 -   [JavaScript Promises: an
     Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises) en anglais
