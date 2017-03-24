@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll_reading_time"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
+  gem "jekyll-livereload"
   gem "jekyll-mentions"
   gem "jekyll-paginate-v2"
   gem "jekyll-redirect-from"

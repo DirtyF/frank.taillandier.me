@@ -73,6 +73,7 @@ exclude:
 gems:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-livereload
   - jekyll-mentions
   - jekyll-paginate-v2
   - jekyll-redirect-from
