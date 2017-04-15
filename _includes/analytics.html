@@ -1,20 +1,25 @@
 <script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', '{{site.analytics.google.tracking_id}}', 'auto');
-ga('set', 'transport', 'beacon');
-ga('require', 'eventTracker', {
-  attributePrefix: 'data-ga-'
+window.ga =
+  window.ga ||
+  function() {
+    (ga.q = ga.q || []).push(arguments);
+  };
+ga.l = +new Date();
+ga("create", "{{site.analytics.google.tracking_id}}", "auto");
+ga("set", "transport", "beacon");
+ga("require", "eventTracker", {
+  attributePrefix: "data-ga-"
 });
-ga('require', 'outboundLinkTracker');
-ga('require', 'cleanUrlTracker', {
+ga("require", "outboundLinkTracker");
+ga("require", "cleanUrlTracker", {
   stripQuery: true
 });
-ga('require', 'pageVisibilityTracker', {
+ga("require", "pageVisibilityTracker", {
   fieldsObj: {
     nonInteraction: null
   }
 });
-ga('send', 'pageview');
+ga("send", "pageview");
 
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
