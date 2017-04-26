@@ -5,7 +5,6 @@ gem "jekyll"
 
 group :jekyll_plugins do
   gem "classifier-reborn"
-  gem "jekyll_reading_time"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
   gem "jekyll-livereload"
@@ -14,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "jekyll_reading_time"
   gem "jemoji"
 end
 
