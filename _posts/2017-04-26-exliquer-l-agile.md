@@ -2,7 +2,7 @@
 title: Expliquer l'Agile
 description: "Les trois lois de l'agilité : de petites équipes en auto-gestion, qui forment un réseau organique, toutes focalisées sur la valeur supplémentaire apportée à l'utilisateur final"
 author: Steve Denning
-image: /assets/img/2017/04/agile-40-flavors.jpg
+image: /assets/img/2017/04/agile-network-4-images.jpg
 ---
 
 **Il ne suffit pas d'adopter des pratiques agiles pour qu'une entreprise devienne performante et voit son nombre de clients augmenter de façon durable. Mais alors qu'est-ce qui fait qu'une entreprise est agile ou pas ? [Steve Denning](https://twitter.com/stevedenning) a listé trois caractéristiques essentielles des organisations agiles, qui les distinguent des bureaucraties pyramidales à l'ancienne et qui font qu'elles sont en meilleure capacité de s'adapter et de répondre aux demandes du marché d'aujourd'hui.**
