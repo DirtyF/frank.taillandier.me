@@ -45,24 +45,24 @@ Donc, l’analogie est la suivante : chaque fois que vous n’écrivez pas un l
 
 Selon le créateur de l’analogie, Ward Cunningham, c’est quelque chose que vous contractez lorsque vous reportez des décisions de conception à plus tard, quand vous disposerez de davantage d’informations. Le concept de dette technique n’est utile que lorsqu’il est utilisé consciemment pour ​​chaque décision, et quand vous savez exactement comment et quand vous allez refactoriser les choses. Laissez-moi vous donner un exemple :
 
-Vous commencez à écrire une application. Au début il n’y a pas besoin de rôles utilisateurs. Tout le monde peut tout faire. À un moment donné vous avez deux permissions différents pour une action spécifique, comme par exemple un type d’utilisateur qui peut voir des rapports et les autres qui ne peuvent pas. L’équipe technique considère la possibilité de créer un système complet de permission à part entière. Mais à ce stade, ça ressemble vraiment à quelque chose d’inutilement complexe. Une méthode dans la logique métier et une autre dans la couche de présentation feront le boulot.
+Vous commencez à écrire une application. Au début il n’y a pas besoin de rôles utilisateurs. Tout le monde peut tout faire. À un moment donné vous avez deux permissions différentes pour une action spécifique, comme par exemple un type d’utilisateur qui peut voir des rapports et les autres qui ne peuvent pas. L’équipe technique considère la possibilité de créer un système complet de permissions à part entière. Mais à ce stade, ça ressemble vraiment à quelque chose d’inutilement complexe. Une méthode dans la logique métier et une autre dans la couche de présentation feront le boulot.
 
-Un peu plus tard, un autre cas de figure nécessite de différencier les utilisateurs, puis un autre et encore un autre. A ce stade, les développeurs réalisent que ça commence à être le foutoir et que la solution est de refactoriser le code pour avoir un système décent de gestion des permissions. Cette refactorisation de code prendra plus de temps que de simplement ajouter une nouvelle méthode, mais il va simplifier le code et permettra aux futures permissions d’être ajoutées avec une seule ligne de code ou même en insérant simplement une nouvelle entrée dans la base de données.
+Un peu plus tard, un autre cas de figure nécessite de différencier les utilisateurs, puis un autre et encore un autre. À ce stade, les développeurs réalisent que ça commence à être le foutoir et que la solution est de refactoriser le code pour avoir un système décent de gestion des permissions. Cette refactorisation de code prendra plus de temps que de simplement ajouter une nouvelle méthode, mais il va simplifier le code et permettra aux futures permissions d’être ajoutées avec une seule ligne de code ou même en insérant simplement une nouvelle entrée dans la base de données.
 
-Le problème est qu’il y a _vraiment_ un besoin commercial d’avoir les permissions actuelles en production d’ici un à deux jours, car cela permettrait à cinq clients potentiels de signer un contrat cette semaine plutôt que la semaine prochaine ou peut-être jamais, s’il n’apprécient pas que la société n’ait pas répondu favorablement à leur seule demande.
+Le problème est qu’il y a _vraiment_ un besoin commercial d’avoir les permissions actuelles en production d’ici un à deux jours car cela permettrait à cinq clients potentiels de signer un contrat cette semaine plutôt que la semaine prochaine ou peut-être jamais s’il n’apprécient pas que la société n’ait pas répondu favorablement à leur seule demande.
 
-C’est le moment où il faut décider si on contracte de la dette. Toutes les informations nécessaires à cette prise de décisions sont connues. Au départ, ajouter une permission demandait 3 points de story. Maintenant ça en demande 4. Bientôt cela représentera 5, 6, [qui sait ?](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6579461&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6579461) La refactorisation complète demande maintenant un effort de 21. Donc la décision, aujourd’hui n’est pas entre 4 et 21 mais entre trois scénarios possibles :
+C’est le moment où il faut décider si on contracte de la dette. Toutes les informations nécessaires à cette prise de décision sont connues. Au départ, ajouter une permission demandait 3 points de story. Maintenant ça en demande 4. Bientôt cela représentera 5, 6, [qui sait ?](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6579461&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6579461) La refactorisation complète demande maintenant un effort de 21. Donc la décision, aujourd’hui n’est pas entre 4 et 21 mais entre trois scénarios possibles :
 
 *   4 maintenant (pour la permission), 22 plus tard (la refactorisation est désormais un peu plus compliquée) et quelque chose proche de 0 pour chaque nouvelle permission après ça, accompagné par un léger gain de la productivité générale. Dans ce scénario, l’entreprise a ajouté 5 clients à son portfolio et l’argent arrive tôt;
 *   21 maintenant (pour la refactorisation), 0 plus tard (pour la permission); Dans ce scénario, l’entreprise n’as pas ajouté 5 clients à son portfolio de suite, et l’argent arrivera plus tard;
-*   4 maintenant (pour la permission), aucune refactorisation du tout, et donc 5 pour les prochaines permissions, puis 6, puis 7… jusqu’à ce que la refactorisation soit suggérée, avec maintenant un coût avoisinant les 50; Dans ce scénario, l’argent est encaissé tôt, mais la prochaine fois cela demandera de faire un travail spécifique pour ajouter des clients, et prendra beaucoup plus de temps.
+*   4 maintenant (pour la permission), aucune refactorisation du tout, et donc 5 pour les prochaines permissions, puis 6, puis 7… jusqu’à ce que la refactorisation soit suggérée, avec maintenant un coût avoisinant les 50; Dans ce scénario, l’argent est encaissé tôt, mais la prochaine fois cela demandera de faire un travail spécifique pour ajouter des clients et prendra beaucoup plus de temps.
 
 Vu le temps total, c’est _toujours_ mieux de partir sur la meilleure conception possible. Tout comme c’est mieux pour une entreprise d’être en mesure de faire de nouveaux investissements sans avoir besoin d’aller à la banque. Et dans ce genre d’éventualités, partir sur le premier scénario _est_ le plus sage.
 Une mise en garde cependant : même [ce type de compromis ne peut pas être fait en permanence](http://signalvnoise.com/archives2/getting_real_take_it_slow_if_you_need_it_fast.php).
 
 Encore une fois, ce type de négociation n’est pas la norme. Beaucoup de managers ne comprennent pas précisément le concept de dette technique. Voici Steve McConnell, l’auteur de <cite>Code Complete</cite>, entre autres chefs-d’œuvre, dans une [entrevue](http://www.ontechnicaldebt.com/blog/steve-mcconnell-on-categorizing-managing-technical-debt/) avec le site internet _On Technical Debt_ :
 
-> L’équipe de direction pense que nous pouvons augmenter la dette technique car elle n’en voit jamais les conséquences. Mais ces conséquences sont bien présentes … elles ne sont simplement jamais exprimées de manière à ce que cela attire l’attention de l’équipe dirigeante.
+> L’équipe de direction pense que nous pouvons augmenter la dette technique car elle n’en voit jamais les conséquences. Mais ces conséquences sont bien présentes… elles ne sont simplement jamais exprimées de manière à ce que cela attire l’attention de l’équipe dirigeante.
 
 ## Quand contracter de la dette
 
@@ -72,7 +72,7 @@ Ce raisonnement bien qu’attrayant ne raconte pas toute l’histoire. Le mantra
 
 <iframe width="510" height="420" style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/31984451" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-C’est précisément ce que renferme le concept de [Produit minimal adorable](http://www.slideshare.net/spookstudio/the-minimum-loveable-product-31984451) (contrairement au MVP). L’idée est que pour obtenir quelque chose rapidement, et qui puisse être _aimé_, vous devriez préférer sacrifier le périmètre grâce à une priorisation sans pitié.
+C’est précisément ce que renferme le concept de [Produit minimal adorable](http://www.slideshare.net/spookstudio/the-minimum-loveable-product-31984451) (contrairement au [MVP]({% post_url 2016-01-28-comprendre-le-mvp %})). L’idée est que pour obtenir quelque chose rapidement, et qui puisse être _aimé_, vous devriez préférer sacrifier le périmètre grâce à une priorisation sans pitié.
 
 Dans tous les cas, on peut raisonnablement dire que _toutes_ les startups ont contracté un peu de dette technique qui sera remboursée en cas de succès. Certaines de ces startups ont conscience de ce compromis et ont un plan pour le gérer. Ces startups, si elles sont financées, investiront alors plutôt dans des cuisines plus chouettes et iront à un rythme bien plus rapide que leurs concurrents.
 
@@ -102,20 +102,18 @@ Maintenant imaginons une tout autre conversation :
 
 **Développeur Junior. —** Hum.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="We'll ask for estimates and then treat them as deadlines" %}
-
-Demandons leur des estimations, que nous considérerons ensuite comme des délais
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="Demandons leur des estimations et considérerons les ensuite comme des délais" %}
 
 Ceci n’est pas une négociation sur la dette technique. Les vraies négociations sur la dette technique ont lieu avec des managers et des développeurs plus expérimentés, qui comprennent tous les deux précisément les conséquences de leurs actions.
 
-Mais de toute façon est-ce que cette société ne contracte pas de la dette ? La réponse est _non_. Et c’est c’est pour cela que l’analogie avec la dette commence à atteindre ses limites dans ce cas de figure. La demande du manager n’est pas de sacrifier à court terme en tout connaissance de cause la conception du code pour l’améliorer par la suite, c’est donner carte blanche au développeur inexpérimenté pour simplement écrire du _mauvais_ code.
+Mais de toute façon est-ce que cette société ne contracte pas de la dette ? La réponse est _non_. Et c’est c’est pour cela que l’analogie avec la dette commence à atteindre ses limites dans ce cas de figure. La demande du manager n’est pas de sacrifier à court terme en toute connaissance de cause la conception du code pour l’améliorer par la suite, c’est donner carte blanche au développeur inexpérimenté pour simplement écrire du _mauvais_ code.
 
-Les problèmes avec cette approche sont énoncés de manière limpide par Chad Fowler dans cet article [Killing the Crunch Mode Antipattern](http://chadfowler.com/2014/01/22/the-crunch-mode-antipattern.html). D’après Fowler, voici _quelques-unes_ des conséquences de travailler en permanence avec des délais très courts et une piètre qualité :
+Les problèmes avec cette approche sont énoncés de manière limpide par Chad Fowler dans cet article [Killing the Crunch Mode Antipattern](http://chadfowler.com/2014/01/22/the-crunch-mode-antipattern.html).D’après Fowler, voici _quelques-unes_ des conséquences de travailler en permanence avec des délais très courts et une piètre qualité :
 
 *   Même les développeurs expérimentés tombent dans des pièges de débutants ;
-*   Ca tue la passion du développeur pour son métier, quelques fois de façon permanente, cela entraîne le départ des meilleurs développeurs ;
-*   Ça supprime toute responsabilité, puisque l’urgence devient une – bonne ? – excuse pour faire des erreurs ;
-*   Ça nuit à la confiance entre le management et l’équipe technique, parfois de façon permanente.
+*   Cela ôte la passion du développeur pour son métier, quelques fois de façon permanente, cela entraîne le départ des meilleurs développeurs ;
+*   Cela supprime toute responsabilité, puisque l’urgence devient une – bonne ? – excuse pour faire des erreurs ;
+*   Cela nuit à la confiance entre le management et l’équipe technique, parfois de façon permanente.
 
 Voici l’auteur de l’analogie sur la dette, Ward Cunningham, qui clarifie qu’il n’a jamais pensé que la dette technique était le fait d’écrire du mauvais code.
 
@@ -222,13 +220,13 @@ La troisième chose que la direction ne tolérera pas c’est que le développem
 
 Quatrièmement, afin de convaincre la direction dans l’urgence, les développeurs vont promettre toutes sortes de choses, comme le fait que le refactoring rendra le système plus performant, plus robuste, même à grande échelle…
 
-Cinquièmement, étant donné qu’une partie du problème vient de l’inexpérience des développeurs en terme même de développement, comment peuvent-ils garantir que maintenant ils sauront mieux ? Est-ce que de nouveaux développeurs expérimentés ou peut-être des consultants vont les aider ?
+Cinquièmement, étant donné qu’une partie du problème vient de l’inexpérience des développeurs en terme même de développement, comment peuvent-ils garantir que maintenant ils sauront mieux faire ? Est-ce que de nouveaux développeurs expérimentés ou peut-être des consultants vont les aider ?
 
 Sixièmement, en général, la planification n’est pas particulièrement le point fort du genre de projet qui nécessite une réécriture. Est-ce que la réécriture sera correctement planifiée ?
 
 Toutes ces problématiques et beaucoup plus sont abordées dans la série d’articles [The Big Rewrite](http://chadfowler.com/2006/12/27/the-big-rewrite.html) de Chad Fowler.
 
-Donc, la seule option réaliste devant du code *legacy* est de _radicalement_ améliorer l’état du code _actuel_ de manière cyclique. Cela _doit_ être fait en introduisant des tests, même si c’est très dur et que cela prend du temps. L’application monolithique doit être découpée en petites pièces découplées. Et toutes les migrations de données et changements plus radicaux doivent être parfaitement planifiés et synchronisés.
+Donc, la seule option réaliste devant du code _legacy_ est de _radicalement_ améliorer l’état du code _actuel_ de manière cyclique. Cela _doit_ être fait en introduisant des tests, même si c’est très dur et que cela prend du temps. L’application monolithique doit être découpée en petites pièces découplées. Et toutes les migrations de données et changements plus radicaux doivent être parfaitement planifiés et synchronisés.
 
 Le temps que vous allez passer à rendre du code ancien compatible avec du développement continu, productif, avec lequel de bons développeurs vont vouloir travailler, qui peut délivrer de la valeur métier de manière prédictive et constante, sera _énorme_ (Je présuppose ici que vous ne pouvez simplement pas arrêter de développer ce produit). Cela exigera également un grand changement culturel.
 
@@ -240,20 +238,18 @@ Encore une fois, c’est simplement la conséquence naturelle d’un flot contin
 
 ## Le changement culturel
 
-Comme toute œuvre littéraire conduit à de multiples interprétations, la leçon des fables d’Ésope, le Lièvre et la Tortue n’est pas un consensus. Mon propos ici c’est que ne s’agit ni de rapidité ni de lenteur, mais d’_un trop plein d’orgueil_. Le lièvre agit avec un fol excès de confiance, se hâte au début puis ralenti jusqu’à laisser gagner la tortue.
+Comme toute œuvre littéraire conduit à de multiples interprétations, la leçon des fables d’Ésope, le Lièvre et la Tortue n’est pas un consensus. Mon propos ici c’est qu'il ne s’agit ni de rapidité ni de lenteur, mais d’_un trop plein d’orgueil_. Le lièvre agit avec un fol excès de confiance, se hâte au début puis ralenti jusqu’à laisser gagner la tortue.
 
-La morale de l’histoire est qu’à un certain point, l’orgueil qui pousse à la négligence de la qualité va commencer à affecter la stratégie de votre entreprise, soit en vous ralentissant, et en rendant votre entreprise sans intérêt pour les bons développeurs. Et comme [Elon Musk le disait](http://www.teslamotors.com/blog/all-our-patent-are-belong-you) lorsqu’il a annoncé l’ouverture du code source de tous les brevets de Tesla Motors :
+La morale de l’histoire est qu’à un certain point, l’orgueil qui pousse à la négligence de la qualité va commencer à affecter la stratégie de votre entreprise, soit en vous ralentissant, soit en rendant votre entreprise sans intérêt pour les bons développeurs. Et comme [Elon Musk le disait](http://www.teslamotors.com/blog/all-our-patent-are-belong-you) lorsqu’il a annoncé l’ouverture du code source de tous les brevets de Tesla Motors :
 
 > L’avance technologique est… définie… par la capacité d’une entreprise à attirer et à motiver les ingénieurs les plus talentueux au monde.
 
-![Festina Lente](https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg)
-
-Le lièvre dans une coquille d’escargot un des nombreux symboles de Festina Lente.
+{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg" description="Le lièvre dans une coquille d’escargot un des nombreux symboles de Festina Lente" %}
 
 Les concurrents _diminueront_ votre valeur, pendant que vous dormez.
 
-L’historien Romain Suetonius, dans *De vita Caesarum*, nous dit qu’Auguste, le premier empereur de Rome, avait adopté le motto *Festina Lente*, littéralement, « plus vite, moins de précipitation » :
+L’historien Romain Suetonius, dans _De vita Caesarum_, nous dit qu’Auguste, le premier empereur de Rome, avait adopté le motto _Festina Lente_, littéralement, « plus vite, moins de précipitation ».
 
-Devenu un bon chef de file, bien entrainé, il n’en pensait pas moins de la précipitation et de l’imprudence, et, en conséquence, ses dictons préférés étaient :
-
-> Hâte toi, lentement. On fait assez vite, ce qu’on fait bien.
+> Devenu un bon chef de file, bien entrainé, il n’en pensait pas moins de la précipitation et de l’imprudence, et, en conséquence, ses dictons préférés étaient : Hâte toi, lentement.
+>
+> On fait assez vite, ce qu’on fait bien.
