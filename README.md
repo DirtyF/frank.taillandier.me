@@ -1,6 +1,6 @@
 # frank.taillandier.me
 
-[![Build Status](https://travis-ci.org/DirtyF/frank.taillandier.me.svg?branch=gh-pages)](https://travis-ci.org/DirtyF/frank.taillandier.me) ![Powered by Jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+[![Build Status](https://travis-ci.org/DirtyF/frank.taillandier.me.svg?branch=gh-pages)](https://travis-ci.org/DirtyF/frank.taillandier.me) ![Powered by Jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/DirtyF)
 
 This blog is built using [Jekyll](https://github.com/jekyll/jekyll), [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), and a slighty modified version of the [Lanyon Theme](https://github.com/poole/lanyon).
 
