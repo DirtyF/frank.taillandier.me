@@ -26,7 +26,7 @@ Ces trois dernières années, les intégrations des nouveaux membres ont été p
 
 Le secret a été d'ajouter toujours plus d'humain. Si Sud Web est organisé à distance depuis le début, il n'en reste pas moins important de nous voir et de partager des moments de convivialité. Les quelques week-ends que nous passons ensemble permettent d'établir une relation de confiance et un esprit d'équipe, qui nous anime tout au long de l'année.
 
-Il n'y a donc aucune raison pour ne pas laisser la place pour que ce bel évènement continuer d'exister grâce à l'implication et à l'énergie d'anciens participants, qui à leur tour, vont vouloir apporter à Sud Web, autant que Sud Web leur a apporté.
+Il n'y a donc aucune raison pour ne pas laisser la place pour que ce bel évènement continue d'exister grâce à l'implication et à l'énergie d'anciens participants, qui à leur tour, vont vouloir apporter à Sud Web, autant que Sud Web leur a apporté.
 
 L'énergie que nous mettons dans l'organisation nous est rendue au centuple lors de l'évènement, cette énergie j'ai maintenant envie de la mettre au service de nouveaux projets.
 
