@@ -8,7 +8,7 @@ Une page se tourne, puisque [l'édition qui vient de s'achever à Aix-en-Provenc
 
 Pendant toutes ces années l'équipe a acquis l'expérience nécessaire pour organiser une édition avec une logistique impeccable, même dans une ville où aucun membre de l'équipe ne réside. D'autre part je suis confiant dans la résilience du projet, si j'en crois l'implication affichée par les nouveaux membres arrivés ces dernières années.
 
-Mon départ — ainsi que celui de Nathalie —  permettra aussi à l'équipe de bénéficier de sang neuf, d'une vision différente qui lui permette d'expérimenter à son grès comme nous avons essayé de le faire au cours des précédentes éditions.
+Mon départ — ainsi que celui de Nathalie —  permettra aussi à l'équipe de bénéficier de sang neuf, d'une vision différente qui lui permette d'expérimenter à son gré comme nous avons essayé de le faire au cours des précédentes éditions.
 
 Il y a de la place pour continuer à casser les codes de ce qu'on peut attendre d'une conférence liées aux métiers du Web, mais qui tient aussi à rappeler aux participants que nous sommes des êtres humains avant tout, dotés d'émotions, de valeurs et d'envies, qui font que notre implication dans des projets est subordonnée au sens qu'elle revêt pour nous.
 
