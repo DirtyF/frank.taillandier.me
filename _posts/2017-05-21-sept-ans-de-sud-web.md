@@ -34,7 +34,7 @@ Cette année encore le témoignage de Sabine me conforte dans l'idée que tout e
 
 Cette édition de Sud Web me donne des envies d'ailleurs, je ne sais pas encore de quoi l'avenir sera fait, mais je trouverai en moi la force nécessaire pour continuer de vivre en accord avec moi-même.
 
-Merci à toutes les personnes que j'ai croisé au cours de toutes ces années, pour tous ces échanges qui ont animé mes réflexions. Je ne serais pas la personne que je suis aujourd'hui si je n'avais pas croisé votre route. Je quitte une belle aventure pour en vivre une nouvelle.
+Merci à toutes les personnes que j'ai croisées au cours de toutes ces années, pour tous ces échanges qui ont animé mes réflexions. Je ne serai pas la personne que je suis aujourd'hui si je n'avais pas croisé votre route. Je quitte une belle aventure pour en vivre une nouvelle.
 
 Une mention spéciale pour mes ancien·ne·s camarades de jeu, vous m'avez donné envie de donner le meilleur de moi, vous avez fait de moi une personne meilleure.
 
@@ -42,7 +42,7 @@ Une mention spéciale pour mes ancien·ne·s camarades de jeu, vous m'avez donn�
 
 {% include figure.html url="/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda avant son départ pour le Canada" %}
 
-Longue vie à Sud Web, prenez en soin, c'est un moment tellement précieux, qui communique de belles valeurs, des valeurs qui continueront de m'animer dans tout ce que j'entreprendrais par la suite.
+Longue vie à Sud Web, prenez en soin, c'est un moment tellement précieux, qui communique de belles valeurs, des valeurs qui continueront de m'animer dans tout ce que j'entreprendrai par la suite.
 
 P.S: Parce qu'un peu d'humour ne fait jamais de mal, une spéciale dédicace à Alexandra.
 
