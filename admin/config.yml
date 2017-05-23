@@ -3,6 +3,8 @@ backend:
   repo: DirtyF/frank.taillandier.me
   branch: master
 
+publish_mode: editorial_workflow
+
 media_folder: "assets/img"
 
 collections:
