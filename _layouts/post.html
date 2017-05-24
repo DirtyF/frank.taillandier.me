@@ -15,14 +15,7 @@ layout: default
 
   {{ content }}
 
-  <hr>
-
   <footer>
-    {% if site.disqus.shortname %}
-      {% include comments.html %}
-    {% endif %}
-
-    <h2>Améliorez cet article</h2>
     <p>Une correction à apporter ? <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Éditez le contenu</a>.</p>
   </footer>
 
