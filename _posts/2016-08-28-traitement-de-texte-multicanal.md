@@ -12,7 +12,7 @@ Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le 
 
 Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandissante depuis quelques années.
 
-{% include figure.html url="/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
+{% include figure.html url="https://frank.taillandier.me/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
 
 Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels devrait vous intéresser.
 

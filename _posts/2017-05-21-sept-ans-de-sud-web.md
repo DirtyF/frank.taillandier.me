@@ -1,7 +1,7 @@
 ---
 title: 7 ans de Sud Web
 description: Ma lettre de résilience à Sud Web, une conférence super-humaine, dans laquelle je me suis impliqué corps et âme pendant sept ans.
-image: /assets/img/2017/05/amanda.jpg
+image: https://frank.taillandier.me/assets/img/2017/05/amanda.jpg
 ---
 
 Une page se tourne, puisque [l'édition qui vient de s'achever à Aix-en-Provence](https://sudweb.fr/2017/) était ma dernière en tant que membre de l'équipe d'organisation. Comme [Loïc](http://loic.mathaud.fr/) ou [Thomas](https://oncletom.io/) avant moi, après plusieurs années à m'être impliqué dans ce projet qui me tient tant à cœur, j'ai décidé de passer la main en tout sérénité.
@@ -52,7 +52,7 @@ Oui Bertrand.
 
 Ces trois dernières années, les intégrations des nouveaux membres ont été plus que réussies. Amanda, Enza, Alexandra, vous m'avez bluffé. Boris, Bertrand, Matthieu, vous avez assuré.
 
-{% include figure.html url="/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
+{% include figure.html url="https://frank.taillandier.me/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
 
 **Le secret a été d'ajouter toujours plus d'humain**.
 
