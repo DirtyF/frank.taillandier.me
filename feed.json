@@ -19,13 +19,13 @@ layout: null
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "date_published": "{{ post.date | date_to_xmlschema }}",
-            "date_modified": "{{ post.date | date_to_xmlschema }}",
+            {% if post.last-modified %}"date_modified": "{{ post.last-modified | date_to_xmlschema }}",{% endif %}
             "title": {{ post.title | jsonify }},
             "summary": {{ post.description | jsonify }},
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
-            "url": "{{ post.url | absolute_url }}",
-            {% if post.image.size > 1 %}"image": "{{ post.image }}"{% endif %}
+            {% if post.image %}"image": "{{ post.image }}",{% endif %}
+            "url": "{{ post.url | absolute_url }}"
         }{% if forloop.last == false %},{% endif %}
     {% endfor %}
     ]
