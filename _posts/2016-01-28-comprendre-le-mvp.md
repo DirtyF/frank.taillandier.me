@@ -40,7 +40,7 @@ Maintenant, quand l’Agile est présenté comme une alternative, les gens rechi
 
 Le client réagit de la sorte : « Mais qu’est-ce que vous fichez à me livrer un pneu ? J’ai commandé une VOITURE ! Qu’est-ce que je suis supposé faire avec ça ?
 
-(Au fait ici j’utile le terme *client* aussi comme un terme générique pour parler de gens comme les managers produit, les responsables produit ainsi que les premiers utilisateurs de votre produit.)
+(Au fait ici j’utilise le terme *client* aussi comme un terme générique pour désigner des personnes comme les responsables produit et les premiers utilisateurs de votre produit.)
 
 À chaque livraison, le produit se rapproche du produit fini, mais le client est toujours frustré car il ne peut pas vraiment utiliser le produit. C’est toujours une voiture partielle.
 
@@ -50,7 +50,7 @@ Au final, lorsque le produit est terminé, le client vous dit « Merci, Enfin !
 
 ![Étape 4 le client est content devant le produit fini](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-4.jpg)
 
-Dans cet exemple il est content du produit final car c’est ce qu’il a commandé. Dans les faits, ce n’est pas vraiment vrai. Beaucoup de temps s’est écoulé sans véritable test utilisateur, donc le produit est probablement rongé par des défauts de conception, dus à des hypothèses incorrectes sur les besoins des utilisateurs. Donc cette tête de smiley à la fin est très idéaliste.
+Dans cet exemple il est content du produit final car c’est ce qu’il a commandé. Dans les faits, ce n’est pas toujours vrai. Beaucoup de temps s’est écoulé sans véritable test utilisateur, donc le produit est probablement impacté par des défauts de conception, dus à des hypothèses incorrectes sur les besoins des utilisateurs. Donc cette tête de smiley à la fin est très idéaliste.
 
 Quoi qu’il en soit, la première rangée représente l’*agile dévoyé*. Techniquement cela a beau être une livraison incrémentale et itérative, l’absence d’une véritable boucle de retours la rend très risquée - et tout sauf agile.
 
@@ -76,13 +76,13 @@ En revanche, contrairement au volant dans le premier scénario le skateboard est
 
 > Nous pourrions apprendre des choses vraiment surprenantes. Supposons que le client dise qu’il déteste le skateboard, nous lui demandons pourquoi et il répond : « Je déteste la couleur. »  Nous disons quelques chose comme : « euh… la couleur ? C’est tout ? ». Et le client répond « Ouais, faites le en bleu ! À part ça, c’est parfait ! ». Vous venez d’économiser **beaucoup** d’argent en ne construisant pas la voiture ! Peu probable, mais qui sait ?
 
-La question clef c’est « **Quelle est la manière la plus rapide et la moins chère de pouvoir commencer à apprendre** ? » Pouvons nous livrer quelque chose encore plus vite qu’un skateboard ? ET pourquoi pas un ticket de bus ?
+La question clef c’est « **Quelle est la manière la plus rapide et la moins chère de pouvoir commencer à apprendre** ? » Pouvons nous livrer quelque chose encore plus vite qu’un skateboard ? Et pourquoi pas un ticket de bus ?
 
 ![Ticket de bus](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-7.jpg)
 
 Est-ce que cela aidera à résoudre le problème de l’utilisateur ? Peut-être, peut-être pas, mais nous allons surement apprendre quelque chose en mettant cela entre les mains de vrais utilisateurs. Le [Lean Startup](http://theleanstartup.com/book) offre un excellent modèle qui propose de lister toutes vos hypothèses actuelles à propos des utilisateurs et ensuite de travailler systématiquement à les valider ou les invalider.
 
-Vous n’avez pas besoin de faire tester le produit à tous les utilisateurs et vous n’avez pas besoin de contruire un produit pour tester quelque chose. **Tester un prototype ne serait-ce que sur un seul utilisateur vous apprendra toujours quelque chose**.
+Vous n’avez pas besoin de faire tester le produit à tous les utilisateurs et vous n’avez pas besoin de construire un produit pour tester quelque chose. **Tester un prototype ne serait-ce que sur un seul utilisateur vous apprendra toujours quelque chose**.
 
 Bon OK, revenons à l’exemple du skateboard.
 
@@ -102,21 +102,21 @@ Maintenant le client peut se déplacer à tout vitesse autour du campus. Youpi !
 
 Nous avons appris des choses en cours de route : le client aime le contact de l’air frais sur son visage. Le client est sur un campus et se déplace surtout entre les bâtiments.
 
-**Le vélo pourrait se révéler être un bien meilleur produit que la voiture envisagée à l’origine**. En fait, en testant ce produit nous pourrions apprendre que les chemins sont de toute façon trop étroits pour une voiture. Nous avons juste fait économiser au client beaucoup de temps et d’argent, et nous lui avons fourni un produit plus adapté en moins de temps !
+**Le vélo pourrait se révéler être un bien meilleur produit que la voiture envisagée à l’origine**. En fait, en testant ce produit nous pourrions apprendre que les chemins sont de toute façon trop étroits pour une voiture. Nous avons juste fait économiser au client beaucoup de temps et d’argent et nous lui avons fourni un produit plus adapté en moins de temps !
 
-> Maintenant vous pourriez penser «  Mais n’aurions nous pas dû déjà savoir cela à l’aide de données issues du contexte de l’utilisateur et de ces besoins ? ». Bonne remarque. Mais dans la plupart des scénarii de développement de produit que j’ai pu observer dans la vraie vie, **peu importe le nombre d’analyses préparatoires que vous faites, vous serez toujours surpris quand vous mettrez la première version de votre produit dans les mains de l’utilisateur**, et beaucoup de vos hypothèses se révèleront être à côté de la plaque.
+> Maintenant vous pourriez penser «  Mais n’aurions nous pas dû déjà savoir cela à l’aide de données issues du contexte de l’utilisateur et de ces besoins ? ». Bonne remarque. Mais dans la plupart des scénarii de développement de produit que j’ai pu observer dans la vraie vie, **peu importe le nombre d’analyses préparatoires que vous faites, vous serez toujours surpris quand vous mettrez la première version de votre produit dans les mains de l’utilisateur** et beaucoup de vos hypothèses se révèleront être à côté de la plaque.
 
 Alors **oui, faites des recherches préparatoires, découvrez en autant que vous pouvez avant de commencer le développement, mais ne passez pas trop de temps dessus et ne vous fiez pas trop aux analyses** - commencez plutôt à prototyper et à publier, c’est là qu’a lieu le véritable apprentissage.
 
-Bien, revenons en à notre histoire. Peut-être que le client en veut plus. Parfois il a besoin de se rendre dans une autre ville, et la balade à vélo est trop lente et fait suer. Nous ajouterons un moteur à la prochaine itération.
+Bien, revenons en à notre histoire. Peut-être que le client en veut plus. Parfois il a besoin de se rendre dans une autre ville et la balade à vélo est trop lente et fait suer. Nous ajouterons un moteur à la prochaine itération.
 
 ![Quatrième étape, le client aime bien son produit](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-10.jpg)
 
-Ce modèle convient particulièrement bien au logiciel — le *soft*ware est souple par définition. Vous pouvez *transformer* le produit au fur et à mesure, contrairement au matériel où vous aurez essentiellement à reconstruire à chaque fois. Mais, même dans les projets matériels, il y a d’énormes bénéfices à livrer des prototypes pour observer et apprendre comment les clients utilisent votre produit. C’est simplement que les itérations tendent à être un peu plus longues (des mois plutôt que des semaines). Même de vraies entreprises automobiles comme Toyota et Tesla font beaucoup de prototypage (croquis, modèles 3D, [modèle à l’échelle en argile](http://www.toyota-global.com/showroom/toyota_design/voice_of_design/03.html), etc.) avant de développer un nouveau modèle de voiture.
+Ce modèle convient particulièrement bien au logiciel — le *soft*ware est souple par définition. Vous pouvez *transformer* le produit au fur et à mesure, contrairement au matériel où vous aurez essentiellement à reconstruire à chaque fois. Mais même dans les projets matériels, il y a d’énormes bénéfices à livrer des prototypes pour observer et apprendre comment les clients utilisent votre produit. C’est simplement que les itérations tendent à être un peu plus longues (des mois plutôt que des semaines). Même de vraies entreprises automobiles comme Toyota et Tesla font beaucoup de prototypage (croquis, modèles 3D, [modèle à l’échelle en argile](http://www.toyota-global.com/showroom/toyota_design/voice_of_design/03.html), etc.) avant de développer un nouveau modèle de voiture.
 
 Et maintenant ? Encore une fois, peut-être le client est-il satisfait de la moto. Nous pourrions mettre un terme au projet plus tôt que prévu. La plupart des produits fourmillent de trucs compliqués et de fonctionnalités que personne n’utilise. L’approche itérative est vraiment une manière de livrer moins, ou de **trouver la façon la plus simple et la moins couteuse de répondre au besoin du client**. Rapprochez vous de l'extraodinaire. C'est très Zen.
 
-Ou, encore une fois, le client peut choisir de continuer, avec ou sans modifications des spécifications. Nous pourrions en fait  en arriver exactement à la même voiture que celle imaginée au départ. Toutefois, il est beaucoup plus probable que nous aurons récolté des points de vue déterminants en cours et que nous arriverons à quelque chose de légèrement différent. Comme cela :
+Encore une fois le client peut choisir de continuer, avec ou sans modifications des spécifications. Nous pourrions en fait en arriver exactement à la même voiture que celle imaginée au départ. Toutefois, il est beaucoup plus probable que nous aurons récolté des points de vue déterminants en cours de route et que nous arriverons à quelque chose de légèrement différent. Comme cela :
 
 ![Cinquième étape, le client est emballé par son produit](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-11.jpg)
 
@@ -146,13 +146,13 @@ Prenons quelques exemples issus de la vraie vie.
 
 ![Interface mobile des premières versions de Spotify](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-12.jpg)
 
-En tant que startup en 2006, Spotify a été fondée sur quelques hypothèses clés : les gens sont contents de streamer (plutôt que de posséder) de la musique, les labels et les artistes veulent bien laisser les gens faire cela légalement, et du streaming stable et rapide est techniquement faisable. Souvenez-vous en 2006 lorsque streamer de la musique (avec Real Player par exemple) était une expérience assez horrible, et que la musique piratée était plutôt la norme. La partie technique du challenge était : « Est-il vraiment possible de construire un logiciel qui diffuse de la musique instantanément quand on appuie sur le bouton lecture ? Est-il possible de se débarasser de cette ennuyeuse barre de progression de « mise en tampon ? »
+En tant que startup en 2006, Spotify a été fondée sur quelques hypothèses clés : les gens sont contents de streamer (plutôt que de posséder) de la musique, les labels et les artistes veulent bien laisser les gens faire cela légalement et du streaming stable et rapide est techniquement faisable. Souvenez-vous en 2006 lorsque streamer de la musique (avec Real Player par exemple) était une expérience assez horrible et que la musique piratée était plutôt la norme. La partie technique du challenge était : « Est-il vraiment possible de construire un logiciel qui diffuse de la musique instantanément quand on appuie sur le bouton lecture ? Est-il possible de se débarasser de cette ennuyeuse barre de progression de « mise en tampon » ? 
 
 Commencer petit ne signifie pas que nous ne pouvez pas penser grand. Voici l’un des premiers croquis de ce qu’ils avaient en tête :
 
 ![Croquis basse-définition de la première interface de Spotify ](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-13.jpg)
 
-Mais plutôt que de passer des années à construire le produit en intégralité et ensuite vérifier que les hypothèses sont valides, les développeurs se sont assis et ont monté un prototype technique, en y mettant la musique extraite qu’ils avaient sur leurs ordinateurs portables et ils ont commencé à expérimenter dans tous les sens pour trouver des façons de faire en sorte que la lecture soit stable et rapide. La métrique de référence était « Combien de millisecondes s’écoulent entre le moment où j’appuie sur le bouton lecture et lorsque j’entends la musique ? ». Cela devrait jouer presque instantanément et continuer de jouer de façon uniforme et sans aucun saut de lecture ! Une fois qu’il sont arrivés à quelque chose de décent, ils ont commencé à le tester eux-mêmes, et l’ont fait tester à leur famille et à leurs amis.
+Mais plutôt que de passer des années à construire le produit en intégralité et ensuite vérifier que les hypothèses sont valides, les développeurs se sont assis et ont monté un prototype technique, en y mettant la musique extraite qu’ils avaient sur leurs ordinateurs portables et ils ont commencé à expérimenter dans tous les sens pour trouver des façons de faire en sorte que la lecture soit stable et rapide. La métrique de référence était « Combien de millisecondes s’écoulent entre le moment où j’appuie sur le bouton lecture et lorsque j’entends la musique ? ». Cela devrait jouer presque instantanément et continuer de jouer de façon uniforme et sans aucun saut de lecture ! Une fois qu’il sont arrivés à quelque chose de décent, ils ont commencé à le tester eux-mêmes et l’ont fait tester à leur famille et à leurs amis.
 
 ![Première version de l'interface de Spotify](http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-14.jpg)
 
