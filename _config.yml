@@ -71,7 +71,7 @@ exclude:
   - tmp
   - vendor
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-livereload

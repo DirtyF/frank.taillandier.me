@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # gem "gsl" not supported by Netlify
-gem "jekyll"
+gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
 
 group :jekyll_plugins do
   gem "classifier-reborn"
