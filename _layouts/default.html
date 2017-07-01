@@ -43,10 +43,12 @@
       }, false);
     })(document);
   </script>
+
   {% include symbols.svg %}
+
+  <script async src="{{ "assets/js/instantclick.min.js " | relative_url }}" data-no-instant>
   </script>
-  <script src="{{ "assets/js/instantclick.min.js " | relative_url }}" data-no-instant>
-  </script>
+
   <script>
     window.onload = function() {
       setTimeout(function() {
