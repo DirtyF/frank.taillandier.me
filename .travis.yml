@@ -2,10 +2,10 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-- 2.1.2
+- 2.4
 
 before_script: bundle update
-script: ./script/cibuild
+script: script/cibuild
 
 branches:
   only:
