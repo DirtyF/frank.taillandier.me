@@ -16,7 +16,8 @@ layout: default
   {{ content }}
 
   <footer>
-    <p>Une correction à apporter ? <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Éditez le contenu</a>.</p>
+    <p>Une correction à apporter ?
+      {% github_edit_link "Éditez le contenu" %}.</p>
   </footer>
 
 </div>
