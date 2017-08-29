@@ -3,8 +3,10 @@ disallows:
   - /404.html
 ---
 
-User-agent: *{% for disallowed in page.disallows %}
-Disallow: {{ disallowed }}{% endfor %}
-Allow: /
-Sitemap: http://frank.taillandier.me/sitemap.xml
+User-agent: *
+{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}
+{% endfor %}
+
+Sitemap: {{ "sitemap.xml" | absolute_url }}
 Host: frank.taillandier.me
