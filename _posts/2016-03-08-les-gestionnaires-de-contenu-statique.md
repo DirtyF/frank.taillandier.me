@@ -16,8 +16,6 @@ Performance, sécurité, décentralisation, portabilité, autant d'excellentes r
 
 Essayons de comprendre ce qui pourrait passer pour un retour en arrière aux yeux de certains, alors qu’il faut simplement y voir une évolution logique d’un processus de publication parfaitement adapté à notre manière asynchrone de travailler et aux ressources technologiques actuelles.
 
-<!-- excerpt -->
-
 ## La fatigue du dynamique
 
 La plupart des CMS datent de l'ère LAMP et ont vu le jour au début des années 2000, encore aujourd'hui les CMS dynamiques, Wordpress et Drupal en tête, font tourner une bonne partie des sites web de la planète. Ces logiciels sont alimentés en temps réel par des bases de données et demandent un certain niveau de maintenance ne serait-ce que pour garantir la sécurité des contenus et assurer de bonnes performances aux utilisateurs. L’interface d’administration est hébergée avec le site web, cela implique que l’expérience du contributeur est fonction des performances du site. Je ne souhaite à personne de ne plus avoir accès à son interface d’administration en ligne, pour cause de fort trafic.

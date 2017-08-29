@@ -13,8 +13,6 @@ Grâce à des exemples concrets, son article devrait vous aider à mieux compren
 
 On pourrait résumer cette philosophie par "Adaptez ou échouez".
 
-<!-- excerpt -->
-
 *Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg*
 
 Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utiliser dans diverses présentations à propos du développement agile et lean.

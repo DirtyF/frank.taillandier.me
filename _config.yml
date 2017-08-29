@@ -6,7 +6,6 @@ repository: DirtyF/frank.taillandier.me
 branch: master
 baseurl: ""
 permalink: pretty
-excerpt_separator: <!-- excerpt -->
 
 kramdown:
   auto_ids: true
