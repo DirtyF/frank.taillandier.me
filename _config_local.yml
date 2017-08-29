@@ -1,1 +1,3 @@
 livereload: true
+incremental: true
+lsi: false

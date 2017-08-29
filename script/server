@@ -3,8 +3,8 @@
 
 set -e
 
-echo "Starting server."
-bundle exec jekyll serve -w -c _config.yml --drafts --incremental
+echo "Starting server…"
+bundle exec jekyll serve -c _config.yml,_config_local.yml
 
-echo "Cleaning up..."
-rm -Rf _site
+echo "Cleaning up…"
+bundle exec jekyll clean
