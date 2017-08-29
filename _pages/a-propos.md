@@ -16,14 +16,13 @@ Si vous aimez travailler en bonne intelligence, vous focaliser sur la valeur plu
 
 Pour augmenter les chances de parvenir à de bons résultats je privilégie une démarche centrée utilisateur, un apprentissage permanent, le droit à l'erreur et une amélioration continue au sein d'équipes pluri-disciplinaires.
 
-Je contribue modestement depuis quelques mois à [Jekyll](https://jekyllrb.com), le gestionnaire de contenus statiques, qui fait tourner ce blog. J'aime beaucoup [cette stack qui combine Markdown, YAML, JSON, JavaScript et des APIs externes]({% post_url 2016-05-21-la-JAMStack %}).
+Je contribue modestement à [Jekyll](https://jekyllrb.com), le gestionnaire de contenus statiques, qui fait tourner ce blog. J'aime beaucoup [cette stack qui combine Markdown, YAML, JSON, JavaScript et des APIs externes]({% post_url 2016-05-21-la-JAMStack %}). Je vous invite à aller faire un tour sur [ JAMstatic](https://jamstatic.fr) si cela vous intéresse.
 
-J'ai contribué à créer [Sud Web](https://sudweb.fr), un cycle de conférences et d'ateliers destinés aux professionnels du web, que nous organisons en équipe à distance depuis 2010.
+J'ai contribué à créer [Sud Web](https://sudweb.fr) avec des gens que [j'aime beaucoup]({% post_url 2017-05-21-sept-ans-de-sud-web %}). Nous avons réussi à partager une certaine vision de nos métiers à travers un cycle de conférences et d'ateliers autour des technologies Web et de ceux qui les utilisent au quotidien.
 
 J'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des meetups locaux.
 
-Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username
-}}).
+Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username }}).
 
 {% include sitemap.html %}
 
