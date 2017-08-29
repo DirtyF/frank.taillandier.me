@@ -1,7 +1,7 @@
 ---
 title: 7 ans de Sud Web
 description: Ma lettre de résilience à Sud Web, une conférence super-humaine, dans laquelle je me suis impliqué corps et âme pendant sept ans.
-image: https://frank.taillandier.me/assets/img/2017/05/amanda.jpg
+image: /assets/img/2017/05/amanda.jpg
 ---
 
 Une page se tourne, puisque [l'édition qui vient de s'achever à Aix-en-Provence](https://sudweb.fr/2017/) était ma dernière en tant que membre de l'équipe d'organisation. Comme [Loïc](http://loic.mathaud.fr/) ou [Thomas](https://oncletom.io/) avant moi, après plusieurs années à m'être impliqué dans ce projet qui me tient tant à cœur, j'ai décidé de passer la main en toute sérénité.
@@ -13,7 +13,7 @@ Mon départ — ainsi que celui de Nathalie —  permettra aussi à l'équipe d
 
 Il y a de la place pour continuer à casser les codes de ce qu'on peut attendre d'une conférence liées aux métiers du Web, mais qui tient aussi à rappeler aux participants que nous sommes des êtres humains avant tout, dotés d'émotions, de valeurs et d'envies, qui font que notre implication dans des projets est subordonnée au sens qu'elle revêt pour nous.
 
-C'est un message que nous n'avons cessé de rappeler d'édition en édition, et cette année encore, nous avons pu voir que les projets personnels permettent de progresser voire de s'affranchir d'un travail dans lequel on ne se sent pas complètement soi-même et qui nous empêche de donner le meilleur de nous-mêmes.
+C'est un message que nous n'avons cessé de rappeler d'édition en édition, et cette année encore, nous avons pu voir que les projets personnels permettent de progresser voire de s'affranchir d'un travail dans lequel on ne se sent pas complètement soi-même et qui nous empêche de [donner le meilleur de nous-mêmes]({% post_url 2017-08-27-securite-psychologique %}).
 
 Sud Web a été un terrain de jeu formidable à ce niveau et nous avons fait en sorte que chaque membre de l'équipe puisse s'investir comme il le souhaitait. Comme dans la journée de l'[open space](https://medium.com/arpinum/les-conf%C3%A9rences-open-spaces-7a0859757729) du samedi, il n'y a pas forcément besoin de planifier quoi que se soit pour que les personnes se proposent spontanément pour s'attribuer des tâches.
 
@@ -53,7 +53,7 @@ Oui Bertrand.
 
 Ces trois dernières années, les intégrations des nouveaux membres ont été plus que réussies. Amanda, Enza, Alexandra, vous m'avez bluffé. Boris, Bertrand, Matthieu, vous avez assuré.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
+{% include figure.html url="/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
 
 **Le secret a été d'ajouter toujours plus d'humain**.
 

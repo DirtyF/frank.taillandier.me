@@ -1,7 +1,7 @@
 ---
 title: La JAMstack
 description: La combinaison JavaScript, APIs et Markup (JAM) constitue une plateforme technologique web moderne et performante.
-image: https://frank.taillandier.me/assets/img/2016/05/a-new-stack.png
+image: /assets/img/2016/05/a-new-stack.png
 redirect_from: /2016/05/21/la-stack-jam/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Les sept habitudes des gens super efficaces chez GitHub"
 description: Il y a une culture très particulière du travail chez GitHub. Voici sept comportements que Ben Balter a pu observer au cours de ces dernières années. Selon lui, cela rend certaines personnes plus efficaces. À adapter à votre contexte.
-image: https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/2013/09/20130925-GITHUB-NEW-OFFICE-008edit-660x440.jpg
+image: /assets/img/2016/11/github-office.jpg
 ---
 
 Au delà des simples compétences, j'ai pu m'apercevoir en participant à des projets open-source comme [Jekyll](https://github.com/jekyll/jekyll) que l'attitude et l'intention jouaient un rôle déterminant dans la réussite d'un projet. Ce que décrit @benbalter dans [son article](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/), traduit en français ci-après, je le vis au quotidien à distance en collaborant avec quelques employés de GitHub et je fais en sorte de l'appliquer au sein de l'équipe de [Sud Web](https://sudweb.fr).
@@ -11,7 +11,7 @@ L'action doit toujours prendre le pas sur les discussions et il est hors de ques
 
 ---
 
-![]({{page.image}})
+![]({{ page.image | relative_url }})
 
 [_Article original : The seven habits of highly effective GitHubbers par Ben Balter_ ](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/)
 

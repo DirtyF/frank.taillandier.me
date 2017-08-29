@@ -1,10 +1,10 @@
 ---
 title: Ça fait quoi de gérer un projet open source ?
 description: Quelques trucs et astuces pour apprendre à prendre soin de sa santé mentale quand on maintient un logiciel libre populaire.
-image: https://nolanwlawson.files.wordpress.com/2017/03/out.png
+image: /assets/img/2017/03/github-notifications.png
 ---
 
-La grande majorité du Web d'aujourd'hui progresse grâce au travail d'auteurs de bibliothèques logicielles libres. Ce travail est souvent réalisé de manière bénévole pour des raisons idéalistes et ensuite allègrement utilisé par une majorité de gens qui vont se baser sur ces solutions pour faire tourner leurs projets. Ces solutions logicielles ne dépendent souvent que de peu de personnes, voire que d'une seule. On appelle ça [le bus factor](https://vimeo.com/album/3981563/video/187568897). Nolan Lawson maintient un bon nombre de modules `npm` et a tenu à [partager son expérience de mainteneur de logiciel open source](https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/). Pour participer également à mon modeste niveau à la maintenance de quelques [projets open source assez populaires](https://github.com/jekyll/jekyll/), je ne peux qu'abonder dans le sens de l'article de Nolan traduit ci-dessous en français. Maintenir un projet open source peut être à la fois source de frustration et en même temps c'est aussi une aventure humaine dans laquelle vous allez beaucoup progresser, ne serait-ce que pour apprendre à dire non et à gérer vos priorités.
+La grande majorité du Web d'aujourd'hui progresse grâce au travail d'auteurs de bibliothèques logicielles libres. Ce travail est souvent réalisé de manière bénévole pour des raisons idéalistes et ensuite allègrement utilisé par une majorité de gens qui vont se baser sur ces solutions pour faire tourner leurs projets. Ces solutions logicielles ne dépendent souvent que de peu de personnes, voire que d'une seule. On appelle ça [le bus factor](https://vimeo.com/album/3981563/video/187568897). Nolan Lawson maintient un bon nombre de modules `npm` et a tenu à [partager son expérience de mainteneur de logiciel open source](https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/). Pour participer également à mon modeste niveau à la maintenance de quelques [projets open source assez populaires](https://github.com/jekyll/jekyll/), je ne peux qu'abonder dans le sens de l'article de Nolan. Maintenir un projet open source peut être à la fois source de frustration et c'est aussi une aventure humaine dans laquelle vous allez beaucoup progresser, ne serait-ce que pour apprendre à dire non et à gérer vos priorités.
 {: .lead }
 
 Devant votre porte des centaines de personnes font la queue. Elles attendent patiemment que vous répondiez à leurs questions, à leurs réclamations, à leurs propositions d'améliorations ou à leurs demandes de fonctionnalités.
@@ -13,7 +13,7 @@ Vous aimeriez tous les aider, mais pour le moment vous remettez ça à plus tard
 
 Mais si jamais vous allez consulter vos [notifications sur GitHub](https://github.com/notifications), cela vous rappelle en permanence le nombre de personnes qui attendent après vous.
 
-{% include figure.html url="https://nolanwlawson.files.wordpress.com/2017/03/out.png?w=570" description="Capture d'écran montrant 403 notifications GitHub non lues" %}
+{% include figure.html url="/assets/img/2017/03/github-notifications.png" description="Capture d'écran montrant 403 notifications GitHub non lues" %}
 
 Quand enfin vous parvenez à dégager un peu de temps libre, vous ouvrez la porte à la première personne. Ses intentions sont bonnes : elle a tenté d'utiliser votre projet mais se heurte à un problème confus avec l'API. La personne a pris le soin de coller le code dans un commentaire GitHub, mais elle a oublié ou elle ne sait pas comment faire pour le mettre en forme, du coup le code recopié ressemble à un gros pâté illisible.
 

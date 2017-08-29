@@ -1,7 +1,7 @@
 ---
 title: Traitement de texte multicanal
 description: Un plaidoyer pour Markdown, une syntaxe au format texte qui assure une compatibilité et une pérennité à vos documents.
-image: https://ia.net/content/4-know-how/20160610-multichannel-text-processing/full-multichannel-text-processing.png
+image: /assets/img/2016/08/multichannel-text-processing.png
 ---
 
 Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), il est important de bien choisir le format de fichier dans lesquels nous allons stocker nos écrits. C'est souvent  la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilité à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
@@ -11,7 +11,7 @@ Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le 
 
 Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandissante depuis quelques années.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
+{% include figure.html url="/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
 
 Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels devrait vous intéresser.
 

@@ -1,7 +1,7 @@
 ---
 title: Un guide illustré pour comprendre les promesses en JavaScript
 description: Un guide illustré par Mariko Kosoka pour comprendre les promesses en JavaScript.
-image: "https://cloud.githubusercontent.com/assets/4581495/22322821/a770251c-e36c-11e6-9361-021ee20bbb9d.png"
+image: /assets/img/2017/03/promise-burger-party.png
 ---
 
 Débarquées dans ES2015, les [promesses](https://oncletom.io/node.js/chapter-02/index.html#primitive-promise) sont une manière très élégante de gérer du code asynchrone en Javascript. Vous allez pouvoir dire adieu aux fameuses [pyramides de l'enfer](https://vimeo.com/49221062#t=154s). Pour ceux qui comme moi comprennent mieux avec des dessins, ce petit guide illustré de [Mariko Kosoka](http://kosamari.com/) est une parfaite excuse pour commencer à vous familiariser avec cette API native.
@@ -21,8 +21,7 @@ Si vous me suivez sur Twitter, vous savez que je suis une apprenante visuelle qu
 
 ## La promesse d'une fête du Burger
 
-![La promesse d'une fête du burger](https://cloud.githubusercontent.com/assets/4581495/22322821/a770251c-e36c-11e6-9361-021ee20bbb9d.png)
-
+![La promesse d'une fête du burger]({{ page.image | absolute_url }})
 Voici un bout de code auquel nous allons nous intéresser au cours de cette histoire.
 
 ```js

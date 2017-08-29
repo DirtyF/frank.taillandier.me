@@ -1,7 +1,7 @@
 ---
 title: L’argumentaire commercial pour les Progressive Web Apps
 description: Pourquoi les entreprises doivent développer des Progressive Web Apps dès maintenant.
-image: https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/app-store.jpg
+image: /assets/img/2016/08/app-store.jpg
 ---
 
 Vous savez peut-être [ce que sont les applications web progressives](/2016/06/28/que-sont-les-progressive-web-apps/), mais outre les diverses techniques mises en œuvre pour délivrer une meilleure expérience utilisateur aux personnes qui consultent votre site web sur mobile, c'est également un enjeu commercial de taille qui va bouleverser le secteur dans ~~les années~~ les mois qui viennent. Et même si vous doutez à juste titre de la maturité de ces technologies, vous verrez à la lecture de cet article qu'il ne faudra pas trop tarder à améliorer votre site web si vous voulez rester dans la course. Le coût est minime si votre site est déjà responsive.
@@ -20,7 +20,7 @@ Les Progressive Web Apps désignent un ensemble de fonctionnalités qui étaient
 
 Maintenant que ces fonctionnalités sont disponibles en utilisant les technologies web, les fabricants de navigateurs comme Google, Opera, Firefox et Microsoft incitent les entreprises à adopter les Progressive Web Apps.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/planning-1.jpg" description="Photo de <a href=\"https://www.pexels.com/photo/creative-smartphone-desk-notebook-97987/\">Markus Spiske</a>" %}
+{% include figure.html url="/assets/img/2016/09/planning-1.jpg" description="Photo de <a href=\"https://www.pexels.com/photo/creative-smartphone-desk-notebook-97987/\">Markus Spiske</a>" %}
 
 ## Quelles motivations derrière les Progressive Web Apps ?
 
@@ -28,7 +28,7 @@ Les fabricants de navigateurs ne veulent pas faire la promotion des Progressive 
 
 La plus grande motivation actuelle est que les navigateurs [demanderont aux visiteurs](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) d'[installer votre Progressive Web App](https://dev.opera.com/blog/web-app-install-banners/) lors de leur deuxième visite[^3]. Ce critère [changera](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq) dans le futur quand les navigateurs comprendront mieux quand les gens installent des Progressive Web Apps.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/add-to-home-screen.gif" description="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de <a href=\"https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\">Google Developers</a>" %}
+{% include figure.html url="/assets/img/2016/09/add-to-home-screen.gif" description="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de <a href=\"https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\">Google Developers</a>" %}
 
 Et ce n'est que le début. Microsoft est en train de voir comment [ajouter des Progressive Web Apps sur le Windows Store](https://blogs.windows.com/msedgedev/2016/07/08/the-progress-of-web-apps/). Google a une longue liste d'[idées pour la découverte d'application](https://infrequently.org/2016/06/pwa-discovery-you-aint-seen-nothin-yet/) qu'ils sont en train de creuser.
 
@@ -46,7 +46,7 @@ Se démarquer des plus de [deux millions d'applications présentes](http://www.s
 
 Comscore a publié il y a quelques temps [un rapport](https://www.comscore.com/Insights/Press-Releases/2014/8/comScore-s-US-Mobile-App-Report-Available-for-Download) qui indique que la plupart des utilisateurs de smartphones téléchargent zéro application par mois.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/us-smartphone-users-number-of-app-downloads-per-month-of-smartphone-users-new_chartbuilder-1.png" description="Graphique du nombre de téléchargement d'applications par utilisateur par mois aux Etats-Unis" %}
+{% include figure.html url="/assets/img/2016/09/us-smartphone-users-number-of-app-downloads-per-month-of-smartphone-users-new_chartbuilder-1.png" description="Graphique du nombre de téléchargement d'applications par utilisateur par mois aux Etats-Unis" %}
 
 Dan Frommer, [résumant le rapport](http://qz.com/253618/most-smartphone-users-download-zero-apps-per-month/) pour _Quartz_, écrit:
 
@@ -64,7 +64,7 @@ Bien que ce soit encore un peu tôt, les Progressive Web Apps sont conçues pour
 
 L'abandon des applications est un problème depuis les premiers jours de l'App Store et le pourcentage de personnes qui arrêtent d'utiliser des applications continue de [croître](http://www.recode.net/2015/6/13/11563532/one-in-four-mobile-apps-are-abandoned-after-a-single-use).
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/retention_graph_average.png" description="Courbe de rétention moyenne pour les applications Androïd" %}
+{% include figure.html url="/assets/img/2016/09/retention_graph_average.png" description="Courbe de rétention moyenne pour les applications Androïd" %}
 
 Andrew Chen a travaillé avec la société d'intelligence mobile Quettra pour [analyser les données sur la fidélité envers les applications](http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/) :
 
@@ -94,7 +94,7 @@ La maintenance d'applications pour de multiples plateformes est coûteuse. Dans 
 
 Quand vous n'êtes pas sur l'App Store, vous n'êtes pas limités par les règles de l'App Store et vous n'avez pas à reverser 30% de vos ventes à l'App Store.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/app-store.jpg" description="Photo de <a href=\"https://www.pexels.com/photo/apple-office-internet-ipad-38544/\">Pixaboy</a>" %}
+{% include figure.html url="/assets/img/2016/09/app-store.jpg" description="Photo de <a href=\"https://www.pexels.com/photo/apple-office-internet-ipad-38544/\">Pixaboy</a>" %}
 
 ## Inconvénients des Progressive Web Apps
 
@@ -146,7 +146,7 @@ L'année prochaine ou l'année d'après au plus tard, tout le monde dira à quel
 
 Mais quand plus d'entreprises vont développer des Progressive Web Apps, ça va devenir plus difficile de se faire remarquer.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/greenfield.jpg" description="Photo de Gratisography" %}
+{% include figure.html url="/assets/img/2016/09/greenfield.jpg" description="Photo de Gratisography" %}
 
 Actuellement, cela ne prend que deux visites sur votre site pour qu'une personne soit invitée à installer une Progressive Web App, mais au fur et à mesure que l'espace se remplira, ce critère va être vraisemblablement être modifié, rendant ainsi plus difficile l'acquisition d'installations d'application.
 

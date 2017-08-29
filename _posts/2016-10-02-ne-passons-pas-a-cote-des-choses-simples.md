@@ -1,7 +1,7 @@
 ---
 title: "Ne passons pas à côté des choses simples"
 description: "Générer des sites performants et sécurisés, c'est possible sans base de données et sans serveur."
-image: https://frank.taillandier.me/assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets.png
+image: /assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets.png
 last-modified: 2016-12-09 12:56:27 +0200
 ---
 
@@ -215,7 +215,7 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 > (applaudissements)
 
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/09/frank-paris-web-2016.jpg" description="<a href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo de Franck Paul</a>" %}
+{% include figure.html url="/assets/img/2016/09/frank-paris-web-2016.jpg" description="<a href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo de Franck Paul</a>" %}
 
 Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les processus modernes de développement et de déploiement, ainsi que tout l'écosystème actuel à disposition pour servir des sites beaucoup plus performants et sécurisés.
 

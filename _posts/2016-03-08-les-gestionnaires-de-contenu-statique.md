@@ -1,7 +1,7 @@
 ---
 title: La mouvance statique
 description: Un plaidoyer en faveur des gestionnaires de contenu statique
-image: https://frank.taillandier.me/assets/img/2016/03/jekyll-terminal.png
+image: /assets/img/2016/03/jekyll-terminal.png
 last-modified: 2017-03-18 18:30:27 +0200
 ---
 
@@ -61,11 +61,11 @@ Vous pouvez aussi créer facilement [vos propres structures de données][18] et 
 
 Point important, à l'inverse des flat CMS comme [Kirby](https://getkirby.com/) ou [Grav](https://getgrav.org/), il n'y a pas d'interface graphique fournie par défaut, même si elles commencent à arriver via l'ajout de plugins ou en faisant appel à des services dédiés[^headless-cms].
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/03/cloudcannon-editor.png" description="L'éditeur de contenu de Cloudcannon" %}
+{% include figure.html url="/assets/img/2016/03/cloudcannon-editor.png" description="L'éditeur de contenu de Cloudcannon" %}
 
 Fidèles à la philosophie UNIX, les générateurs se contentent de faire une seule chose à la fois : transformer des contenus en site statique. C'est surement pour cette raison qu'il y en a autant. Certains vont plus loin que d'autres en intégrant notamment des commandes pour le déploiement. Comme dans les CMS l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres plugins.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/03/jekyll-terminal.png" description="Jekyll en action dans le terminal" %}
+{% include figure.html url="/assets/img/2016/03/jekyll-terminal.png" description="Jekyll en action dans le terminal" %}
 
 Plus vous aurez de fichiers à générer, plus l'étape de _build_ prendra du temps. Il vous faudra donc faire en sorte de limiter ce temps au minimum si vous souhaitez que vos mises en production ne prennent que quelques secondes. Si des gestionnaires de contenu statiques plus récents comme [Hugo][20] écrit en Go sont très performants, il sera parfois plus judicieux de [découper vos contenus en plusieurs parties et de ne générer que le strict nécessaire](https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/).
 
@@ -83,7 +83,7 @@ Le format Markdown est de plus en plus populaire chez les rédacteurs et [les é
 
 Beaucoup d'applications comme [MacDown][24], [IA Writer][25] ou [Ulysses][26] sous Mac, *insérez votre application open-source préférée ici* ou de services en ligne permettent aujourd'hui d‘[éditer du Markdown][27] de manière simple.
 
-{% include figure.html url="https://frank.taillandier.me/assets/img/2016/03/macdown.png" description="Aperçu de cet article dans MacDown" %}
+{% include figure.html url="/assets/img/2016/03/macdown.png" description="Aperçu de cet article dans MacDown" %}
 
 Les contenus ne sont donc plus enfermés dans une base de données, ils sont stockées dans des formats texte comme Markdown, YAML ou JSON. Il est dès lors possible d’exposer vos contenus au format JSON et de proposer une [API RESTful][28] pour que vos données puissent être réutilisées par d'autres sites.
 
