@@ -6,7 +6,7 @@ pagination:
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
@@ -44,4 +44,4 @@ pagination:
 {% endif %}
 </div>
 
-<p class="copy">Site sous <a href="https://jekyllrb.com">Jekyll</a> hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>
+<p class="copy">Site généré avec <a href="https://jekyllrb.com">Jekyll</a> hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>

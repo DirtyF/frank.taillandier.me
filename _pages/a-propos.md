@@ -31,4 +31,4 @@ Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username
   Pour être informé des prochains articles, abonnez vous au <a href="{{ "/feed.xml" | relative_url }}">flux RSS</a>.
 </p>
 
-<p class="copy"></p>
+<p class="copy">Site généré avec <a href="https://jekyllrb.com">Jekyll</a> hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>

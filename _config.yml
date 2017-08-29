@@ -52,8 +52,8 @@ include:
 lsi: true
 
 pagination:
-  enabled: true
-  per_page: 10
+  enabled: false
+  per_page: 20
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
