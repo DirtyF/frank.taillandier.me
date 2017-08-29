@@ -5,6 +5,7 @@ image: https://frank.taillandier.me/assets/img/2017/05/amanda.jpg
 ---
 
 Une page se tourne, puisque [l'édition qui vient de s'achever à Aix-en-Provence](https://sudweb.fr/2017/) était ma dernière en tant que membre de l'équipe d'organisation. Comme [Loïc](http://loic.mathaud.fr/) ou [Thomas](https://oncletom.io/) avant moi, après plusieurs années à m'être impliqué dans ce projet qui me tient tant à cœur, j'ai décidé de passer la main en toute sérénité.
+{: .lead }
 
 Pendant toutes ces années l'équipe a acquis l'expérience nécessaire pour organiser une édition avec une logistique impeccable, même dans une ville où aucun membre de l'équipe ne réside. D'autre part je suis confiant dans la résilience du projet, si j'en crois l'implication affichée par les nouveaux membres arrivés ces dernières années.
 

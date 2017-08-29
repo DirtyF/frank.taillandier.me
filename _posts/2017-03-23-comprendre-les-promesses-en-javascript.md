@@ -4,12 +4,10 @@ description: Un guide illustré par Mariko Kosoka pour comprendre les promesses 
 image: "https://cloud.githubusercontent.com/assets/4581495/22322821/a770251c-e36c-11e6-9361-021ee20bbb9d.png"
 ---
 
-**Débarquées dans ES2015, les [promesses](https://oncletom.io/node.js/chapter-02/index.html#primitive-promise) sont une manière très élégante de gérer du code asynchrone en Javascript. Vous allez pouvoir dire adieu aux fameuses [pyramides de l'enfer](https://vimeo.com/49221062#t=154s). Pour ceux qui comme moi comprennent mieux avec des dessins, ce petit guide illustré de [Mariko Kosoka](http://kosamari.com/) est une parfaite excuse pour commencer à vous familiariser avec cette API native**
+Débarquées dans ES2015, les [promesses](https://oncletom.io/node.js/chapter-02/index.html#primitive-promise) sont une manière très élégante de gérer du code asynchrone en Javascript. Vous allez pouvoir dire adieu aux fameuses [pyramides de l'enfer](https://vimeo.com/49221062#t=154s). Pour ceux qui comme moi comprennent mieux avec des dessins, ce petit guide illustré de [Mariko Kosoka](http://kosamari.com/) est une parfaite excuse pour commencer à vous familiariser avec cette API native.
+{: .lead }
 
----
-
-Cet article est une **introduction** alternative aux promesses en JavaScript.
-Ce sont des croquis griffonés sur mon carnet de notes pendant la lecture de différents articles sur les promesses. Si vous cherchez un didacticiel plus poussé, reportez vous aux suggestions de lecture en bas de l'article. 👇
+Cet article est une **introduction** alternative aux promesses en JavaScript. Ce sont des croquis griffonés sur mon carnet de notes pendant la lecture de différents articles sur les promesses. Si vous cherchez un didacticiel plus poussé, reportez vous aux suggestions de lecture en bas de l'article. 👇
 {: .message }
 
 Il y a quelques semaines, je discutais de comment je pouvais implémenter une fonctionnalité en JavaScript. Il fallait que ce soit de l'asynchrone pour accéder à des données externes. J'ai dit "Bon, utilisons `fetch()`… pour que dans le code… euh…" et le personne avec qui je parlais a dit "ça retourne une promesse". Mon cerveau s'est arrêté et j'ai dit : "Honnêtement, je vois pas de quoi tu parles…"

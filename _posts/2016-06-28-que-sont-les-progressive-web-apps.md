@@ -4,6 +4,7 @@ description: Grâce à un ensemble de spécifications standardisées, le Web mob
 ---
 
 Le Web mobile essaie de combler depuis quelques années son retard en termes d'expérience utilisateur par rapport au natif. Face à l'utilisation majoritaire du mobile pour accéder au Web pour une grande partie de la population mondiale et aux problèmes de connectivité que nous connaissons tous, il était important d'apporter une réponse à ces problèmes, c'est désormais chose faite avec les _Progressive Web Apps_.
+{: .lead }
 
 Récemment s'est tenu le [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni les principaux acteurs du web, Google en tête, les vidéos sont dispos, je vous invite à aller en regarder quelques-unes pour en apprendre plus sur le sujet.
 

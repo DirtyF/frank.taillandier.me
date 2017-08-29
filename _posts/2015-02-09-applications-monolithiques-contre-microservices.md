@@ -4,11 +4,11 @@ description: Comprendre les microservices et les architectures logicielles moder
 image: https://technologyconversations.files.wordpress.com/2014/11/deployment_03_immutable_microservices_05.gif
 ---
 
+Ces dernières années les microservices sont devenus de plus en plus populaires. Pourquoi ? Devriez-vous les utiliser ? Comment les mettre en place ? Autant de questions auxquelles cet article de [Victor Farcic](https://twitter.com/vfarcic) apporte un début de réponse pour vous aider dans vos choix d’architecture logicielle.
+{: .lead }
+
 *Traduction de [l‘article ](http://technologyconversations.com/2015/01/07/monolithic-servers-vs-microservices/) de Victor Farcic*
 
-Ces dernières années les microservices sont devenus de plus en plus populaires. Pourquoi ? Devriez-vous les utiliser ? Comment les mettre en place ? Autant de questions auxquelles cet article de [Victor Farcic](https://twitter.com/vfarcic) apporte un début de réponse pour vous aider dans vos choix d’architecture logicielle.
-
-<!-- excerpt -->
 
 ## Introduction
 

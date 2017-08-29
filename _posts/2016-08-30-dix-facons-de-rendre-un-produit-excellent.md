@@ -5,10 +5,7 @@ redirect_from: /2016/08/30/ten-ways-to-make-a-product-great/
 ---
 
 Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation naît la qualité et l'innovation. On retrouve ces valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub ([Jekyll](http://jekyllrb.com/)). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous @benbalter, contributeur open-source invétéré et en charge de GitHub Pages, le service d'hébergement gratuit de sites web de GitHub.
-
-<!-- excerpt -->
-
----
+{: .lead }
 
 _Traduction de l'article [10 ways to make a product great](http://ben.balter.com/2016/08/22/ten-ways-to-make-a-product-great/) publié le 22 août 2016_
 

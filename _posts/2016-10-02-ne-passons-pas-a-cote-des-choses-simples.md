@@ -6,8 +6,7 @@ last-modified: 2016-12-09 12:56:27 +0200
 ---
 
 Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Paris Web 2016](http://www.paris-web.fr/2016/) sur la disparition progressive des serveurs au profit de services, d'APIs, de JavaScript côté client, de plateformes d'intégration continu et de générateurs de site pas forcément si statiques que ça. L'écosystème actuel permet aux développeurs front-end, aux _freelance_, de passer plus de temps sur la conception, l'UX, la performance et la qualité que sur de la maintenance. Dites adieu à vos serveurs et rejoignez [la mouvance statique]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}).
-
-<!-- excerpt -->
+{: .lead }
 
 Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rendre la présentation aussi interactive que possible, c'était un premier essai, nous ferons mieux la prochaine fois.
 

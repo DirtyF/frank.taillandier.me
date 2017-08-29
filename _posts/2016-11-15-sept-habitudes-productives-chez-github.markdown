@@ -5,6 +5,7 @@ image: https://www.wired.com/wp-content/uploads/images_blogs/wiredenterprise/201
 ---
 
 Au delà des simples compétences, j'ai pu m'apercevoir en participant à des projets open-source comme [Jekyll](https://github.com/jekyll/jekyll) que l'attitude et l'intention jouaient un rôle déterminant dans la réussite d'un projet. Ce que décrit @benbalter dans [son article](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/), traduit en français ci-après, je le vis au quotidien à distance en collaborant avec quelques employés de GitHub et je fais en sorte de l'appliquer au sein de l'équipe de [Sud Web](https://sudweb.fr).
+{: .lead }
 
 L'action doit toujours prendre le pas sur les discussions et il est hors de question de faire perdre du temps à ses camarades. Le focus est toujours porté sur le produit et l'intérêt des utilisateurs. Cette philosophie n'est pas propre à GitHub, mais j'ai trouvé les comportements décrits dans cet article importants à souligner, aussi j'espère que sa lecture vous aidera à vous recentrer sur les choses essentielles et qu'au final, vous serez plus efficaces dans vos projets en équipe, tout en prenant soin de privilégier des rapports à la fois pros et humains.
 

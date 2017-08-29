@@ -5,8 +5,7 @@ image: https://ia.net/content/4-know-how/20160610-multichannel-text-processing/f
 ---
 
 Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), il est important de bien choisir le format de fichier dans lesquels nous allons stocker nos écrits. C'est souvent  la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilité à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
-
-<!-- excerpt -->
+{: .lead }
 
 Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le contexte l'éditeur [Atom](https://atom.io/) et [quelques](https://github.com/zhuochun/md-writer) [plugins](https://github.com/lloeki/linter-markdownlint) ou [iA Writer](https://ia.net/writer) pour m'y aider.
 

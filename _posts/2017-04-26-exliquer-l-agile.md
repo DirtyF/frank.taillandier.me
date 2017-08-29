@@ -5,11 +5,8 @@ author: Steve Denning
 image: https://frank.taillandier.me/assets/img/2017/04/agile-network-4-images.jpg
 ---
 
-**Il ne suffit pas d'adopter des pratiques agiles pour qu'une entreprise devienne performante et voit son nombre de clients augmenter de façon durable. Mais alors qu'est-ce qui fait qu'une entreprise est agile ou pas ? [Steve Denning](https://twitter.com/stevedenning) a listé trois caractéristiques essentielles des organisations agiles, qui les distinguent des bureaucraties pyramidales à l'ancienne et qui font qu'elles sont en meilleure capacité de s'adapter et de répondre aux demandes du marché d'aujourd'hui.**
-
----
-
-[Cet article est paru à l'origine dans le magazine Forbes](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile/).
+Il ne suffit pas d'adopter des pratiques agiles pour qu'une entreprise devienne performante et voit son nombre de clients augmenter de façon durable. Mais alors qu'est-ce qui fait qu'une entreprise est agile ou pas ? [Steve Denning](https://twitter.com/stevedenning) a listé trois caractéristiques essentielles des organisations agiles, qui les distinguent des bureaucraties pyramidales à l'ancienne et qui font qu'elles sont en meilleure capacité de s'adapter et de répondre aux demandes du marché d'aujourd'hui.
+{: .lead }
 
 L'Agile est un grand mouvement global qui est en train de transformer le monde du travail. Le mouvement a démarré dans le développement logiciel en 2001 et se propage maintenant partout, dans des organisations de tous types, adoubé en 2016 par la bible du management — le Harvard Business Review — avec son article "[Embrasser l'Agile](http://www.forbes.com/sites/stevedenning/2016/04/21/hbrs-embrace-of-agile/)" écrit par Darrell K. Rigby, Jeff Sutherland et Hirakata Takeuchi. Il y a déjà des centaines de milliers de pratiquants de l'Agile partout dans le monde.
 
@@ -140,3 +137,5 @@ Des trois lois, la première - la notion que le travail devrait être en princip
 Mais c'est la deuxième - l'idée que le but même d'une entreprise est de fournir de la valeur au client — qui est la plus importante, car c'est ce principe qui donne du sens aux deux autres et qui permet d'avoir le meilleur aperçu de pourquoi une organisation Agile fonctionne de la façon dont elle le fait.
 
 Et pourtant le pivot de l'Agile c'est vraiment le troisième principe, l'impact des équipes très performantes et le focus sur le client ne donneront pas de bons résultats tant que toute l'organisation n'opèrera pas comme un réseau interactif. C'est seulement lorsque ces trois éléments sont réunis et se concentrent sur un objectif externe commun que nous obtenons une forte augmentation de valeur qui résulte du fait d'une véritable adoption de l'Agile.
+
+[Cet article est paru à l'origine dans le magazine Forbes](https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile/).
