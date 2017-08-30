@@ -75,6 +75,4 @@ Une mention spéciale pour mes ancien·ne·s camarades de jeu, vous m'avez donn�
 
 Longue vie à Sud Web, prenez en soin. C'est un moment tellement précieux, qui communique de belles valeurs, des valeurs qui continueront de m'animer dans tout ce que j'entreprendrai par la suite.
 
-<figure>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xeDKyl04G74" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html width="640" height="360" url="https://www.youtube.com/embed/xeDKyl04G74" %}

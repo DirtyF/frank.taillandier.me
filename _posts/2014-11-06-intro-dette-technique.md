@@ -116,19 +116,11 @@ Les problèmes avec cette approche sont énoncés de manière limpide par Chad F
 
 Voici l’auteur de l’analogie sur la dette, Ward Cunningham, qui clarifie qu’il n’a jamais pensé que la dette technique était le fait d’écrire du mauvais code.
 
-<div class="video">
-    <figure>
-        <iframe width="640" height="480" src="//www.youtube.com/embed/pqeJFYwnkjE" frameborder="0" allowfullscreen></iframe>
-    </figure>
-</div>
+{% include video.html width="640" height="480" url="https://www.youtube.com/embed/pqeJFYwnkjE" %}
 
 Il est clair que les managers non technique ne sont pas à 100% inconscients des conséquences d’une mauvaise qualité. Ils savent que lorsque ils disent « c’est pas grave on livre quand même », ils font quelque chose qui _va_ avoir des conséquences. Certains d’entre eux pensent juste que les conséquences seront moindres ou n’apparaîtront pas de si tôt. D’autres prennent leurs désirs pour la réalité. D’autres ont même une meilleure compréhension, mais préfèrent dire que c’est un problème de l’équipe technique, puisque _leurs_ indicateurs sont bons. J’ai même déjà vu des chefs de projet – soyons honnêtes, de vrais débutants – argumenter que faire les choses bien représenterait un _investissement_, rendant notre analogie caduque.
 
-<div class="video">
-    <figure>
-        <iframe width="640" height="480" src="//www.youtube.com/embed/p0O1VVqRSK0" frameborder="0" allowfullscreen></iframe>
-    </figure>
-</div>
+{% include video.html width="640" height="480" url="https://www.youtube.com/embed/p0O1VVqRSK0" %}
 
 À ce stade, on pourrait argumenter que c’est la responsabilité de l’équipe technique de faire comprendre au service commercial les conséquences de ce genre d’action. Et oui c’est _totalement_ le cas.
 
