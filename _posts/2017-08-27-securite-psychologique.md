@@ -28,7 +28,6 @@ Pensez à une équipe avec qui vous travaillez en étroite collaboration. Avec q
 Les équipes qui obtiennent un score élevé à ce genre de questions peuvent être réputées "à risques" : risque d'innover, risque de résoudre un conflit, risque de reconnaître qu'elles ont besoin d'aide. Les équipes à risque peuvent livrer pendant de courtes périodes, du moment qu'elles sont focalisée sur les objectifs et ignorent les problèmes interpersonnels. Mais à la longue, les équipes à risques ne tiendront pas le coup ou seront bien moins performantes car les personnes ne pourront pas introduire du changement.
 
 > les équipes à risques ne dureront pas ou seront bien moins performantes car les personnes ne pourront pas introduire du changement.
-{: .lead }
 
 Mettons en évidence l'impact qu'une équipe à risques peut avoir sur les individus qui la compose, à travers le regard d'une nouvelle tête fraîchement diplômée qui a fini dans les meilleurs de sa classe.
 
@@ -73,7 +72,6 @@ Karen décida de rentrer tôt chez elle et de chercher un nouvel emploi. Lorsqu'
 Alors, qu'il y-a-t-il de si spécial dans l'ingénierie qui nous pousse à écarter tant d'ingénieurs prometteurs et qui permette à tant d'autres de ne pas arriver à donner le meilleur d'eux-mêmes ?
 
 > Nous devons être capables de trouver un juste équilibre entre le respect pour notre culture avec une nécessaire ouverture au changement.
-{: .lead }
 
 Nous savons qu'un sens aigu de la culture, une compréhension partagée et des valeurs communes font partie des clefs du succès. Nous devons donc être capable de trouver un juste équilibre entre ce respect pour notre culture avec une nécessaire ouverture au changement. Une équipe - à la base contente de travailler de la maison - doit changer sa façon de travailler si elle veut pouvoir engager des stagiaires. Une équipe - fière que ses ingénieurs soient mobilisés pour leur service - peut avoir besoin de se professionnaliser autour d'une équipe resserrée d'ingénieurs axés sur les opérations au fur et à mesure que le risque qu'une panne potentielle puisse impacter la production augmente.
 
@@ -124,7 +122,6 @@ Je suis sûr que Karen aurait aimé qu'on la remercie pour avoir découvert les 
 Plutôt que de crier sur une équipe d'ingénierie à chaque fois qu'il y a une panne, aidez les à développer des outils de mesure de qualification de panne, un suivi objectif du niveau de service et à mettre en place une vraie culture qui leur laisse de la latitude entre leur objectif et la réalité, pour les aider à choisir le travail qui aura le plus d'impact.
 
 > Demandez un engagement spécifique, plutôt que de supposer que tout le monde s'accorde sur le degré d'urgence.
-{: .lead }
 
 Lorsque vous évoquez les échecs, les gens doivent se sentir suffisamment en sécurité pour partager toutes les informations pertinentes, en comprenant bien qu'ils ne seront pas jugés sur la manière dont ils se sont plantés, mais sur comment leur gestion des échecs aura contribué à améliorer l'équipe, le produit et l'entreprise dans son ensemble. Les équipes avec des responsables des opérations doivent se réunir et discuter des pannes et de la gestion des échecs. Il est essentiel d'aborder tout cela comme des opportunités d'apprentissage amusantes, et non comme des persécutions obsessionnelles du coupable.
 
