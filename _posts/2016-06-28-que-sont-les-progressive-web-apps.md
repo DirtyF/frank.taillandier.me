@@ -1,16 +1,17 @@
 ---
 title: Que sont les Progressive Web Apps&nbsp;?
 description: Grâce à un ensemble de spécifications standardisées, le Web mobile peut enfin rivaliser pour de bon avec le Web natif.
+image: http://blog.ionic.io/wp-content/uploads/2016/05/what-is-pwa-img.png
+source:
+  title: What is a Progressive Web App?
+  url: http://blog.ionic.io/what-is-a-progressive-web-app/
 ---
 
 Le Web mobile essaie de combler depuis quelques années son retard en termes d'expérience utilisateur par rapport au natif. Face à l'utilisation majoritaire du mobile pour accéder au Web pour une grande partie de la population mondiale et aux problèmes de connectivité que nous connaissons tous, il était important d'apporter une réponse à ces problèmes, c'est désormais chose faite avec les _Progressive Web Apps_.
 {: .lead }
 
-Récemment s'est tenu le [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni les principaux acteurs du web, Google en tête, les vidéos sont dispos, je vous invite à aller en regarder quelques-unes pour en apprendre plus sur le sujet.
-
-Le mois dernier est paru [une bonne introduction aux PWA sur le blog d'Ionic](http://blog.ionic.io/what-is-a-progressive-web-app/), un framework qui permet de développer des applications web mobile hybride.
-
-Avec l'ami [Enguerran Colson](https://blog.ticabri.com/2016/06/28/le-web-progresse-grace-aux-progressive-web-apps/) nous vous proposons ci-dessous une traduction en français afin de vous inciter à vous intéresser de plus près à cet ensemble de technologies qui permettent au web mobile de rivaliser enfin pour de bon avec le natif.
+Pour en apprendre plus sur le sujet, vous pouvez aller regarder les vidéos du [Progressive Web Apps Dev Summit](https://events.withgoogle.com/progressive-web-app-dev-summit/) qui a réuni les principaux acteurs du web, Google en tête. On trouve aussi [une bonne introduction aux PWA sur le blog d'Ionic]({{ page.source.url }}). Avec l'ami [Enguerran Colson](https://blog.ticabri.com/2016/06/28/le-web-progresse-grace-aux-progressive-web-apps/) nous vous en proposons une traduction en français afin de vous inciter à vous intéresser de plus près à cet ensemble de technologies qui permettent au web mobile de rivaliser enfin pour de bon avec le natif.
+{: .lead}
 
 Vous avez du sûrement déjà entendre parler des _Progressive Web Apps_ (ou applications Web progressives), elles représentent le futur de l’humanité. Elles vont amener la paix sur Terre, mettre un terme à la famine, sauver les arcs-en-ciel et les licornes, restaurer l’équilibre de la force et bien d’autres choses encore. Chemin faisant, elles pourraient même faire avancer le Web, ramener un peu de parité entre le Web et les applications natives et aider les développeurs mobile à atteindre plus d’utilisateurs en dehors du confinement des _App Stores_.
 

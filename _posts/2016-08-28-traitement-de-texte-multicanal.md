@@ -2,24 +2,24 @@
 title: Traitement de texte multicanal
 description: Un plaidoyer pour Markdown, une syntaxe au format texte qui assure une compatibilité et une pérennité à vos documents.
 image: /assets/img/2016/08/multichannel-text-processing.png
+source:
+  title: Multichannel Text Processing
+  url: https://ia.net/know-how/multichannel-text-processing
 ---
 
-Comme je l'expliquais dans [la mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/), il est important de bien choisir le format de fichier dans lesquels nous allons stocker nos écrits. C'est souvent  la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilité à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
+Comme je l'explique dans [la mouvance statique]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}), il est important de bien choisir le format de fichier dans lesquel nous allons stocker nos écrits. C'est souvent la solution la plus simple qui est aussi la plus efficace : du texte brut mise en forme à l'aide d'une syntaxe elle aussi en texte brut. Markdown est de ce fait un format de fichier de plus en plus populaire car il assure une pérennité et une compatibilité à nos documents, tout en préservant une mise en forme au format texte. Markdown est le format par défaut des contenus dans la plupart des générateurs de site statique et il devrait devenir aussi le format par défaut dans lequel vous rédigez vos notes, vos rapports, vos articles de blog ou vos livres.
 {: .lead }
 
 Il existe de nombreux éditeurs de Markdown, j'utilise personnellement selon le contexte l'éditeur [Atom](https://atom.io/) et [quelques](https://github.com/zhuochun/md-writer) [plugins](https://github.com/lloeki/linter-markdownlint) ou [iA Writer](https://ia.net/writer) pour m'y aider.
 
-Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou Asciidoc mais la popularité de Markdown est grandissante depuis quelques années.
+Les concepteurs d'iA Writer ont rédigé un essai sur l'importance d'utiliser des formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres comme reStructuredText, Textile ou [Asciidoc](http://asciidoc.org/) mais la popularité de Markdown est grandissante depuis quelques années.
 
 {% include figure.html url="/assets/img/2016/08/tendance-markdown.png" description="Tendance des recherches du terme Markdown dans Google" %}
 
-Aussi ai-je pensé que la lecture instructive de cet essai, qui revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels devrait vous intéresser.
-
-J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent le mieux et surtout que vos écrits ne dépendront plus de formats qui les emprisonnent.
+Cet essai revient sur les enjeux et les problématiques auxquels nous sommes tous confrontés quand il s'agit de migrer des contenus textuels.
+J'espère que ce texte vous donnera envie de tester et d'adopter Markdown, de trouver les outils d'édition qui vous conviennent mieux et surtout que vos écrits ne dépendront plus de formats qui les emprisonnent.
 
 ---
-
-## Traduction de l'essai [Multichannel Text Processing](https://ia.net/know-how/multichannel-text-processing) paru chez [Information Architects](https://ia.net/).
 
 **Du bon vieux temps des traitements de texte, le texte prenait vie entre MS Word et une imprimante. Aujourd'hui, le texte est écrit et édité sur différents appareils et applications, puis envoyé par mail, imprimé, copié, collé, annoté, publié, indexé dans des flux RSS, partagé et re-partagé à l'aide de tout un tas d'outils et de plateformes. Les formats de fichiers propriétaires rigides sont voués à l'échec dans ce nouvel environnement frénétique. Le texte brut s'en sort mieux, mais il n'offre pas les possibilités de mise en forme du texte enrichi. Markdown pourrait bien être notre remède miracle. Si seulement, il avait l'air un peu plus attractif !**.
 

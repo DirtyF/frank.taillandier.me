@@ -2,9 +2,13 @@
 title: "Les sept habitudes des gens super efficaces chez GitHub"
 description: Il y a une culture très particulière du travail chez GitHub. Voici sept comportements que Ben Balter a pu observer au cours de ces dernières années. Selon lui, cela rend certaines personnes plus efficaces. À adapter à votre contexte.
 image: /assets/img/2016/11/github-office.jpg
+source:
+  title: Seven habits of highly effective GitHubbers
+  url: http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/
+  author: Ben Balter
 ---
 
-Au delà des simples compétences, j'ai pu m'apercevoir en participant à des projets open-source comme [Jekyll](https://github.com/jekyll/jekyll) que l'attitude et l'intention jouaient un rôle déterminant dans la réussite d'un projet. Ce que décrit @benbalter dans [son article](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/), traduit en français ci-après, je le vis au quotidien à distance en collaborant avec quelques employés de GitHub et je fais en sorte de l'appliquer au sein de l'équipe de [Sud Web](https://sudweb.fr).
+Au delà des simples compétences, j'ai pu m'apercevoir en participant à des projets open-source comme [Jekyll](https://github.com/jekyll/jekyll) que l'attitude et l'intention jouaient un rôle déterminant dans la réussite d'un projet. Ce que décrit @benbalter, je le vis au quotidien à distance en collaborant avec quelques employés de GitHub et je fais en sorte de l'appliquer au sein de l'équipe de [Sud Web](https://sudweb.fr).
 {: .lead }
 
 L'action doit toujours prendre le pas sur les discussions et il est hors de question de faire perdre du temps à ses camarades. Le focus est toujours porté sur le produit et l'intérêt des utilisateurs. Cette philosophie n'est pas propre à GitHub, mais j'ai trouvé les comportements décrits dans cet article importants à souligner, aussi j'espère que sa lecture vous aidera à vous recentrer sur les choses essentielles et qu'au final, vous serez plus efficaces dans vos projets en équipe, tout en prenant soin de privilégier des rapports à la fois pros et humains.

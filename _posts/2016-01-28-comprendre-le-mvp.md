@@ -4,16 +4,16 @@ description: Décidez de ce que sera la première version de votre produit, à t
 image: http://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg
 category: agile
 redirect_from: /2016/01/28/comprendre-le-mvp/
+source:
+  title: Making sense of MVP
+  url: http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
 ---
 
 Si vous vous intéressez à l'agilité, vous êtes peut-être déjà tombé sur le fameux dessin d'Henrik Kniberg qui compare deux façons d'arriver à construire une voiture. En informatique les métaphores sont toujours un peu casse-gueule et mènent parfois à des incompréhensions. Du coup Henrik, coach agile connu pour son accompagnement des équipes de Spotify, de Lego et ses ouvrages de référence, s'est senti obligé de préciser la sémiologie de son dessin.
 {: .lead }
 
-Grâce à des exemples concrets, son article devrait vous aider à mieux comprendre l'état d'esprit, qu'on retrouve dans le Lean Startup ou dans la démarche UX : tout repose sur une implication forte des utilisateurs dans la phase de conception afin de minimiser les risques dans un environnement de plus en plus concurrentiel, avec des exigences de plus en plus élevées.
-
-On pourrait résumer cette philosophie par "Adaptez ou échouez".
-
-*Traduction de l'[article](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) d'Henrik Kniberg*
+Grâce à des exemples concrets, son article devrait vous aider à mieux comprendre l'état d'esprit, qu'on retrouve dans le Lean Startup ou dans la démarche UX : tout repose sur une implication forte des utilisateurs dans la phase de conception afin de minimiser les risques dans un environnement de plus en plus concurrentiel, avec des exigences de plus en plus élevées. On pourrait résumer cette philosophie par "Adaptez ou échouez".
+{: .lead }
 
 Il y a quelques années, j’ai fait ce dessin et j’ai commencé à l’utiliser dans diverses présentations à propos du développement agile et lean.
 
@@ -262,7 +262,7 @@ Le **Produit Utilisable Rapidement** est peut-être la bicyclette. **La premièr
 
 Le **Produit Adorable Rapidement** est peut-être la moto. **La première version que les utilisateurs vont aimer, donc ils vont parler à leurs amis et qu’ils seront prêts à payer**. Il y a encore beaucoup de choses à améliorer et nous avons toujours la possibilité de finir avec une décapotable ou un avion, ou autre chose. Mais nous avons atteint le point où nous avons un produit  vraiment vendable.
 
-> *J’ai considéré ajouté une étape de plus au début « **Le produit à impressions rapide** » qui est à la base le prototype papier ou son équivalent que vous allez utiliser pour recueillir les premières impressions des utilisateurs. Mais quatre étapes ça semble trop. Mais quoi qu’il en soit, c’est aussi une étape importante. Certains appeleraient un prototype papier un Produit Testable Rapidement, mais j’imagine que tout dépend de ce que vous appelez Testable. Jetez un coup d’œsil au [Guide MVP](https://www.crisp.se/mvpguide) pour en savoir plus - il est plein de super exemples concrets sur comment avoir rapidement des retours avec un minimum d’investissement*.
+> *J’ai considéré ajouté une étape de plus au début « **Le produit à impressions rapide** » qui est à la base le prototype papier ou son équivalent que vous allez utiliser pour recueillir les premières impressions des utilisateurs. Mais quatre étapes ça semble trop. Mais quoi qu’il en soit, c’est aussi une étape importante. Certains appeleraient un prototype papier un Produit Testable Rapidement, mais j’imagine que tout dépend de ce que vous appelez Testable. Jetez un coup d’œil au [Guide MVP](https://www.crisp.se/mvpguide) pour en savoir plus - il est plein de super exemples concrets sur comment avoir rapidement des retours avec un minimum d’investissement*.
 
 Bien sûr les gens peuvent toujours mal interpréter Rapidement Testable/ Utilisable / Adorable mais c’est au moins un peu plus explicite que le nébuleux Produit Valable Minimum.
 

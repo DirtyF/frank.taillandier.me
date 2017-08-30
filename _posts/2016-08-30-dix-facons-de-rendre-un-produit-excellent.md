@@ -2,12 +2,14 @@
 title: 10 façons de rendre un produit excellent
 description: La meilleure manière de développer des produits, qu'ils soient propriétaires, publics ou open-source selon Ben Balter, chef de produit chez GitHub.
 redirect_from: /2016/08/30/ten-ways-to-make-a-product-great/
+source:
+  title: 10 ways to make a product great
+  url: http://ben.balter.com/2016/08/22/ten-ways-to-make-a-product-great/
+  author: Ben Balter
 ---
 
-Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation naît la qualité et l'innovation. On retrouve ces valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub ([Jekyll](http://jekyllrb.com/)). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous @benbalter, contributeur open-source invétéré et en charge de GitHub Pages, le service d'hébergement gratuit de sites web de GitHub.
+Quand vous baignez dans l'open-source, vous finissez par vous imprégner d'une certaine culture. Pas seulement celle de collaborer et de travailler en toute transparence à la vue de tous, mais aussi celle de savoir collaborer efficacement en toute autonomie dans l'optique de livrer le meilleur produit. De cette émulation naît la qualité et l'innovation. On retrouve ces valeurs et cette culture dans les start-ups qui ont développé leurs produits à partir de l'open-source et qui en sont par la suite devenus des acteurs majeurs comme c'est le cas de Google (Angular), de Facebook (React) ou de GitHub ([Jekyll](http://jekyllrb.com/)). Quels sont donc les secrets pour développer un bon produit ? C'est ce que partage avec nous @benbalter, contributeur open-source invétéré et actuellement en charge de GitHub Pages, le service d'hébergement gratuit de [sites web statiques]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}) de GitHub.
 {: .lead }
-
-_Traduction de l'article [10 ways to make a product great](http://ben.balter.com/2016/08/22/ten-ways-to-make-a-product-great/) publié le 22 août 2016_
 
 J'ai passé une partie de mon temps libre pendant ces trois dernières années à jouer avec le code de [GitHub Pages](https://pages.github.com) et depuis janvier dernier j'ai accepté de gérer GitHub Pages à temps complet. Apparemment je faisais depuis un moment déjà ce que certains appellent de la gestion de produit — même si je n'appelais pas cela ainsi à l'époque — et lorsque j'ai commencé à exercer mon premier rôle formel de chef de produit, j'ai réalisé qu'il y avait tout un tas de leçons que j'avais apprises au cours des dix dernières années que j'avais passé à créer des logiciels et qui m'ont fondamentalement enseigné ce que je pense être la meilleure façon de développer des produits, qu'ils soient propriétaires, publics ou open-source.
 

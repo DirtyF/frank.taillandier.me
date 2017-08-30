@@ -2,12 +2,13 @@
 title: L’argumentaire commercial pour les Progressive Web Apps
 description: Pourquoi les entreprises doivent développer des Progressive Web Apps dès maintenant.
 image: /assets/img/2016/08/app-store.jpg
+source:
+  title: The Business Case for Progressive Web Apps
+  url: https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/
 ---
 
-Vous savez peut-être [ce que sont les applications web progressives](/2016/06/28/que-sont-les-progressive-web-apps/), mais outre les diverses techniques mises en œuvre pour délivrer une meilleure expérience utilisateur aux personnes qui consultent votre site web sur mobile, c'est également un enjeu commercial de taille qui va bouleverser le secteur dans ~~les années~~ les mois qui viennent. Et même si vous doutez à juste titre de la maturité de ces technologies, vous verrez à la lecture de cet article qu'il ne faudra pas trop tarder à améliorer votre site web si vous voulez rester dans la course. Le coût est minime si votre site est déjà responsive.
+Vous savez peut-être [ce que sont les applications web progressives]({% post_url 2016-06-28-que-sont-les-progressive-web-apps %}), mais outre les diverses techniques mises en œuvre pour délivrer une meilleure expérience utilisateur aux personnes qui consultent votre site web sur mobile, c'est également un enjeu commercial de taille qui va bouleverser le secteur dans ~~les années~~ les mois qui viennent. Et même si vous doutez à juste titre de la maturité de ces technologies, vous verrez à la lecture de cet article qu'il ne faudra pas trop tarder à améliorer votre site web si vous voulez rester dans la course. Le coût est minime si votre site est déjà responsive.
 {: .lead }
-
-_(Ceci est une traduction de [l'article de Jason Grigsby](https://cloudfour.com/thinks/the-business-case-for-progressive-web-apps/) paru sur le blog de Cloudfour.)_
 
 ## Que sont les Progressive Web Apps ?
 

@@ -2,10 +2,13 @@
 title: Un modèle de branches Git efficace
 description: Traduction de l'article de Vincent Driessen sur Git Flow, une stratégie de gestion de branches pour Git.
 image: http://nvie.com/img/git-model@2x.png
-author: Vincent Driessen
+source:
+  url: http://nvie.com/posts/a-successful-git-branching-model/
+  title: A successful Git branching model
+  author: Vincent Driessen
 ---
 
-Dans [cet article](http://nvie.com/posts/a-successful-git-branching-model/) je présente le modèle de développement que j’ai commencé à utiliser pour tous mes projets (professionnels et personnels) depuis un an, et qui s’est avéré être très efficace. Cela fait un moment que je voulais écrire à son propos, mais je n’avais pas vraiment tout à fait pris le temps de le faire, jusqu’à maintenant. Je ne vais pas parler des détails des projets, simplement de la stratégie de ramification et la gestion des versions.
+Dans cet article {{ page.source.author }} présente le modèle de développement que qu'il a commencé à utiliser pour tous ses projets (professionnels et personnels) depuis 2009, et qui s’est avéré être très efficace. Il aborde principalement la stratégie de ramification et la gestion des versions.
 {: .lead }
 
 ![modèle de branches Git](http://nvie.com/img/git-model@2x.png)
@@ -271,5 +274,3 @@ Deleted branch hotfix-1.2.1 (was abbe5d6).
 Bien qu’il n’y ait rien de bien révolutionnaire dans ce modèle de développement, l’illustration qui figure au début de cet article s’est révélée particulièrement utile dans nos projets. C’est un modèle mental facile à appréhender et il permet de développer une appropriation collective des processus de branches et de versions.
 
 Enfin, voici [une version PDF en haute résolution du modèle](http://nvie.com/files/Git-branching-model.pdf). Imprimez-le et accrochez le au mur pour avoir une référence sous les yeux à tout moment.
-
-*[Article original en anglais ](http://nvie.com/posts/a-successful-git-branching-model/) de Vincent Driessen.*
