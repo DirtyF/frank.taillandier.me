@@ -15,6 +15,12 @@ layout: default
 
   {{ content }}
 
+  {% if page.source %}
+  <p>
+    <em>Article original : <a href="{{ page.source.url }}" title="{{ page.source.title }}" lang="en">{{ page.source.title }}</a></em>
+  </p>
+  {% endif %}
+
   <footer>
     <p>Une correction à apporter ? <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">Éditez le contenu</a>.</p>
   </footer>
