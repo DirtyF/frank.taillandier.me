@@ -140,5 +140,3 @@ Si vous avez envie de faire en sorte que votre équipe se sente psychologiquemen
 3. Développez une culture du respect et d'une communication très claire, en commençant par vos actions.
 
 Considérez la sécurité psychologique comme un indicateur clé du business, aussi important que les recettes, les coûts de vente ou le temps de disponibilité. Cela va se répercuter sur l'efficacité de votre équipe, la productivité, la rétention des employés et tout autre métrique business que vous chérissez.
-
-[Article original en anglais sur le blog d'Intercom](https://blog.intercom.com/psychological-safety/)
