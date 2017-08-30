@@ -3,9 +3,10 @@ title: Développer une culture de la sécurité psychologique
 description: L'indicateur principal d'une équipe performante n'est pas le profil, l'ancienneté ou les niveaux de salaire. C'est la sécurité psychologique. Voici comme elle a été mise en place chez Intercom.
 image: /assets/img/2017/08/psychological_safety_in_teams.jpg
 author: John Looney
+original: https://blog.intercom.com/psychological-safety/
 ---
 
-Il existe des entreprises où l'humain est au centre des préoccupations car il s'avère que cela produit des équipes plus performantes. Certaines startups couronnées de succès ont bien compris l'intérêt de prendre soin de leurs équipes. Pas en mettant à leur disposition des sodas, un baby-foot ou une console de jeux, non, en prenant bien soin de créer un cadre de confiance, qui aide les salariés à donner le meilleur d'eux-mêmes. John Looney, ingénieur en chef chez Intercom donne ici quelques conseils pour bâtir une équipe dans laquelle il fait bon évoluer.
+Il existe des entreprises où l'humain est au centre des préoccupations et il s'avère que cela produit des équipes plus performantes. Certaines startups couronnées de succès ont bien compris l'intérêt de veiller sur leurs employés. Pas en mettant à leur disposition des sodas sucrés, un baby-foot ou une console de jeux, non, en prenant bien soin de créer un cadre de confiance, qui aide les salariés à donner le meilleur d'eux-mêmes. John Looney, ingénieur en chef chez Intercom donne ici quelques conseils pour bâtir une équipe dans laquelle il fait bon évoluer.
 {: .lead }
 
 {% include figure.html url="/assets/img/2017/08/psychological_safety_in_teams.jpg" description="illustration : [Clay Hickson](http://clayhickson.com/)" %}
@@ -140,3 +141,5 @@ Si vous avez envie de faire en sorte que votre équipe se sente psychologiquemen
 3. Développez une culture du respect et d'une communication très claire, en commençant par vos actions.
 
 Considérez la sécurité psychologique comme un indicateur clé du business, aussi important que les recettes, les coûts de vente ou le temps de disponibilité. Cela va se répercuter sur l'efficacité de votre équipe, la productivité, la rétention des employés et tout autre métrique business que vous chérissez.
+
+[Article original en anglais sur le blog d'Intercom](https://blog.intercom.com/psychological-safety/)
