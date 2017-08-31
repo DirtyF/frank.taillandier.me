@@ -9,23 +9,51 @@ layout: null
     "description": {{ site.description | jsonify }},
     "icon": "{{ "/assets/favicons/apple-touch-icon.png" | absolute_url }}",
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
-    "author" : {
-      "name": {{ site.author.name | jsonify }},
-      "avatar": "{{ site.logo | absolute_url }}"
-    },
     "expired": false,
-    "items": [
+    {% if site.author %}
+    "author": {% if site.author.name %} {
+        "name": "{{ site.author.name }}",
+        "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %},
+        "avatar": {% if site.author.avatar %}"{{ site.author.avatar }}"{% else %}null{% endif %}
+    },{% else %}"{{ site.author }}",{% endif %}
+    {% endif %}
+"items": [
     {% for post in site.posts limit:36 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
-            "date_published": "{{ post.date | date_to_xmlschema }}",
-            {% if post.last-modified %}"date_modified": "{{ post.last-modified | date_to_xmlschema }}",{% endif %}
             "title": {{ post.title | jsonify }},
             "summary": {{ post.description | jsonify }},
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
-            {% if post.image %}"image": "{{ post.image }}",{% endif %}
-            "url": "{{ post.url | absolute_url }}"
+            "url": "{{ post.url | absolute_url }}",
+            {% if post.image.size > 1 %}"image": {{ post.image | absolute_url | jsonify }},{% endif %}
+            {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}
+            {% if post.banner.size > 1 %}"banner_image": "{{ post.banner }}",{% endif %}
+            {% if post.tags.size > 1 %}"tags": {{ post.tags | jsonify }},{% endif %}
+            {% if post.enclosure.size > 1 %}"attachments": [ {
+              "url": "{{ post.enclosure }}",
+              "mime_type": "{{ post.enclosure_type }}",
+              "size_in_bytes": "{{ post.enclosure_length }}"
+            },{% endif %}
+            "date_published": "{{ post.date | date_to_xmlschema }}",
+            {% if post.last-modified %}"date_modified": "{{ post.last-modified | date_to_xmlschema }}",{% endif %}
+            {% if post.author %}
+                "author": {% if post.author.name %} {
+                "name": "{{ post.author.name }}",
+                "url": {% if post.author.url %}"{{ post.author.url }}"{% else %}null{% endif %},
+                "avatar": {% if post.author.avatar %}"{{ post.author.avatar }}"{% else %}null{% endif %}
+                }
+                {% else %}"{{ post.author }}"{% endif %}
+            {% else %}
+                "author": {% if site.author.name %} {
+                "name": "{{ site.author.name }}",
+                "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %},
+                "avatar": {% if site.author.avatar %}"{{ site.author.avatar }}"{% else %}null{% endif %}
+                }
+                {% else %}
+                "{{ site.author }}"
+                {% endif %}
+            {% endif %}
         }{% if forloop.last == false %},{% endif %}
     {% endfor %}
     ]
