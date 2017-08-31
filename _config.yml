@@ -47,7 +47,8 @@ defaults:
       author: "Frank Taillandier"
 
 include:
-  - "_pages"
+  - _pages
+  - _headers
 
 lsi: true
 
