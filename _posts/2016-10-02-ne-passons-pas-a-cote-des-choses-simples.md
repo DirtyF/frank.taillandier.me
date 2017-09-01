@@ -2,7 +2,6 @@
 title: "Ne passons pas à côté des choses simples"
 description: "Générer des sites performants et sécurisés, c'est possible sans base de données et sans serveur."
 image: /assets/img/presentations/ne-passons-pas-a-cote-des-choses-simples/galets.png
-last-modified: 2016-12-09 12:56:27 +0200
 ---
 
 Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Paris Web 2016](http://www.paris-web.fr/2016/) sur la disparition progressive des serveurs au profit de services, d'APIs, de JavaScript côté client, de plateformes d'intégration continu et de générateurs de site pas forcément si statiques que ça. L'écosystème actuel permet aux développeurs front-end, aux _freelance_, de passer plus de temps sur la conception, l'UX, la performance et la qualité que sur de la maintenance. Dites adieu à vos serveurs et rejoignez [la mouvance statique]({% post_url 2016-03-08-les-gestionnaires-de-contenu-statique %}).
