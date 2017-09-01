@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
+  gem "jekyll-last-modified-at"
   gem "jekyll-livereload"
   gem "jekyll-mentions"
   gem "jekyll-paginate-v2"
