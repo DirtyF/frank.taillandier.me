@@ -36,7 +36,7 @@ layout: null
               "size_in_bytes": "{{ post.enclosure_length }}"
             },{% endif %}
             "date_published": "{{ post.date | date_to_xmlschema }}",
-            {% if post.last-modified %}"date_modified": "{{ post.last-modified | date_to_xmlschema }}",{% endif %}
+            "date_modified": "{{ post.last_modified_at | date_to_xmlschema }}",
             {% if post.author %}
                 "author": {% if post.author.name %} {
                 "name": "{{ post.author.name }}",

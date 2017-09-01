@@ -5,11 +5,7 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
-    {% if page.last-modified %}
-      Dernière mise à jour : {% include fr_date.html date=page.last-modified %}
-    {% else %}
-      {% include fr_date.html date=page.date %}
-    {% endif %}
+    {% include fr_date.html date=page.date %} &middot; Mis à jour le {% include fr_date.html date=page.last_modified_at %}
   </span>
   {% include reading_time.html %}
 
