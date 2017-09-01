@@ -15,7 +15,7 @@ Il existe des entreprises où l'humain est au centre des préoccupations et il s
 
 Quand je travaillais pour Google en tant qu'ingénieur qualité, j'ai eu la chance de faire le tour du monde avec un groupe appelé "développement d'équipe". Notre mission était de concevoir et de donner des cours de _team-building_ aux équipes qui souhaitaient travailler ensemble, de façon plus efficace.
 
-Nos découvertes furent publiées plus tard [sous le nom de Projet Aristote](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/). Notre plus grand découverte c'était que l'indicateur principal d'une équipe qui réussit n'était pas la fonction, l'ancienneté ou les niveaux de salaire, mais **la sécurité psychologique**.
+Nos découvertes furent publiées plus tard [sous le nom de Projet Aristote](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/). Notre plus grande découverte c'est que l'indicateur principal d'une équipe qui réussit n'était pas la fonction, l'ancienneté ou les niveaux de salaire, mais **la sécurité psychologique**.
 
 Pensez à une équipe avec qui vous travaillez en étroite collaboration. Avec quels points êtes-vous d'accord parmi ces cinq affirmations ?
 
@@ -23,7 +23,7 @@ Pensez à une équipe avec qui vous travaillez en étroite collaboration. Avec q
 2. Notre équipe a un sens de la culture très développé qui rend difficile l'intégration de nouvelles personnes.
 3. Mon équipe met du temps à aider les gens en difficulté.
 4. L'utilisation de mes compétences et de mes talents uniques passe après les objectifs de l'équipe.
-5. C'est pénible d'avoir des conversions honnêtes et ouvertes à propos des problèmes sensibles de l'équipe.
+5. Il est pénible d'avoir des conversions honnêtes et ouvertes à propos des problèmes sensibles de l'équipe.
 
 Les équipes qui obtiennent un score élevé à ce genre de questions peuvent être réputées "à risques" : risque d'innover, risque de résoudre un conflit, risque de reconnaître qu'elles ont besoin d'aide. Les équipes à risque peuvent livrer pendant de courtes périodes, du moment qu'elles sont focalisée sur les objectifs et ignorent les problèmes interpersonnels. Mais à la longue, les équipes à risques ne tiendront pas le coup ou seront bien moins performantes car les personnes ne pourront pas introduire du changement.
 
@@ -31,13 +31,13 @@ Les équipes qui obtiennent un score élevé à ce genre de questions peuvent ê
 
 Mettons en évidence l'impact qu'une équipe à risques peut avoir sur les individus qui la compose à travers le regard d'une nouvelle tête fraîchement diplômée qui a fini dans les meilleurs de sa classe.
 
-Cette diplômée imaginaire, nous l'appellerons Karen, a lu un article à propos d'une optimisation qui pourrait réduire le verrouillage bas-niveau des bases de données distribuées et réalise que cela pourrait être appliqué au service pour lequel son équipe travaille. Elle décide de faire des tests, il en ressort un gain de 15% de CPU sur le cluster de test. Dans l'effervescence, elle décide de déployer en production. Comme c'était un changement du fichier de configuration d'une base de données, il n'a pas suivi le processus habituel de revue de code.
+Cette diplômée imaginaire, appelons la Karen, a lu un article à propos d'une optimisation qui pourrait réduire le verrouillage bas-niveau des bases de données distribuées et réalise que cela pourrait être appliqué au service pour lequel son équipe travaille. Elle décide de faire des tests, il en ressort un gain de 15% de CPU sur le cluster de test. Dans l'effervescence, elle décide de déployer en production. Comme c'était un changement du fichier de configuration d'une base de données, il n'a pas suivi le processus habituel de revue de code.
 
-Malheureusement, cela a provoqué un verrouillage matériel de la base de données, causant une panne brève mais totale du site web. Heureusement ses collègues plus expérimentés ont vu le problème et ont pu annuler le changement en moins de 10 minutes. Comme ils sont professionnels, cet incident a été mentionné lors de la réunion "post-mortem" hebdomadaire.
+Malheureusement, cela a provoqué un verrouillage matériel de la base de données, causant une panne brève mais totale du site web. Heureusement ses collègues plus expérimentés ont vite vu le problème et ont pu annuler le changement en moins de 10 minutes. Comme ils sont professionnels, cet incident a été mentionné lors de la réunion _post-mortem_ hebdomadaire.
 
 ### "Si je tente ma chance et que j'échoue, cela sera retenu contre moi."
 
-Lors de la réunion, l'ingénieur en chef fait savoir à tout le monde que provoquer une indisponibilité parce qu'on cherche à faire des petites optimisations était inacceptable. Karen a été décrite comme "irresponsable" devant toute l'équipe et l'équipe a proposé des solutions pour éviter que cela ne se reproduise. L'ingénieur en chef a rapidement oublié cette histoire. Mais Karen n'a jamais oublié cet échange. Elle n'essaiera plus jamais d'innover sans une permission explicite.
+Lors de la réunion, l'ingénieur en chef fait savoir à tout le monde que provoquer une indisponibilité parce qu'on cherche à faire des petites optimisations était inacceptable. Karen a été qualifiée d' "irresponsable" devant tout le monde et l'équipe a proposé des solutions pour éviter que cela ne se reproduise. L'ingénieur en chef a rapidement oublié cette histoire. Mais Karen n'a jamais oublié cet échange. Elle n'essaiera plus jamais d'innover sans une permission explicite.
 
 ### "Notre équipe a un sens de la culture très développé qui rend difficile l'intégration de nouvelles personnes"
 
@@ -59,7 +59,7 @@ L'équipe avait toujours reproché aux clients le dépassement de leurs taux con
 
 Karen a proposé un nouveau design, basé sur la technologie qu'elle avait utilisé pendant son stage. Ses collègues étaient peu familiers avec cette nouvelle technologie et l'ont considéré comme trop risquée. Karen a laissé tomber sa proposition sans discuter. Elle voulait écrire du code et construire des systèmes, pas répondre à de vains arguments.
 
-### "C'est pénible d'avoir des conversions honnêtes et ouvertes à propos des problèmes sensibles de l'équipe."
+### "Il est pénible d'avoir des conversions honnêtes et ouvertes à propos des problèmes sensibles de l'équipe."
 
 Lorsqu'une importante charge de trafic chez un client a provoqué une indisponibilité de plusieurs heures, le CEO a organisé une réunion avec l'équipe chargée des opérations. Beaucoup de détails furent passés en revue et Karen a expliqué que la conception actuelle ne pourrait jamais faire face à de tels pics, elle a alors mentionné sa solution. L'ingénieur en chef lui a rappelé que sa proposition de design avait déjà était refusée pendant une revue avec l'équipe technique et a promis au CEO qu'ils pouvaient améliorer le design existant.
 
@@ -73,7 +73,7 @@ Alors, qu'y-a-t-il de si spécial dans l'ingénierie qui nous pousse à écarter
 
 > Nous devons être capables de trouver un juste équilibre entre le respect pour notre culture avec une nécessaire ouverture au changement.
 
-Nous savons qu'un sens aigu de la culture, une compréhension partagée et des valeurs communes font partie des clefs du succès. Nous devons donc être capable de trouver un juste équilibre entre ce respect pour notre culture et une nécessaire ouverture au changement. Une équipe - à la base contente de travailler de la maison - doit changer sa façon de travailler si elle veut pouvoir engager des stagiaires. Une équipe - fière que ses ingénieurs soient mobilisés pour leur service - peut avoir besoin de se professionnaliser autour d'une équipe resserrée d'ingénieurs axés sur les opérations au fur et à mesure que le risque qu'une panne potentielle peut impacter la production qui augmente.
+Nous savons qu'un sens aigu de la culture, une compréhension partagée et des valeurs communes font partie des clefs du succès. Nous devons donc être capable de trouver un juste équilibre entre ce respect pour notre culture et une nécessaire ouverture au changement. Une équipe - à la base contente de travailler de la maison - doit changer sa façon de travailler si elle veut pouvoir engager des stagiaires. Une équipe - fière que ses ingénieurs soient mobilisés pour leur service - peut avoir besoin de se professionnaliser autour d'une équipe resserrée d'ingénieurs axés sur les opérations au fur et à mesure que le risque qu'une panne potentielle puisse impacter la production augmente.
 
 Nous devons bien réfléchir à la façon dont nous mettons en balance le travail que les gens aiment faire avec celui que l'entreprise doit réaliser. Les bons managers sont proactifs quand il s'agit de déplacer un ingénieur qui n'est pas adapté à la charge de travail de son équipe. Les meilleurs managers augmentent le périmètre d'intervention de leur équipe pour mieux tirer parti de tous les ingénieurs à leur disposition, afin de s'assurer que leurs compétences et leurs talents soient appréciés à leur juste valeur. Les ingénieurs à qui on confie un travail et qui n'ont pas les compétences pour réussir à le mener à bien se sentiront conditionnés pour échouer.
 
@@ -87,19 +87,19 @@ accept](http://vividmethod.com/transcript-the-standard-you-walk-past-is-the-stan
 
 Ne pas se préoccuper des sentiments et des expériences des personnes peut les amener à se renfermer sur elles-mêmes. Voici quelques exemples où je suis intervenu personnellement :
 
-- Quelqu'un accueille une nouvelle chef de projet dans l'équipe, part du principe qu'elle n'a pas un profil technique et utilise un vocabulaire enfantin pour lui expliquer un service. Je fais remarquer que le nouveau chef de projet possède un doctorat en informatique. Il ne pensait pas à mal et fut mortifié que son introduction rigolote puisse être mal prise.
+- Quelqu'un accueille une nouvelle chef de projet dans l'équipe, part du principe qu'elle n'a pas un profil technique et utilise un vocabulaire enfantin pour lui expliquer un service. Je fais remarquer que le nouveau chef de projet possède un doctorat en informatique. Il ne pensait pas à mal et fut mortifié que son introduction rigolote puisse être aussi mal prise.
 - Lors d'une conversation à propos des fonctions exercées précédemment, quelqu'un mentionne qu'il a travaillé pour une entreprise qui a par la suite échoué. Un collègue se moque de lui pour être "assez courageux" de le reconnaître. J'ai rappelé que se moquer des gens n'était pas professionnel et que ça n'avait pas sa place ici. Les personnes présentes ont compris qu'il y avait une ligne, qui n'était pas visible auparavant, à ne pas franchir.
-- Un ingénieur calme et brillant est constamment interrompu par des personnes extraverties pendant les réunions. Je fais remarquer aux gens "bruyants" que nous nous privons qu'un point de vue important en ne permettant pas à tout le monde de s'exprimer librement. Les personnes présentes en ont alors pris conscience.
+- Un ingénieur calme et brillant est constamment interrompu par des personnes extraverties pendant les réunions. Je fais remarquer aux gens "bruyants" que nous nous privons qu'un point de vue important en ne permettant pas à tout le monde de s'exprimer librement. Les personnes présentes en ont pris conscience par la suite.
 
-Il est essentiel de réagir immédiatement à tout manque de respect, poliment et devant toutes les personnes qui ont entendu le manque de respect. Ça aurait été génial si quelqu'un avait rappelé au responsable de Karen, devant tout le groupe, que la panne n'était pas bien méchante, et que l'équipe devrait améliorer sa couverture de tests.
+Il est essentiel de réagir immédiatement à tout manque de respect, poliment et devant toutes les personnes qui ont entendu le manque de respect. Ça aurait été génial si quelqu'un avait rappelé au responsable de Karen, devant tout le groupe, que la panne n'était pas bien méchante et que l'équipe devrait améliorer sa couverture de tests.
 
 ## Laissez la place à l'expérimentation.
 
-On parle de 20% du temps de travail dans certaines entreprises. Intercom a des semaines "tampon", intercalées entre [nos sprints de 6 semaines](https://blog.intercom.com/6-week-cycle-for-product-teams/).
+On parle de 20% du temps de travail dans certaines entreprises. Intercom a des semaines "tampon", intercalées entre [leurs sprints de 6 semaines](https://blog.intercom.com/6-week-cycle-for-product-teams/).
 Les gens en profitent souvent pour s'attaquer à un problème qui les tracassent, sans impacter les engagements externes pris par l'équipe.
 Inciter tous les membres de l'équipe à penser hors du cadre et faire en sorte que toute l'équipe puisse en même temps faire du hors-piste, c'est un message fort.
 
-Faites bien attention à ce que ce temps dédié à l'innovation ne soit pas le seul pendant lequel les personnes puissent prendre des risques. Une entreprise dans l'industrie du transport considère que le "temps pour innover" c'est tous les mardis à 14h30.
+Faites bien attention à ce que ce temps dédié à l'innovation ne soit pas le seul pendant lequel les personnes puissent prendre des risques. Une entreprise dans l'industrie du transport considère par exemple que le "temps pour innover" c'est tous les mardis à 14h30.
 
 Imaginez combien Karen aurait été reconnaissante si pendant la revue un ingénieur sénior lui avait proposer de travailler sur son design avec elle pour que ce soit mieux accepté par le reste de l'équipe. Améliorez les idées des personnes plutôt que d'en douter.
 
@@ -111,11 +111,11 @@ Mais nous pouvons aussi fêter les échecs retentissants. Il y a quelques année
 
 > Nous pouvons aussi fêter les échecs retentissants.
 
-À cause de  l'accumulation de problèmes d'alimentation, de mauvais firmware, d'outillage pauvre, de logiciels non testés, d'un calendrier de déploiement audacieux et de deux pannes de courant, nous avons perdu une  cellule de stockage entière pendant plusieurs heures, et bien que tous les autres services aient eu du stockages dans les autres zones disponibles, l'équipe a passé trois longues journées et trois longues nuits à reconstruire cette zone. Une fois que ce fut fait, tout le monde - et moi le premier - était découragé. Démoralisé, défait. Un manager exceptionnel qui nous rendait visite dans le bureau a vu que j'étais abattu. Il a souligné que nous avions plus appris sur notre nouvelle unité de stockage pendant ces trois jours que pendant les trois derniers mois. Il a estimé qu'une célébration était de rigueur.
+À cause de l'accumulation de problèmes d'alimentation, de mauvais firmware, d'outillage pauvre, de logiciels non testés, d'un calendrier de déploiement audacieux et de deux pannes de courant, nous avons perdu une  cellule de stockage entière pendant plusieurs heures, et bien que tous les autres services aient eu du stockages dans les autres zones disponibles, l'équipe a passé trois longues journées et trois longues nuits à reconstruire cette zone. Une fois que ce fut fait, tout le monde - et moi le premier - était découragé. Démoralisé, défait. Un manager exceptionnel qui nous rendait visite dans le bureau a vu que j'étais abattu. Il a souligné que nous avions plus appris sur notre nouvelle unité de stockage pendant ces trois jours que pendant les trois derniers mois. Il a estimé qu'une célébration était de rigueur.
 
-J'ai acheté du vin pétillant bon marché à la supérette du coin et avec un autre manager, nous avons occupé une grand salle de conférence pendant quelques heures. À chaque fois que quelqu'un notait quelque chose qu'il avait appris au tableau blanc, nous portions un toast. L'équipe qui a quitté cette pièce était totalement différente de celle qui y était rentrée.
+J'ai acheté du vin pétillant bon marché à la supérette du coin et avec un autre manager, nous avons occupé une grande salle de conférence pendant quelques heures. À chaque fois que quelqu'un notait quelque chose qu'il avait appris au tableau blanc, nous portions un toast. L'équipe qui a quitté cette pièce était totalement différente de celle qui y était rentrée.
 
-Je suis sûr que Karen aurait aimé qu'on la remercie pour avoir découvert les faiblesses de la couverture de code non testé de l'équipe et le manque de documentation à propos de leur amour du temps de disponibilité par dessous tout.
+Je suis sûr que Karen aurait aimé qu'on la remercie pour avoir découvert les faiblesses de la couverture de code non testé de l'équipe et le manque de documentation à propos de leur amour invétéré du temps de disponibilité.
 
 ## Rendez votre communication claire et vos attentes explicites.
 
@@ -123,7 +123,7 @@ Plutôt que de crier sur une équipe d'ingénierie à chaque fois qu'il y a une 
 
 > Demandez un engagement spécifique plutôt que de supposer que tout le monde s'accorde sur le degré d'urgence.
 
-Lorsque vous évoquez les échecs, les gens doivent se sentir suffisamment en sécurité pour partager toutes les informations pertinentes, en comprenant bien qu'ils ne seront pas jugés sur la manière dont ils se sont plantés, mais sur comment leur gestion des échecs aura contribué à améliorer l'équipe, le produit et l'entreprise dans son ensemble. Les équipes avec des responsables des opérations doivent se réunir et discuter des pannes et de la gestion des échecs. Il est essentiel d'aborder tout cela comme des opportunités d'apprentissage amusantes, et non comme des persécutions obsessionnelles du coupable.
+Lorsque vous évoquez les échecs, les gens doivent se sentir suffisamment en sécurité pour partager toutes les informations pertinentes, en comprenant bien qu'ils ne seront pas jugés sur la manière dont ils se sont plantés, mais sur comment leur gestion des échecs aura contribué à améliorer l'équipe, le produit et l'entreprise dans son ensemble. Les équipes avec des responsables des opérations doivent se réunir et discuter des pannes et de la gestion des échecs. Il est essentiel d'aborder tout cela comme des opportunités ludiques d'apprentissage, et non comme des persécutions obsessionnelles du coupable.
 
 J'ai vu une équipe paralysée qui essayait de décider s'il fallait livrer un gain efficace qui aurait augmenté la latence de l'utilisateur final de 20%. Une rapide discussion avec l'équipe produit a entrainé des mises à jour de l'objectif de niveau de service qui détaillaient "l'impact estimé des différents niveaux de latence sur la retention des utilisateurs" et l'impact financier résultant sur l'entreprise. Tous les membres de l'équipe ont rapidement pu se rendre compte que la faible latence était bien plus importante que les coûts matériels qui, au lieu de cela, étaient considérablement trop approvisionnés.
 
@@ -136,7 +136,7 @@ Karen aurait apprécié qu'un manager la prévienne à l'avance que l'équipe co
 Si vous avez envie de faire en sorte que votre équipe se sente psychologiquement plus en sécurité, voici quelques trucs que vous pouvez faire dès maintenant :
 
 1. Faites un rapide sondage et partagez les résultats avec votre équipe.
-2. Discutez ce que la "sécurité" représente pour votre équipe, est-ce que les personnes partagent entre elles quand elle ne se sentent pas "en sécurité" ?
+2. Discutez ce que la "sécurité" représente pour votre équipe, est-ce que les personnes partagent entre elles quand elles ne se sentent pas "en sécurité" ?
 3. Développez une culture du respect et d'une communication très claire, en commençant par vos actions.
 
-Considérez la sécurité psychologique comme un indicateur clé du business, aussi important que les recettes, les coûts de vente ou le temps de disponibilité. Cela va se répercuter sur l'efficacité de votre équipe, la productivité, la rétention des employés et tout autre métrique business que vous chérissez.
+Considérez la sécurité psychologique comme un indicateur clé du business, tout aussi important que les recettes, les coûts de vente ou le temps de disponibilité. Cela va se répercuter sur l'efficacité de votre équipe, la productivité, la rétention des employés et tout autre métrique business que vous chérissez.
