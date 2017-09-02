@@ -26,18 +26,11 @@ pagination:
   </div>
   <hr />
 {% endfor %}
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-    {% if paginator.previous_page %}
-      <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Billets plus récents</a>
-      {% else %}
-        <span class="pagination-item newer">Billets plus récents</span>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Billets plus anciens</a>
-    {% endif %}
-</div>
-{% endif %}
+
+{% comment %}
+  {% include pagination.html %}
+{% endcomment %}
+
 </div>
 
 <p class="copy">Site généré avec <a href="https://jekyllrb.com">Jekyll</a> hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>
