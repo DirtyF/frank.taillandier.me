@@ -6,6 +6,7 @@ gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
 group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-feed"
+  gem "jekyll-include-cache"
   gem "jekyll-github-metadata"
   gem "jekyll-last-modified-at"
   gem "jekyll-livereload"

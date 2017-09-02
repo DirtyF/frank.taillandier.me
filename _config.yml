@@ -74,6 +74,7 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-livereload
   - jekyll-mentions
