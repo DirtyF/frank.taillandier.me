@@ -21,10 +21,12 @@
   <link type="text/plain" rel="author" href="/humans.txt" />
   <link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ "/foaf.rdf" | relative_url }}" />
 
-  <!-- Analytics-->
-  {% if site.analytics.google.site_verification %}
-    <meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">
-  {% endif %}
+  {% if jekyll.environment == "production" %}
+    <!-- Analytics-->
+    {% if site.analytics.google.site_verification %}
+      <meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">
+      {% endif %}
 
     {% include_cached analytics.html %}
+  {% endif %}
 </head>
