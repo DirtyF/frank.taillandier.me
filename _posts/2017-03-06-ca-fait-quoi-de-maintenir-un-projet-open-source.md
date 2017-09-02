@@ -18,7 +18,7 @@ Vous aimeriez tous les aider, mais pour le moment vous remettez ça à plus tard
 
 Mais si jamais vous allez consulter vos [notifications sur GitHub](https://github.com/notifications), cela vous rappelle en permanence le nombre de personnes qui attendent après vous.
 
-{% include figure.html url="/assets/img/2017/03/github-notifications.png" description="Capture d'écran montrant 403 notifications GitHub non lues" %}
+{% include_cached figure.html url="/assets/img/2017/03/github-notifications.png" description="Capture d'écran montrant 403 notifications GitHub non lues" %}
 
 Quand enfin vous parvenez à dégager un peu de temps libre, vous ouvrez la porte à la première personne. Ses intentions sont bonnes : elle a tenté d'utiliser votre projet mais se heurte à un problème confus avec l'API. La personne a pris le soin de coller le code dans un commentaire GitHub, mais elle a oublié ou elle ne sait pas comment faire pour le mettre en forme, du coup le code recopié ressemble à un gros pâté illisible.
 

@@ -53,7 +53,7 @@ Oui Bertrand.
 
 Ces trois dernières années, les intégrations des nouveaux membres ont été plus que réussies. Amanda, Enza, Alexandra, vous m'avez bluffé. Boris, Bertrand, Matthieu, vous avez assuré.
 
-{% include figure.html url="/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
+{% include_cached figure.html url="/assets/img/2017/05/amanda.jpg" description="Moment de complicité avec Amanda" %}
 
 **Le secret a été d'ajouter toujours plus d'humain**.
 
@@ -75,4 +75,4 @@ Une mention spéciale pour mes ancien·ne·s camarades de jeu, vous m'avez donn�
 
 Longue vie à Sud Web, prenez en soin. C'est un moment tellement précieux, qui communique de belles valeurs, des valeurs qui continueront de m'animer dans tout ce que j'entreprendrai par la suite.
 
-{% include video.html width="640" height="360" url="https://www.youtube.com/embed/xeDKyl04G74" %}
+{% include_cached video.html width="640" height="360" url="https://www.youtube.com/embed/xeDKyl04G74" %}

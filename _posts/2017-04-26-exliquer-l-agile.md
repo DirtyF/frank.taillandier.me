@@ -15,7 +15,7 @@ L'Agile est un grand mouvement global qui est en train de transformer le monde d
 
 Mais qu'est-ce que l'Agile exactement ? Comment est-ce que vous expliquez l'Agile quand il existe plus de quarante variantes de l'Agile comme le montre ce dessin de la designer australienne Lynne Cazaly.
 
-{% include figure.html url="/assets/img/2017/04/agile-40-flavors.jpg" description="Illustration de Lynne Cazaly" %}
+{% include_cached figure.html url="/assets/img/2017/04/agile-40-flavors.jpg" description="Illustration de Lynne Cazaly" %}
 
 Cette illustration est tirée d'une [présentation de Craig Smith](https://craigsmith.id.au/2015/12/03/yow-2015-40-agile-methods-in-40-minutes/).
 
@@ -60,7 +60,7 @@ Pourtant la majorité des organisations continuaient de s'entêter dans cette bu
 
 Une autre raison à cela était que la plupart des équipes au XXe siècle n'en avaient que le nom. La plupart n'étaient pas du tout de vraies équipes. Le chef d'équipe se comportait comme n'importe quel autre supérieur d'une bureaucratie.
 
-{% include figure.html url="/assets/img/2017/04/agile-team-vs-bureaucratic-team.jpg" description="Silo bureaucratique vs équipe agile" %}
+{% include_cached figure.html url="/assets/img/2017/04/agile-team-vs-bureaucratic-team.jpg" description="Silo bureaucratique vs équipe agile" %}
 
 Les vraies équipes auto-organisées qui parvenaient à être réellement très performantes étaient très rares. Les rapports à propos du travail d'équipe ont souvent parlé d'équipes de haut niveau — des équipes que n'étaient pas juste 10 ou 20% meilleures, mais deux, trois voire dix fois meilleures —  et laissaient supposer que c'était une question de chance. Les étoiles devaient être bien alignées. Il fallait rassembler les bonnes personnes. Il fallait que le courant passe bien. Le contexte devait être propice. Il n'était pas possible de le prévoir ou de le provoquer. Vous pouviez l'encourager. Mais au final c'était un heureux hasard.
 
@@ -80,7 +80,7 @@ La primauté du client est à la fois l'aspect le plus évident et le plus diffi
 
 Ce n'est pas que ces organisations bureaucratiques ignorent le client. Elles font ce qu'elles peuvent pour le client — mais seulement dans la limite des contraintes de leurs systèmes et de leurs processus internes. Ces entreprises peuvent prétendre qu'elles sont focalisées sur leurs clients mais l'information dont elles ont besoin pour répondre à des questions toutes simples de leurs clients est enfouie dans différents systèmes qui ne communiquent pas entre eux, ou alors s'il faut effectuer une coupe dans le service client pour atteindre les objectifs du trimestre, alors tant pis pour le client. Le client est laissé pour compte. Dans une bureaucratie pyramidale, "le client est roi" est juste un slogan&nbsp;: l'organisation, les processus et les objectifs internes ont la priorité.
 
-{% include figure.html url="/assets/img/2017/04/agile-organization-vs-bureaucracy.jpg" description="Bureaucratie vs organisation agile" %}
+{% include_cached figure.html url="/assets/img/2017/04/agile-organization-vs-bureaucracy.jpg" description="Bureaucratie vs organisation agile" %}
 
 Dans une organisation Agile, le "focus client" revet une toute autre signification. Dans les organisation vraiment agiles, tout le monde est passionnément obsédé par l'apport de valeur aux clients. Chaque personne de l'organisation a une vision très claire du client final et peut se rendre compte si son travail apporte ou non de la valeur au client. Si leur travail n'apporte pas de valeur à un client ou à un utilisateur, alors la question du sens même de ce travail est immédiatement posée. L'entreprise ajuste tout - les objectifs, les valeurs, les principes, les processus, les systèmes, les pratiques, les structures de données, les primes — pour générer continuellement une valeur nouvelle pour les clients et éliminer impitoyablement tout ce qui n'y contribue pas.
 
@@ -92,7 +92,7 @@ Pendant les premières années du mouvement Agile, il était communément admis 
 
 De plus lorsque des équipes agiles existent au sein d'une bureaucratie, la collaboration _entre_ les équipes peut se révéler aussi problématique que celle entre silos dans une bureaucratie.
 
-{% include figure.html url="/assets/img/2017/04/agile-network-4-images.jpg" description="Réseau agile" %}
+{% include_cached figure.html url="/assets/img/2017/04/agile-network-4-images.jpg" description="Réseau agile" %}
 
 C'est un problème général, même dans les organisations qui embrassent activement l'Agile au niveau des équipes. Les sondages que nous avons effectué dans la Scrum Alliance ont révélé qu'entre 80% et 90% des équipes agiles ressentent une tension entre la façon dont est gérée l'équipe agile et la façon dont est géré l'organisme. Dans la moitié des cas, cette tension est qualifiée de "grave".
 

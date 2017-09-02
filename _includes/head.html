@@ -13,7 +13,7 @@
   {% feed_meta %}
 
   <!-- Icons -->
-  {% include favicons.html %}
+  {% include_cached favicons.html %}
 
   <!-- Profiles -->
   <link rel="pingback" href="https://webmention.io/taillandier.me/xmlrpc" />
@@ -26,5 +26,5 @@
     <meta name="google-site-verification" content="{{ site.analytics.google.site_verification }}">
   {% endif %}
 
-  {% include analytics.html %}
+    {% include_cached analytics.html %}
 </head>

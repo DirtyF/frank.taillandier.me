@@ -5,9 +5,9 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
-    {% include fr_date.html date=page.date %} &middot; Mis à jour le {% include fr_date.html date=page.last_modified_at %}
+    {% include_cached fr_date.html date=page.date %} &middot; Mis à jour le {% include_cached fr_date.html date=page.last_modified_at %}
   </span>
-  {% include reading_time.html %}
+  {% include_cached reading_time.html %}
 
   {{ content }}
 
@@ -31,7 +31,7 @@ layout: default
         <h3>
           <a href="{{ post.url | relative_url }}">
             {{ post.title }}
-            <small>{% include fr_date.html date=post.date %}</small>
+            <small>{% include_cached fr_date.html date=post.date %}</small>
           </a>
         </h3>
       </li>

@@ -26,7 +26,7 @@ Dimensionner de tels serveurs signifie dimensionner l’application entière et 
 
 ## Que sont les microservices ?
 
-{% include figure.html url= "https://technologyconversations.files.wordpress.com/2014/11/deployment_03_immutable_microservices_05.gif" description="Exemple d'architecture avec des microservices" %}
+{% include_cached figure.html url= "https://technologyconversations.files.wordpress.com/2014/11/deployment_03_immutable_microservices_05.gif" description="Exemple d'architecture avec des microservices" %}
 
 Les microservices sont une approche d’architecture et de développement d’une seule application composées de petits services. Ce qu’il faut bien comprendre dans les microservices, c’est leur indépendance. Chacun est développé, testé et déployé séparément des autres. Chaque service tourne dans un processus séparé. La seule relation entre les différents microservices est l’échange de données effectué à travers les différentes APIs qu’ils exposent. Ils reprennent, en un sens, l’idée de petits programmes et de tuyaux utilisés dans Unix/Linux. La majorité des programmes Linux sont petits et génèrent une sortie. Cette sortie peut-être utilisée comme entrée par d’autres programmes. Lorsqu’on les enchaîne, ces programmes peuvent réaliser des opérations très complexes. C’est une complexité né de la combinaison de quelques petites unités simples.
 

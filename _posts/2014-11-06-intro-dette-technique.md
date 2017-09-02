@@ -105,7 +105,7 @@ Maintenant imaginons une tout autre conversation :
 
 **Développeur Junior. —** Hum.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="Demandons leur des estimations et considérerons les ensuite comme des délais" %}
+{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="Demandons leur des estimations et considérerons les ensuite comme des délais" %}
 
 Ceci n’est pas une négociation sur la dette technique. Les vraies négociations sur la dette technique ont lieu avec des managers et des développeurs plus expérimentés, qui comprennent tous les deux précisément les conséquences de leurs actions.
 
@@ -120,11 +120,11 @@ Les problèmes avec cette approche sont énoncés de manière limpide par Chad F
 
 Voici l’auteur de l’analogie sur la dette, Ward Cunningham, qui clarifie qu’il n’a jamais pensé que la dette technique était le fait d’écrire du mauvais code.
 
-{% include video.html width="640" height="480" url="https://www.youtube.com/embed/pqeJFYwnkjE" %}
+{% include_cached video.html width="640" height="480" url="https://www.youtube.com/embed/pqeJFYwnkjE" %}
 
 Il est clair que les managers non technique ne sont pas à 100% inconscients des conséquences d’une mauvaise qualité. Ils savent que lorsque ils disent « c’est pas grave on livre quand même », ils font quelque chose qui _va_ avoir des conséquences. Certains d’entre eux pensent juste que les conséquences seront moindres ou n’apparaîtront pas de si tôt. D’autres prennent leurs désirs pour la réalité. D’autres ont même une meilleure compréhension, mais préfèrent dire que c’est un problème de l’équipe technique, puisque _leurs_ indicateurs sont bons. J’ai même déjà vu des chefs de projet – soyons honnêtes, de vrais débutants – argumenter que faire les choses bien représenterait un _investissement_, rendant notre analogie caduque.
 
-{% include video.html width="640" height="480" url="https://www.youtube.com/embed/p0O1VVqRSK0" %}
+{% include_cached video.html width="640" height="480" url="https://www.youtube.com/embed/p0O1VVqRSK0" %}
 
 À ce stade, on pourrait argumenter que c’est la responsabilité de l’équipe technique de faire comprendre au service commercial les conséquences de ce genre d’action. Et oui c’est _totalement_ le cas.
 
@@ -140,7 +140,7 @@ Donc, si notre première introduction avec la dette ne nous est plus utile, quel
 
 Rio de Janeiro. 3 heures du matin, le 2 février 1998. Dans un quartier en plein expansion de l’ouest de la ville, Barra da Tijuca, un bâtiment appelé Palace II commence à s’effondrer. La fin de la construction de l’immeuble date d’il y a moins de 3 ans. 44 appartements ont été complètement détruits et 8 personnes ont péri.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg" description="Implosion du Palace II" %}
+{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg" description="Implosion du Palace II" %}
 
 Comme souvent au Brésil, en 2014, les constructeurs n’ont pas été correctement punis et les victimes n’ont pas été compensées de manière satisfaisante. Les résultats de l’enquête sont discutables.
 
@@ -160,13 +160,13 @@ Bref, je pense que cette analogie montre à quel point les résultats d’une ma
 
 Une autre analogie est ce qu’on appelle _puxadinho_ en portugais. Un _puxadinho_ est une extension d’une construction faite sans la supervision d’un expert, des matériaux de mauvaise qualité et la plus part du temps de façon illégale.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg" description="" %}
+{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg" description="" %}
 
 Le _puxadinho_ est le modèle de conception standard sur lequel se sont construits des « favelas » entières, les bidonvilles brésiliens.
 
 Les _puxadinhos_ ne sont pas seulement restreints à la construction. Comme on peut le voir sur l’image, ils s’étendent à toute l’infrastructure de base comme la plomberie, l’énergie, les câbles téléphoniques, internet et la télé par cable.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/620/1*_mjiqqiePvLN9Ehw5GRl7w.jpeg" description="" %}
+{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/620/1*_mjiqqiePvLN9Ehw5GRl7w.jpeg" description="" %}
 
 Maintenant, prenons cette analogie et voyons jusqu’où nous pouvons la pousser. Un nouveau _puxadinho_, ainsi que toute son infrastructure inélégante est construit à chaque fois qu’un manager dit « on met en prod ». Ce n’est clairement pas qu’un compromis de conception. Cela pourrait endommager une construction précédente, voire la détruire. Cela pourrait s’emmêler dans les câbles et mettre le bidonville entier en feu. C’est tellement mal construit que le rebâtir de manière organisée est virtuellement impossible. Si vous prévoyez de faire d’un bidonville quelque chose d’organisé, il va falloir tracer des plans tous neufs.
 
@@ -239,7 +239,7 @@ La morale de l’histoire est qu’à un certain point, l’orgueil qui pousse �
 
 > L’avance technologique est… définie… par la capacité d’une entreprise à attirer et à motiver les ingénieurs les plus talentueux au monde.
 
-{% include figure.html url="https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg" description="Le lièvre dans une coquille d’escargot un des nombreux symboles de Festina Lente" %}
+{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg" description="Le lièvre dans une coquille d’escargot un des nombreux symboles de Festina Lente" %}
 
 Les concurrents _diminueront_ votre valeur, pendant que vous dormez.
 

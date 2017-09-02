@@ -6,7 +6,7 @@
         <h3>
           <a href="{{ post.url | aboslute_url }}">
             {{ post.title }}
-            <small>{% include fr_date.html date=post.date %}</small>
+            <small>{% include_cached fr_date.html date=post.date %}</small>
           </a>
         </h3>
       </li>

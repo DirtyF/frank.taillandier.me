@@ -11,7 +11,7 @@ source:
 Il existe des entreprises où l'humain est au centre des préoccupations et il s'avère que cela produit des équipes plus performantes. Certaines startups couronnées de succès ont bien compris l'intérêt de veiller sur leurs employés. Pas en mettant à leur disposition des sodas sucrés, un baby-foot ou une console de jeux, non, en prenant bien soin de créer un cadre de confiance qui aide les salariés à donner le meilleur d'eux-mêmes. John Looney, ingénieur en chef chez Intercom, donne ici quelques conseils pour bâtir une équipe dans laquelle il fait bon évoluer.
 {: .lead }
 
-{% include figure.html url="/assets/img/2017/08/psychological_safety_in_teams.jpg" description="illustration : [Clay Hickson](http://clayhickson.com/)" %}
+{% include_cached figure.html url="/assets/img/2017/08/psychological_safety_in_teams.jpg" description="illustration : [Clay Hickson](http://clayhickson.com/)" %}
 
 Quand je travaillais pour Google en tant qu'ingénieur qualité, j'ai eu la chance de faire le tour du monde avec un groupe appelé "développement d'équipe". Notre mission était de concevoir et de donner des cours de _team-building_ aux équipes qui souhaitaient travailler ensemble, de façon plus efficace.
 
@@ -83,7 +83,7 @@ C'est dur de se donner à 100% si vous dépensez votre énergie mentale à prét
 standard you walk past is the standard you
 accept](http://vividmethod.com/transcript-the-standard-you-walk-past-is-the-standard-you-accept/)”
 
-{% include video.html url="https://www.youtube.com/embed/QaqpoeVgr8U" width="640" height="360" %}
+{% include_cached video.html url="https://www.youtube.com/embed/QaqpoeVgr8U" width="640" height="360" %}
 
 Ne pas se préoccuper des sentiments et des expériences des personnes peut les amener à se renfermer sur elles-mêmes. Voici quelques exemples où je suis intervenu personnellement :
 

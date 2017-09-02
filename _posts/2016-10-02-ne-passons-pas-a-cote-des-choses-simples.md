@@ -9,7 +9,7 @@ Nous avons eu le plaisir avec Bertrand de pouvoir donner une conférence à [Par
 
 Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rendre la présentation aussi interactive que possible, c'était un premier essai, nous ferons mieux la prochaine fois.
 
-{% include video.html url="https://player.vimeo.com/video/194192874" width="640" height="360" %}
+{% include_cached video.html url="https://player.vimeo.com/video/194192874" width="640" height="360" %}
 
 [Les slides de présentation](/presentations/ne-passons-pas-a-cote-des-choses-simples/) de la mini-conférence
 
@@ -214,7 +214,7 @@ Sous forme d'un dialogue et à partir d'un cas réel, nous avons essayé de rend
 > (applaudissements)
 
 
-{% include figure.html url="/assets/img/2016/09/frank-paris-web-2016.jpg" description="<a href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo de Franck Paul</a>" %}
+{% include_cached figure.html url="/assets/img/2016/09/frank-paris-web-2016.jpg" description="<a href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo de Franck Paul</a>" %}
 
 Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les processus modernes de développement et de déploiement, ainsi que tout l'écosystème actuel à disposition pour servir des sites beaucoup plus performants et sécurisés.
 
