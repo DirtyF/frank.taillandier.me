@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-livereload"
   gem "jekyll-mentions"
-  gem "jekyll-paginate-v2"
+  # "jekyll-paginate-v2"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"

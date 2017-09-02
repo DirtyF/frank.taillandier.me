@@ -77,7 +77,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-livereload
   - jekyll-mentions
-  - jekyll-paginate-v2
+  # jekyll-paginate-v2
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
