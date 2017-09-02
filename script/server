@@ -1,10 +1,9 @@
 #!/bin/sh
-#build site locally and run
 
 set -e
 
 echo "Starting server…"
-bundle exec jekyll serve -c _config.yml,_config_local.yml
+bundle exec jekyll serve --config  _config.yml,_config_local.yml
 
 echo "Cleaning up…"
 bundle exec jekyll clean
