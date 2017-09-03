@@ -3,11 +3,13 @@ _site
 .sass-cache
 .jekyll-metadata
 
+# Node
+node_modules
+
+# Bundler
 Gemfile.lock
 tmp
 
 # OSX
 .DS_Store
 *.swp
-
-
