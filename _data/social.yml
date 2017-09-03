@@ -1,12 +1,12 @@
 - name: feed
-  url: /feed.xml
   title: S'abonner au flux
+  url: /feed.xml
 - name: mail
-  url: mailto:frank@taillandier.me
   title: M'envoyer un mail
+  url: 'mailto:frank@taillandier.me'
 - name: twitter
-  url: https://twitter.com/DirtyF
   title: Me suivre sur Twitter
+  url: 'https://twitter.com/DirtyF'
 - name: github
-  url: https://github.com/DirtyF
   title: Me suivre sur GitHub
+  url: 'https://github.com/DirtyF'
