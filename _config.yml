@@ -2,6 +2,7 @@
 title: Frank Taillandier
 description: Articles & traductions
 url: https://frank.taillandier.me
+branch: master
 github:
   source:
     branch: master
