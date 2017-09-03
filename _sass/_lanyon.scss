@@ -13,7 +13,6 @@
  * https://github.com/poole/lanyon.
  */
 
-
 /*
  * Contents
  *
@@ -27,7 +26,6 @@
  * Themes
  */
 
-
 /*
  * Global resets
  *
@@ -35,6 +33,7 @@
  */
 
 /* Prevent scroll on narrow devices */
+
 html,
 body {
   overflow-x: hidden;
@@ -44,13 +43,17 @@ html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
 }
-
 
 /*
  * Wrapper
@@ -65,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-
 /*
  * Container
  *
@@ -75,17 +77,18 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 28rem;
 }
+
 @media (min-width: 38em) {
   .container {
     max-width: 32rem;
   }
 }
+
 @media (min-width: 56em) {
   .container {
     max-width: 38rem;
   }
 }
-
 
 /*
  * Masthead
@@ -94,19 +97,22 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
+
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
 }
+
 .masthead-title a {
   color: #505050;
 }
+
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -118,11 +124,11 @@ h1, h2, h3, h4, h5, h6 {
   .masthead-title {
     text-align: center;
   }
+
   .masthead-title small {
     display: none;
   }
 }
-
 
 /*
  * Sidebar
@@ -140,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 /* Style and "hide" the sidebar */
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -149,43 +156,54 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
+  font-size: 0.875rem;
+
+  /* 15px */
+  color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: 0.75rem;
+
+    /* 14px */
   }
 }
 
 /* Sidebar content */
+
 .sidebar a {
   font-weight: normal;
   color: #fff;
 }
+
 .sidebar-item {
   padding: 1rem;
 }
+
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }
 
 /* Sidebar nav */
+
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-color: transparent;
 }
 
@@ -193,43 +211,81 @@ a.sidebar-nav-item:focus {
   .sidebar-item {
     padding: 1.5rem;
   }
+
   .sidebar-nav-item {
-    padding-left:  1.5rem;
+    padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+
 .sidebar-checkbox {
   position: absolute;
   opacity: 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
+
 .sidebar-toggle {
   position: absolute;
-  top:  .8rem;
+  top: 0.8rem;
   left: 1rem;
   display: block;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   color: #505050;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
-.sidebar-toggle:before {
+.sidebar-toggle::before {
   display: inline-block;
   width: 1rem;
-  height: .75rem;
+  height: 0.75rem;
   content: "";
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:
+    -webkit-linear-gradient(
+      #555,
+      #555 20%,
+      #fff 20%,
+      #fff 40%,
+      #555 40%,
+      #555 60%,
+      #fff 60%,
+      #fff 80%,
+      #555 80%,
+      #555 100%
+    );
+  background-image:
+    -o-linear-gradient(
+      #555,
+      #555 20%,
+      #fff 20%,
+      #fff 40%,
+      #555 40%,
+      #555 60%,
+      #fff 60%,
+      #fff 80%,
+      #555 80%,
+      #555 100%
+    );
+  background-image:
+    linear-gradient(
+      #555,
+      #555 20%,
+      #fff 20%,
+      #fff 40%,
+      #555 40%,
+      #555 60%,
+      #fff 60%,
+      #fff 80%,
+      #555 80%,
+      #555 100%
+    );
 }
 
 .sidebar-toggle:active,
@@ -239,13 +295,48 @@ a.sidebar-nav-item:focus {
   background-color: #555;
 }
 
-.sidebar-toggle:active:before,
-#sidebar-checkbox:focus ~ .sidebar-toggle:before,
-#sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+.sidebar-toggle:active::before,
+#sidebar-checkbox:focus ~ .sidebar-toggle::before,
+#sidebar-checkbox:checked ~ .sidebar-toggle::before {
+  background-image:
+    -webkit-linear-gradient(
+      #fff,
+      #fff 20%,
+      #555 20%,
+      #555 40%,
+      #fff 40%,
+      #fff 60%,
+      #555 60%,
+      #555 80%,
+      #fff 80%,
+      #fff 100%
+    );
+  background-image:
+    -o-linear-gradient(
+      #fff,
+      #fff 20%,
+      #555 20%,
+      #555 40%,
+      #fff 40%,
+      #fff 60%,
+      #555 60%,
+      #555 80%,
+      #fff 80%,
+      #fff 100%
+    );
+  background-image:
+    linear-gradient(
+      #fff,
+      #fff 20%,
+      #555 20%,
+      #555 40%,
+      #fff 40%,
+      #fff 60%,
+      #555 60%,
+      #555 80%,
+      #fff 80%,
+      #fff 100%
+    );
 }
 
 @media (min-width: 30.1em) {
@@ -277,26 +368,27 @@ a.sidebar-nav-item:focus {
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 .wrap,
 .sidebar-toggle {
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 #sidebar-checkbox:checked + .sidebar {
   z-index: 10;
   visibility: visible;
 }
+
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+  -ms-transform: translateX(14rem);
+  transform: translateX(14rem);
 }
-
 
 /*
  * Posts and pages
@@ -310,50 +402,57 @@ a.sidebar-nav-item:focus {
 }
 
 /* Blog post or page title */
+
 .page-title,
 .post-title,
 .post-title a {
   font-size: 1.5rem;
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
 /* Meta data line below post title */
+
 .post-date {
-  display: inline-block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
 
 /* Related posts */
+
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
+
 .related-posts {
   padding-left: 0;
   list-style: none;
 }
+
 .related-posts h3 {
   margin-top: 0;
 }
+
 .related-posts li small {
   font-size: 75%;
   color: #999;
 }
+
 .related-posts li a:hover {
   color: #268bd2;
   text-decoration: none;
 }
+
 .related-posts li a:hover small {
   color: inherit;
 }
-
 
 /*
  * Pagination
@@ -363,7 +462,9 @@ a.sidebar-nav-item:focus {
  */
 
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: hidden;
+
+  /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -372,16 +473,19 @@ a.sidebar-nav-item:focus {
 }
 
 /* Pagination items can be `span`s or `a`s */
+
 .pagination-item {
   display: block;
   padding: 1rem;
   border: 1px solid #eee;
 }
+
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
 
 /* Only provide a hover state for linked pagination items */
+
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
@@ -390,18 +494,21 @@ a.pagination-item:hover {
   .pagination {
     margin: 3rem 0;
   }
+
   .pagination-item {
     float: left;
     width: 50%;
   }
+
   .pagination-item:first-child {
     margin-bottom: 0;
-    border-top-left-radius:    4px;
+    border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
+
   .pagination-item:last-child {
     margin-left: -1px;
-    border-top-right-radius:    4px;
+    border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
 }
@@ -417,6 +524,7 @@ a.pagination-item:hover {
   left: auto;
   right: -14rem;
 }
+
 .layout-reverse .sidebar-toggle {
   left: auto;
   right: 1rem;
@@ -426,10 +534,9 @@ a.pagination-item:hover {
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(-14rem);
-      -ms-transform: translateX(-14rem);
-          transform: translateX(-14rem);
+  -ms-transform: translateX(-14rem);
+  transform: translateX(-14rem);
 }
-
 
 /*
  * Themes
@@ -439,11 +546,13 @@ a.pagination-item:hover {
  */
 
 /* Red */
+
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
 .theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ac4142;
 }
+
 .theme-base-08 .container a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
@@ -451,11 +560,13 @@ a.pagination-item:hover {
 }
 
 /* Orange */
+
 .theme-base-09 .sidebar,
 .theme-base-09 .sidebar-toggle:active,
 .theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #d28445;
 }
+
 .theme-base-09 .container a,
 .theme-base-09 .sidebar-toggle,
 .theme-base-09 .related-posts li a:hover {
@@ -463,11 +574,13 @@ a.pagination-item:hover {
 }
 
 /* Yellow */
+
 .theme-base-0a .sidebar,
 .theme-base-0a .sidebar-toggle:active,
 .theme-base-0a #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #f4bf75;
 }
+
 .theme-base-0a .container a,
 .theme-base-0a .sidebar-toggle,
 .theme-base-0a .related-posts li a:hover {
@@ -475,11 +588,13 @@ a.pagination-item:hover {
 }
 
 /* Green */
+
 .theme-base-0b .sidebar,
 .theme-base-0b .sidebar-toggle:active,
 .theme-base-0b #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #90a959;
 }
+
 .theme-base-0b .container a,
 .theme-base-0b .sidebar-toggle,
 .theme-base-0b .related-posts li a:hover {
@@ -487,11 +602,13 @@ a.pagination-item:hover {
 }
 
 /* Cyan */
+
 .theme-base-0c .sidebar,
 .theme-base-0c .sidebar-toggle:active,
 .theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #75b5aa;
 }
+
 .theme-base-0c .container a,
 .theme-base-0c .sidebar-toggle,
 .theme-base-0c .related-posts li a:hover {
@@ -499,11 +616,13 @@ a.pagination-item:hover {
 }
 
 /* Blue */
+
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #6a9fb5;
 }
+
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
@@ -511,11 +630,13 @@ a.pagination-item:hover {
 }
 
 /* Magenta */
+
 .theme-base-0e .sidebar,
 .theme-base-0e .sidebar-toggle:active,
 .theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #aa759f;
 }
+
 .theme-base-0e .container a,
 .theme-base-0e .sidebar-toggle,
 .theme-base-0e .related-posts li a:hover {
@@ -523,11 +644,13 @@ a.pagination-item:hover {
 }
 
 /* Brown */
+
 .theme-base-0f .sidebar,
 .theme-base-0f .sidebar-toggle:active,
 .theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #8f5536;
 }
+
 .theme-base-0f .container a,
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
@@ -543,17 +666,20 @@ a.pagination-item:hover {
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
+
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
+  box-shadow: 0 0 0 0.25rem #fff;
 }
+
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Only one tweak for a reverse layout */
+
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: -0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }

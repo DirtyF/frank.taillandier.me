@@ -1,0 +1,25 @@
+{
+  "name": "frank.taillandier.me",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DirtyF/frank.taillandier.me.git"
+  },
+  "scripts": {
+    "lint": "stylelint _sass/**.scss --fix"
+  },
+  "author": "Frank Taillandier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DirtyF/frank.taillandier.me/issues"
+  },
+  "homepage": "https://github.com/DirtyF/frank.taillandier.me#readme",
+  "dependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  }
+}

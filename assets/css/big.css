@@ -1,64 +1,69 @@
 body {
-  font-family:'Helvetica';
-  letter-spacing:-5px;
-  background:#000;
-  background-size:100%;
-  color:#fff;
-  margin:0;
-  padding:0;
-  font-weight:bold;
+  background: #000;
+  background-size: 100%;
+  color: #fff;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  letter-spacing: -5px;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, p {
-  margin:0;
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
-em, a {
-  font-style:normal;
-  color:#8dbd0c;
+em,
+a {
+  color: #8dbd0c;
+  font-style: normal;
 }
 
 a {
-  background:#34d0e7;
-  color:#000;
-  text-decoration:none;
+  background: #34d0e7;
+  color: #000;
+  text-decoration: none;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 body > div {
-  cursor:pointer;
-  cursor:hand;
-  position:absolute;
-  top:0px;
-  left:0px;
-  padding:75px;
-  line-height:100%;
+  cursor: hand;
+  cursor: pointer;
+  left: 0;
+  line-height: 100%;
+  padding: 75px;
+  position: absolute;
+  top: 0;
 }
 
 div.center {
-  text-align:center;
+  text-align: center;
 }
 
 div.imageText {
-  text-shadow:0px 0px 5px rgba(0,0,0,0.2);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 notes {
-    display:none;
+  display: none;
 }
+
 /* normally not good, but ok in context of full screen directional navigation */
 :focus {
-    outline: 0;
+  outline: 0;
 }
 
 .small {
-  letter-spacing: normal;
-  position: absolute;
   bottom: 0;
-  right: 0;
+  letter-spacing: normal;
+  opacity: 0.25;
   padding: 1rem;
-  opacity: .25;
+  position: absolute;
+  right: 0;
 }
