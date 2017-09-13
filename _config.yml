@@ -18,6 +18,11 @@ kramdown:
 sass:
   style: compressed
 
+# Liquid
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
 # seo-tag
 logo: /assets/img/frank-taillandier.jpg
 twitter:
