@@ -69,3 +69,37 @@
   width: 100%;
   height: 100%;
 }
+
+/* Contact Form */
+
+.hidden {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.15)
+}
+
+.form-control,
+.btn {
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  border-radius:0.25rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #268bd2;
+  border: 1px solid transparent;
+  border-color: #268bd2;
+
+  &:hover {
+    background-color: darken(#268bd2, 5%);
+  }
+}

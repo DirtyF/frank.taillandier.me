@@ -22,7 +22,25 @@ J'ai contribué à créer [Sud Web](https://sudweb.fr) avec des gens que [j'aime
 
 J'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des meetups locaux.
 
-Vous pouvez [me contacter via Twitter](//twitter.com/{{ site.twitter.username }}).
+Vous pouvez me laisser un message via le formulaire ci-dessous ou [via Twitter](https://twitter.com/{{ site.twitter.username }}).
+
+<form class="contact" name="contact" netlify-honeypot="bot-field" action="/" netlify>
+  <div class="hidden">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </div>
+  <div class="form-group">
+    <label for="name">Nom : <input class="form-control" type="text" name="name"></label>
+  </div>
+  <div class="form-group">
+    <label for="email">Email : <input class="form-control" type="email" name="email"></label>
+  </div>
+  <div class="form-group">
+    <label for="message">Message : <textarea class="form-control" name="message"></textarea></label>
+  </div>
+  <div class="form-group">
+    <button class="btn" type="submit">Envoyer</button>
+  </div>
+</form>
 
 {% include sitemap.html %}
 
