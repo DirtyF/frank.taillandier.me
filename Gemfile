@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 # gem "gsl" not supported by Netlify
-gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
+gem "jekyll"
 
 group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-feed"
-  gem "jekyll-include-cache"
   gem "jekyll-github-metadata"
+  gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
   gem "jekyll-livereload"
   gem "jekyll-mentions"
