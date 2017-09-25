@@ -2,7 +2,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'self'; object-src 'self'; img-src 'self' https://gravatar.com data:; script-src 'unsafe-inline' *.cloudfront.net www.google-analytics.com; style-src 'self' 'unsafe-inline' *.cloudfront.net fonts.googleapis.com; font-src 'self' fonts.googleapis.com;
+  Content-Security-Policy: default-src 'self'; object-src 'self'; img-src 'self' *.cloudfront.net https://gravatar.com data:; script-src 'unsafe-inline' *.cloudfront.net www.google-analytics.com; style-src 'self' 'unsafe-inline' *.cloudfront.net fonts.googleapis.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com;
 /assets/*
   Cache-Control: public, max-age=360000
 
