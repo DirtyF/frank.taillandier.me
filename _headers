@@ -1,9 +1,9 @@
 /*
   X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block 1; report=https://taillandier.report-uri.io/r/default/xss/enforce
+  X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy: default-src 'self';object-src 'self';img-src 'self' cloudfront.net twimg.com twitter.com gravatar.com data:;script-src 'unsafe-inline' cloudfront.net speakerdeck.com twitter.com www.google-analytics.com;style-src 'self' 'unsafe-inline' cloudfront.net fonts.googleapis.com; child-src www.youtube.com; font-src 'self' data: fonts.gstatic.com;frame-src 'self' twitter.com vimeo.com youtube.com speakerdeck.com slideshare.net;report-uri https://franktaillandierme.report-uri.io/r/default/csp/reportOnly;
+  Content-Security-Policy-Report-Only: default-src 'self';object-src 'self';img-src 'self' *.cloudfront.net twimg.com twitter.com gravatar.com data:;script-src 'unsafe-inline' *.cloudfront.net speakerdeck.com twitter.com www.google-analytics.com;style-src 'self' 'unsafe-inline' *.cloudfront.net fonts.googleapis.com; child-src www.youtube.com; font-src 'self' data: fonts.gstatic.com;frame-src 'self' twitter.com vimeo.com youtube.com speakerdeck.com slideshare.net;report-uri https://franktaillandierme.report-uri.io/r/default/csp/enforce
 /assets/*
   Cache-Control: public, max-age=360000
 /feed.json
