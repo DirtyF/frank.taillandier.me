@@ -19,17 +19,16 @@ task :preview do
   require "launchy"
 
   Thread.new do
-    sleep 5
-    puts "Opening in browser..."
+    sleep 3
+    puts "Opening in browser…"
     Launchy.open("http://localhost:4000")
   end
 
   # Generate the site in server mode.
-  puts "Running Jekyll..."
+  puts "Generating the preview…."
   options = {
     "watch"       => true,
     "serving"     => true,
-    "lsi"         => false,
     "config"      => %w[_config.yml _config_local.yml]
   }
   Jekyll::Commands::Build.process(options)
