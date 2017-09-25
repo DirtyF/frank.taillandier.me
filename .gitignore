@@ -2,13 +2,18 @@
 _site
 .sass-cache
 .jekyll-metadata
+.rubocop.yml
 
 # Node
 node_modules
+package.json
+package-lock.json
 
 # Bundler
 Gemfile.lock
-tmp
+
+# Caddy
+Caddyfile
 
 # OSX
 .DS_Store
