@@ -8,11 +8,11 @@ pagination:
 <div class="posts">
   {% for post in site.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
     <span class="post-date">
        {% include_cached fr_date.html date=post.date %} &middot; Mis à jour le {% include_cached fr_date.html date=post.last_modified_at %} &middot;
     </span>
