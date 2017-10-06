@@ -250,7 +250,7 @@ Ce qu'il est important de retenir, c'est que cela permet à des personnes qui n'
 
 Il n'y a pas que dans les entreprises de logiciels, où les rédacteurs sont bien accompagnés par les équipes de développeurs, que ce genre de workflow est mis en place.
 
-[Certains éditeurs ont franchi le pas](http://blogs.getty.edu/iris/an-editors-view-of-digital-publishing/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en font un [workflow de travail](/2016/08/28/traitement-de-texte-multicanal/#4-un-processus-de-publication-moderne) idéal pour l'édition et la publication.
+[Certains éditeurs ont franchi le pas](https://jamstatic.fr/2017/01/23/produire-des-livres-avec-le-statique/) avec succès, car l'expérience d'écriture avec Markdown, l'apport du versionnement pour les relectures et les corrections de manuscrits alliés à la possibilité de générer facilement différents formats de fichiers pour les livres électroniques en font un [workflow de travail](/2016/08/28/traitement-de-texte-multicanal/#4-un-processus-de-publication-moderne) idéal pour l'édition et la publication.
 
 Ces processus de travail, les développeurs les connaissent de mieux en mieux, d'abord avec l'avènement de [Git](https://git-scm.com/book/fr/v2), créé il y a maintenant dix ans et la popularité grandissante de plates-formes de développement collaboratif comme GitHub, GitLab ou Bitbucket basées sur le versionnement de fichiers.
 
@@ -262,7 +262,7 @@ Tim a décidé de faire un cadeau à Paris Web en proposant un moteur de recherc
 
 Pas de backend, des données versionnées et stockées dans un format standard, une API de qualité, un générateur pour assembler le tout, on pousse tout ça gratuitement sur GitHub Pages et hop le tour est joué.
 
-Afin de mieux décrire ce genre de procédé, Mathias Biilmann le fondateur de Netlify, une plateforme d'hébergement et de déploiement automatisé de sites *statiques* a proposé le terme de [JAMStack](http://jamstack.org/fr/) lors d'une *Smashing Conf* à San Francisco. JAM pour **JavaScript, APIs and Markup**. Cet acronyme liste une partie des ingrédients de la recette qui permettent de générer des sites performants et sécurisés. Peu importe le nom qu'on lui donne, l'important c'est le résultat, ça booste. Alors est-ce si compliqué que cela ?
+Afin de mieux décrire ce genre de procédé, Mathias Biilmann le fondateur de Netlify, une plateforme d'hébergement et de déploiement automatisé de sites *statiques* a proposé le terme de [JAMStack]({% post_url 2016-05-21-la-JAMStack %}) lors d'une *Smashing Conf* à San Francisco. JAM pour **JavaScript, APIs and Markup**. Cet acronyme liste une partie des ingrédients de la recette qui permettent de générer des sites performants et sécurisés. Peu importe le nom qu'on lui donne, l'important c'est le résultat, ça booste. Alors est-ce si compliqué que cela ?
 
 Si l'on regarde la définition du mot **simple** dans le Larousse, on peut y lire :
 
@@ -276,9 +276,9 @@ Même si on ne développe pas de *Single Page App* comme Tim, l'adoption d'un wo
 
 Avoir le choix dans les outils, surtout quand ils sont aussi nombreux, c'est toujours un dilemme, mais en ce qui concerne les générateurs, le choix sera de toute façon influencé par votre expérience passée, l'écosystème que vous maîtrisez le mieux.
 
-Ne vous inquiétez pas on trouve des générateurs dans tous les langages : en Ruby, en JS, en Go, en Python et même en PHP - [désolé Brice](https://twitter.com/briceatwork/status/781770722846703616). Vous avez aussi pas mal de choix au niveau du système de *templating*, le mieux est encore d'aller trouver votre bonheur sur [StaticGen](https://www.staticgen.com/).
+Ne vous inquiétez pas on trouve des générateurs dans tous les langages : en Ruby, en JS, en Go, en Python et [même en PHP](https://twitter.com/briceatwork/status/781770722846703616). Vous avez aussi pas mal de choix au niveau du système de *templating*, le mieux est encore d'aller trouver votre bonheur sur [StaticGen](https://www.staticgen.com/).
 
-Vous pouvez commencer par identifier un *content-driven* projet comme un blog ou un site produit ou institutionnel. Vous pouvez aussi décider d'utiliser des générateurs dès la phase de prototypage comme le fait [Bertrand](http://bertrandkeller.info/). Il est important de ne laisser personne à la traine, de prendre le temps de former les designer web à comprendre la logique puis à utiliser des interfaces graphiques pour Git comme [GitKraken](https://www.gitkraken.com/) — qui a eu la très bonne idée d'ajouter un bouton *annuler*. Un petit CTRL-Z et c'est reparti. Quand on a le droit à l'erreur, ça fait toujours moins peur.
+Vous pouvez commencer par identifier un *content-driven* projet comme un blog ou un site produit ou institutionnel. Vous pouvez aussi décider d'utiliser des générateurs dès la phase de prototypage comme le fait [Bertrand](http://bertrandkeller.info/). Il est important de ne laisser personne à la traine, de prendre le temps de former les designer web à comprendre la logique puis à utiliser des interfaces graphiques pour Git comme [GitKraken](https://www.gitkraken.com/) — qui a eu la très bonne idée d'ajouter un bouton *annuler*. Un petit <kbd>CTRL-Z</kbd> et c'est reparti. Quand on a le droit à l'erreur, ça fait toujours moins peur.
 
 Ce qui compte avant tout c'est de **retrouver du plaisir et de la sérénité**. Dans son livre *[La vérité sur ce qui nous motive](https://www.amazon.fr/vérité-sur-qui-nous-motive/dp/208137952X/)*, Daniel Pink décrypte les trois éléments clés de la motivation : **l'autonomie**, **l'envie de progresser** dans son domaine pour devenir bon, de maîtriser son art et enfin la finalité et **le sens de notre action**.
 
@@ -314,7 +314,7 @@ Un grand merci à Bertrand Keller pour m'avoir incité à travailler sur cette c
 
 Le fait qu'il y ait eu d'autres conférences sur l'importance de l'accès aux données, sur les nouvelles APIs qui permettent de mieux gérer le cache navigateur, le déploiement continu, des ateliers JS et Git, fait que notre sujet s'insérait vraiment bien au milieu du programme.
 
-Je ne suis pas architecte logiciel, je ne prétend pas tout savoir sur ces sujets, simplement j'observe, j'expérimente et je tâche de comprendre comment améliorer nos façons de travailler.
+Je ne suis pas architecte logiciel, je ne prétend pas tout savoir sur ces sujets, simplement [j'observe](https://jamstatic.fr), j'expérimente et je tâche de comprendre comment améliorer nos façons de travailler.
 
 J'aurais adoré pouvoir échanger avec des gens comme [Bastien Jaillot](https://twitter.com/bastnic) sur ce type de sujet avant de préparer cette intervention, j'espère que nous en aurons l'occasion. En tout cas si vous êtes architecte logiciel et que vous souhaite partager votre vision, lâchez-vous. Pour le moment, j'ai l'impression qu'on se dirige vers un meilleur découplage des responsabilités, mais sans pour autant non plus tout passer en microservices ou en architecture [serverless](http://martinfowler.com/bliki/Serverless.html).
 
