@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "jekyll-tidy"
   gem "jekyll_reading_time"
   gem "jemoji"
 end

@@ -93,6 +93,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-tidy
   - jemoji
   # jekyll-paginate-v2
 
