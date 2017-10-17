@@ -113,7 +113,7 @@ Burger utilise un système de sonnerie. Quand un client passe une commande en
 caisse, la personne au comptoir vous tend un plateau sur lequel est posé un
 bipeur en échange du paiement.
 
-![promesse](https://cloud.githubusercontent.com/assets/4581495/22322842/ca748288-e36c-11e6-9ee5-dcac2edaf041.png)
+![promesse](/assets/img/2017/03/promise-burger-party-2.png)
 
 Le plateau est une *promesse* de la part du cabanon du Burger, ils y déposeront
 leur délicieux burger une fois qu'il sera prêt, le bipeur est un indicateur de
@@ -135,14 +135,14 @@ avec un bipeur). Une valeur en retour (un burger) devrait arriver sur votre
 plateau une fois que la promesse a été tenue et une fonction de callback est
 appelée. On va en parler plus en détail dans la prochaine partie !
 
-![code1](https://cloud.githubusercontent.com/assets/4581495/22364172/9663c05e-e43d-11e6-8824-234617eca8cd.png)
+![code1](/assets/img/2017/03/promise-burger-party-3.png)
 
 ## Ajout des gestionnaires de promesse
 
 On dirait que le bipeur sonne, allons au comptoir pour récupérer notre commande.
 Il y a deux scénarios possibles à ce moment là.
 
-![terminée](https://cloud.githubusercontent.com/assets/4581495/22322847/d7c06e98-e36c-11e6-9c40-3d76dc381357.png)
+![terminée](/assets/img/2017/03/promise-burger-party-4.png)
 
 ### 1. La commande est honorée
 
@@ -156,7 +156,7 @@ burger a été rejetée. Demandez à vous faire rembourser !
 
 Voici comment vous pourriez vous préparer à ces deux cas de figure dans le code.
 
-![then et catch](https://cloud.githubusercontent.com/assets/4581495/22364173/966f03a6-e43d-11e6-942c-95a2c191af3f.png)
+![then et catch](/assets/img/2017/03/promise-burger-party-5.png)
 
 `.then()` prend une autre fonction comme second argument qui peut être aussi
 utilisée pour gérer les refus. Pour faire simple, j'utilise juste `.catch()`
@@ -177,7 +177,7 @@ comptoir, la personne vous donne une autre plateau et un autre bipeur. Comme le
 milkshake est super rapide à préparer, le caissier vous donne aussi le
 milkshake. Pas la peine d'attendre que le bipeur sonne (il sonne déjà !).
 
-![nouvelle promesse](https://cloud.githubusercontent.com/assets/4581495/22322865/e95a7b58-e36c-11e6-9947-ed7505a92558.png)
+![nouvelle promesse](/assets/img/2017/03/promise-burger-party-6.png)
 
 Regardons comment ça fonctionne dans le code. Enchaîner une promesse est aussi
 simple que d'ajouter un autre `.then()` dans votre code. `.then()` retourne
@@ -185,7 +185,7 @@ toujours une promesse. Rappelez vous juste que chaque `.then()` vous retourne un
 plateau et un bipeur et qu'une vraie valeur de retour est passée en argument du
 callback.
 
-![enchaînement](https://cloud.githubusercontent.com/assets/4581495/22324122/5913c8d4-e375-11e6-8171-29f232dd0d0b.png)
+![enchaînement](/assets/img/2017/03/promise-burger-party-7.png)
 
 Maintenant que vous avez un burger et un milkshake, la fête du Burger peut
 commencer 🎉
