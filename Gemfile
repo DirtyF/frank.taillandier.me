@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
+  # "jekyll-paginate-v2"
   gem "classifier-reborn"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
@@ -13,7 +14,6 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-livereload"
   gem "jekyll-mentions"
-  # "jekyll-paginate-v2"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"

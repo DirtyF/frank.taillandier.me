@@ -12,7 +12,7 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-task :default => "preview"
+task default: "preview"
 
 desc "Generate and view the site locally"
 task :preview do
@@ -40,16 +40,16 @@ task :generate do
   require "jekyll"
   Jekyll::Commands::Build.process("profile" => true)
 end
-task :build => :generate
+task build: :generate
 
 # Usage: bundle exec rake test
 desc "Vérification des fichiers HTML"
-task :test => :build do
+task test: :build do
   HTMLProofer.check_directory(
     "./_site",
-    :empty_alt_ignore => true,
-    :disable_external => true,
-    :check_html       => true,
-    :parallel         => { :in_processes => 3 }
+    empty_alt_ignore: true,
+    disable_external: true,
+    check_html: true,
+    parallel: { in_processes: 3 }
   ).run
 end
