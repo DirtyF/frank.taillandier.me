@@ -5,6 +5,11 @@
 @import "syntax";
 @import "lanyon";
 
+.post a:hover {
+  text-decoration: none;
+  border-bottom: 0.1rem solid #268bd2;
+}
+
 .post-read-time {
   display: inline-block;
   margin-top: -0.5rem;
