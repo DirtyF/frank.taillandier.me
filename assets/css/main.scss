@@ -6,6 +6,27 @@
 @import "syntax";
 @import "lanyon";
 
+.skip-link {
+  /* Remove item from normal flow */
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.skip-link:not(:focus) {
+  /* Workaround for falsely pronounced, smushed text */
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  /* It seems like at the moment nobody is quite sure why margin: -1px is there. On top of that it seems to cause issues (see: https://github.com/h5bp/html5-boilerplate/issues/1985). */
+  margin: -1px;
+}
+
 .post a:hover {
   text-decoration: none;
   border-bottom: 0.1rem solid #268bd2;
