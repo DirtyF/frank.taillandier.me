@@ -10,7 +10,7 @@ pagination:
   <div class="post">
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
-        {{ post.title }}
+        {{ post.title | widont }}
       </a>
     </h2>
     <div class="post-meta">
