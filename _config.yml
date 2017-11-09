@@ -40,7 +40,7 @@ social:
 reading_time:
   words_per_minute: 180
   translations:
-    about:
+    about: environ
     minute: minute
     minutes: minutes
 

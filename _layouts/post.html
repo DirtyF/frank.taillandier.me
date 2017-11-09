@@ -4,12 +4,13 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">
-    {% include_cached fr_date.html date=page.date %} &middot; Mis à jour le {% include_cached fr_date.html date=page.last_modified_at %} &middot;
-  </span>
-  {% include_cached reading_time.html %}
+    <div class="post-meta">
+      <time class="dt-published" datetime="{{ page.date }}" itemprop="datePublished">{% include_cached fr_date.html date=page.date %}</time> &middot;
+      Mis à jour le <time datetime="{{ page.last_modified_at }}" itemprop="dateModified">{% include_cached fr_date.html date=page.last_modified_at %}</time> &middot;
+    {% include reading_time.html %}
+    </div>
 
-  {{ content }}
+    {{ content }}
 
   {% if page.source %}
   <p>
