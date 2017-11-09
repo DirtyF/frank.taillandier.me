@@ -1,6 +1,7 @@
 ---
 disallows:
   - /404.html
+  - /admin/index.html
 ---
 
 User-agent: *
