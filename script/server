@@ -2,8 +2,8 @@
 
 set -e
 
-echo "Starting server…"
-bundle exec jekyll serve --config  _config.yml,_config_local.yml
-
 echo "Cleaning up…"
 bundle exec jekyll clean
+
+echo "Starting server…"
+JEKYLL_GITHUB_TOKEN=$(cat ~/.token) bundle exec jekyll serve --config  _config.yml,_config_local.yml
