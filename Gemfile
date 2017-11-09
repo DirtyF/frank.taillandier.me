@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-livereload"
   gem "jekyll-mentions"
   # "jekyll-paginate-v2"
+  gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
