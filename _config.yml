@@ -51,7 +51,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
+      comments: false
       author: "Frank Taillandier"
 
 include:
