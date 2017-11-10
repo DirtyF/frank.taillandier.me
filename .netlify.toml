@@ -8,6 +8,7 @@ X-Frame-Options = "DENY"
 X-XSS-Protection = "1; mode=block"
 Link = '''
 </assets/css/main.css>; rel=preload; as=stylesheet
+</assets/js/analytics.js>; rel=preload; as=script
 </assets/js/autotrack.custom.js>; rel=preload; as=script
 </assets/js/anchor.min.js>; rel=preload; as=script
 </assets/js/turbolinks.js>; rel=preload; as=script'''
