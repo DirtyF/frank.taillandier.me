@@ -1,10 +1,9 @@
 ---
 title: La JAMstack
 description: >
-  La combinaison JavaScript, APIs et Markup (JAM) constitue une plateforme
-  technologique web moderne et performante.
+  JavaScript, APIs et Markup (JAM) constituent une stack technologique web moderne
+  et performante.
 image: /assets/img/2016/05/a-new-stack.png
-redirect_from: /2016/05/21/la-stack-jam/
 ---
 
 Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/),
@@ -110,7 +109,7 @@ raisons. Peu importe le nom qu'on lui donne, en publiant ce texte mon objectif
 est avant tout de souligner que le dynamique est bien présent dans ce qui encore
 trop souvent désigné par la seule appellation *statique*. Ces évolutions ont
 beaucoup d'impacts, notamment sur les compétences à développer au sein les
-équipes. 
+équipes.
 
 C'est une évolution et non une nouvelle mode, le résultat de l'évolution de tout
 un écosystème dont JavaScript est plus que jamais la pierre angulaire. Ce n'est

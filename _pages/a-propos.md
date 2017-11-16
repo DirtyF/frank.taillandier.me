@@ -64,7 +64,6 @@ Twitter](https://twitter.com/{{ site.twitter.username }}).
 </div>
 </form>
 
-
 {% include sitemap.html %}
 
 <p> Pour être informé des prochains articles, abonnez vous au <a href="{{
