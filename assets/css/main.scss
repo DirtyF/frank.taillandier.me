@@ -27,6 +27,12 @@
   margin: -1px;
 }
 
+.support {
+  display: inline-block;
+  vertical-align: sub;
+  height: 22px;
+}
+
 .post a {
   &:hover {
     text-decoration: none;
