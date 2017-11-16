@@ -219,6 +219,6 @@ suggestions de lecture pour aller plus loin :
   un didacticiel interactif en français
   (`npm install -g promise-it-wont-hurt && promise-it-wont-hurt -l fr`)
 * [promise-cookbook](https://github.com/mattdesl/promise-cookbook/blob/master/README.md)
-en anglais
+  en anglais
 * [JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
   en anglais

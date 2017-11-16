@@ -1,6 +1,6 @@
 ---
 title: Développer une culture de la sécurité psychologique
-description:
+description: >
   L'indicateur principal d'une équipe performante n'est pas le profil,
   l'ancienneté ou les niveaux de salaire. C'est la sécurité psychologique.
   Voici comme elle a été mise en place chez Intercom.

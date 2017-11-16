@@ -1,9 +1,9 @@
 ---
 title: Expliquer l'Agile
-description:
-  "Les trois lois de l'agilité : de petites équipes en auto-gestion, qui forment
+description: >
+  Les trois lois de l'agilité : de petites équipes en auto-gestion, qui forment
   un réseau organique, toutes focalisées sur la valeur supplémentaire apportée à
-  l'utilisateur final"
+  l'utilisateur final
 image: /assets/img/2017/04/agile-network-4-images.jpg
 source:
   title: Explaining Agile
@@ -325,8 +325,8 @@ Au cours des dernières décennies de nombreuses expériences ont été menées 
 de réduire la caractère statique de l'organisation, y compris des groupes de
 travail, des groupes dédiés à un projet, les départements stratégiques, les
 regroupements d'experts, les [Skunk
-Works](https://en.wikipedia.org/wiki/Skunk_Works), les départements de R&D, [les
-doubles systèmes](https://hbr.org/2012/11/accelerate), les entonnoirs de
+Works](https://en.wikipedia.org/wiki/Skunk_Works), les départements de R&amp;D,
+[les doubles systèmes](https://hbr.org/2012/11/accelerate), les entonnoirs de
 connaissance, le design thinking, etc. Mais ce n'était que des accommodements
 d'une seule et même conception de l'organisation, vue comme une usine statique
 qui doit rendre des comptes au niveau supérieur de la pyramide. Les grands chefs

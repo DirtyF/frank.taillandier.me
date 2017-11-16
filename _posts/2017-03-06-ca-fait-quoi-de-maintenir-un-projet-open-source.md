@@ -265,8 +265,7 @@ vous avez des [douzaines de projets](https://www.npmjs.com/~nolanlawson)
 répartis dans différents domaines, qui requièrent tous votre attention.
 
 Ce que vous aimeriez par dessus tout, c'est de ne plus avoir de projets qui
-demandent une attention constante. Vous avez essayé de suivre toutes les [bonnes
-pratiques](https://medium.freecodecamp.com/how-to-attract-new-contributors-to-your-open-source-project-46f8b791d787) :
+demandent une attention constante. Vous avez essayé de suivre toutes les [bonnes pratiques](https://medium.freecodecamp.com/how-to-attract-new-contributors-to-your-open-source-project-46f8b791d787) :
 vous avez un fichier `CONTRIBUTING.md`, un code de conduite, vous donnez les
 droits d'accès de manière enthousiaste à toute personne qui soumet une PR de
 qualité. C'est fastidieux à faire pour chaque projet, du coup vous n'êtes pas
@@ -369,11 +368,8 @@ d'un syndrome d'épuisement professionnel.
 ## Pensées finales
 
 Si vous m'avez lu jusqu'ici et que le fléau qui ronge les communautés open
-source vous intéresse, vous aurez peut-être envie d'aller jeter un œil à [“Roads
-and
-Bridges”](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure)
-de [Nadia Eghbal](https://twitter.com/nayafia). C'est à coup sur l'analyse la
-plus limpide et la plus poussée du problème.
+source vous intéresse, vous aurez peut-être envie d'aller jeter un œil à [“Roads and Bridges”](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure) de [Nadia Eghbal](https://twitter.com/nayafia).
+C'est à coup sur l'analyse la plus limpide et la plus poussée du problème.
 
 Je suis également ouvert aux suggestions, mais gardez bien en tête que je
 rechigne à mélanger l'argent et le travail sur des projets open source (pour des

@@ -1,6 +1,6 @@
 ---
 title: Sept ans de Sud Web
-description:
+description: >
   Ma lettre de résilience à Sud Web, une conférence super-humaine, dan
   laquelle je me suis impliqué corps et âme pendant sept ans.
 image: /assets/img/2017/05/amanda.jpg
