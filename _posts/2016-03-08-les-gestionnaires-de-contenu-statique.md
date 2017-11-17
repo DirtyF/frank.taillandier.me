@@ -24,7 +24,7 @@ avoir](http://www.nointerface.com/book/).
 
 Performance, sécurité, décentralisation, portabilité, autant d'excellentes
 raisons derrière l'adoption croissante de cette stack qui combine souvent
-[JavaScript, des APis et du Markup](/2016/05/21/la-jamstack/).
+[JavaScript, des APis et du Markup]({% post_url 2016-05-21-la-jamstack %}).
 
 Essayons de comprendre ce qui pourrait passer pour un retour en arrière aux yeux
 de certains, alors qu’il faut simplement y voir une évolution logique d’un
