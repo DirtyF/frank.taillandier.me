@@ -8,6 +8,7 @@ gem "jekyll"
 group :jekyll_plugins do
   # "jekyll-paginate-v2"
   gem "classifier-reborn"
+  gem "jekyll-algolia", git: "https://github.com/algolia/jekyll-algolia", branch: "develop"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
   gem "jekyll-include-cache"

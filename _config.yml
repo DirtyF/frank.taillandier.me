@@ -10,7 +10,6 @@ github:
 baseurl: ""
 permalink: pretty
 
-
 sass:
   style: compressed
 
@@ -126,3 +125,9 @@ pwa:
       strategy: networkFirst
     - route: "'/api/pic'"
       strategy: cacheFirst
+
+algolia:
+  application_id: '4J19YAI83V'
+  index_name: 'blog_index'
+  files_to_exclude:
+    - _pages/*.md
