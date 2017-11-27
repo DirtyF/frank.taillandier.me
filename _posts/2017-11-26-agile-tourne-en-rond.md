@@ -16,10 +16,10 @@ Rails](http://rubyonrails.org/), ainsi que pour la publication de livres majeurs
 comme [Getting Real](https://basecamp.com/books/getting-real),
 [Rework](https://basecamp.com/books/rework) et
 [Remote](https://basecamp.com/books/remote). C'est une des petites sociétés
-américaines à succès les plus saines en terme de management, qui privilégie une
-croissante lente et soutenue et qui favorise l'équilibre et le bien-être de ses
+américaines à succès les plus saines en terme de management. La société privilégie une
+croissante lente mais soutenue et qui favorise l'équilibre et le bien-être de ses
 salariés. Leur responsable de la stratégie produit partage au travers de cet
-article ce qui peut simplement paraître pour du bon sens aux yeux de certains,
+article ce qui pourrait simplement passer pour du bon sens aux yeux de certains,
 mais qui est malheureusement encore bien trop souvent oublié par les équipes et
 la direction, qui sous-estiment toujours la difficulté de concevoir un logiciel
 utile et performant. La confrontation au réel, la priorisation, la confiance, la
@@ -69,7 +69,7 @@ pour pouvoir livrer à temps et en bonne santé.
 Les concepteurs et les développeurs ne peuvent pas avancer si leur attention est
 constamment requise par d'autres personnes. Peu importe que le support ait
 trouvé une anomalie ou que le commercial ait besoin d'une nouvelle
-fonctionnalité. Allouer des ressources signifie dédier des ressources. Celui qui
+fonctionnalité. Allouer des ressources signifie **dédier** des ressources. Celui qui
 attribue du temps et de l'argent pour développer une fonctionnalité doit aussi
 protéger l'équipe pour qu'elle puisse faire ce qui lui est demandée. L'équipe
 fait *une* chose et *une seule* pendant le cycle.
@@ -82,7 +82,7 @@ le service des ventes et le produit, faites un choix pour ce cycle-là. Si vous
 n'avez pas assez d'effectifs, alterner les cycles entre chaque service.
 
 Seul le management peut être garant de l'attention. Dire à l'équipe de rester
-concentrée ne fonctionne que si la direction les aide dans cette tâche.
+concentrer ne fonctionne que si la direction les aide dans cette tâche.
 
 ### Des exigences modifiables
 
@@ -99,7 +99,7 @@ Chez Basecamp, nous démarrons chaque projet avec un concept de base. Nous
 versions* de notre idée est réalisable dans le temps alloué. Nous savons bien que
 le concept ne sera pas livré à 100%. Tout ne pourra pas être fait, mais les
 choses importantes le seront. Si nous ne sommes pas sûrs, nous mettrons autre
-chose dans le cycle à venir afin de pouvoir y revenir ultérieurement, une fois
+chose dans le cycle afin de pouvoir revenir ultérieurement sur la fonctionnalité, une fois
 que nous aurons suffisamment affiné le concept.
 
 Pour que les équipes puissent démarrer avec un concept de la sorte, vous devez
@@ -126,8 +126,8 @@ spécifiques d'implémentation du design.
 url="/assets/img/2017/11/esquisse.png"
 description="Une des esquisses de Jason pour l'équipe en charge du développement
 [des groupes de
-TODO](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc)
-L'équipe a finit par choisir de ne pas développer les boutons ajouter en dessous
+TODO](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc).
+L'équipe a finit par choisir de ne pas développer les boutons `ajouter` en dessous
 de chaque groupe." %}
 
 ### Stratégies progressives
@@ -159,7 +159,7 @@ teste sur un appareil, il se rend compte que ce n'est pas ce à quoi il
 s'attendait.
 
 La question la plus importante pour une équipe n'est pas "Que reste-t-il à faire ?"
-mais "Qu'est-ce qu'on ne sait pas encore ?" Voyez-vous tous les angles ?
+mais "Qu'est-ce qu'on ne sait pas encore ?" Avez-vous examiné tous les angles ?
 Avez-vous été là-bas et vu tout ce qui a besoin d'être modifié ? La seule
 manière d'en être sûr est de relever ses manches et d'aller se confronter à la
 réalité des problématiques.
@@ -187,7 +187,7 @@ Nous travaillons de manière informelle de la sorte depuis de nombreuses années
 en nous focalisant sur les inconnues et en nous y attaquant en priorité. Nous
 avons récemment formalisé cela avec le graphique de la colline. Une question que
 nous nous posons beaucoup ces temps-ci c'est "Où est-ce que cela se situe sur la
-colline ?"
+colline ?".
 
 Voici une capture d'écran de la fonctionnalité du projet de [recherche intégrée](https://m.signalvnoise.com/new-search-and-more-in-basecamp-3-2a34020be96)
 que nous avons livré en octobre.
@@ -207,18 +207,19 @@ To-Do](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc).
 
 {% include_cached figure.html
  url="/assets/img/2017/11/to-do-groups-october-graph.png"
- description="Étape finale" %}
+ description="Fin de la descente" %}
 
-### Livrer c'est l'affaire de tous
+### Livrer est l'affaire de tous
 
 Que les équipes travaillent en cycles ou non, ce n'est qu'une partie de
 l'histoire. Une équipe "agile" n'ira pas très loin si le management ne protège
 pas leur temps. Et si elle n'a pas la flexibilité de changer les contraintes
-pendant qu'elle apprend, c'est l'assurance de nuits courtes et de livraisons en
+pendant qu'elle apprend, c'est l'assurance de passer des nuits courtes et de livrer en
 retard.
 
-Les designers et les développeurs peuvent apprendre les stratégies en amont dans
-_Getting Real_, afin de gagner en assurance au lieu de se contenter de croiser
+Les designers et les développeurs peuvent apprendre les stratégies progressives dans
+[Getting
+Real](https://basecamp.com/books/getting-real), afin de gagner en assurance au lieu de se contenter de croiser
 les doigts. Celui qui définit les contraintes peut donner aux équipes l'espace
 nécessaire pour les contenir pendant la phase montante. Et les personnes qui
 allouent les ressources peuvent davantage se responsabiliser pour maintenir
