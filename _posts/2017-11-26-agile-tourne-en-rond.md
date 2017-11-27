@@ -11,7 +11,7 @@ source:
 
 [Basecamp](https://basecamp.com/about), anciennement 37 signals, est la société
 éditrice du logiciel de gestion de projet bien connu du même nom. Elle est
-également connue pour avoir initié développment du framework [Ruby on
+également connue pour avoir initié le développment du framework [Ruby on
 Rails](http://rubyonrails.org/), ainsi que pour la publication de livres majeurs
 comme [Getting Real](https://basecamp.com/books/getting-real),
 [Rework](https://basecamp.com/books/rework) et
