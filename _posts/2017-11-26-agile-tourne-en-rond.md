@@ -38,23 +38,26 @@ Les cycles c'est chouette. [Nous travaillons par itérations](https://m.signalvn
 
 ### Une allocation de ressources réfléchie
 
-Les concepteurs et les développeurs ne peuvent pas avancer si leur attention est constamment requise par d'autres personnes. Peu importe que le support ait trouvé une anomalie ou que le commercial ait besoin d'une nouvelle fonctionnalité. Allouer des ressources signifie **dédier** des ressources. Celui qui attribue du temps et de l'argent pour développer une fonctionnalité doit aussi protéger l'équipe pour qu'elle puisse faire ce qui lui est demandé. L'équipe fait *une* chose et *une seule* pendant le cycle.
+Les concepteurs et les développeurs ne peuvent pas avancer si leur attention est constamment requise par d'autres personnes. Peu importe que le support ait trouvé une anomalie ou que le commercial ait besoin d'une nouvelle fonctionnalité. Allouer des ressources signifie **dédier** des ressources. Celui qui attribue du temps et de l'argent pour développer une fonctionnalité doit aussi protéger l'équipe afin qu'elle puisse faire ce qui lui est demandé. L'équipe fait *une* chose et *une seule* pendant le cycle.
 
-Chez Basecamp, nous démarrons chaque cycle de travail avec une équipe de trois personnes : un designer et deux développeurs. Ils n'ont rien d'autre à faire que ce projet. Si vous sentez que vous devez corriger les anomalies dès qu'elles se produisent, alors dédiez des ressources pour cela. Si une tension existe entre le service des ventes et le produit, faites un choix pour ce cycle-là. Si vous n'avez pas assez d'effectifs, alternez les cycles entre chaque service.
+Si vous sentez que vous devez corriger les anomalies dès qu'elles se produisent, alors dédiez des ressources pour cela. Si une tension existe entre le service des ventes et le produit, faites un choix pour ce cycle-là. Si vous n'avez pas assez d'effectifs, alternez les cycles entre chaque service.
 
-Seul le management peut être garant de l'attention. Dire à l'équipe de rester concentrée ne fonctionne que si la direction les aide dans cette tâche.
+Ainsi, chez Basecamp, nous démarrons chaque cycle de travail avec une équipe de trois personnes : un designer et deux développeurs. Ils n'ont rien d'autre à faire que ce projet. 
+
+Notez que seul le management peut être garant de l'attention. Dire à l'équipe de rester concentrée ne fonctionne que si la direction les aide dans cette tâche.
 
 ### Des exigences modifiables
 
-Si une équipe respecte un cahier des charges, le travail par itération ne sert à rien. Le but du travail incrémental est de pouvoir changer de direction en cours de route. Définir le projet à l'avance oblige l'équipe à fonctionner en mode cascade. Si chaque petit détail du plan doit être respecté à la lettre, les équipes n'ont aucune marge de manœuvre lorsque quelque chose s'avère plus difficile que prévu, ou moins important que ce qu'on aurait pu croire, ou encore lorsque la confrontation avec la réalité contredit le plan établi.
+Lorsqu'une une équipe travaille en se basant sur un cahier des charges, le travail par itération ne sert à rien, le but du travail incrémental étant de pouvoir changer de direction en cours de route. Or, définir le projet à l’avance et dans les moindres détails oblige l’équipe à fonctionner en cycle en V. En se devant de respecter ces spécifications à la lettre, les équipes n’ont ainsi aucune marge de manœuvre lorsque quelque chose s’avère plus difficile ou moins important que prévu, ou encore lorsque la réalité contredit le plan établi.
 
-Chez Basecamp, nous démarrons chaque projet avec un concept de base. Nous étudions bien notre stratégie en amont de manière à nous assurer qu'*une des versions* de notre idée est réalisable dans le temps alloué. Nous savons bien que le concept ne sera pas livré à 100%. Tout ne pourra pas être fait, mais les choses importantes le seront. Si nous ne sommes pas sûrs, nous mettrons autre chose dans le cycle afin de pouvoir revenir ultérieurement sur la fonctionnalité une fois que nous aurons suffisamment affiné le concept.
+Chez Basecamp, nous démarrons chaque projet avec un concept de base. Nous étudions bien notre stratégie en amont de manière à nous assurer qu'**une des versions** de notre idée est réalisable dans le temps alloué. Nous savons bien que le concept ne sera pas livré à 100%. Tout ne pourra pas être fait, mais les choses importantes le seront. Si nous ne sommes pas sûrs, nous mettrons autre chose dans le cycle afin de pouvoir revenir ultérieurement sur la fonctionnalité une fois que nous aurons suffisamment affiné le concept.
 
-Pour que les équipes puissent démarrer avec un concept de la sorte, vous devez séparer l'essentiel du superflu. Séparer les choses qui sont vraiment primordiales de celles qui sont simplement "une idée qu'on a eu pour y parvenir".
+Pour que vos équipes puissent démarrer avec un concept de la sorte, vous devez séparer l'essentiel du superflu. Séparer les choses qui sont vraiment primordiales de celles qui sont simplement *"une idée qu'on a eu pour y parvenir"*.
 
 Une simple décision relative à l'interface utilisateur peut entrainer une semaine de travail inutile. Un développeur peut batailler avec la refactorisation d'une partie du code JavaScript pour ensuite s'apercevoir que ce point de détail n'était pas vraiment primordial pour le concept. Le designer avait simplement opté pour cette interaction sans avoir aucune idée du coût engendré.
 
-En pratique, cela veut dire qu'on donne le pouvoir aux équipes de redéfinir le périmètre. Certaines choses sont essentielles, d'autres non. L'équipe doit être capable de faire la différence et de faire les choix en fonction. Afin que ceci soit bien clair pour tout le monde, nous donnons aux équipes des esquisses sommaires dessinées à la main en début de cycle et passons plus de temps sur la définition des enjeux de cette fonctionnalité plutôt que sur les détails spécifiques d'implémentation du design.
+En pratique, cela veut dire qu'on donne le pouvoir aux équipes de redéfinir le périmètre. Certaines choses sont essentielles, d'autres non. L'équipe doit être capable de faire la différence et de faire les choix en fonction. 
+Afin que ceci soit bien clair pour tout le monde, nous donnons aux équipes des esquisses sommaires dessinées à la main en début de cycle et passons plus de temps sur la définition des enjeux de cette fonctionnalité plutôt que sur les détails spécifiques d'implémentation du design.
 
 {% include_cached figure.html url="/assets/img/2017/11/esquisse.png"
 description="Une des esquisses de Jason pour l'équipe en charge du développement
@@ -64,7 +67,7 @@ L'équipe a fini par choisir de ne pas développer les boutons `ajouter` en dess
 
 ### Stratégies progressives
 
-Les équipes qui suivent la _vélocité_ et les _points de story_ considèrent le développement comme un travail linéaire. Le développement logiciel n'a rien à voir avec le déplacement d'un tas de pierres.
+Les équipes qui suivent la _vélocité_ et les _points de story_ considèrent le développement comme un travail linéaire. Or, le développement logiciel n'a rien à voir avec le déplacement d'un tas de pierres.
 
 {% include_cached figure.html
  url="/assets/img/2017/11/deplacer-des-pierres.png"
