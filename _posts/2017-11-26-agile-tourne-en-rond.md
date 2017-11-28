@@ -190,7 +190,7 @@ Nous travaillons de manière informelle depuis de nombreuses années en nous
 focalisant sur les inconnues et en nous y attaquant en priorité. Nous avons
 récemment formalisé cela avec le *graphique de la colline*. Une question que nous
 nous posons beaucoup ces temps-ci est <q>Où est-ce que cela se situe sur la
-colline&nbsp;?<q>.
+colline&nbsp;?</q>.
 
 Voici une capture d'écran de la fonctionnalité du projet de [recherche
 intégrée](https://m.signalvnoise.com/new-search-and-more-in-basecamp-3-2a34020be96)
