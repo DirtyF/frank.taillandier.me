@@ -73,7 +73,7 @@ Les concepteurs et les développeurs n'avanceront pas dans leurs tâches si leur
 attention est constamment requise par d'autres personnes. Peu importe que le
 support ait trouvé une anomalie ou que le commercial ait besoin d'une nouvelle
 fonctionnalité. Allouer des ressources signifie **dédier** des ressources. Les
-personnes responsable de l'attribution du temps et de l'argent pour développer
+personnes responsables de l'attribution du temps et de l'argent pour développer
 une fonctionnalité doivent également protéger l'équipe afin qu'elle puisse faire ce
 qui lui est demandé. L'équipe fait *une* chose et *une seule* pendant le cycle.
 
