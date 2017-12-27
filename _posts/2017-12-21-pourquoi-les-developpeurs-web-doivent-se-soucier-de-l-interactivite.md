@@ -33,7 +33,7 @@ C'est pour cela que dans cet article, nous allons voir en détail ce que veut di
 
 Pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action utilisateur. Que ce soit quand une personne clique sur un lien, tapote sur un composant d'interface personnalisé ou fasse simplement défiler du contenu, si la page peut répondre rapidement (d'une façon qui paraisse plus ou moins "instantanée" pour la personne) alors on peut dire que la page est interactive.
 
-Je pense que généralement la plupart des développeurs comprennent ce principe. Mais je pense que la plupart ne comprennent **pas** toujours **les raisons** pour lesquelles une page n'est pas interactive, et c'est  là un problème bien plus grave.
+Je pense que généralement la plupart des développeurs comprennent ce principe. Mais je pense que la plupart ne comprennent **pas** toujours **les raisons** pour lesquelles une page n'est pas interactive, et c'est là un problème bien plus grave.
 
 Il y a essentiellement seulement deux raisons pour lesquelles une page ne serait pas en mesure de répondre rapidement à l'action d'un utilisateur (si l'on excepte les erreurs JS et les autres anomalies manifestes) :
 
@@ -128,7 +128,7 @@ Pour voir un processus principal bloqué en action, cliquez sur le bouton ci-des
 
 ### Ce qui bloque le processus principal
 
-Vous pourriez penser: _OK, mais mon code n'exécute pas une boucle `while` pendant 10 seconde; ai-je vraiment besoin de me préoccuper de cela ?_
+Vous pourriez penser: _OK, mais mon code n'exécute pas une boucle `while` pendant 10 secondes; ai-je vraiment besoin de me préoccuper de cela ?_
 
 Malheureusement le réponse est oui. Il est beaucoup plus simple pour des pages de bloquer le processus principal qu'on pourrait le penser. En réalité, le simple fait de charger du JavaScript va bloquer le processus principal pendant que le navigateur analyse et compile le code.[^3]
 
@@ -140,7 +140,7 @@ C'est particulièrement vrai si vous utilisez un framework web ou une bibliothè
 
 Un point important à bien comprendre ce que ce n'est pas nécessairement _la quantité de code_ que vous allez lancer qui compte, c'est _la manière_ dont vous le lancer.
 
-Par exemple, si vous avez 1000 fonctions que prennent chacune 1&#8239;ms à se lancer et que vous les lancez de manière séquentielle dans la même pile d'appel, elles vont bloquer le processus principal pendant 1 seconde. Mais si vous découpez l'exécution de ces fonctions en plusieurs tâches distinctes et asynchrones (ou que vous utilisez quand c'est possible [`requestIdleCallback`](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)), cela prendra peut-être plus de temps mais ça ne bloquera pas le processus principal. Le navigateur sera capable d'interagir entre les appels et de répondre aux entrées utilisateur.
+Par exemple, si vous avez 1000 fonctions qui prennent chacunes 1&#8239;ms à se lancer et que vous les lancez de manière séquentielle dans la même pile d'appel, elles vont bloquer le processus principal pendant 1 seconde. Mais si vous découpez l'exécution de ces fonctions en plusieurs tâches distinctes et asynchrones (ou que vous utilisez quand c'est possible [`requestIdleCallback`](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)), cela prendra peut-être plus de temps mais ça ne bloquera pas le processus principal. Le navigateur sera capable d'interagir entre les appels et de répondre aux entrées utilisateur.
 
 Cette stratégie est parfaitement employée dans les récents changements architecturaux de React (alias [fiber](https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/)). Pour citer le billet de publication du [billet annonçant la sortie de React 16](https://reactjs.org/blog/2017/09/26/react-v16.0.html#new-core-architecture):
 
@@ -263,7 +263,7 @@ new PerformanceObserver(sendLongTaskDataToAnalytics).observe({
 
 Ces données vous permettront d'avoir connaissance de toutes les fois où le processus principal n'est pas totalement interactif. Elles vous indiqueront également quelles sont les frames du document (via la propriété [attribution](https://w3c.github.io/longtasks/#sec-TaskAttributionTiming)) qui génèrent les tâches longues, ce qui sera particulièrement utile pour déterminer si des publicités ou des widgets issus de tierces parties contribuent à de mauvaises expériences sur votre site.
 
-Si vous voulez savoir comment traquer les métriques relatives à l'expérience utilisateur dans votre code, j'en ai parlé en détail dans [cette présentation lors de Google I/O](https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics). Et si vous recherchez des conseils pour traquer proprement les choses avec Google Analytics, vous pouvez vous référer à mon article [La configuration Google analytics que je mets en place sur tous les sites que je développe](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/).
+Si vous voulez savoir comment traquer les métriques relatives à l'expérience utilisateur dans votre code, j'en ai parlé en détail dans [cette présentation lors de Google I/O](https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics). Et si vous recherchez des conseils pour traquer proprement les choses avec Google Analytics, vous pouvez vous référer à mon article [_la configuration Google Analytics que je mets en place sur tous les sites que je développe_](https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/).
 
 ## Pourquoi l'interactivité est-t-elle si importante ?
 
@@ -277,7 +277,7 @@ La réponse qu'ils reçurent communément fut :
 
 _Oh, je n'avais pas compris que c'était la publicité qui ralentissait la page. Je pensais que c'était la page elle-même vu que la plupart des pages web sont lentes sur les téléphones._
 
-Quand j'ai appris ça, ça m'a plutôt attristé, mais cela souligne aussi à quel point le problème est immense. Puisque nous les développeurs, nous n'avons pas fait de l'interactivité une priorité, les gens en sont venus à s'attendre à ce que les choses soient lentes par défaut. C'est encore pire quand le coupable est un script de tierce partie et que c'est le site en lui même qui en est quand même tenu responsable.
+Quand j'ai appris ça, ça m'a plutôt attristé, mais cela souligne aussi à quel point le problème est immense. Puisque nous les développeurs, nous n'avons pas fait de l'interactivité une priorité, les gens en sont venus à s'attendre à ce que les choses soient lentes par défaut. C'est encore pire quand le coupable est un script de tierce partie et que c'est le site en lui-même qui en est quand même tenu responsable.
 
 Donc c'est à nous les développeurs de tenir les tierces parties pour responsables de leur mauvais comportement. C'est notre responsabilité puisque cela affecte l'expérience de nos clients et leur opinion sur notre plate-forme.
 
