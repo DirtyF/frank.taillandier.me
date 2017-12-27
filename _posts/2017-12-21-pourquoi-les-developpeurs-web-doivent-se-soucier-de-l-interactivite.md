@@ -46,7 +46,7 @@ La deuxième raison est complexe et souvent négligée, et c'est principalement 
 
 ### Quand le processus principal du navigateur est déjà occupé
 
-Bien qu'on entende souvent les gens dire que les navigateurs savent faire tourner _plusieurs processus en parallèle_(ce qui est vrai jusqu'à un certain point), la réalité c'est qu'une grande partie des tâches d'un navigateur doit être lancée dans le même processus (souvent appelé "processus principal" ou "processus de l'interface graphique").
+Bien qu'on entende souvent les gens dire que les navigateurs savent faire tourner _plusieurs processus en parallèle_ (ce qui est vrai jusqu'à un certain point), la réalité c'est qu'une grande partie des tâches d'un navigateur doit être lancée dans le même processus (souvent appelé "processus principal" ou "processus de l'interface graphique").
 
 Sans trop nous plonger dans les rouages internes des navigateurs (tels que les [tâches](https://html.spec.whatwg.org/#queue-a-task), [les files d'attente de tâches](https://html.spec.whatwg.org/#task-queue), et [la boucle évènementielle](https://html.spec.whatwg.org/#event-loop)[^1]), l'important est de comprendre qu'il y a beaucoup de situations où le navigateur veut exécuter du code (comme déclencher un évènement en réponse à un clic de l'utilisateur), mais qu'il ne peut pas car il doit attendre la fin de l'exécution d'une autre fonction. On dit alors que le processus principal est "occupé" ou "bloqué".
 
@@ -79,7 +79,7 @@ Pour voir un processus principal bloqué en action, cliquez sur le bouton ci-des
 <div class="Demo">
   <p>
     <button class="btn" id="block-main-thread-demo">
-      Bloquer le processus principal
+      Bloquer le processus principal (pendant 10 secondes)
     </button>
   </p>
   <table>
@@ -140,7 +140,7 @@ C'est particulièrement vrai si vous utilisez un framework web ou une bibliothè
 
 Un point important à bien comprendre ce que ce n'est pas nécessairement _la quantité de code_ que vous allez lancer qui compte, c'est _la manière_ dont vous le lancer.
 
-Par exemple, si vous avez 1000 fonctions que prennent chacune 1ms à se lancer et que vous les lancez de manière séquentielle dans la même pile d'appel, elles vont bloquer le processus principal pendant 1 seconde. Mais si vous découpez l'exécution de ces fonctions en plusieurs tâches distinctes et asynchrones (ou que vous utilisez quand c'est possible [`requestIdleCallback`](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)), cela prendra peut-être plus de temps mais ça ne bloquera pas le processus principal. Le navigateur sera capable d'interagir entre les appels et de répondre aux entrées utilisateur.
+Par exemple, si vous avez 1000 fonctions que prennent chacune 1&#8239;ms à se lancer et que vous les lancez de manière séquentielle dans la même pile d'appel, elles vont bloquer le processus principal pendant 1 seconde. Mais si vous découpez l'exécution de ces fonctions en plusieurs tâches distinctes et asynchrones (ou que vous utilisez quand c'est possible [`requestIdleCallback`](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)), cela prendra peut-être plus de temps mais ça ne bloquera pas le processus principal. Le navigateur sera capable d'interagir entre les appels et de répondre aux entrées utilisateur.
 
 Cette stratégie est parfaitement employée dans les récents changements architecturaux de React (alias [fiber](https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/)). Pour citer le billet de publication du [billet annonçant la sortie de React 16](https://reactjs.org/blog/2017/09/26/react-v16.0.html#new-core-architecture):
 
@@ -160,11 +160,11 @@ Mais c'est faux ! Comme je l'ai déjà dit plus haut, quand vous bloquez le proc
 
 Le problème délicat avec l'interactivité c'est qu'une même page peut très bien être interactive pour une personne (qui utilise un ordinateur de bureau rapide) mais pas du tout réactive pour une autre (qui utilise un téléphone d'entrée de gamme). En tant que développeurs, il est important de bien comprendre cela et de bien mesurer l'interactivité sur les appareils similaires à ceux utilisés par nos utilisateurs dans la vraie vie.
 
-J'ai dit plus tôt que pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action declenchée par un utilisateur. La plupart des définitions actuelles de l'interactivité définissent "rapidement" à l'aide de la recommandation du [modèle RAIL](https://developers.google.com/web/fundamentals/performance/rail) au sujet de la réactivité, qui la situe sous les 100ms.
+J'ai dit plus tôt que pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action declenchée par un utilisateur. La plupart des définitions actuelles de l'interactivité définissent "rapidement" à l'aide de la recommandation du [modèle RAIL](https://developers.google.com/web/fundamentals/performance/rail) au sujet de la réactivité, qui la situe sous les 100&#8239;ms.
 
-J'ai aussi mentionné le fait que le première cause de non réactivité d'une interface ce sont les tâches qui bloquent le processus principal. Afin de vous assurer de répondre à une action utilisateur en moins de 100ms, il est crucial qu'aucune tâche ne tourne pendant plus de 50ms. Pour la bonne raison que si l'action se produit pendant une autre tâche et que l'écoute de l'action elle-même (de sa propre tâche) prend également du temps pour s'exécuter, alors ces deux tâches devront se terminer en moins de 100ms pour que l'interaction paraisse instantanée pour l'utilisateur.
+J'ai aussi mentionné le fait que le première cause de non réactivité d'une interface ce sont les tâches qui bloquent le processus principal. Afin de vous assurer de répondre à une action utilisateur en moins de 100&#8239;ms, il est crucial qu'aucune tâche ne tourne pendant plus de 50&#8239;ms. Pour la bonne raison que si l'action se produit pendant une autre tâche et que l'écoute de l'action elle-même (de sa propre tâche) prend également du temps pour s'exécuter, alors ces deux tâches devront se terminer en moins de 100&#8239;ms pour que l'interaction paraisse instantanée pour l'utilisateur.
 
-Pour rendre-compte de tout cela, les outils et APIs qui mesurent l'interactivité considéreront qu'une page est interactive si elle ne fait tourner aucune tâche pendant plus de 50ms sur une période donnée.
+Pour rendre-compte de tout cela, les outils et APIs qui mesurent l'interactivité considéreront qu'une page est interactive si elle ne fait tourner aucune tâche pendant plus de 50&#8239;ms sur une période donnée.
 
 Pour savoir si votre propre site est interactif, il y a généralement deux approches :
 
@@ -207,7 +207,7 @@ Et Lighthouse vous attribue un score pour [l'estimation de la latence d'action](
 
 Attention, c'est une "estimation de la latence d'action" car c'est une simulation en laboratoire; aucun utilisateur n'est vraiment en train d'interagir avec la page, c'est simplement une mesure de probabilité.
 
-Si vous voulez mesurer la _véritable_ latence d'action (faire une mesure réelle de l'utilisation), vous pouvez utiliser des outils d'analyse comme Google Analytics. Par exemple, si votre site a un bouton de menu actionnable, vous pourriez vouloir savoir toutes les fois où cela prend plus de 50ms pour que le code de l'écouteur d'évènement se lance (à partir du moment où l'utilisateur clique). Le code pour faire ça ressemble à quelque chose comme :
+Si vous voulez mesurer la _véritable_ latence d'action (faire une mesure réelle de l'utilisation), vous pouvez utiliser des outils d'analyse comme Google Analytics. Par exemple, si votre site a un bouton de menu actionnable, vous pourriez vouloir savoir toutes les fois où cela prend plus de 50&#8239;ms pour que le code de l'écouteur d'évènement se lance (à partir du moment où l'utilisateur clique). Le code pour faire ça ressemble à quelque chose comme :
 
 ```js
 const menuToggleBtn = document.querySelector('#menu-toggle');
@@ -217,7 +217,7 @@ menuToggleBtn.addEventListener('click', (event) => {
   // Puis mesurez quand cela fini de s'exécuter.
   const latency = performance.now() - event.timeStamp;
 
-  // Si ça prend plus de 50ms, notez le dans Google Analytics.
+  // Si ça prend plus de 50 ms, notez le dans Google Analytics.
   if (latency > 50) {
     // En présupposant que requestIdleCallback(ou un shim) soit supporté.
     requestIdleCallback(() => {
@@ -233,11 +233,11 @@ menuToggleBtn.addEventListener('click', (event) => {
 });
 ```
 
-Ce code tire parti du fait que la méthode `event.timeStamp` donne le temps écoulé jusqu'à ce que le système d'exploitation reçoive effectivement le clic tandis que `performance.now()`(appelé dans l'écoute d'un évènement) donne le temps d'exécution réel du code.
+Ce code tire parti du fait que la méthode `event.timeStamp` donne le temps écoulé jusqu'à ce que le système d'exploitation reçoive effectivement le clic tandis que `performance.now()` (appelé dans l'écoute d'un évènement) donne le temps d'exécution réel du code.
 
 Bien qu'il soit possible d'ajouter ce genre de code à tous les boutons de votre site, je vous recommande de commencer par les composants les plus critiques de l'interface utilisateur, puis de continuer avec d'autres composants par la suite.
 
-Vous pouvez aussi mesurer l'interactivité générale avec de vraies données utilisateurs grâce à la nouvelle [API Long Tasks](https://w3c.github.io/longtasks/), qui, en conjonction avec [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), peut vous indiquer toutes les fois où une tâche bloque le processus principal pendant plus de 50ms. Le code pour pister cela dans Google Analytics ressemble à ça :
+Vous pouvez aussi mesurer l'interactivité générale avec de vraies données utilisateurs grâce à la nouvelle [API Long Tasks](https://w3c.github.io/longtasks/), qui, en conjonction avec [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), peut vous indiquer toutes les fois où une tâche bloque le processus principal pendant plus de 50&#8239;ms. Le code pour pister cela dans Google Analytics ressemble à ça :
 
 ```js
 // Définition d'un callback qui envoie les données sur les tâches longues à Google Analytics.
