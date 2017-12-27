@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-livereload"
   gem "jekyll-mentions"
+  gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
