@@ -19,26 +19,26 @@ Si vous avez déjà parcouru le web sur votre téléphone, vous avez forcément 
 * _Vous cliquez à nouveau dessus — mais toujours rien._
 * _Vous cliquez ailleurs — non plus, toujours rien._
 
-C'est déjà une expérience assez frustrante en soi, mais souvent ça ne s'arrête pas là. Généralement voici ce qui se passe ensuite :
+C'est une expérience assez frustrante en soi, mais souvent ça ne s'arrête pas là. Généralement, voici ce qui se passe ensuite :
 
 _Vous commencez à cliquer un peu partout pour vous assurer que **quelque chose** répond encore, que votre téléphone est bien en état de marche — et soudain une série d'actions s'exécutent en même temps, vous vous retrouvez sur une page complètement différente et vous n'avez aucune idée de la façon dont vous êtes arrivé là._
 
 Si ça vous rappelle quelque chose, c'est que vous avez fait l'expérience de l'opposé de l'interactivité sur le web. Mais qu'entend-t-on exactement par "interactivité" ?
 
-J'imagine que la majorité des personnes qui lisent cet article savent probablement ce que le *mot* "interactivité" signifie en règle générale. Le problème, c'est que depuis quelques années, ce mot a revêtu une nouvelle signification technique (comme par exemple dans la métrique qui mesure le temps qui s'écoule avec de pouvoir interagir avec la page ou [<abbr aria-label="Time To Interact">TTI</abbr>](https://www.dareboost.com/fr/glossary) en anglais) mais malheureusement les spécificités de cette signification sont rarement explicitées.
+J'imagine que la majorité des personnes qui lit cet article sait probablement ce que le *mot* "interactivité" signifie en règle générale. Le problème c'est que, depuis quelques années, ce mot a revêtu une nouvelle signification technique (comme par exemple dans la métrique qui mesure le temps qui s'écoule avant de pouvoir interagir avec la page ou [<abbr aria-label="Time To Interact">TTI</abbr>](https://www.dareboost.com/fr/glossary) en anglais) mais malheureusement les spécificités de cette signification sont rarement explicitées.
 
-C'est pour cela que dans cet article, nous allons voir en détail ce que veut dire interactivité sur le web. Après tout c'est une des choses les plus importantes dont les développeurs devraient se soucier.
+C'est pour cela que dans cet article, nous allons voir en détail ce que veut dire interactivité sur le web. Après tout, c'est une des choses les plus importantes dont les développeurs devraient se soucier.
 
 ## Interactivité sur le web
 
-Pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action utilisateur. Que ce soit quand une personne clique sur un lien, tapote sur un composant d'interface personnalisé ou fasse simplement défiler du contenu, si la page peut répondre rapidement (d'une façon qui paraisse plus ou moins "instantanée" pour la personne) alors on peut dire que la page est interactive.
+Pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action de l'utilisateur. Que ce soit quand une personne clique sur un lien, tapote sur un composant d'interface personnalisé ou fasse simplement défiler du contenu, si la page peut répondre rapidement (d'une façon qui paraisse plus ou moins "instantanée" pour la personne), alors on peut dire que la page est interactive.
 
 Je pense que généralement la plupart des développeurs comprennent ce principe. Mais je pense que la plupart ne comprennent **pas** toujours **les raisons** pour lesquelles une page n'est pas interactive, et c'est là un problème bien plus grave.
 
 Il y a essentiellement seulement deux raisons pour lesquelles une page ne serait pas en mesure de répondre rapidement à l'action d'un utilisateur (si l'on excepte les erreurs JS et les autres anomalies manifestes) :
 
-1. La page n'a pas fini de charger le code JavaScript nécessaire pour contrôler son DOM.
-2. Le processus principal du navigateur est occupé à faire autre chose.
+1. la page n'a pas fini de charger le code JavaScript nécessaire pour contrôler son DOM ;
+2. le processus principal du navigateur est occupé à faire autre chose.
 
 La première raison est importante et a déjà été débattue par beaucoup de gens dans la communauté, je ne vois pas grand intérêt à là répéter  ici (cette [vidéo de 5 minutes](https://youtu.be/RAhYnK0v3rk) résume très bien la problématique si elle vous intéresse).
 
@@ -46,7 +46,7 @@ La deuxième raison est complexe et souvent négligée, et c'est principalement 
 
 ### Quand le processus principal du navigateur est déjà occupé
 
-Bien qu'on entende souvent les gens dire que les navigateurs savent faire tourner _plusieurs processus en parallèle_ (ce qui est vrai jusqu'à un certain point), la réalité c'est qu'une grande partie des tâches d'un navigateur doit être lancée dans le même processus (souvent appelé "processus principal" ou "processus de l'interface graphique").
+Bien qu'on entende souvent les gens dire que les navigateurs savent faire tourner _plusieurs processus en parallèle_ (ce qui est vrai jusqu'à un certain point), la réalité est qu'une grande partie des tâches d'un navigateur doit être lancée dans le même processus (souvent appelé "processus principal" ou "processus de l'interface graphique").
 
 Sans trop nous plonger dans les rouages internes des navigateurs (tels que les [tâches](https://html.spec.whatwg.org/#queue-a-task), [les files d'attente de tâches](https://html.spec.whatwg.org/#task-queue), et [la boucle évènementielle](https://html.spec.whatwg.org/#event-loop)[^1]), l'important est de comprendre qu'il y a beaucoup de situations où le navigateur veut exécuter du code (comme déclencher un évènement en réponse à un clic de l'utilisateur), mais qu'il ne peut pas car il doit attendre la fin de l'exécution d'une autre fonction. On dit alors que le processus principal est "occupé" ou "bloqué".
 
@@ -138,7 +138,7 @@ En plus de l'analyse et de la compilation, exécuter du JavaScript bloque aussi 
 
 C'est particulièrement vrai si vous utilisez un framework web ou une bibliothèque de DOM virtuel qui gère un nouveau rendu de composant après un changement d'état. Beaucoup de ces bibliothèques définissent des méthodes de cycle de vie d'un composant qui sont toutes lancées de manière synchrone à chaque fois qu'il y a un changement. Pour une application qui embarque beaucoup de composants, cela peut facilement représenter des milliers d'appels de fonction.
 
-Un point important à bien comprendre ce que ce n'est pas nécessairement _la quantité de code_ que vous allez lancer qui compte, c'est _la manière_ dont vous le lancer.
+Un point important à bien comprendre, c'est que ce n'est pas nécessairement _la quantité de code_ que vous allez lancer qui compte, c'est _la manière_ dont vous le lancez.
 
 Par exemple, si vous avez 1000 fonctions qui prennent chacunes 1&#8239;ms à se lancer et que vous les lancez de manière séquentielle dans la même pile d'appel, elles vont bloquer le processus principal pendant 1 seconde. Mais si vous découpez l'exécution de ces fonctions en plusieurs tâches distinctes et asynchrones (ou que vous utilisez quand c'est possible [`requestIdleCallback`](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)), cela prendra peut-être plus de temps mais ça ne bloquera pas le processus principal. Le navigateur sera capable d'interagir entre les appels et de répondre aux entrées utilisateur.
 
@@ -148,13 +148,13 @@ Cette stratégie est parfaitement employée dans les récents changements archit
 
 Enfin, je m'en voudrais de ne pas mentionner ce qui est peut-être la plus grande cause de non-interactivité sur le web : les publicités et les widgets issus de tierces parties — qui exécutent souvent une quantité bien trop importante de code et accèdent fréquemment aux propriétés du document principal, affectant ainsi des tâches supplémentaires au processus principal.
 
-On retrouve généralement ces publicités et ces widgets issus de tierces parties sur des sites de contenu plutôt que sur des sites "applicatifs", ce qui soulève un autre sujet important…
+On retrouve généralement ces publicités et ces widgets issus de tierces parties sur des sites de contenus plutôt que sur des sites "applicatifs", ce qui soulève un autre sujet important…
 
-### Les sites applicatifs face aux sites de contenu
+### Les sites applicatifs face aux sites de contenus
 
-J'entends beaucoup de gens dire des choses comme : _je m'occupe d'un site de contenu, pas d'une application, donc je n'ai pas vraiment besoin de me soucier de l'interactivité._
+J'entends beaucoup de gens dire des choses comme : _je m'occupe d'un site de contenus, pas d'une application, donc je n'ai pas vraiment besoin de me soucier de l'interactivité._
 
-Mais c'est faux ! Comme je l'ai déjà dit plus haut, quand vous bloquez le processus principal vous empêchez les utilisateurs de cliquer sur des liens ou de sélectionner du texte; et dans certains cas vous pouvez même les empêcher de faire défiler la page ! Ce sont des choses dont doivent se préoccuper les sites de contenu.
+Mais c'est faux ! Comme je l'ai déjà dit plus haut, quand vous bloquez le processus principal vous empêchez les utilisateurs de cliquer sur des liens ou de sélectionner du texte ; et dans certains cas vous pouvez même les empêcher de faire défiler la page ! Ce sont des choses dont doivent se préoccuper les sites de contenus.
 
 ## Comment savoir si vous avez un problème d'interaction
 
@@ -162,19 +162,19 @@ Le problème délicat avec l'interactivité c'est qu'une même page peut très b
 
 J'ai dit plus tôt que pour qu'une page soit interactive, elle doit pouvoir répondre rapidement à une action declenchée par un utilisateur. La plupart des définitions actuelles de l'interactivité définissent "rapidement" à l'aide de la recommandation du [modèle RAIL](https://developers.google.com/web/fundamentals/performance/rail) au sujet de la réactivité, qui la situe sous les 100&#8239;ms.
 
-J'ai aussi mentionné le fait que le première cause de non réactivité d'une interface ce sont les tâches qui bloquent le processus principal. Afin de vous assurer de répondre à une action utilisateur en moins de 100&#8239;ms, il est crucial qu'aucune tâche ne tourne pendant plus de 50&#8239;ms. Pour la bonne raison que si l'action se produit pendant une autre tâche et que l'écoute de l'action elle-même (de sa propre tâche) prend également du temps pour s'exécuter, alors ces deux tâches devront se terminer en moins de 100&#8239;ms pour que l'interaction paraisse instantanée pour l'utilisateur.
+J'ai aussi mentionné le fait que le première cause de non réactivité d'une interface, ce sont les tâches qui bloquent le processus principal. Afin de vous assurer de répondre à une action utilisateur en moins de 100&#8239;ms, il est crucial qu'aucune tâche ne tourne pendant plus de 50&#8239;ms. Pour la bonne raison que si l'action se produit pendant une autre tâche et que l'écoute de l'action elle-même (de sa propre tâche) prend également du temps pour s'exécuter, alors ces deux tâches devront se terminer en moins de 100&#8239;ms pour que l'interaction paraisse instantanée pour l'utilisateur.
 
 Pour rendre-compte de tout cela, les outils et APIs qui mesurent l'interactivité considéreront qu'une page est interactive si elle ne fait tourner aucune tâche pendant plus de 50&#8239;ms sur une période donnée.
 
 Pour savoir si votre propre site est interactif, il y a généralement deux approches :
 
-1. L'utilisation d'outils ou de simulateurs (soit de la mesure en laboratoire)
-2. Récupérer les données auprès des vrais utilisateurs (désigné par l'appellation RUM, *real-user monitoring*, en anglais).
+1. l'utilisation d'outils ou de simulateurs (soit de la mesure en laboratoire) ;
+2. récupérer les données auprès des vrais utilisateurs (désigné par l'appellation RUM, *real-user monitoring*, en anglais).
 
 Et il existe également deux façons de penser à l'interactivité et à ses effets :
 
-1. La probabilité qu'un utilisateur expérimente des pages non interactives ou qui ne répondent pas.
-2. Le fait qu'un utilisateur réel expérimente vraiment une page non interactive ou qui ne répond pas alors qu'il essaie d'interagir avec.
+1. la probabilité qu'un utilisateur expérimente des pages non interactives ou qui ne répondent pas ;
+2. le fait qu'un utilisateur réel expérimente vraiment une page non interactive ou qui ne répond pas alors qu'il essaie d'interagir avec.
 
 Cela ressemble au problème philosophique de [l'arbre qui tombe dans la forêt](https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest) : _Si une page web n'est pas interactive, mais que l'utilisateur n'en fait pas l'expérience, est-ce un problème ?_
 
@@ -182,7 +182,7 @@ Ma réponse à cette question est que ce qui compte vraiment au final c'est l'ex
 
 En d'autres mots, nous devrions nous soucier de toute ce que nous venons de voir.
 
-Comme outils de mesure, je recommande vivement des outils comme  [Lighthouse](https://developers.google.com/web/tools/lighthouse/) et [WebPageTest](https://www.webpagetest.org/), qui mesurent tous les deux le temps écoulé avant de pouvoir interagir avec la page (<abbr aria-label="Time To Interact">TTI</abbr>) et qui donnent également des informations supplémentaires sur l'interactivité. Par exemple WebPageTest affiche une bannière ["la page est interactive"](https://calendar.perfplanet.com/2017/time-to-interactive-measuring-more-of-the-user-experience/) en bas de la vue en cascade. C'est super pratique pour visualiser quand ces mauvaises expériences sont susceptibles de produire.
+Comme outils de mesure, je recommande vivement des outils comme  [Lighthouse](https://developers.google.com/web/tools/lighthouse/) et [WebPageTest](https://www.webpagetest.org/) qui mesurent tous les deux le temps écoulé avant de pouvoir interagir avec la page (<abbr aria-label="Time To Interact">TTI</abbr>) et qui donnent également des informations supplémentaires sur l'interactivité. Par exemple WebPageTest affiche une bannière ["la page est interactive"](https://calendar.perfplanet.com/2017/time-to-interactive-measuring-more-of-the-user-experience/) en bas de la vue en cascade. C'est super pratique pour visualiser quand ces mauvaises expériences sont susceptibles de se produire.
 
 <figure>
   <a href="/assets/img/2017/12/interactivity-web-page-test-1400w.png">
@@ -205,7 +205,7 @@ Et Lighthouse vous attribue un score pour [l'estimation de la latence d'action](
   </a>
 </figure>
 
-Attention, c'est une "estimation de la latence d'action" car c'est une simulation en laboratoire; aucun utilisateur n'est vraiment en train d'interagir avec la page, c'est simplement une mesure de probabilité.
+Attention, c'est une "estimation de la latence d'action" car c'est une simulation en laboratoire ; aucun utilisateur n'est vraiment en train d'interagir avec la page, c'est simplement une mesure de probabilité.
 
 Si vous voulez mesurer la _véritable_ latence d'action (faire une mesure réelle de l'utilisation), vous pouvez utiliser des outils d'analyse comme Google Analytics. Par exemple, si votre site a un bouton de menu actionnable, vous pourriez vouloir savoir toutes les fois où cela prend plus de 50&#8239;ms pour que le code de l'écouteur d'évènement se lance (à partir du moment où l'utilisateur clique). Le code pour faire ça ressemble à quelque chose comme :
 
@@ -237,7 +237,7 @@ Ce code tire parti du fait que la méthode `event.timeStamp` donne le temps éco
 
 Bien qu'il soit possible d'ajouter ce genre de code à tous les boutons de votre site, je vous recommande de commencer par les composants les plus critiques de l'interface utilisateur, puis de continuer avec d'autres composants par la suite.
 
-Vous pouvez aussi mesurer l'interactivité générale avec de vraies données utilisateurs grâce à la nouvelle [API Long Tasks](https://w3c.github.io/longtasks/), qui, en conjonction avec [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), peut vous indiquer toutes les fois où une tâche bloque le processus principal pendant plus de 50&#8239;ms. Le code pour pister cela dans Google Analytics ressemble à ça :
+Vous pouvez aussi mesurer l'interactivité générale avec de vraies données utilisateurs grâce à la nouvelle [API Long Tasks](https://w3c.github.io/longtasks/) qui, en conjonction avec [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver), peut vous indiquer toutes les fois où une tâche bloque le processus principal pendant plus de 50&#8239;ms. Le code pour pister cela dans Google Analytics ressemble à ça :
 
 ```js
 // Définition d'un callback qui envoie les données sur les tâches longues à Google Analytics.
@@ -267,19 +267,19 @@ Si vous voulez savoir comment traquer les métriques relatives à l'expérience 
 
 ## Pourquoi l'interactivité est-t-elle si importante ?
 
-Récemment, un groupe de chercheurs chez Google qui travaillent avec [la coalition pour de meilleures pubs](https://www.betterads.org) ont conduit une expérience pour déterminer à quel point les différents types de publicité agacent les gens. Un type de publicité "agaçante" qu'ils ont testé bloquait le processus principal pendant 10 secondes dès que la publicité était visible.
+Récemment, un groupe de chercheurs chez Google qui travaillent avec [la coalition pour de meilleures pubs](https://www.betterads.org) a conduit une expérience pour déterminer à quel point les différents types de publicités agacent les gens. Un type de publicité "agaçante" qu'ils ont testé bloquait le processus principal pendant 10 secondes dès que la publicité était visible.
 
-Lorsque l'étude fut terminée et que les [résultats](https://www.betterads.org/research/) furent publiés, cette publicité bloquante pendant 10 secondes se trouvait être parmi les moins agaçantes.
+Lorsque l'étude fut terminée et que les [résultats](https://www.betterads.org/research/) furent publiés, cette publicité bloquante se trouvait être parmi les moins agaçantes.
 
-Ne sachant pas pourquoi c'était le cas, quelques chercheurs ont demandé à certains participants pourquoi ils ne trouvaient pas cela agaçant qu'une publicité les empêche d'interagir avec la page.
+Ne sachant pas pourquoi c'était le cas, quelques chercheurs ont demandé à certains participants pourquoi ils ne trouvaient pas  agaçant qu'une publicité les empêche d'interagir avec la page.
 
 La réponse qu'ils reçurent communément fut :
 
 _Oh, je n'avais pas compris que c'était la publicité qui ralentissait la page. Je pensais que c'était la page elle-même vu que la plupart des pages web sont lentes sur les téléphones._
 
-Quand j'ai appris ça, ça m'a plutôt attristé, mais cela souligne aussi à quel point le problème est immense. Puisque nous les développeurs, nous n'avons pas fait de l'interactivité une priorité, les gens en sont venus à s'attendre à ce que les choses soient lentes par défaut. C'est encore pire quand le coupable est un script de tierce partie et que c'est le site en lui-même qui en est quand même tenu responsable.
+Quand j'ai appris ça, ça m'a plutôt attristé, mais cela souligne aussi à quel point le problème est immense. Puisque nous, les développeurs, n'avons pas fait de l'interactivité une priorité, les gens en sont venus à s'attendre à ce que les choses soient lentes par défaut. C'est encore pire quand le coupable est un script de tierce partie et que c'est le site en lui-même qui en est quand même tenu responsable.
 
-Donc c'est à nous les développeurs de tenir les tierces parties pour responsables de leur mauvais comportement. C'est notre responsabilité puisque cela affecte l'expérience de nos clients et leur opinion sur notre plate-forme.
+Donc c'est à nous développeurs de tenir les tierces parties pour responsables de leur mauvais comportement. C'est de notre responsabilité puisque cela affecte l'expérience de nos clients et leur opinion sur notre plate-forme.
 
 J'entends beaucoup de développeurs web dire des choses comme "Je veux que le Web gagne", mais la seule manière d'y parvenir c'est si nous faisons tous de l'expérience utilisateur notre priorité, surtout sur les appareils mobiles. Et la première étape est d'aller voir si nos sites n'ont pas un problème de ce côté-là.
 
@@ -291,7 +291,7 @@ Enfin, si vous cherchez des manières pour améliorer vos métriques relatives �
 
 ## Notes
 
-[^1]: Jake Archibald explique très bien quelques uns de ces concepts dans son article <a href="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/">Tâches, micro-tâches, files d'attente et planifications</a>. Si vous n'aimez pas lire les spécifications, cela peut être une meilleure façon de vous y mettre.
+[^1]: Jake Archibald explique très bien quelques-uns de ces concepts dans son article <a href="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/">Tâches, micro-tâches, files d'attente et planifications</a>. Si vous n'aimez pas lire les spécifications, cela peut être une meilleure façon de vous y mettre.
 
 [^2]: C'est en parti résolu par <a href="https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md">les écouteurs d'évènement passifs</a>, mais ceux-ci ne sont pas supportés par tous les navigateurs, et parfois un framework ou un script externe vont ajouter des écouteurs sans que vous en ayez forcément conscience.
 
