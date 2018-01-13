@@ -84,7 +84,6 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-last-modified-at
-  - jekyll-livereload
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-seo-tag

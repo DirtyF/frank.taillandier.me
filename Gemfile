@@ -12,7 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
-  gem "jekyll-livereload"
   gem "jekyll-mentions"
   gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
