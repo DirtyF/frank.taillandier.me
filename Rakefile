@@ -7,8 +7,8 @@ Bundler.require(:jekyll_plugins, :test)
 begin
   Bundler.setup
 rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts "Lancez `bundle install` pour installer les gems manquantes"
+  warn e.message
+  warn "Lancez `bundle install` pour installer les gems manquantes"
   exit e.status_code
 end
 
