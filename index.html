@@ -14,15 +14,13 @@ pagination:
       </a>
     </h2>
     <div class="post-meta">
-    <span class="post-date">{% include_cached fr_date.html date=post.date %}</span> &middot; Mis à jour le {% include_cached fr_date.html date=post.last_modified_at %} &middot;
+    <span class="post-date">Mis à jour le {% include fr_date.html date=post.last_modified_at %} &middot;
     <span class="post-read-time" title="Temps de lecture {{ post.content | reading_time }} ({{ post.content | number_of_words | append: " mots" }})">
       <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
       {{ post.content | reading_time }}
     </span>
     </div>
-
     {{ post.excerpt }}
-
     <p>
       <a class="btn" href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">Lire l'article</a>
     </p>
