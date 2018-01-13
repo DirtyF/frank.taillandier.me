@@ -23,6 +23,9 @@ pagination:
 
     {{ post.excerpt }}
 
+    <p>
+      <a class="btn" href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">Lire l'article</a>
+    </p>
   </div>
   <hr />
 {% endfor %}
