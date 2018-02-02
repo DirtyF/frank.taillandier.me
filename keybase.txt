@@ -4,49 +4,52 @@ https://keybase.io/dirtyf
 
 I hereby claim:
 
-  * I am an admin of http://frank.taillandier.me
+  * I am an admin of https://frank.taillandier.me
   * I am dirtyf (https://keybase.io/dirtyf) on keybase.
   * I have a public key ASDaMnEHTympIPSgsjP4B5RtoP5g_BM1yQNOktACwxr1QAo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0120da3271074f29a920f4a0b233f807946da0fe60fc1335c9034e92d002c31af5400a",
-            "host": "keybase.io",
-            "kid": "0120da3271074f29a920f4a0b233f807946da0fe60fc1335c9034e92d002c31af5400a",
-            "uid": "fcc52d7971210386030f187009f14119",
-            "username": "dirtyf"
-        },
-        "service": {
-            "hostname": "frank.taillandier.me",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0120da3271074f29a920f4a0b233f807946da0fe60fc1335c9034e92d002c31af5400a",
+      "host": "keybase.io",
+      "kid": "0120da3271074f29a920f4a0b233f807946da0fe60fc1335c9034e92d002c31af5400a",
+      "uid": "fcc52d7971210386030f187009f14119",
+      "username": "dirtyf"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.13"
-    },
-    "ctime": 1458306770,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1458306744,
-        "hash": "6069c6471681c6f92bff118e65bd4b4e8473c4e6d702f8f987a0c8683d938e4afae1ba97c4c11ad7029b458ea80557cf8f1098ddf384c96f55e9285b8027387f",
-        "seqno": 412130
+      "ctime": 1517601695,
+      "hash": "a04a189c8cd1f916bcfb6d615e86dea1a9ffd05f8ba7b45b5ddb0bb92526cb606f6bb6899c2be1666e418b6acb13605eba0025f4427130ebcd5bf386a0ed8445",
+      "hash_meta": "f5d24c6454c8cdf18c6111b0c1d2c655671e99764efe0c2ba217be752ff2a928",
+      "seqno": 2023348
     },
-    "prev": "aea3e3ee9bbb15f94bea20e5a1a6c8046bff8e5ebd476616bdfdaf706685332c",
-    "seqno": 8,
-    "tag": "signature"
+    "service": {
+      "hostname": "frank.taillandier.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1517601731,
+  "expire_in": 504576000,
+  "prev": "a788a229e2c305bcc01ccf89589b1152e242adb951ada5f3761b77a092bcea7d",
+  "seqno": 37,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2jJxB08pqSD0oLIz+AeUbaD+YPwTNckDTpLQAsMa9UAKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZGEzMjcxMDc0ZjI5YTkyMGY0YTBiMjMzZjgwNzk0NmRhMGZlNjBmYzEzMzVjOTAzNGU5MmQwMDJjMzFhZjU0MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZGEzMjcxMDc0ZjI5YTkyMGY0YTBiMjMzZjgwNzk0NmRhMGZlNjBmYzEzMzVjOTAzNGU5MmQwMDJjMzFhZjU0MDBhIiwidWlkIjoiZmNjNTJkNzk3MTIxMDM4NjAzMGYxODcwMDlmMTQxMTkiLCJ1c2VybmFtZSI6ImRpcnR5ZiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZnJhbmsudGFpbGxhbmRpZXIubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjEzIn0sImN0aW1lIjoxNDU4MzA2NzcwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTgzMDY3NDQsImhhc2giOiI2MDY5YzY0NzE2ODFjNmY5MmJmZjExOGU2NWJkNGI0ZTg0NzNjNGU2ZDcwMmY4Zjk4N2EwYzg2ODNkOTM4ZTRhZmFlMWJhOTdjNGMxMWFkNzAyOWI0NThlYTgwNTU3Y2Y4ZjEwOThkZGYzODRjOTZmNTVlOTI4NWI4MDI3Mzg3ZiIsInNlcW5vIjo0MTIxMzB9LCJwcmV2IjoiYWVhM2UzZWU5YmJiMTVmOTRiZWEyMGU1YTFhNmM4MDQ2YmZmOGU1ZWJkNDc2NjE2YmRmZGFmNzA2Njg1MzMyYyIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQC2G9yMWTVHOAXp/qFN78mNyAyTALxdP6GuHesAGzZCND0S4rzKifKccg7Una2ZuXEfQOslCnFH0+mRAkK/ENwCoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2jJxB08pqSD0oLIz+AeUbaD+YPwTNckDTpLQAsMa9UAKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZGEzMjcxMDc0ZjI5YTkyMGY0YTBiMjMzZjgwNzk0NmRhMGZlNjBmYzEzMzVjOTAzNGU5MmQwMDJjMzFhZjU0MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZGEzMjcxMDc0ZjI5YTkyMGY0YTBiMjMzZjgwNzk0NmRhMGZlNjBmYzEzMzVjOTAzNGU5MmQwMDJjMzFhZjU0MDBhIiwidWlkIjoiZmNjNTJkNzk3MTIxMDM4NjAzMGYxODcwMDlmMTQxMTkiLCJ1c2VybmFtZSI6ImRpcnR5ZiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNzYwMTY5NSwiaGFzaCI6ImEwNGExODljOGNkMWY5MTZiY2ZiNmQ2MTVlODZkZWExYTlmZmQwNWY4YmE3YjQ1YjVkZGIwYmI5MjUyNmNiNjA2ZjZiYjY4OTljMmJlMTY2NmU0MThiNmFjYjEzNjA1ZWJhMDAyNWY0NDI3MTMwZWJjZDViZjM4NmEwZWQ4NDQ1IiwiaGFzaF9tZXRhIjoiZjVkMjRjNjQ1NGM4Y2RmMThjNjExMWIwYzFkMmM2NTU2NzFlOTk3NjRlZmUwYzJiYTIxN2JlNzUyZmYyYTkyOCIsInNlcW5vIjoyMDIzMzQ4fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZyYW5rLnRhaWxsYW5kaWVyLm1lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzkifSwiY3RpbWUiOjE1MTc2MDE3MzEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYTc4OGEyMjllMmMzMDViY2MwMWNjZjg5NTg5YjExNTJlMjQyYWRiOTUxYWRhNWYzNzYxYjc3YTA5MmJjZWE3ZCIsInNlcW5vIjozNywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBoKF8xYBuqJ17mnfMXkG47+Q2sFzsQOp34pFpbg2gi3E6W8LvHmoftCTvVdpN257J1G2O7P8DX3R295jO29NoHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQggppVIf6QQGRTUoCldiWmfaDl15IFeQkg2z1q8JFChFejdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/dirtyf
+
+==================================================================
