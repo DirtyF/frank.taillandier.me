@@ -33,8 +33,7 @@ task :preview do
     "serving"     => true,
     "config"      => %w[_config.yml _config_local.yml]
   }
-  Jekyll::Commands::Build.process(options)
-  Jekyll::Commands::Serve.process(options)
+  Jekyll::Commands::Serve.start(options)
 end
 
 desc "Generate site"
