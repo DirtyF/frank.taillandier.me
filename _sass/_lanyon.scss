@@ -55,6 +55,14 @@ h6 {
   letter-spacing: -0.025rem;
 }
 
+strong {
+  font-family: "PT Serif Bold", Georgia, "Times New Roman", serif;
+}
+
+em {
+  font-family: "PT Serif Italic", Georgia, "Times New Roman", serif;
+}
+
 /*
  * Wrapper
  *
@@ -248,45 +256,9 @@ a.sidebar-nav-item:focus {
   width: 1rem;
   height: 0.75rem;
   content: "";
-  background-image:
-    -webkit-linear-gradient(
-      #555,
-      #555 20%,
-      #fff 20%,
-      #fff 40%,
-      #555 40%,
-      #555 60%,
-      #fff 60%,
-      #fff 80%,
-      #555 80%,
-      #555 100%
-    );
-  background-image:
-    -o-linear-gradient(
-      #555,
-      #555 20%,
-      #fff 20%,
-      #fff 40%,
-      #555 40%,
-      #555 60%,
-      #fff 60%,
-      #fff 80%,
-      #555 80%,
-      #555 100%
-    );
-  background-image:
-    linear-gradient(
-      #555,
-      #555 20%,
-      #fff 20%,
-      #fff 40%,
-      #555 40%,
-      #555 60%,
-      #fff 60%,
-      #fff 80%,
-      #555 80%,
-      #555 100%
-    );
+  background-image: -webkit-linear-gradient(#555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image: -o-linear-gradient(#555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image: linear-gradient(#555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
 }
 
 .sidebar-toggle:active,
@@ -299,45 +271,9 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active::before,
 #sidebar-checkbox:focus ~ .sidebar-toggle::before,
 #sidebar-checkbox:checked ~ .sidebar-toggle::before {
-  background-image:
-    -webkit-linear-gradient(
-      #fff,
-      #fff 20%,
-      #555 20%,
-      #555 40%,
-      #fff 40%,
-      #fff 60%,
-      #555 60%,
-      #555 80%,
-      #fff 80%,
-      #fff 100%
-    );
-  background-image:
-    -o-linear-gradient(
-      #fff,
-      #fff 20%,
-      #555 20%,
-      #555 40%,
-      #fff 40%,
-      #fff 60%,
-      #555 60%,
-      #555 80%,
-      #fff 80%,
-      #fff 100%
-    );
-  background-image:
-    linear-gradient(
-      #fff,
-      #fff 20%,
-      #555 20%,
-      #555 40%,
-      #fff 40%,
-      #fff 60%,
-      #555 60%,
-      #555 80%,
-      #fff 80%,
-      #fff 100%
-    );
+  background-image: -webkit-linear-gradient(#fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image: -o-linear-gradient(#fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image: linear-gradient(#fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
 }
 
 @media (min-width: 30.1em) {
