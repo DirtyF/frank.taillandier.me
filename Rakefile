@@ -28,7 +28,15 @@ task :preview do
 
   # Generate the site in server mode.
   puts "Generating the preview…."
-  sh "bundle exec jekyll serve --config _config.yml,_config_local.yml"
+  options = {
+    "serving"         => true,
+    "watch"           => true,
+    "livereload_port" => 35_729,
+    "incremental"     => true,
+    "lsi"             => false,
+    "config"          => %w[_config.yml _config_local.yml]
+  }
+  Jekyll::Commands::Serve.start(options)
 end
 
 desc "Generate site"
