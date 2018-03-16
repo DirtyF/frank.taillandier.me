@@ -70,6 +70,7 @@ exclude:
   - .stylelintrc.json
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - node_modules
   - package.json
   - package-lock.json
