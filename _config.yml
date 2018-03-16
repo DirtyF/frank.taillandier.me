@@ -10,7 +10,6 @@ github:
 baseurl: ""
 permalink: pretty
 
-
 sass:
   style: compressed
 
@@ -18,6 +17,10 @@ sass:
 strict_front_matter: true
 liquid:
   error_mode: strict
+
+jekyll_tidy:
+  compress_html: true
+  ignore_env: development
 
 # seo-tag
 logo: /assets/img/frank-taillandier.jpg
