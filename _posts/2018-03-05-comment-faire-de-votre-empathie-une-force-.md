@@ -8,11 +8,9 @@ source:
   url: https://www.unstuck.com/advice/what-is-empathy/
 ---
 
-{{% intro %}}
 Refouler ses émotions en permanence, ne pas sen sentir écouter ou compris, c'est très fréquent. C'est rarement tenable sur le long terme, l'être humain est une créature hautement émotionnelle.
-
 Apprendre à écouter l'autre, savoir écouter ses propres émotions, autant de conseils qui vous pourraient s'avérer bien utiles pour améliorer vos rapports personnels et professionnels.
-{{% /intro %}}
+{: .lead }
 
 Quand j'étais plus jeune, on me disait tout le temps que j'étais "celle qui savait écouter". [Être une personne très sensible](http://melodywilding.com/highly-sensitive-person-10-ways-tell/) signifie avoir le don de ressentir les émotions des autres, même lorsqu'ils sont silencieux. J'ai petit à petit compris quel pouvoir l'empathie pouvait avoir. Maintenant que je fais du coaching et du social, cela figure même en bonne place sur ma fiche de poste.
 
