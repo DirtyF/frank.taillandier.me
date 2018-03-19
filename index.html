@@ -20,7 +20,9 @@ pagination:
       {{ post.content | reading_time }}
     </span>
     </div>
-    {{ post.excerpt }}
+    <div class="mask">
+      {{ post.excerpt }}
+    </div>
     <p>
       <a class="btn" href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">Lire l'article</a>
     </p>

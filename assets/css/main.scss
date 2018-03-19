@@ -141,3 +141,8 @@
     background-color: darken(#268bd2, 5%);
   }
 }
+
+.mask {
+  -webkit-mask-image: linear-gradient(#000 calc(100% - 9rem), transparent);
+          mask-image: linear-gradient(#000 calc(100% - 9rem), transparent);
+}
