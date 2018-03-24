@@ -68,6 +68,9 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+jekyll_compose:
+  auto_open: true
+
 exclude:
   - .editorconfig
   - .stylelintrc.json
