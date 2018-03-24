@@ -42,7 +42,7 @@ De la même manière, dans n'importe quelle relation, l'empathie demande d'écou
 *"Ce que je comprends c'est que tu dis que…"  ou "Selon moi on dirait que…"*
 
 - **Confirmer**
-Sourire, acquiescer ou utiliser de brèves affirmations verbales comme *"Je vois…" *ou *"mmmhmm"*
+Sourire, acquiescer ou utiliser de brèves affirmations verbales comme *"Je vois…"* ou *"mmmhmm"*
 
 - **Encourager**
 *“Et ensuite ?”*
