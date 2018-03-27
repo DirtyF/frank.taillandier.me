@@ -102,7 +102,7 @@ prévu, ou encore lorsque la réalité contredit le plan établi.
 Chez Basecamp, nous démarrons chaque projet avec un concept de base. Nous
 étudions bien notre stratégie en amont de manière à nous assurer qu'**une des
 versions** de notre idée est réalisable dans le temps alloué. Nous savons bien
-que le concept ne sera pas forcéménet livré à 100%. Tout ne pourra pas être
+que le concept ne sera pas forcément livré à 100%. Tout ne pourra pas être
 fait, mais les choses importantes le seront. Si nous ne sommes pas sûrs, nous
 mettrons autre chose dans le cycle afin de pouvoir revenir ultérieurement sur
 une fonctionnalité une fois que nous aurons suffisamment affiné son concept.
@@ -169,7 +169,7 @@ manches et d'aller se confronter à la réalité des problématiques.
 
 Chez Basecamp, nos équipes partent en quête des recoins inexplorés les plus
 effrayants et travaillent en priorité dessus. Ce travail en amont nécessite
-d'adopter des stratégies. Nous les avons évoqué dans [Getting
+d'adopter des stratégies. Nous les avons évoquées dans [Getting
 Real](https://basecamp.com/books/getting-real). Ouvrez votre éditeur de code,
 concevez quelque chose de fonctionnel, utilisez de vraies données et testez
 votre concept. Lorsque la fonctionnalité est trop importante pour être déclinée
