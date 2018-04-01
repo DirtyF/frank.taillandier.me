@@ -77,10 +77,8 @@ avez reçu, et que si vous ne le faites pas, votre dette continuera de croître,
 même si vous ne faites rien. Et si vous ignorez une dette suffisamment
 longtemps, elle deviendra impossible à payer et vous ferez « banqueroute ».
 
-{% include_cached figure.html
-url="https://d262ilb51hltx0.cloudfront.net/max/601/1*J9T4nuKvco0U3K-fKphljg.jpeg"
-description="Shylock and Jessica, by <a
-href=\"http://en.wikipedia.org/wiki/Maurycy_Gottlieb\">Maurycy Gottlieb</a>" %}
+{% cloudinary /assets/img/2014/11/shylock-jessica.jpg
+caption="Shylock and Jessica, by [Maurycy Gottlieb](http://en.wikipedia.org/wiki/Maurycy_Gottlieb)" %}
 
 Malgré les vielles rancœurs de la population contre le système de crédit,
 incarné par le personnage de Shylock de Shakespeare, le méchant usurier juif
@@ -199,9 +197,7 @@ l’expérience
 utilisateur](https://medium.com/@jamieskella/the-bottom-line-value-of-design-fb3b938a5255),
 l’agile et la livraison continue ces dernières années, augmente chaque jour.
 
-<iframe width="510" height="420" style="border: 1px solid #CCC; border-width:
-1px; margin-bottom: 5px; max-width: 100%;"
-src="//www.slideshare.net/slideshow/embed_code/31984451" frameborder="0"
+<iframe width="510" height="420" src="//www.slideshare.net/slideshow/embed_code/31984451" frameborder="0"
 marginwidth="0" marginheight="0" scrolling="no"
 allowfullscreen="allowfullscreen"></iframe>
 
@@ -249,7 +245,7 @@ Maintenant imaginons une tout autre conversation :
 
 **Développeur Junior. —** Hum.
 
-{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/502/1*Bb-AlCIc5EC7-Hd-gsl1lg.jpeg" description="Demandons leur des estimations et considérerons les ensuite comme des délais" %}
+{% cloudinary /assets/img/2014/11/estimates-deadlines.jpg caption="Demandons leur des estimations et considérerons les ensuite comme des délais" %}
 
 Ceci n’est pas une négociation sur la dette technique. Les vraies négociations
 sur la dette technique ont lieu avec des managers et des développeurs plus
@@ -329,9 +325,7 @@ commence à s’effondrer. La fin de la construction de l’immeuble date d’il
 moins de 3 ans. 44 appartements ont été complètement détruits et 8 personnes ont
 péri.
 
-{% include_cached figure.html
-url="https://d262ilb51hltx0.cloudfront.net/max/600/1*YFNF1dkyFEEQ_yDYwb_hlg.jpeg"
-description="Implosion du Palace II" %}
+{% cloudinary /assets/img/2014/11/implosion-palace.jpg caption="Implosion du Palace II" %}
 
 Comme souvent au Brésil, en 2014, les constructeurs n’ont pas été correctement
 punis et les victimes n’ont pas été compensées de manière satisfaisante. Les
@@ -372,8 +366,7 @@ Une autre analogie est ce qu’on appelle *puxadinho* en portugais. Un *puxadinh
 est une extension d’une construction faite sans la supervision d’un expert, des
 matériaux de mauvaise qualité et la plus part du temps de façon illégale.
 
-{% include_cached figure.html
-url="https://d262ilb51hltx0.cloudfront.net/max/1024/1*E3zLS5dmK5t8wTNkSP4lCQ.jpeg" %}
+{% cloudinary /assets/img/2014/11/puxadinho.jpg %}
 
 Le *puxadinho* est le modèle de conception standard sur lequel se sont
 construits des « favelas » entières, les bidonvilles brésiliens.
@@ -383,8 +376,7 @@ peut le voir sur l’image, ils s’étendent à toute l’infrastructure de bas
 la plomberie, l’énergie, les câbles téléphoniques, internet et la télé par
 cable.
 
-{% include_cached figure.html
-url="https://d262ilb51hltx0.cloudfront.net/max/620/1*_mjiqqiePvLN9Ehw5GRl7w.jpeg"%}
+{% cloudinary /assets/img/2014/11/cables.jpg %}
 
 Maintenant, prenons cette analogie et voyons jusqu’où nous pouvons la pousser.
 Un nouveau *puxadinho*, ainsi que toute son infrastructure inélégante est
@@ -415,9 +407,8 @@ téléphone et le câble, Mme Michu a internet » et ainsi de suite — et 2) u
 alarme qui se déclenche à chaque fois qu’un service se connecte ou se déconnecte à
 tort.
 
-{% include_cached figure.html url="https://d262ilb51hltx0.cloudfront.net/max/600/1*3W8HR8VYOaX3xz_VCVObPA.jpeg" description="<a
-href=\"http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052\">Working effectivelly with legacy
-code</a>"%}
+{% cloudinary /assets/img/2014/11/working-legacy-code.jpg caption="[Working effectivelly with legacy
+code](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)" %}
 
 C’est ce que vous apportent les tests au niveau du code.
 
@@ -533,9 +524,8 @@ a annoncé l’ouverture du code source de tous les brevets de Tesla Motors :
 > L’avance technologique est… définie… par la capacité d’une entreprise à attirer
 > et à motiver les ingénieurs les plus talentueux au monde.
 
-{% include_cached figure.html
-url="https://d262ilb51hltx0.cloudfront.net/max/564/1*pQApZLe4wv9Rm0tLIvWqNw.jpeg"
-description="Le lièvre dans une coquille d’escargot un des nombreux symboles de
+{% cloudinary /assets/img/2014/11/festina-lente.jpg
+caption="Le lièvre dans une coquille d’escargot un des nombreux symboles de
 Festina Lente" %}
 
 Les concurrents *diminueront* votre valeur, pendant que vous dormez.

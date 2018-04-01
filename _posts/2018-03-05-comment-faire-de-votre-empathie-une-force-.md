@@ -2,6 +2,7 @@
 layout: post
 title: "Comment faire de votre empathie une force ?"
 date: "2018-03-05 18:14:07 +0100"
+image: /assets/img/2018/empathy_large.jpg
 source:
   author: Melody Wilding
   title: How to Turn Empathy into Your Secret Strength
@@ -14,7 +15,7 @@ Apprendre à écouter l'autre, savoir écouter ses propres émotions, autant de 
 
 Quand j'étais plus jeune, on me disait tout le temps que j'étais "celle qui savait écouter". [Être une personne très sensible](http://melodywilding.com/highly-sensitive-person-10-ways-tell/) signifie avoir le don de ressentir les émotions des autres, même lorsqu'ils sont silencieux. J'ai petit à petit compris quel pouvoir l'empathie pouvait avoir. Maintenant que je fais du coaching et du social, cela figure même en bonne place sur ma fiche de poste.
 
-![](//cdn.shopify.com/s/files/1/0838/5825/files/empathy_large.jpg?v=1516235057)
+{% cloudinary /assets/img/2018/empathy_large.jpg %}
 
 Mais qu'est-ce que l'empathie au juste ?
 

@@ -34,9 +34,7 @@ projets numériques.
 
 ## Pourquoi l'agile ne marche pas et ce que nous faisons différemment
 
-{% include_cached figure.html
- url="/assets/img/2017/11/circles.png"
-%}
+{% cloudinary /assets/img/2017/11/circles.png %}
 
 Au départ, l'agile était [un ensemble de
 valeurs](http://agilemanifesto.org/iso/fr/manifesto.html). Mais ces valeurs sont
@@ -138,9 +136,7 @@ Les équipes qui suivent la *vélocité* et les *points de story* considèrent l
 développement comme un travail linéaire. Or, le développement logiciel n'a rien à
 voir avec le déplacement d'un tas de pierres.
 
-{% include_cached figure.html
- url="/assets/img/2017/11/deplacer-des-pierres.png"
-%}
+{% cloudinary/assets/img/2017/11/deplacer-des-pierres.png %}
 
 Si c'était le cas, on pourrait compter le nombre de pierres, mesurer le temps
 nécessaire pour en déplacer une, faire nos calculs et ce serait terminé.
@@ -150,8 +146,7 @@ y a une phase ascendante dans laquelle on doit comprendre ce qu'il faut faire.
 Puis arrivé au sommet, on peut voir l'autre versant et le chemin qu'il reste à
 parcourir.
 
-{% include_cached figure.html
- url="/assets/img/2017/11/uphill-strategy.png" %}
+{% cloudinary /assets/img/2017/11/uphill-strategy.png %}
 
 La phase ascendante est pleine de faux pas, de boucles et d'impasses. C'est là où
 on se confronte à l'inattendu. Le développeur dit "OK, ça va prendre deux jours"
@@ -175,9 +170,8 @@ concevez quelque chose de fonctionnel, utilisez de vraies données et testez
 votre concept. Lorsque la fonctionnalité est trop importante pour être déclinée
 en prototype, sélectionnez les parties les plus importantes et affinez-les.
 
-{% include_cached figure.html
- url="/assets/img/2017/11/phases-de-travail.png"
- description="Les différentes phases du travail en amont et en aval" %}
+{% cloudinary /assets/img/2017/11/phases-de-travail.png
+ caption="Les différentes phases du travail en amont et en aval" %}
 
 La phase ascendante, c'est celle où vous prenez connaissance des difficultés et
 où vous portez des jugements de valeur. C'est à ce moment-là que vous décidez

@@ -184,26 +184,11 @@ En d'autres mots, nous devrions nous soucier de toute ce que nous venons de voir
 
 Comme outils de mesure, je recommande vivement des outils comme  [Lighthouse](https://developers.google.com/web/tools/lighthouse/) et [WebPageTest](https://www.webpagetest.org/) qui mesurent tous les deux le temps écoulé avant de pouvoir interagir avec la page (<abbr aria-label="Time To Interact">TTI</abbr>) et qui donnent également des informations supplémentaires sur l'interactivité. Par exemple WebPageTest affiche une bannière ["la page est interactive"](https://calendar.perfplanet.com/2017/time-to-interactive-measuring-more-of-the-user-experience/) en bas de la vue en cascade. C'est super pratique pour visualiser quand ces mauvaises expériences sont susceptibles de se produire.
 
-<figure>
-  <a href="/assets/img/2017/12/interactivity-web-page-test-1400w.png">
-    <img srcset="/assets/img/2017/12/interactivity-web-page-test-1400w.png,
-      /assets/img/2017/12/interactivity-web-page-test.png 700w"
-      src="/assets/img/2017/12/interactivity-web-page-test-1400w.png"
-      alt="Rapport d'interactivité de WebPageTest">
-  </a>
-</figure>
+{% cloudinary /assets/img/2017/12/interactivity-web-page-test-1400w.png alt="Rapport d'interactivité de WebPageTest" %}
 
 Et Lighthouse vous attribue un score pour [l'estimation de la latence d'action](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency):
 
-<figure>
-  <a href="/assets/img/2017/12/input-latency-lighthouse-1400w.png">
-    <img srcset="
-      /assets/img/2017/12/input-latency-lighthouse-1400w.png,
-      /assets/img/2017/12/input-latency-lighthouse.png 700w"
-      src="/assets/img/2017/12/input-latency-lighthouse.png"
-      alt="Input latency in a Lighthouse performance report">
-  </a>
-</figure>
+{% cloudinary /assets/img/2017/12/input-latency-lighthouse-1400w.png alt= "La latence d'action dans un rapport de performance Lighthouse"%}
 
 Attention, c'est une "estimation de la latence d'action" car c'est une simulation en laboratoire ; aucun utilisateur n'est vraiment en train d'interagir avec la page, c'est simplement une mesure de probabilité.
 
