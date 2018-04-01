@@ -227,10 +227,7 @@ mini-conférence
 >
 > (applaudissements)
 
-{% include_cached figure.html url="/assets/img/2016/09/frank-paris-web-2016.jpg"
-description="<a
-href=\"https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/\">Photo
-de Franck Paul</a>" %}
+{% cloudinary /assets/img/2016/09/frank-paris-web-2016.jpg caption="[Photo de Franck Paul](https://www.flickr.com/photos/franck-paul/30260452940/in/album-72157675684020515/)" %}
 
 Il était difficile de couvrir en 15 minutes un sujet aussi vaste que les
 processus modernes de développement et de déploiement, ainsi que tout

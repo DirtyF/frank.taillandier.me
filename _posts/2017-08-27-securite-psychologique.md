@@ -21,9 +21,7 @@ Intercom, donne ici quelques conseils pour bâtir une équipe dans laquelle il
 fait bon évoluer.
 {: .lead }
 
-{% include_cached figure.html
- url="/assets/img/2017/08/psychological_safety_in_teams.jpg"
- description="illustration : [Clay Hickson](http://clayhickson.com/)" %}
+{% cloudinary /assets/img/2017/08/psychological_safety_in_teams.jpg caption="illustration : [Clay Hickson](http://clayhickson.com/)" %}
 
 Quand je travaillais pour Google en tant qu'ingénieur qualité, j'ai eu la chance
 de faire le tour du monde avec un groupe appelé "développement d'équipe". Notre

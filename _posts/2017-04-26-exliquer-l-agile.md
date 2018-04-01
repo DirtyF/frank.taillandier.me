@@ -33,8 +33,7 @@ Mais qu'est-ce que l'Agile exactement ? Comment est-ce que vous expliquez
 l'Agile quand il existe plus de quarante variantes de l'Agile comme le montre ce
 dessin de la designer australienne Lynne Cazaly.
 
-{% include_cached figure.html url="/assets/img/2017/04/agile-40-flavors.jpg"
-description="Illustration de Lynne Cazaly" %}
+{% cloudinary /assets/img/2017/04/agile-40-flavors.jpg caption="Illustration de Lynne Cazaly" %}
 
 Cette illustration est tirée d'une [présentation de Craig
 Smith](https://craigsmith.id.au/2015/12/03/yow-2015-40-agile-methods-in-40-minutes/).
@@ -172,9 +171,7 @@ Une autre raison à cela était que la plupart des équipes au XXe siècle n'en
 avaient que le nom. La plupart n'étaient pas du tout de vraies équipes. Le chef
 d'équipe se comportait comme n'importe quel autre supérieur d'une bureaucratie.
 
-{% include_cached figure.html
-url="/assets/img/2017/04/agile-team-vs-bureaucratic-team.jpg" description="Silo
-bureaucratique vs équipe agile" %}
+{% cloudinary /assets/img/2017/04/agile-team-vs-bureaucratic-team.jpg caption="Silo bureaucratique vs équipe agile" %}
 
 Les vraies équipes auto-organisées qui parvenaient à être réellement très
 performantes étaient très rares. Les rapports à propos du travail d'équipe ont
@@ -254,9 +251,7 @@ compte. Dans une bureaucratie pyramidale, "le client est roi" est juste un
 slogan : l'organisation, les processus et les objectifs internes ont la
 priorité.
 
-{% include_cached figure.html
-url="/assets/img/2017/04/agile-organization-vs-bureaucracy.jpg"
-description="Bureaucratie vs organisation agile" %}
+{% cloudinary /assets/img/2017/04/agile-organization-vs-bureaucracy.jpg caption="Bureaucratie vs organisation agile" %}
 
 Dans une organisation Agile, le "focus client" revet une toute autre
 signification. Dans les organisation vraiment agiles, tout le monde est
@@ -289,9 +284,7 @@ De plus lorsque des équipes agiles existent au sein d'une bureaucratie, la
 collaboration *entre* les équipes peut se révéler aussi problématique que celle
 entre silos dans une bureaucratie.
 
-{% include_cached figure.html
-url="/assets/img/2017/04/agile-network-4-images.jpg"
-description="Réseau agile" %}
+{% cloudinary /assets/img/2017/04/agile-network-4-images.jpg caption="Réseau agile" %}
 
 C'est un problème général, même dans les organisations qui embrassent activement
 l'Agile au niveau des équipes. Les sondages que nous avons effectué dans la

@@ -148,8 +148,7 @@ ou [Grav](https://getgrav.org/), il n'y a pas d'interface graphique fournie par
 défaut, même si elles commencent à arriver via l'ajout de plugins ou en faisant
 appel à des services dédiés[^headless-cms].
 
-{% include_cached figure.html url="/assets/img/2016/03/cloudcannon-editor.png"
-description="L'éditeur de contenu de Cloudcannon" %}
+{% cloudinary /assets/img/2016/03/cloudcannon-editor.png caption="L'éditeur de contenu de Cloudcannon" %}
 
 Fidèles à la philosophie UNIX, les générateurs se contentent de faire une seule
 chose à la fois : transformer des contenus en site statique. C'est surement pour
@@ -158,8 +157,7 @@ intégrant notamment des commandes pour le déploiement. Comme dans les CMS
 l'enrichissement en fonctionnalités se fait à l’aide d'extensions et autres
 plugins.
 
-{% include_cached figure.html url="/assets/img/2016/03/jekyll-terminal.png"
-description="Jekyll en action dans le terminal" %}
+{% cloudinary /assets/img/2016/03/jekyll-terminal.png caption="Jekyll en action dans le terminal" %}
 
 Plus vous aurez de fichiers à générer, plus l'étape de *build* prendra du temps.
 Il vous faudra donc faire en sorte de limiter ce temps au minimum si vous
@@ -207,8 +205,7 @@ Mac, *insérez votre application open-source préférée ici* ou de services en
 ligne permettent aujourd'hui d‘[éditer du Markdown](https://stackedit.io/editor)
 de manière simple.
 
-{% include_cached figure.html url="/assets/img/2016/03/macdown.png"
-description="Aperçu de cet article dans MacDown" %}
+{% cloudinary /assets/img/2016/03/macdown.png caption="Aperçu de cet article dans MacDown" %}
 
 Les contenus ne sont donc plus enfermés dans une base de données, ils sont
 stockées dans des formats texte comme Markdown, YAML ou JSON. Il est dès lors

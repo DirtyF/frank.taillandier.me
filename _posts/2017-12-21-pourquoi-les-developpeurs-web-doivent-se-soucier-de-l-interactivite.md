@@ -188,7 +188,7 @@ Comme outils de mesure, je recommande vivement des outils comme  [Lighthouse](ht
 
 Et Lighthouse vous attribue un score pour [l'estimation de la latence d'action](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency):
 
-{% cloudinary /assets/img/2017/12/input-latency-lighthouse-1400w.png alt= "La latence d'action dans un rapport de performance Lighthouse"%}
+{% cloudinary /assets/img/2017/12/input-latency-lighthouse-1400w.png alt="La latence d'action dans un rapport de performance Lighthouse" %}
 
 Attention, c'est une "estimation de la latence d'action" car c'est une simulation en laboratoire ; aucun utilisateur n'est vraiment en train d'interagir avec la page, c'est simplement une mesure de probabilité.
 

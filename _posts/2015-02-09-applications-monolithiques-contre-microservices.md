@@ -59,8 +59,8 @@ même si le goulot d’étranglement ne concerne qu’un seul module.
 
 ## Que sont les microservices ?
 
-{% include_cached figure.html url="/assets/img/2015/02/architecture-microservices.png"
-description="Exemple d'architecture avec des microservices" %}
+{% cloudinary /assets/img/2015/02/architecture-microservices.png
+caption="Exemple d'architecture avec des microservices" %}
 
 Les microservices sont une approche d’architecture et de développement d’une
 seule application composées de petits services. Ce qu’il faut bien comprendre

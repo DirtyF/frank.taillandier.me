@@ -124,11 +124,8 @@ fonction. Afin que ceci soit bien clair pour tout le monde, nous donnons aux
 plus de temps sur la définition des enjeux de cette fonctionnalité plutôt que
 sur les détails spécifiques d'implémentation de l'interface.
 
-{% include_cached figure.html url="/assets/img/2017/11/esquisse.png"
-description="Une des ébauches de Jason pour l'équipe en charge du développement
-[des groupes de
-TODO](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc).
-L'équipe a fini par choisir de ne pas développer les boutons `ajouter` en dessous de chaque groupe." %}
+{% cloudinary /assets/img/2017/11/esquisse.png
+ caption="Une des ébauches de Jason pour l'équipe en charge du développement [des groupes de TODO](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc). L'équipe a fini par choisir de ne pas développer les boutons `ajouter` en dessous de chaque groupe." %}
 
 ### Stratégies progressives
 
@@ -136,7 +133,7 @@ Les équipes qui suivent la *vélocité* et les *points de story* considèrent l
 développement comme un travail linéaire. Or, le développement logiciel n'a rien à
 voir avec le déplacement d'un tas de pierres.
 
-{% cloudinary/assets/img/2017/11/deplacer-des-pierres.png %}
+{% cloudinary /assets/img/2017/11/deplacer-des-pierres.png %}
 
 Si c'était le cas, on pourrait compter le nombre de pierres, mesurer le temps
 nécessaire pour en déplacer une, faire nos calculs et ce serait terminé.
@@ -170,7 +167,8 @@ concevez quelque chose de fonctionnel, utilisez de vraies données et testez
 votre concept. Lorsque la fonctionnalité est trop importante pour être déclinée
 en prototype, sélectionnez les parties les plus importantes et affinez-les.
 
-{% cloudinary /assets/img/2017/11/phases-de-travail.png
+{% cloudinary
+ /assets/img/2017/11/phases-de-travail.png
  caption="Les différentes phases du travail en amont et en aval" %}
 
 La phase ascendante, c'est celle où vous prenez connaissance des difficultés et
@@ -190,20 +188,19 @@ Voici une capture d'écran de la fonctionnalité du projet de [recherche
 intégrée](https://m.signalvnoise.com/new-search-and-more-in-basecamp-3-2a34020be96)
 que nous avons livré en octobre.
 
-{% include_cached figure.html
-url="/assets/img/2017/11/search-in-place-graph.png"
-description="D'abord nous avons retravaillé les résultats de recherche, puis
-nous les avons déplacé dans la navigation." %}
+{% cloudinary
+  /assets/img/2017/11/search-in-place-graph.png
+  caption="D'abord nous avons retravaillé les résultats de recherche, puis nous les avons déplacé dans la navigation." %}
 
 Voici quelques-unes des étapes du projet sur les [groupes de To-Do](https://m.signalvnoise.com/new-in-basecamp-3-to-do-groups-6e19efc65fcc).
 
-{% include_cached figure.html
- url="/assets/img/2017/11/to-do-groups-graph.png"
- description="Les trois parties les plus importantes ont passé le sommet en premier." %}
+{% cloudinary
+ /assets/img/2017/11/to-do-groups-graph.png
+ caption="Les trois parties les plus importantes ont passé le sommet en premier." %}
 
-{% include_cached figure.html
- url="/assets/img/2017/11/to-do-groups-october-graph.png"
- description="Fin de la descente" %}
+{% cloudinary
+ /assets/img/2017/11/to-do-groups-october-graph.png
+ caption="Fin de la descente" %}
 
 ### Livrer est l'affaire de tous
 

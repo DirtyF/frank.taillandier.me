@@ -87,8 +87,7 @@ Ces trois dernières années, les intégrations des nouveaux membres ont été p
 que réussies. Amanda, Enza, Alexandra, vous m'avez bluffé. Boris, Bertrand,
 Matthieu, vous avez assuré.
 
-{% include_cached figure.html url="/assets/img/2017/05/amanda.jpg"
-description="Moment de complicité avec Amanda" %}
+{% cloudinary /assets/img/2017/05/amanda.jpg caption="Moment de complicité avec Amanda" %}
 
 **Le secret a été d'ajouter toujours plus d'humain**.
 

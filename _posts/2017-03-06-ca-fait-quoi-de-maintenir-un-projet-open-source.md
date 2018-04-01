@@ -40,8 +40,7 @@ Mais si jamais vous allez consulter vos [notifications sur
 GitHub](https://github.com/notifications), cela vous rappelle en permanence le
 nombre de personnes qui attendent après vous.
 
-{% include_cached figure.html url="/assets/img/2017/03/github-notifications.png"
-description="Capture d'écran montrant 403 notifications GitHub non lues" %}
+{% cloudinary /assets/img/2017/03/github-notifications.png caption="Capture d'écran montrant 403 notifications GitHub non lues" %}
 
 Quand enfin vous parvenez à dégager un peu de temps libre, vous ouvrez la porte
 à la première personne. Ses intentions sont bonnes : elle a tenté d'utiliser

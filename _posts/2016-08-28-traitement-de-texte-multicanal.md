@@ -33,8 +33,7 @@ formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres
 comme reStructuredText, Textile ou [Asciidoc](http://asciidoc.org/) mais la
 popularité de Markdown est grandissante depuis quelques années.
 
-{% include_cached figure.html url="/assets/img/2016/08/tendance-markdown.png"
-description="Tendance des recherches du terme Markdown dans Google" %}
+{% cloudinary /assets/img/2016/08/tendance-markdown.png caption="Tendance des recherches du terme Markdown dans Google" %}
 
 Cet essai revient sur les enjeux et les problématiques auxquels nous sommes tous
 confrontés quand il s'agit de migrer des contenus textuels. J'espère que ce
@@ -67,9 +66,8 @@ une véritable révolution comparé aux encombrants éditeurs qui affichaient de
 fenêtres de formatage de code ou à ceux qui ne proposaient pas de mise en forme
 du tout. Cependant, il y a quelques inconvénients.
 
-{% include_cached figure.html
-url="https://ia.net/wp-content/uploads/migration/plain-text-vs-rich-text-plain-text.png"
-description="Comparaison des deux formats de fichier" %}
+{% cloudinary /assets/img/2016/08/plain-text-vs-rich-text-plain-text.png
+caption="Comparaison des deux formats de fichier" %}
 
 Au format texte brut, le texte *est* la source. Avec le texte enrichi, ce que
 nous voyons est une simulation. Ce que nous voyons peut nous plaire, mais sous
@@ -78,16 +76,13 @@ complexe. Vous pouvez visiter ce monde enfoui en créant un document Pages ou
 Word, tapez "Bonjour monde" et sauvegardez, puis changez l'extension de fichier
 en `.zip` et décompressez l'archive. Bienvenue en 1979! [^2]
 
-{% include_cached figure.html
-url="https://ia.net/wp-content/uploads/migration/hello-world.png"
-description="Contenu d'un fichier Word" %}
+{% cloudinary /assets/img/2016/08/hello-world.png caption="Contenu d'un fichier Word" %}
 
 Si vous êtes assez téméraires pour aller inspecter le contenu du dossier généré,
 vous allez peut-être commencer à vous demander si vous avez tapé "Bonjour monde"
 ou "Bonjour l'enfer" :
 
-![fenêtres montrant du code source de fichiers texte au format
-XML](https://ia.net/wp-content/uploads/migration/hello-hell.png)
+{% cloudinary /assets/img/2016/08/hello-hell.png caption="Fenêtres montrant du code source de fichiers texte au format XML" %}
 
 Les formats personnalisés sont plus lourds que les formats en texte brut. Le
 souci majeur de ces formats personnalisés est que la relation entre le code
@@ -316,9 +311,7 @@ interagissent, s'influencent mutuellement et notre écriture et nos outils de
 publication devraient nous permettre d'aller et venir comme nous le
 souhaitons.[^9] L'écriture est espiègle par nature.
 
-{% include_cached figure.html
-url="https://ia.net/wp-content/uploads/migration/workflow-note-draft-edit-publish.png"
-description="" %}
+{% cloudinary /assets/img/2016/08/workflow-note-draft-edit-publish.png %}
 
 Écrire en étant concentré ne veut pas dire écrire avec des œillères, cela
 signifie que votre attention est principalement dirigée sur un seul aspect du
@@ -335,9 +328,7 @@ place du lecteur du texte. Voir notre texte imprimé change la perception que
 nous avons de lui. Vous obtenez le même effet quand vous sortez du Markdown pour
 aller regarder l'aperçu du rendu de votre texte en HTML.
 
-{% include_cached figure.html
-url="https://ia.net/wp-content/uploads/migration/markdown-with-preview-plain-text.png"
-description="Écrire et prévisualiser" %}
+{% cloudinary /assets/img/2016/08/markdown-with-preview-plain-text.png description="Écrire et prévisualiser" %}
 
 L'effet n'est peut être pas aussi frappant que le passage de l'écran au papier,
 mais il laisse entrevoir la forme du texte à venir. Avec le sentiment de la
@@ -425,8 +416,7 @@ plusieurs applications pour y parvenir. Et c'est précisément l'idée. Le texte
 brut est léger et gratuit et doit le rester. Évitez les applications qui veulent
 vous enchaîner.
 
-{% include_cached figure.html
-url="https://ia.net/wp-content/uploads/migration/appleiigsandimagewriterii.png" %}
+{% cloudinary /assets/img/2016/08/appleiigsandimagewriterii.png %}
 
 ---
 

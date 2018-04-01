@@ -35,8 +35,7 @@ Maintenant que ces fonctionnalités sont disponibles en utilisant les
 technologies web, les fabricants de navigateurs comme Google, Opera, Firefox et
 Microsoft incitent les entreprises à adopter les Progressive Web Apps.
 
-{% include_cached figure.html url="/assets/img/2016/09/planning-1.jpg"
-description="Photo de <a href=\"https://www.pexels.com/photo/creative-smartphone-desk-notebook-97987/\">Markus Spiske</a>" %}
+{% cloudinary /assets/img/2016/09/planning-1.jpg caption="Photo de [Markus Spiske](https://www.pexels.com/photo/creative-smartphone-desk-notebook-97987/)" %}
 
 ## Quelles motivations derrière les Progressive Web Apps ?
 
@@ -55,10 +54,7 @@ visite[^3]. Ce critère
 dans le futur quand les navigateurs comprendront mieux quand les gens installent
 des Progressive Web Apps.
 
-{% include_cached figure.html url="/assets/img/2016/09/add-to-home-screen.gif"
-description="GIF animée de la bannière d'installation sur l'écran d'accueil dans
-Chrome tirée de <a
-href=\"https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\">Google Developers</a>" %}
+{% cloudinary /assets/img/2016/09/add-to-home-screen.gif caption="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de [Google Developers](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\)" %}
 
 Et ce n'est que le début. Microsoft est en train de voir comment [ajouter des
 Progressive Web Apps sur le Windows
@@ -96,10 +92,7 @@ rapport](https://www.comscore.com/Insights/Press-Releases/2014/8/comScore-s-US-M
 qui indique que la plupart des utilisateurs de smartphones téléchargent zéro
 application par mois.
 
-{% include_cached figure.html
-url="/assets/img/2016/09/us-smartphone-users-number-of-app-downloads-per-month-of-smartphone-users-new_chartbuilder-1.png"
-description="Graphique du nombre de téléchargement d'applications par
-utilisateur par mois aux Etats-Unis" %}
+{% cloudinary /assets/img/2016/09/us-smartphone-users-number-of-app-downloads-per-month-of-smartphone-users-new_chartbuilder-1.png caption="Graphique du nombre de téléchargement d'applications par utilisateur par mois aux Etats-Unis" %}
 
 Dan Frommer, [résumant le
 rapport](http://qz.com/253618/most-smartphone-users-download-zero-apps-per-month/)
@@ -126,9 +119,7 @@ Store et le pourcentage de personnes qui arrêtent d'utiliser des applications
 continue de
 [croître](http://www.recode.net/2015/6/13/11563532/one-in-four-mobile-apps-are-abandoned-after-a-single-use).
 
-{% include_cached figure.html
-url="/assets/img/2016/09/retention_graph_average.png" description="Courbe de
-rétention moyenne pour les applications Androïd" %}
+{% cloudinary /assets/img/2016/09/retention_graph_average.png caption="Courbe de rétention moyenne pour les applications Androïd" %}
 
 Andrew Chen a travaillé avec la société d'intelligence mobile Quettra pour
 [analyser les données sur la fidélité envers les
@@ -187,8 +178,7 @@ application unique qui marche sur n'importe quelle plateforme.
 Quand vous n'êtes pas sur l'App Store, vous n'êtes pas limités par les règles de
 l'App Store et vous n'avez pas à reverser 30% de vos ventes à l'App Store.
 
-{% include_cached figure.html url="/assets/img/2016/09/app-store.jpg"
-description="Photo de <a href=\"https://www.pexels.com/photo/apple-office-internet-ipad-38544/\">Pixaboy</a>" %}
+{% cloudinary /assets/img/2016/09/app-store.jpg caption="Photo de [Pixaboy](https://www.pexels.com/photo/apple-office-internet-ipad-38544/)" %}
 
 ## Inconvénients des Progressive Web Apps
 
@@ -275,8 +265,7 @@ et les motivations seront grandissantes.
 Mais quand plus d'entreprises vont développer des Progressive Web Apps, ça va
 devenir plus difficile de se faire remarquer.
 
-{% include_cached figure.html url="/assets/img/2016/09/greenfield.jpg"
-description="Photo de Gratisography" %}
+{% cloudinary /assets/img/2016/09/greenfield.jpg caption="Photo de Gratisography" %}
 
 Actuellement, cela ne prend que deux visites sur votre site pour qu'une personne
 soit invitée à installer une Progressive Web App, mais au fur et à mesure que
