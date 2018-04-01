@@ -55,7 +55,7 @@ pour y voir plus clair avec tout ça une fois de plus.
 
 ## La promesse d'une fête du Burger
 
-![La promesse d'une fête du burger]({{ page.image | absolute_url }})
+{% cloudinary /assets/img/2017/03/promise-burger-party.png alt="La promesse d'une fête du burger" %}
 
 Voici un bout de code auquel nous allons nous intéresser au cours de cette
 histoire.
