@@ -8,6 +8,7 @@ gem "jekyll"
 group :jekyll_plugins do
   # "jekyll-paginate-v2"
   gem "classifier-reborn"
+  gem "jekyll-cloudinary"
   gem "jekyll-compose"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"

@@ -35,6 +35,18 @@ social:
     - https://keybase.io/dirtyf
     - https://twitter.com/DirtyF
 
+cloudinary:
+  cloud_name: jamstatic
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 720
+      fallback_max_width: 720
+      steps: 3
+      sizes: "(min-width: 56em) calc(56em - 2rem), 100vw"
+      figure: always
+
 # reading_time
 reading_time:
   words_per_minute: 180
