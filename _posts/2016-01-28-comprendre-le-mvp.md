@@ -92,7 +92,7 @@ Au final, lorsque le produit est terminé, le client vous dit « Merci, Enfin !
 Pourquoi n’avez vous pas simplement livré ça directement en sautant toutes les
 autres livraisons inutiles ? »
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-4.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-4.jpg
 alt="Étape 4 le client est content devant le produit fini" %}
 
 Dans cet exemple il est content du produit final car c’est ce qu’il a commandé.
@@ -112,7 +112,7 @@ D’où le titre « Pas comme ça ».
 
 Passons maintenant à la deuxième ligne.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-5.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-5.jpg
 alt="Exemple d'étapes d'un développement itératif" %}
 
 Ici nous adoptons une démarche très différente. Nous partons du même contexte -
@@ -129,7 +129,7 @@ permettra au client de tester des choses et de faire des retours. Certains
 appeleront cela un MVP (Produit Minimum Valable) mais je préfère l’appeler
 Produit Rapidement Testable (nous reparlerons de tout ça plus bas).
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-6.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-6.jpg
 alt="Première étape, le client n'est pas vraiment emballé" %}
 
 Appelez cela comme vous voulez (certains appellent même leur première release la «
@@ -161,7 +161,7 @@ La question clef c’est « **Quelle est la manière la plus rapide et la moins
 chère de pouvoir commencer à apprendre** ? » Pouvons nous livrer quelque chose
 encore plus vite qu’un skateboard ? Et pourquoi pas un ticket de bus ?
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-7.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-7.jpg
 alt="Ticket de bus" %}
 
 Est-ce que cela aidera à résoudre le problème de l’utilisateur ? Peut-être,
@@ -185,7 +185,7 @@ facilement. »
 Donc à la prochaine itération, nous essayons de résoudre ce problème, ou au
 moins d’en apprendre plus là dessus.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-8.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-8.jpg
 alt="Deuxième étape, le client commencer à apprécier le produit" %}
 
 Le client peut maintenant se balader dans les bureaux sans tomber !
@@ -197,7 +197,7 @@ deux bâtiments, à cause des petites roues et de l’abscence de freins. Du cou
 pour la prochaine version le produit se transforme en quelque chose qui
 ressemble à un vélo.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-9.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-9.jpg
 alt="Troisième étape, le client apprécie le produit" %}
 
 Maintenant le client peut se déplacer à tout vitesse autour du campus. Youpi !
@@ -230,7 +230,7 @@ Bien, revenons en à notre histoire. Peut-être que le client en veut plus.
 Parfois il a besoin de se rendre dans une autre ville et la balade à vélo est
 trop lente et fait suer. Nous ajouterons un moteur à la prochaine itération.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-10.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-10.jpg
 alt="Quatrième étape, le client aime bien son produit" %}
 
 Ce modèle convient particulièrement bien au logiciel — le *soft*ware est souple
@@ -258,7 +258,7 @@ voiture que celle imaginée au départ. Toutefois, il est beaucoup plus probable
 que nous aurons récolté des points de vue déterminants en cours de route et que
 nous arriverons à quelque chose de légèrement différent. Comme cela :
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-11.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-11.jpg
 alt="Cinquième étape, le client est emballé par son produit" %}
 
 Le client est fou de joie ! Pourquoi ? Parce que nous avons appris en cours de
@@ -309,7 +309,7 @@ Prenons quelques exemples issus de la vraie vie.
 Mais ça n’a pas démarré ainsi. J’ai eu la chance d’être impliqué très tôt dans
 cette fantastique aventure (et je le suis toujours).
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-12.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-12.jpg
 alt="Interface mobile des premières versions de Spotify" %}
 
 En tant que startup en 2006, Spotify a été fondée sur quelques hypothèses clés :
@@ -326,7 +326,7 @@ progression de « mise en tampon » ? 
 Commencer petit ne signifie pas que nous ne pouvez pas penser grand. Voici l’un
 des premiers croquis de ce qu’ils avaient en tête :
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-13.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-13.jpg
 alt="Croquis basse-définition de la première interface de Spotify" %}
 
 Mais plutôt que de passer des années à construire le produit en intégralité et
@@ -341,7 +341,7 @@ de jouer de façon uniforme et sans aucun saut de lecture ! Une fois qu’il son
 arrivés à quelque chose de décent, ils ont commencé à le tester eux-mêmes et
 l’ont fait tester à leur famille et à leurs amis.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-14.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-14.jpg
 alt="Première version de l'interface de Spotify" %}
 
 La version initiale ne pouvait pas être diffusée à une audience plus large, ce
@@ -359,7 +359,7 @@ désormais à l’histoire.
 
 ## Exemple 2 : Minecraft
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-15.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-15.jpg
 alt="Écran d'accueil du jeu Minecraft" %}
 
 [Minecraft](https://minecraft.net/) est l’un des jeux qui a rencontré le plus de
@@ -373,7 +373,7 @@ faire grand chose avec la première version - c’était tout compte fait un pay
 en 3D avec des blocs moches où l’on pouvait récolter des blocs et les placer
 ailleurs pour bâtir des structures rudimentaires.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-16.jpg %}
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-16.jpg %}
 
 C’était le skateboard.
 
@@ -405,7 +405,7 @@ fascinant, j’ai été impliqué en tant que coach et j’ai écrit un livre su
 nous avons fait et ce que nous avons appris ([Lean from the
 Trenches](https://pragprog.com/book/hklean/lean-from-the-trenches)).
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-17.jpg %}
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-17.jpg %}
 
 L’idée était d’équiper les voitures d’ordinateurs portables et de logiciel sur
 mesure pour permettre à la police d’avoir accès aux systèmes dont ils ont besoin
@@ -432,7 +432,7 @@ faire d’un seul coup**) ils ont découpé l’éléphant en deux dimensions :
   de crimes dès le début, nous pouvons commencer en ne prenant en charge qu’un ou
   deux types de crime.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-18.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-18.jpg
 alt="tableau de release du logiciel pour la police suédoise" %}
 
 La première version, la 1.0, était leur skateboard.
@@ -488,7 +488,7 @@ tester sur le terrain leurs dernières idées de produits.
 Voici un exemple récent. Les [Nexo
 Knights](http://www.lego.com/fr-fr/nexoknights/) (sortis en janvier 2016) :
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-19.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-19.jpg
 alt="Figurines des Lego Nexo Knights" %}
 
 Lorsqu’ils ont commencé à explorer le concept, ils ont fait des prototypes
@@ -511,7 +511,7 @@ massivement multijoueur. Ça a l’air marrant hein ? Le problème c’est qu’
 été trop ambitieux et ont fini par essayer de construire tout le truc à la
 perfection avant de le monter au monde entier.
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-20.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-20.jpg
 alt="Capture d'écran du jeu Lego Universe" %}
 
 Environ **250 personnes ont travaillé pendant 4 à 5 ans** (à cause d’un
@@ -527,7 +527,7 @@ si vous vous attendez à une voiture) et que la culture de Lego est avant tout d
 procurer des expériences géniales ! Si vous travailler au QG de Lego à Billand
 au Danemark, vous passerez devant cette énorme fresque murale tous les jours :
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-21.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-21.jpg
 alt="Det Bedsten Er Ikke For Godt" %}
 
 Cela peut se traduire par « Seul le meilleur est assez bon ». Cela a été le
@@ -562,7 +562,7 @@ client avec un produit buggué et inachevé.
 
 **Pour certains clients, MVP = MMP (Merde Minimum Publiable**).
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-22.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-22.jpg
 alt="Fais moi une Merde Minimum Publiable et je passe au projet suivant !" %}
 
 Je sais, je sais, cela est davantage dû à un mauvais management qu’au terme MVP,
@@ -587,7 +587,7 @@ quelque chose que je peux tester et qui peut générer des retours », d’autr
 pense que cela veut dire « quelque chose que le client peut vraiment utiliser ».
 Donc soyons plus explicites et découpons le en trois choses différentes :
 
-{% cloudinary /assets/img/2016/01/assets/img/2016/01/Making-sense-of-MVP-23.jpg
+{% cloudinary /assets/img/2016/01/Making-sense-of-MVP-23.jpg
 alt="Visez la lune… mais livrez petit à petit" %}
 
 Le **Produit Testable Rapidement** est le skateboard ou le ticket de bus, **la
