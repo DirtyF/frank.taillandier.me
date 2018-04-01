@@ -113,7 +113,8 @@ Burger utilise un système de sonnerie. Quand un client passe une commande en
 caisse, la personne au comptoir vous tend un plateau sur lequel est posé un
 bipeur en échange du paiement.
 
-![promesse](/assets/img/2017/03/promise-burger-party-2.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-2.png
+alt="promesse" %}
 
 Le plateau est une *promesse* de la part du cabanon du Burger, ils y déposeront
 leur délicieux burger une fois qu'il sera prêt, le bipeur est un indicateur de
@@ -135,14 +136,14 @@ avec un bipeur). Une valeur en retour (un burger) devrait arriver sur votre
 plateau une fois que la promesse a été tenue et une fonction de callback est
 appelée. On va en parler plus en détail dans la prochaine partie !
 
-![code1](/assets/img/2017/03/promise-burger-party-3.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-3.png alt="code1" %}
 
 ## Ajout des gestionnaires de promesse
 
 On dirait que le bipeur sonne, allons au comptoir pour récupérer notre commande.
 Il y a deux scénarios possibles à ce moment là.
 
-![terminée](/assets/img/2017/03/promise-burger-party-4.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-4.png alt="terminée" %}
 
 ### 1. La commande est honorée
 
@@ -156,7 +157,7 @@ burger a été rejetée. Demandez à vous faire rembourser !
 
 Voici comment vous pourriez vous préparer à ces deux cas de figure dans le code.
 
-![then et catch](/assets/img/2017/03/promise-burger-party-5.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-5.png alt="then et catch" %}
 
 `.then()` prend une autre fonction comme second argument qui peut être aussi
 utilisée pour gérer les refus. Pour faire simple, j'utilise juste `.catch()`
@@ -177,7 +178,8 @@ comptoir, la personne vous donne une autre plateau et un autre bipeur. Comme le
 milkshake est super rapide à préparer, le caissier vous donne aussi le
 milkshake. Pas la peine d'attendre que le bipeur sonne (il sonne déjà !).
 
-![nouvelle promesse](/assets/img/2017/03/promise-burger-party-6.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-6.png
+alt= "nouvelle promesse" %}
 
 Regardons comment ça fonctionne dans le code. Enchaîner une promesse est aussi
 simple que d'ajouter un autre `.then()` dans votre code. `.then()` retourne
@@ -185,7 +187,8 @@ toujours une promesse. Rappelez vous juste que chaque `.then()` vous retourne un
 plateau et un bipeur et qu'une vraie valeur de retour est passée en argument du
 callback.
 
-![enchaînement](/assets/img/2017/03/promise-burger-party-7.png)
+{% cloudinary /assets/img/2017/03/promise-burger-party-7.png
+alt="enchaînement" %}
 
 Maintenant que vous avez un burger et un milkshake, la fête du Burger peut
 commencer 🎉

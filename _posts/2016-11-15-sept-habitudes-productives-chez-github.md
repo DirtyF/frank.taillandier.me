@@ -31,7 +31,7 @@ humains.
 
 ---
 
-![Sceau officiel de l'Octocat]({{ page.image | relative_url }})
+{% cloudinary /assets/img/2016/11/github-office.jpg alt="Sceau officiel de l'Octocat" %}
 
 J'ai commencé à travailler chez GitHub lorsque nous n'étions qu'une centaine de
 personnes. Il y a quelques semaines, nous avons dépassé les 600. Beaucoup de

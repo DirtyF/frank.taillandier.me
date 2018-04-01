@@ -33,7 +33,9 @@ formats texte comme Markdown. Markdown n'est pas le seul, il y en a d'autres
 comme reStructuredText, Textile ou [Asciidoc](http://asciidoc.org/) mais la
 popularité de Markdown est grandissante depuis quelques années.
 
-{% cloudinary /assets/img/2016/08/tendance-markdown.png caption="Tendance des recherches du terme Markdown dans Google" %}
+{% cloudinary
+ /assets/img/2016/08/tendance-markdown.png
+ caption="Tendance des recherches du terme Markdown dans Google" %}
 
 Cet essai revient sur les enjeux et les problématiques auxquels nous sommes tous
 confrontés quand il s'agit de migrer des contenus textuels. J'espère que ce
@@ -66,8 +68,9 @@ une véritable révolution comparé aux encombrants éditeurs qui affichaient de
 fenêtres de formatage de code ou à ceux qui ne proposaient pas de mise en forme
 du tout. Cependant, il y a quelques inconvénients.
 
-{% cloudinary /assets/img/2016/08/plain-text-vs-rich-text-plain-text.png
-caption="Comparaison des deux formats de fichier" %}
+{% cloudinary
+  /assets/img/2016/08/plain-text-vs-rich-text-plain-text.png
+  caption="Comparaison des deux formats de fichier" %}
 
 Au format texte brut, le texte *est* la source. Avec le texte enrichi, ce que
 nous voyons est une simulation. Ce que nous voyons peut nous plaire, mais sous

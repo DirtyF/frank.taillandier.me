@@ -45,7 +45,7 @@ ce texte permet d'avoir une bonne vision des architectures et des technologies
 web modernes et de l'autre il permet de comprendre que tout cela va bien au delà
 de la simple génération de la version *statique* d'un site.
 
-![JAMStack](/assets/img/2016/05/jamstack.png)
+{% cloudinary /assets/img/2016/05/jamstack.png alt="JAMStack" %}
 
 > **La JAMStack est une façon idéale de bâtir des sites et des applications web
 > performants, sécurisés et simples à mettre à jour.**__

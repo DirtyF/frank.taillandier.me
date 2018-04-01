@@ -325,7 +325,8 @@ décentralisées comme l'a fait l'agence
 [Carrot](http://carrot.is/coding/static_cms), éditrice du gestionnaire de
 contenu roots :
 
-![Exemple d'architecture de services pour servir du statique](http://netlify.scdn4.secure.raxcdn.com/cf89f31c56172ed6da0e895513d16fbb717b01a2/b3215/img/coding/contentful_netlify_workflow.svg)
+{% cloudinary assets/img/2016/03/architecture-jamstack.svg
+caption="Exemple d'architecture de services pour servir du statique" %}
 
 Bien sur on peut se poser la question de la dépendance à des services, mais rien
 ne vous empêche d’héberger ou de sauvegarder vos sites statiques sur vos propres

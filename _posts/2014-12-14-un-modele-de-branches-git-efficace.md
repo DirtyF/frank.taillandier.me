@@ -3,7 +3,7 @@ title: Un modèle de branches Git efficace
 description: >
   Traduction de l'article de Vincent Driessen sur Git Flow, une stratégie de
   gestion de branches pour Git.
-image: http://nvie.com/img/git-model@2x.png
+image: /assets/img/2014/12/git-model@2x.png
 source:
   url: http://nvie.com/posts/a-successful-git-branching-model/
   title: A successful Git branching model
@@ -16,7 +16,7 @@ personnels) depuis 2009, et qui s’est avéré être très efficace. Il aborde
 principalement la stratégie de ramification et la gestion des versions.
 {: .lead }
 
-![modèle de branches Git](http://nvie.com/img/git-model@2x.png)
+{% cloudinary /assets/img/2014/12/git-model@2x.png alt="modèle de branches Git" %}
 
 C’est axé autour de Git comme outil de versionnement pour tout le code source.
 
@@ -62,7 +62,7 @@ système de version décentralisé, techniquement il n’existe pas de dépôt c
 en tant que tel.). Nous ferons référence à ce dépôt comme `origin`, puisque tous
 les utilisateurs de Git sont familiers avec ce nom.
 
-![Des dépôts centralisés et un dépôt central](http://nvie.com/img/centr-decentr@2x.png)
+{% cloudinary /assets/img/2014/12/centr-decentr@2x.png alt= "Des dépôts centralisés et un dépôt central" %}
 
 Chaque développeur `pull` et `push` sur `origin`. Mais au delà de la relation
 centralisée push-pull, chaque développeur peut aussi récupérer des changements
@@ -187,7 +187,7 @@ l’information de l’existence historique d’une branche de fonctionnalité e
 groupe ensemble tous les commits qui ont été ajoutés à la fonctionnalité.
 Comparez :
 
-![Fusion avec et sans l’option fast-foward](http://nvie.com/img/merge-without-ff@2x.png)
+{% cloudinary /assets/img/2014/12/merge-without-ff@2x.png alt= "Fusion avec et sans l’option fast-foward" %}
 
 Dans le deuxième cas, il est impossible de voir à partir de l’historique de Git
 quel groupe de commits a implémenté une fonctionnalité - il faudrait lire
@@ -326,7 +326,8 @@ Deleted branch release-1.2 (was ff452fe).
 <dd>`hotfix-*</develop></dd>
 </dl>
 
-![Une branche de correctif](http://nvie.com/img/hotfix-branches@2x.png)
+
+{% cloudinary /assets/img/2014/12/hotfix-branches@2x.png alt= "Une branche de correctif" %}
 
 Les branches de correctifs ressemblent beaucoup aux branches de version, dans le
 sens où elles sont également destinées à préparer une nouvelle version de
