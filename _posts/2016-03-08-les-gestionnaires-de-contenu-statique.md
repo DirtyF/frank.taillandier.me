@@ -325,7 +325,7 @@ décentralisées comme l'a fait l'agence
 [Carrot](http://carrot.is/coding/static_cms), éditrice du gestionnaire de
 contenu roots :
 
-{% cloudinary assets/img/2016/03/architecture-jamstack.svg
+{% cloudinary /assets/img/2016/03/architecture-jamstack.png
 caption="Exemple d'architecture de services pour servir du statique" %}
 
 Bien sur on peut se poser la question de la dépendance à des services, mais rien
