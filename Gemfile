@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
-  gem "jekyll_reading_time"
+  gem "jekyll_reading_time", git: "https://github.com/RouteMap/jekyll_reading_time"
   gem "jemoji"
 end
 
