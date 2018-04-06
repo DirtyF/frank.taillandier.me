@@ -1,6 +1,7 @@
 # frank.taillandier.me
 
 [![Build Status](https://travis-ci.org/DirtyF/frank.taillandier.me.svg?branch=master)](https://travis-ci.org/DirtyF/frank.taillandier.me) ![Powered by Jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/DirtyF)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDirtyF%2Ffrank.taillandier.me.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FDirtyF%2Ffrank.taillandier.me?ref=badge_shield)
 
 This blog is built using [Jekyll](https://github.com/jekyll/jekyll), [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), and a slighty modified version of the [Lanyon Theme](https://github.com/poole/lanyon).
 
@@ -13,3 +14,7 @@ Posts are written in [Atom.io](https://atom.io/) with the help of the following 
 * [Jekyll](https://github.com/arcath/jekyll-atom)
 
 See [humans.txt](http://frank.taillandier.me/humans.txt) for more infos.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDirtyF%2Ffrank.taillandier.me.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDirtyF%2Ffrank.taillandier.me?ref=badge_large)
