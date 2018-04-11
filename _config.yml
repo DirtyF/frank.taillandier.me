@@ -44,7 +44,7 @@ cloudinary:
       max_width: 720
       fallback_max_width: 720
       steps: 3
-      sizes: "(min-width: 56em) calc(56em - 2rem), 100vw"
+      sizes: "(min-width: 38rem) 36rem, (min-width: 32rem) 30rem, 90vw"
 
 # reading_time
 reading_time:
