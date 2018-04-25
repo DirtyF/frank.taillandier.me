@@ -130,7 +130,7 @@ pwa:
   dest_js_directory: assets/js
   cache_name: franktaillandier # Optional
   precache_channel_name: sw-precache # Optional
-  precache_recent_posts_num: 10 # Optional
+  precache_recent_posts_num: 20 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "assets/{js,css,favicons,img,fonts}/**/*.{js,css,woff2,woff}"
