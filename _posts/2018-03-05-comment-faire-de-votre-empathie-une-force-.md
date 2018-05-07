@@ -9,11 +9,11 @@ source:
   url: https://www.unstuck.com/advice/what-is-empathy/
 ---
 
-Refouler ses émotions en permanence, ne pas se sentir écouter ou compris, c'est très fréquent. C'est rarement tenable sur le long terme, l'être humain est une créature hautement émotionnelle.
+Refouler ses émotions en permanence, ne pas se sentir écouté ou compris, c'est très fréquent. C'est rarement tenable sur le long terme, l'être humain est une créature hautement émotionnelle.
 Apprendre à écouter l'autre, savoir écouter ses propres émotions, autant de conseils qui pourraient s'avérer bien utiles pour améliorer vos rapports personnels et professionnels.
 {: .lead }
 
-Quand j'étais plus jeune, on me disait tout le temps que j'étais "celle qui savait écouter". [Être une personne très sensible](http://melodywilding.com/highly-sensitive-person-10-ways-tell/) signifie avoir le don de ressentir les émotions des autres, même lorsqu'ils sont silencieux. J'ai petit à petit compris quel pouvoir l'empathie pouvait avoir. Maintenant que je fais du coaching et du social, cela figure même en bonne place sur ma fiche de poste.
+Quand j'étais plus jeune, on me disait tout le temps que j'étais « celle qui savait écouter ». [Être une personne très sensible](http://melodywilding.com/highly-sensitive-person-10-ways-tell/) signifie avoir le don de ressentir les émotions des autres, même lorsqu'ils sont silencieux. J'ai petit à petit compris quel pouvoir l'empathie pouvait avoir. Maintenant que je fais du coaching et du social, cela figure même en bonne place sur ma fiche de poste.
 
 {% cloudinary /assets/img/2018/empathy_large.jpg %}
 
@@ -31,22 +31,22 @@ Avant de voir mes clients, je crée un environnement où je me sens à l'aise et
 
 Éteignez votre téléphone. Désactivez vos [notifications](https://www.unstuck.com/advice/schedule-your-freedom/).
 Respectez cette personne et donnez-lui votre entière attention. 
-Ne voudriez-vous qu'on fasse de même pour vous ?
+Ne voudriez-vous qu'on en fasse de même pour vous ?
 
 ## Maîtrisez l'art de l'écoute active
 
 En tant que coach, il est de mon devoir d'aider à surmonter des obstacles, de manière à pouvoir agir pour atteindre leurs objectifs. Cela revient à commencer par s'assurer que je _comprenne_ bien leurs priorités et leurs envies.
 
-De la même manière, dans n'importe quelle relation, l'empathie demande d'écouter sans juger et de laisser vos à priori de côté. Vous allez plutôt vouloir utiliser vos capacités d'écoute active pour arriver à mieux connaître la personne, cela inclus :
+De la même manière, dans n'importe quelle relation, l'empathie demande d'écouter sans juger et de laisser vos à priori de côté. Vous allez plutôt vouloir utiliser vos capacités d'écoute active pour arriver à mieux connaître la personne, cela inclut :
 
 - **Refléter**
-*"Ce que je comprends c'est que tu dis que…"  ou "Selon moi on dirait que…"*
+*« Ce que je comprends c'est que tu dis que… »*  ou *« Selon moi on dirait que… »*
 
 - **Confirmer**
-Sourire, acquiescer ou utiliser de brèves affirmations verbales comme *"Je vois…"* ou *"mmmhmm"*
+Sourire, acquiescer ou utiliser de brèves affirmations verbales comme *« Je vois… »* ou *« mmmhmm »*
 
 - **Encourager**
-*“Et ensuite ?”*
+*« Et ensuite ? »*
 
 Adaptez ces réponses avec votre style à vous de manière à ce que ça sonne vrai. Faites-les vôtres.
 
@@ -60,9 +60,9 @@ Cela leur permet de partager ouvertement le stress qu'ils ressentent, ils savent
 
 ## Utilisez des temps de pause
 
-Nous ne pensons pas à mal quand nous intervenons pour finir la phrase d'une personne, que nous lui donnons un conseil ou que nous l'interrompons. Dès aujourd’hui, lors d'une conversation, attendez cinq secondes avant de répondre. C'est pénible mais vous serez surpris à par l'efficacité de s'exercer à ne presque rien dire.
+Nous ne pensons pas à mal quand nous intervenons pour finir la phrase d'une personne, que nous lui donnons un conseil ou que nous l'interrompons. Dès aujourd’hui, lors d'une conversation, attendez cinq secondes avant de répondre. C'est pénible mais vous serez surpris par l'efficacité de s'exercer à ne presque rien dire.
 
-Apprendre à être à l'aise avec le silence est surement le compétence la plus précieuse que j'ai apprise pour établir rapidement un rapport et une connexion.
+Apprendre à être à l'aise avec le silence est sûrement le compétence la plus précieuse que j'ai apprise pour établir rapidement un rapport et une connexion.
 
 ## Remplacez les conseils par de la curiosité
 
@@ -78,19 +78,19 @@ Plutôt que de donner votre opinion, posez des questions pour mieux comprendre l
 
 - Qu'en faites-vous?
 
-## Dîtes "nous" plutôt que "je"
+## Dites « nous » plutôt que « je »
 
-Quand des gens viennent me voir, ils se sentent confus et isolés dans leurs luttes. Pour leur montrer qu'ils ne sont pas tous seuls, j'évoque rapidement comment nous allons relever ses défis ensemble, avec l'équipe — en utilisant toujours le "nous" — de manière à ce qu'ils reprennent confiance et qu'ils se sentent soutenus.
+Quand des gens viennent me voir, ils se sentent confus et isolés dans leurs luttes. Pour leur montrer qu'ils ne sont pas tous seuls, j'évoque rapidement comment nous allons relever ses défis ensemble, avec l'équipe — en utilisant toujours le « nous » — de manière à ce qu'ils reprennent confiance et qu'ils se sentent soutenus.
 
 La recherche [démontre](https://hbr.org/2015/03/if-you-want-to-be-the-boss-say-we-not-i) que modifier votre façon de parler est un premier pas vers l'adoption d'une attitude empathique. Les personnes qui s'expriment davantage à la seconde personne savent mieux interpréter les pensées, les sentiments et les comportements de leurs semblables — l'essence même de l'empathie.
 
-Quand vous êtes vraiment connecté avec une personne, créez un lien en parlant de vos objectifs communs. Par exemple : "OK, parlons de ce que nous allons ensuite faire pour résoudre ce problème" ou "nous allons y arriver".
+Quand vous êtes vraiment connecté avec une personne, créez un lien en parlant de vos objectifs communs. Par exemple : « OK, parlons de ce que nous allons ensuite faire pour résoudre ce problème » ou « nous allons y arriver ».
 
 ## Imaginez leur point de vue
 
 J'essaie également de me mettre à la place des gens : à quelles peurs font-ils face ? Quel est le changement positif dont ils rêvent ?
 
-Prêtez vous à cet exercice (en silence) en vous entrainant à deviner le point de vue de cette personne. Surtout si c'est une personne difficile à gérer, il est important de partir du principe que son but est louable. Donnez aux personnes le bénéfice du doute, qu'elles partent avec de bonnes et non de mauvaises intentions.
+Prêtez-vous à cet exercice (en silence) en vous entraînant à deviner le point de vue de cette personne. Surtout si c'est une personne difficile à gérer, il est important de partir du principe que son but est louable. Donnez aux personnes le bénéfice du doute, qu'elles partent avec de bonnes et non de mauvaises intentions.
 
 Ce changement d'état d'esprit peut grandement améliorer votre humeur et vous aider à rester dans un état empathique.
 
@@ -98,6 +98,6 @@ Ce changement d'état d'esprit peut grandement améliorer votre humeur et vous a
 
 Affûtez votre [vocabulaire émotionel](http://melodywilding.com/control-stress-and-feel-less-anxious-with-emotional-labeling-free-toolkit/) de manière à pouvoir mieux discerner et nommer ces émotions chez les autres.
 
-Même s'il y a des moments, où je suis moins compatissante que je voudrais, comme tout le monde (je deviens vite irritable quand j'ai très faim par exemple, j'ai vraiment du mal à me contrôler). Lorsque cela se produit, cela veut dire que je dois d'abord songer à prendre soin de moi.
+Même s'il y a des moments, où je suis moins compatissante que je le voudrais, comme tout le monde (je deviens vite irritable quand j'ai très faim par exemple, j'ai vraiment du mal à me contrôler), lorsque cela se produit, cela veut dire que je dois d'abord songer à prendre soin de moi.
 
 Assurez-vous également de vous occuper de vos propres émotions. Vous ne pouvez pas piocher de l'empathie si vos réserves sont vides.
