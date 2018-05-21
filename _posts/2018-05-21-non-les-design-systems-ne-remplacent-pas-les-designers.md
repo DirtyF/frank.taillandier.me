@@ -2,7 +2,7 @@
 title: "Non, les design systems ne feront pas le travail des designers"
 description: "Cinq perspectives de designers influents sur la façon dont les design systems pourraient affecter - voire supplanter - le rôle d'un designer."
 image: /assets/img/2018/design-system.png https://images.ctfassets.net/7jw9uvgmirvi/1srJpiJVpueKQSAk6sM282/30f2bd343476f1e7ea38fc951e39ce61/Group_6.png
-src:
+source:
   url: https://www.designsystems.com/stories/design-systems-will-not-replace-designers/
   title: No, design systems will not replace design jobs
   author: Carmel DeAmicis
@@ -25,7 +25,7 @@ Cela nous amène à nous poser une question importante : est-ce que les design s
 
 Nous avons parlé à cinq figures importantes du design et recueilli leur point de vue sur comment les design systems pourraient changer - ou supprimer - le rôle du designer.
 
-Notre panel d'expert en faveur du "non" :
+Notre panel d'experts en faveur du "non" :
 
 [Diana Mounter](https://twitter.com/broccolini)
  Responsable de l'équipe Design Systems chez [GitHub](https://www.github.com)
@@ -42,9 +42,9 @@ Notre panel d'expert en faveur du "non" :
 [Rasmus Andersson](https://twitter.com/rsms)
  Designer, [Figma](https://www.figma.com)
 
-Malgré de larges éventails de parcours du consommateur à l'entreprise, tous ceux avec qui nous avons parlé sont persuadés que les design systems ne voleront pas le travail des designers… où du moment l'espèrent-ils.
+Malgré de grandes différences de parcours du consommateur à l'entreprise, tous ceux avec qui nous avons parlé sont persuadés que les design systems ne voleront pas le travail des designers… où du moins l'espèrent-ils.
 
-> Je suis entièrement persuadé que des personnes vont se dire, "Oh maintenant que vous avons un design system, nous n'avons donc plus besoin d'autant de designers" nous dit [Ben Wilkins](https://twitter.com/thatbenlifetho), design technologist chez [Airbnb](https://www.airbnb.com). “C'est une mauvaise conclusion. Elles n'en tirent pas la bonne leçon.”
+> Je suis intimement persuadé que des personnes vont se dire, "Oh maintenant que vous avons un design system, nous n'avons donc plus besoin d'autant de designers" nous dit [Ben Wilkins](https://twitter.com/thatbenlifetho), design technologist chez [Airbnb](https://www.airbnb.com). “C'est une mauvaise conclusion. Elles n'en tirent pas la bonne leçon.”
 
 * * * * *
 
@@ -59,7 +59,7 @@ Le manque de designers formés ne posait pas de problèmes dans les années 90 e
 
 C'est en partie pour cette raison que les équipes ont besoin de design systems en premier lieu — pour que le travail de conception fonctionne à grande échelle et qu'il ne ralentisse pas la croissance. Avec des procédés en place — conventions sur des composants comme les barres de navigation et les menus déroulants, les façons de les mettre à jour automatiquement, des accords sur quand créer de nouveaux éléments, des conseils précis sur comment tout cela s'articule — le poids de la création d'interface est enlevé des épaules des designers.
 
-Maintenant qu'elle n'est plus requise pour réinventer la roue (ou une icône), l'attention des designers peut se pencher sur divers types de défis. "Je veux que les designers de GitHub se demandent comment rendre plus simple la gestion de projet pour les développeurs, les gestionnaires de produits et les designers dans les entreprises ?" dit  said [Diana Mounter](https://twitter.com/broccolini), en charge de l'équipe design systems chez [GitHub](https://www.github.com). Et non, "Quelle apparence devrait avoir ce bouton ? Comment dois-je le coder ?"
+Maintenant qu'elle n'est plus requise pour réinventer la roue (ou une icône), l'attention des designers peut se pencher sur divers types de défis. "Je veux que les designers de GitHub se demandent comment rendre plus simple la gestion de projet pour les développeurs, les responsables produit et les designers dans les entreprises ?" dit  said [Diana Mounter](https://twitter.com/broccolini), en charge de l'équipe design systems chez [GitHub](https://www.github.com). Et non, "Quelle apparence devrait avoir ce bouton ? Comment dois-je le coder ?"
 
 C'est le rêve : que les design systems donnent aux designers la possibilité de se concentrer sur ce qui compte: la vue d'ensemble. Après tout, très peu de designers rejoignent une entreprise pour tourner à vide et cracher indéfiniment des wireframes.
 
