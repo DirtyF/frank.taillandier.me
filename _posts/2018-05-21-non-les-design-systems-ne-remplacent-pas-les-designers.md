@@ -10,7 +10,7 @@ src:
 
 {: .lead }
 Un débat anime en ce moment la communauté des designers numériques : les design systems vont-ils sonner leur disparition ou au contraire leur permettre de mieux faire leur travail ?
-Cinq designers de la Silicon Valley penchent plutôt pour le deuxième scénario alors qu' Adam Michela, le créateur des design systems de Airbnb et Facebook, pense plutôt qu'[ils vont prendre la place des designers](https://www.designsystems.com/stories/will-design-systems-replace-designers/).
+Cinq designers de la Silicon Valley penchent plutôt pour le deuxième scénario alors qu'Adam Michela, le créateur des design systems de Airbnb et Facebook, pense plutôt qu'[ils vont prendre la place des designers](https://www.designsystems.com/stories/will-design-systems-replace-designers/).
 
 
 Le design numérique est en train de vivre sa plus grande révolution culturelle depuis l'iphone d'Apple, avec l'émergence des design systems.
