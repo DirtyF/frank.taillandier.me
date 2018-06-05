@@ -24,7 +24,7 @@ Il y a un peu plus d'un an, Henri Kniberg, un de mes coaches Agile préféré, p
 
 Je mets volontairement en emphase "les équipes de développement" car je vais essayer ici de nuancer le concept lorsqu'il s'applique à de véritables _équipes produit_ multi-disciplinaires.
 
-Soyons clair, par "équipes de développement" j'entends une équipe soit uniquement composée de développeurs, soit qui comprennent un membre qui fait office de _product owner_ (et non [un vrai product manager](https://svpg.com/product-manager-vs-product-owner-revisited/)).
+Soyons clair, par "équipes de développement" j'entends des équipes soit uniquement composées de développeurs, soit qui comprennent un membre qui fait office de _product owner_ (et non [un vrai product manager](https://svpg.com/product-manager-vs-product-owner-revisited/)).
 
 À contrario, une équipe produit comprend un vrai _product manager_, un product designer expérimenté et quelques développeurs.
 
