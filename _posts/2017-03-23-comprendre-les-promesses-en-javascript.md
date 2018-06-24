@@ -216,7 +216,7 @@ burger, alors la totalité de la course des promesses sera refusée.)
 Il y a bien plus de choses à savoir sur les promesses. Voici quelques
 suggestions de lecture pour aller plus loin :
 
-* [Premiers pas avec NodeJS](https://oncletom.io/node.js/chapter-02/),
+* [Jouer avec JavaScript](https://oncletom.io/node.js/chapter-03/#promise),
   extrait du livre à paraître de Thomas Parisot
 * [Promets moi que ça ne fera pas mal](https://github.com/stevekane/promise-it-wont-hurt)
   un didacticiel interactif en français
