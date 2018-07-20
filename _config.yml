@@ -37,7 +37,7 @@ social:
 
 cloudinary:
   cloud_name: jamstatic
-  verbose: true
+  verbose: false
   presets:
     default:
       min_width: 320
@@ -126,14 +126,12 @@ disqus:
   shortname: franktaillandier
 
 pwa:
-  sw_filename: service-worker.js
-  dest_js_directory: assets/js
-  cache_name: franktaillandier # Optional
-  precache_channel_name: sw-precache # Optional
+  dest_js_directory: assets/js # Required
   precache_recent_posts_num: 20 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
-    - "assets/{js,css,favicons,img,fonts}/**/*.{js,css,woff2,woff}"
+    - "assets/{js,css,fonts,favicons}/**/*.{js,css,eot,svg,ttf,woff2,woff}"
     - index.html
   precache_glob_ignores: # Optional
     - sw-register.js
+    - "assets/fonts/**/*"
