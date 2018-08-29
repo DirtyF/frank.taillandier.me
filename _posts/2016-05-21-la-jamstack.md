@@ -7,7 +7,7 @@ image: /assets/img/2016/05/a-new-stack.png
 ---
 
 Dans la [mouvance statique](/2016/03/08/les-gestionnaires-de-contenu-statique/),
-l'idée sous-jacente n'était pas tant de se focaliser les outils qui permettent
+l'idée sous-jacente n'était pas tant de se focaliser sur les outils qui permettent
 de générer une version statique, que d'expliquer qu'il y avait désormais tout un
 contexte technologique à prendre en compte et que de les processus de travail
 actuels découlent de cet écosystème. Lors de la dernière *Smashing Conference* à
