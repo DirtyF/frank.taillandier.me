@@ -42,7 +42,7 @@ Ce qui a commencé sous la forme d'un fichier PDF statique, a ensuite évolué e
 
 Nous avons par la suite testé [Craft](https://www.invisionapp.com/craft), un ensemble de plugins Sketch d'[InVision](https://www.invisionapp.com), le plus notable d'entre eux étant le [plugin de bibliothèque](https://support.invisionapp.com/hc/en-us/articles/208434046-Craft-Introduction-to-the-Library-plugin).
 
-Cela nous a permis de partager les symboles Sketch à la fois entre les documents et les différentes **équipes** et de bâtir une bibliothèque de symboles partagée pour l'ensemble de l'entreprise.
+Cela nous a permis de partager les symboles Sketch à la fois entre les documents et les différentes **équipes**, mais aussi de bâtir une bibliothèque de symboles partagée avec l'ensemble de l'entreprise.
 
 {% include figure.html src="/assets/img/2018/craft-library-plugin.gif" caption="Plugin de bibliothèque Craft"
 %}
@@ -72,7 +72,7 @@ Une fois que nous avons eu développé une collection assez importante de compos
 >
 > [Jon Gold, Airbnb](https://airbnb.design/painting-with-code)
 
-C'était trop beau pour être vrai. Du vrai code React, rendu directement dans Sktech. On dirait bien que les développeurs et les designers allaient enfin pouvoir s'appuyer un _design system_ comme unique source de référence.
+C'était trop beau pour être vrai. Du vrai code React, rendu directement dans Sketch. On dirait bien que les développeurs et les designers allaient enfin pouvoir s'appuyer sur un _design system_ comme unique source de référence.
 
 En centralisant nos règles de conception dans le code, non seulement nous pouvions les diffuser sur nos applications en production mais nous étions également capable de répercuter notre travail dans les outils que nos designers utilisaient _déjà_. Au fur et à mesure que nos conventions de conception continuaient d'évoluer, nous étions capables de rester synchrone avec nos designers, sans avoir à intervenir manuellement dans Sketch.
 
@@ -147,7 +147,7 @@ Ils ont pris une approche radicalement différente avec  [html-sketchapp](https:
   /assets/img/2018/html-sketchapp.png
 %}
 
-Comme son nom l'indique, `html-sktechapp` permet de générer des fichiers Sketch à partir de fichiers HTML normaux, mais contrairement à `react-sketchapp`, vous restez libre des choix techniques pour votre application.
+Comme son nom l'indique, `html-sketchapp` permet de générer des fichiers Sketch à partir de fichiers HTML normaux, mais contrairement à `react-sketchapp`, vous restez libre des choix techniques pour votre application.
 
 Vous pourriez développer votre application avec [Preact](https://preactjs.com),
 [Vue](https://vuejs.org), [Angular](https://angularjs.org),
@@ -272,7 +272,7 @@ C'est donc ce que nous avons fait.
 
 #### Voici donc `html-sketchapp-cli`
 
-Moins d'un mois après avoir commencé à intégrer `html-sktechapp` dans notre style guide, nous avons ouvert le code source de
+Moins d'un mois après avoir commencé à intégrer `html-sketchapp` dans notre style guide, nous avons ouvert le code source de
 [`html-sketchapp-cli`](https://github.com/seek-oss/html-sketchapp-cli), un petit utilitaire en ligne de commande qui vous évite d'avoir à coder tout ça.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">💎🚀 Super excited to unveil html-sketchapp-cli 🎉<br><br>Quickly generate Sketch libraries from HTML documents—powered by html-sketchapp.<br><br>Add this:<br>&lt;div data-sketch-symbol=&quot;Button/Primary&quot;&gt;…&lt;/div&gt;<br><br>Run this:<br>$ html-sketchapp --file sketch.html --out-dir dist<a href="https://t.co/vFH256rLRK">https://t.co/vFH256rLRK</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/943183893703802881?ref_src=twsrc%5Etfw">December 19, 2017</a></blockquote>
