@@ -1,8 +1,6 @@
 ---
 title: Un modèle de branches Git efficace
-description: >
-  Traduction de l'article de Vincent Driessen sur Git Flow, une stratégie de
-  gestion de branches pour Git.
+description: Traduction de l'article de Vincent Driessen sur Git Flow, une stratégie de gestion de branches pour Git.
 image: /assets/img/2014/12/git-model@2x.png
 source:
   url: http://nvie.com/posts/a-successful-git-branching-model/

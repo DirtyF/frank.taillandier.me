@@ -4,7 +4,7 @@ description: "Le créateur des design systems de Facebook et d'Airbnb explique c
 image: /assets/img/2018/adam-michela-headshot.jpg
 source:
   title: "Yes, design systems will replace design jobs"
-  url: https://www.designsystems.com/stories/will-design-systems-replace-designers/
+  url: "https://www.designsystems.com/stories/will-design-systems-replace-designers/"
   author: Carmel DeAmicis
 ---
 

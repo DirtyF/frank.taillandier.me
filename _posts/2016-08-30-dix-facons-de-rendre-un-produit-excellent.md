@@ -1,7 +1,6 @@
 ---
 title: 10 façons de rendre un produit excellent
 description: La meilleure manière de développer des produits, qu'ils soient propriétaires, publics ou open-source selon Ben Balter, chef de produit chez GitHub.
-redirect_from: /2016/08/30/ten-ways-to-make-a-product-great/
 source:
   title: 10 ways to make a product great
   url: http://ben.balter.com/2016/08/22/ten-ways-to-make-a-product-great/
