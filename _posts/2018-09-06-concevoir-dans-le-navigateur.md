@@ -12,7 +12,7 @@ Le retour d'expérience de Mark Dalgleish et son équipe sur la mise en place d'
 outillage qui facilite la collaboration des développeurs et des designers sur un
 style guide, géré d'un côté en React et de l'autre avec Sketch. C'est déjà un
 énorme progrès mais les outils utilisés par les designers ne permettent toujours
-pas de travailler sur le medium cible.
+pas de travailler directement sur le medium cible.
 {: .lead }
 
 Demandez à n'importe quelle équipe qui travaille avec un _design system_ et vous comprendrez que les bénéfices sont nombreux — les designers et les développeurs sont plus productifs, les produits sont plus consistants, la communication est plus claire entre les disciplines.
@@ -55,7 +55,7 @@ Et pendant ce temps les mêmes problèmes de consistance se posaient de l'autre 
 
 ### De React à react-sketchapp
 
-C'est à ce moment que nous avons commencé à travailler sur notre premier projet React — avec du rendu côté serveur, assemblé avec [webpack](https://webpack.js.org) et des [modules CSS](https://github.com/css-modules/css-modules) que nous avons aidé à co-créer en cours de route — pour finalement aboutir à la création de notre _living style guide_.
+C'est à ce moment que nous avons commencé à travailler sur notre premier projet React — avec du rendu côté serveur, assemblé avec [webpack](https://webpack.js.org) et des [modules CSS](https://github.com/css-modules/css-modules) que nous avons aidés à co-créer en cours de route — pour finalement aboutir à la création de notre _living style guide_.
 
 Le fait que React se focalise essentiellement sur les composants a rendu cette transition inévitable. Ce n'est pas étonnant si depuis sa publication, nous avons vu que c'était la même histoire pour d'innombrables entreprises un peu partout dans le monde.
 
@@ -74,7 +74,7 @@ Une fois que nous avons eu développé une collection assez importante de compos
 
 C'était trop beau pour être vrai. Du vrai code React, rendu directement dans Sketch. On dirait bien que les développeurs et les designers allaient enfin pouvoir s'appuyer sur un _design system_ comme unique source de référence.
 
-En centralisant nos règles de conception dans le code, non seulement nous pouvions les diffuser sur nos applications en production mais nous étions également capable de répercuter notre travail dans les outils que nos designers utilisaient _déjà_. Au fur et à mesure que nos conventions de conception continuaient d'évoluer, nous étions capables de rester synchrone avec nos designers, sans avoir à intervenir manuellement dans Sketch.
+En centralisant nos règles de conception dans le code, non seulement nous pouvions les diffuser sur nos applications en production, mais nous étions également capables de répercuter notre travail dans les outils que nos designers utilisaient _déjà_. Au fur et à mesure que nos conventions de conception continuaient d'évoluer, nous étions capables de rester synchrone avec nos designers, sans avoir à intervenir manuellement dans Sketch.
 
 Bien sûr, après avoir creusé un peu, nous avons découvert que
 `react-sketchapp` imposait quelques contraintes :
@@ -87,9 +87,9 @@ Bien sûr, après avoir creusé un peu, nous avons découvert que
     StyleSheet) plutôt que les primitives du navigateur, à l'aide par exemple de
     [**react-primitives**](https://github.com/lelandrichardson/react-primitives).
     En gros, `react-sketchapp` était plus proche de [React Native](https://facebook.github.io/react-native) que de pur React.
-    Encore une fois, c'est une migration que nous aurions pu envisager, mais qui aurait demandé **beaucoup** de travail et quelques arrangements au passage..
+    Encore une fois, c'est une migration que nous aurions pu envisager, mais qui aurait demandé **beaucoup** de travail et quelques arrangements au passage.
 
-Donc bien que `react-sketchapp` soit un project *extraordinaire*, que nous vous recommandons chaudement, ses pré-requis techniques faisaient que nous n'aurions pas pu l'utiliser à court ou moyen terme.
+Donc bien que `react-sketchapp` soit un projet *extraordinaire*, que nous vous recommandons chaudement, ses pré-requis techniques faisaient que nous n'aurions pas pu l'utiliser à court ou moyen terme.
 
 Même si vous avions décidé de migrer notre bibliothèque de composants, nous aurions eu besoin d'une autre solution entre temps.
 
@@ -111,7 +111,7 @@ Nous avons expérimenté l'enregistrement de fichiers Sketch dans le dépôt de 
   caption="Kactus, montrant les différences d'un fichier Sketch enregistré avec Git"
 %}
 
-Même si avons pu réalisé cette prouesse _technique_, nous étions déçus de nous
+Même si nous avons pu réaliser cette prouesse _technique_, nous étions déçus de nous
 apercevoir que le flux de travail ne fonctionnait pas comme nous le souhaitions —
 en tout cas, pour ce qui nous concerne. Le fait de devoir synchroniser deux
 formats de fichiers radicalement différents s'est avéré fastidieux, sujet à des
@@ -130,7 +130,7 @@ changé *toute* la donne.
 
 ---
 
-### L'emergence d'html-sketchapp
+### L'émergence d'html-sketchapp
 
 En définitive, nous n'étions pas les seuls à avoir des difficultés à intégrer
 `react-sketchapp` dans notre stack technique existante.
@@ -155,13 +155,13 @@ Vous pourriez développer votre application avec [Preact](https://preactjs.com),
 
 Vous pouvez bien entendu utiliser React et cette fois vous pouvez gérer les styles comme bon vous semble, et utiliser les primitives qui font sens pour votre projet.
 
-Le contrat était incroyablement limpide - du moment que vous pouvez générer du HTML, vous pouvez l'importer dans Sketch.
+Le contrat était incroyablement limpide — du moment que vous pouvez générer du HTML, vous pouvez l'importer dans Sketch.
 
 ---
 
 #### Génération des fichiers Sketch
 
-À première vue, c'était trop beau pour être vrai, mais après avoir jeté un oeil sous le capot, nous nous sommes rendu compte que ce n'était pas si compliqué.
+À première vue, c'était trop beau pour être vrai, mais après avoir jeté un œil sous le capot, nous nous sommes rendu compte que ce n'était pas si compliqué.
 
 Pour comprendre le fonctionnement de `html-sketchapp`, il faut connaître le format de fichier de Sketch. Étonnamment, les fichiers Sketch sont juste des fichiers zippés.
 
@@ -199,7 +199,7 @@ Pour avoir un premier aperçu des possibilités, nous avons commencé par le fai
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Taking html-sketchapp for a spin—really impressive!<br><br>Without having to touch our code, it rendered our style guide documentation home page pretty well—only struggling with the SVGs!<br><br>cc <a href="https://twitter.com/kdzwinel?ref_src=twsrc%5Etfw">@kdzwinel</a> <a href="https://t.co/OZ8NFI8X2v">pic.twitter.com/OZ8NFI8X2v</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/933526318250995712?ref_src=twsrc%5Etfw">23 novembre 2017</a></blockquote>
 
-Nous avons ensuite générer nos premiers symboles à partir de notre composant *`Button`* et de ses différentes variantes de rendu.
+Nous avons ensuite généré nos premiers symboles à partir de notre composant *`Button`* et de ses différentes variantes de rendu.
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Wow—I&#39;m getting pretty far pretty quickly with html-sketchapp 😱 <a href="https://t.co/JdbzPHf3AO">pic.twitter.com/JdbzPHf3AO</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/933634632444080129?ref_src=twsrc%5Etfw">23 novembre 2017</a></blockquote>
 
@@ -218,7 +218,7 @@ export const symbols = {
 };
 ```
 
-Nous avons ensuite créer une route masquée spécifique pour le site de notre _style guide_ qui importe tous les fichiers de type `.sketch.js` et qui effectue le rendu des éléments React fournis à l'écran. De cette manière, nous avons pu simplifier le processus de conversion et exposer tous les contenus pour Sketch sur une seule et même page.
+Nous avons ensuite créé une route masquée spécifique pour le site de notre _style guide_ qui importe tous les fichiers de type `.sketch.js` et qui effectue le rendu des éléments React fournis à l'écran. De cette manière, nous avons pu simplifier le processus de conversion et exposer tous les contenus pour Sketch sur une seule et même page.
 
 Chaque instance de symbole est encapsulée dans un élément `div` et son nom est défini dans un [attribut data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes), ce qui nous permet de sélectionner et de nommer facilement tous les symboles présents sur la page.
 
@@ -234,17 +234,17 @@ Ce patron s'est montré tellement efficace, que nous l'avons ensuite appliqué d
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Even more progress with html-sketchapp! Colours defined as Less variables, bulk imported into React components, exported to Sketch as document colours 😱🎉 <a href="https://t.co/A5qnbBU8af">pic.twitter.com/A5qnbBU8af</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/933919800685879297?ref_src=twsrc%5Etfw">November 24, 2017</a></blockquote>
 
-Comme notre charte est responsive, nous avons ensuite du automatiser le redimensionnement du navigateur pour capturer les symboles dans différentes tailles d'écran.
+Comme notre charte est responsive, nous avons ensuite dû automatiser le redimensionnement du navigateur pour capturer les symboles dans différentes tailles d'écran.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">More amazing progress with html-sketchapp! Automatically rendering *every* symbol and text style for an array of named viewport sizes 😱🙌 <a href="https://t.co/ZbyvIUfbE7">pic.twitter.com/ZbyvIUfbE7</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/935282022439829504?ref_src=twsrc%5Etfw">November 27, 2017</a></blockquote>
 
-Nous pouvions désormais ajouter, supprimer et renommer différentes tailles de _viewport_ depuis un seul endroit, et chaque symbole était ensuite régénéré pour prendre en compte ces nouvelles valeurs. Tout d'un coup, on aurait dit que nous venions de résoudre une des problématiques les plus fastidieuses liée à la maintenance d'une bibliothèque responsive Sketch.
+Nous pouvions désormais ajouter, supprimer et renommer différentes tailles de _viewport_ depuis un seul endroit, et chaque symbole était ensuite régénéré pour prendre en compte ces nouvelles valeurs. Tout d'un coup, on aurait dit que nous venions de résoudre une des problématiques les plus fastidieuses liées à la maintenance d'une bibliothèque responsive Sketch.
 
-Si tout se passait étonnamment pour le mieux, nous avons quand même du faire quelques adaptations spécifiques pour le support de Sketch — de la même manière que vous devez parfois supporter quelques implémentations erronées d'un navigateur — que nous avons pu rassembler dans [un seul fichier](https://github.com/seek-oss/seek-style-guide/blob/master/docs/src/components/SketchExports/fixSketchRendering/fixSketchRendering.js).
+Si tout se passait étonnamment pour le mieux, nous avons quand même dû faire quelques adaptations spécifiques pour le support de Sketch — de la même manière que vous devez parfois supporter quelques implémentations erronées d'un navigateur — que nous avons pu rassembler dans [un seul fichier](https://github.com/seek-oss/seek-style-guide/blob/master/docs/src/components/SketchExports/fixSketchRendering/fixSketchRendering.js).
 
 #### Du test à la production
 
-Ce qui avait démarré comme une expérimentation à petite échelle s'est rapidement transformé quelque chose qui ressemblait à un mini-framework. À ce niveau, il ne restait plus grand chose à faire pour l'intégrer proprement à notre _style guide_, pour l'inclure dans notre processus standard de déploiement.
+Ce qui avait démarré comme une expérimentation à petite échelle s'est rapidement transformé quelque chose qui ressemblait à un mini-framework. À ce niveau, il ne restait plus grand-chose à faire pour l'intégrer proprement à notre _style guide_, pour l'inclure dans notre processus standard de déploiement.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s happening! Just opened the PR that automatically converts our style guide components into a Sketch library with html-sketchapp! 😱🎉 <a href="https://t.co/764TMHz9Mz">https://t.co/764TMHz9Mz</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/936453114940362752?ref_src=twsrc%5Etfw">December 1, 2017</a></blockquote>
 
@@ -305,7 +305,7 @@ La bonne surprise c'est qu'en utilisant
 
 #### Un processus de design continu
 
-Tout cet outillage fait désormais partie de notre de recette standard de déploiement continu , et nous permet d'étendre la portée de notre code — au delà de la seule communauté des développeurs, il aide les designers dans leur travail quotidien.
+Tout cet outillage fait désormais partie de notre de recette standard de déploiement continu, et nous permet d'étendre la portée de notre code — au-delà de la seule communauté des développeurs, il aide les designers dans leur travail quotidien.
 
 À chaque génération réussie de notre _style guide_ — non seulement nous déployons automatiquement notre site sur [GitHub Pages](https://pages.github.com) (à l'aide de
 [gh-pages](https://github.com/tschaub/gh-pages)) et nous publions la bibliothèque de composants sur [npm](https://www.npmjs.com) (à l'aide du paquet
@@ -321,7 +321,7 @@ Grâce au [support natif des bibliothèques dans Sketch](https://www.sketchapp.c
 
 Depuis cette adoption, nous avons commencé à voir des changements continus dans notre code se propager dans Sketch — même si parfois les personnes qui font ces changements n'ont même pas Sketch d'installé sur leur machine. Puisque notre _style guide_ est connecté à nos applications en production, il est constamment amélioré par tout un tas de personnes dans nos équipes, et nous pouvons maintenant être sûrs que tous ces changements mettent bien à jour notre bibliothèque Sketch.
 
-Même si nous continuons de travailler sur différents formats et médias, nous mettons tout en oeuvre pour créer l'illusion de tous parler une même langue.
+Même si nous continuons de travailler sur différents formats et médias, nous mettons tout en œuvre pour créer l'illusion de tous parler une même langue.
 
 ---
 
