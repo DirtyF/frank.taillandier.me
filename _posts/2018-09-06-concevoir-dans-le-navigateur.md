@@ -44,9 +44,8 @@ Nous avons par la suite testé [Craft](https://www.invisionapp.com/craft), un en
 
 Cela nous a permis de partager les symboles Sketch à la fois entre les documents et les différentes **équipes** et de bâtir une bibliothèque de symboles partagée pour l'ensemble de l'entreprise.
 
-{% cloudinary
-  /assets/img/2018/craft-library-plugin.gif
-  caption="Plugin de bibliothèque Craft" %}
+{% include figure.html src="/assets/img/2018/craft-library-plugin.gif" caption="Plugin de bibliothèque Craft"
+%}
 
 Nous nous sommes rapidement aperçu de la quantité de travail absurde demandée pour maintenir cette bibliothèque à jour, surtout quand les éléments existants et les nouveaux n'arrêtent pas d'évoluer dans l'ensemble de nos produits.
 
@@ -65,9 +64,7 @@ Une fois que nous avons eu développé une collection assez importante de compos
 Ça c'était bien entendu avant qu'on découvre
 [react-sketchapp](https://github.com/airbnb/react-sketchapp).
 
-{% cloudinary
-  /assets/img/2018/react-sketchapp.gif
-  caption="React-sketchapp" %}
+{% include figure.html src="/assets/img/2018/react-sketchapp.gif" caption="React-sketchapp" %}
 
 > "Dans Sketch, nous utilisons des symboles et des surcharges, dans React des
 > composants et des propriétés. Ces concepts sont si semblables qu'il serait bête

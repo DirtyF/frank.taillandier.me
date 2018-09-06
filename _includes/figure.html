@@ -1,6 +1,6 @@
 <figure>
-  <img src="{{ include.url }}" alt=""/>
-  {% if include.description %}
-    <figcaption><small>{{ include.description | markdownify }}</small></figcaption>
+  <img src="{{ include.src }}" alt=""/>
+  {% if include.caption %}
+    <figcaption><small>{{ include.caption | markdownify }}</small></figcaption>
   {% endif %}
 </figure>
