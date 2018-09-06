@@ -5,6 +5,7 @@ description: >
   utiles, c'est pour cela qu'il vous faut aussi veiller à protéger l'attention
   de vos équipes pendant la phase exploratoire.
 image: /assets/img/2017/11/circles.png
+category: agile
 source:
   author: Ryan Singer
   title: Running in Circles

@@ -5,6 +5,7 @@ description: >
   un réseau organique, toutes focalisées sur la valeur supplémentaire apportée à
   l'utilisateur final
 image: /assets/img/2017/04/agile-network-4-images.jpg
+category: agile
 source:
   title: Explaining Agile
   url: https://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile/

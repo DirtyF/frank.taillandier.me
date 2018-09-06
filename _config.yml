@@ -13,6 +13,9 @@ permalink: pretty
 sass:
   style: compressed
 
+feed:
+  categories:
+    - agile
 # Liquid
 strict_front_matter: true
 liquid:

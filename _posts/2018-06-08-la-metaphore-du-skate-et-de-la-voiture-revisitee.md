@@ -2,6 +2,7 @@
 title: La métaphore du skateboard et de la voiture revisitée
 description: Les équipes produit multi-disciplinaires sont plus à même de proposer et de livrer des solutions qui apportent de la valeur à la foi à leurs clients et à leur modèle commercial.
 image: https://res.cloudinary.com/jamstatic/image/fetch/c_limit,f_auto,q_auto,w_609/https://frank.taillandier.me/assets/img/2016/01/Making-sense-of-MVP-.jpg
+category: agile
 source:
   title: Skateboards vs. Cars Revisited
   url: https://svpg.com/skateboards-vs-cars-revisited/

@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-cloudinary"
   gem "jekyll-compose"
-  gem "jekyll-feed"
+  gem "jekyll-feed", github: "jekyll/jekyll-feed" #, branch: "jekyll-cache"
   gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
