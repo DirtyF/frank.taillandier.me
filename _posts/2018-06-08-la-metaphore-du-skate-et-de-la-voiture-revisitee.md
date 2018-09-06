@@ -9,10 +9,10 @@ source:
 date: 2018-06-07 20:26 +0200
 ---
 
-{: .lead }  
+{: .lead }
 Peu d'équipes pratiquent le Lean et l'agilité de manière efficace, surtout quand
 elles ne comprennent pas en leur sein des personnes avec de vraies compétences
-en design de service et en commerce. 
+en design de service et en commerce.
 [Marty Cagan](https://svpg.com/author/marty/) est un coach produit expérimenté
 qui milite pour de vraies équipes multi-disciplinaires à même d'aller encore
 plus vite dans la résolution de problème et dans la livraison d'une solution
@@ -20,7 +20,7 @@ adaptée et bien conçue.
 
 Il y a un peu plus d'un an, Henri Kniberg, un de mes coaches Agile préféré, publiait un article qui explique très bien comment les _équipes de développement_ peuvent s'appuyer sur [le concept de MVP]({% post_url 2016-01-28-comprendre-le-mvp %}) pour s'assurer de bien comprendre les valeurs fondamentales des méthodes agiles. Si vous n'avez pas encore lu l'article d'Henrik, j'espère que vous prendrez quelques minutes pour le faire avant de continuer à lire celui-ci.
 
-{% include figure.html url="https://res.cloudinary.com/jamstatic/image/fetch/c_limit,f_auto,q_auto/https://frank.taillandier.me/assets/img/2016/01/Making-sense-of-MVP-.jpg" %}
+{% include figure.html src="https://res.cloudinary.com/jamstatic/image/fetch/c_limit,f_auto,q_auto/https://frank.taillandier.me/assets/img/2016/01/Making-sense-of-MVP-.jpg" %}
 
 Je mets volontairement en emphase "les équipes de développement" car je vais essayer ici de nuancer le concept lorsqu'il s'applique à de véritables _équipes produit_ multi-disciplinaires.
 
@@ -72,7 +72,7 @@ Par exemple, ils vont peut-être finir par d'abord tester un ensemble de micro-s
 
 Il y a en outre un deuxième effet important à faire de l'exploration de produit de la sorte. Comme on s'attaque aux risques dès la phase exploratoire et qu'on a plus de certitudes sur ce qu'on doit livrer, ce travail de livraison progresse plus vite qu'il ne le ferait autrement.
 
-Vous avez peut-être déjà entendu ce vieux dicton "un problème bien énoncé est un problème à moitié résolu". 
+Vous avez peut-être déjà entendu ce vieux dicton "un problème bien énoncé est un problème à moitié résolu".
 Quand les développeurs peuvent jouer avec un prototype crée pendant la phase exploratoire, poser des questions et identifier les cas d'utilisation manquants, alors si on décide qu'on doit vraiment bâtir une implémentation robuste de cette solution, ce travail de mise en production pourra être effectué plus rapidement, et ce sans toutes les circonvolutions et les délais si coûteux en temps en en argent.
 
 L'article d'Henrik explique très bien les valeurs de base de l'agilité — et ce n'est pas rien car beaucoup d'équipes n'ont toujours pas compris ces valeurs. Ce que j'essaie d'expliquer ici c'est comment les équipes produit multi-disciplinaires expérimentées ont dépassé le Lean et l'Agile pour attaquer les risques de front, résoudre les problèmes difficiles pour leurs clients et leur business grâce à la collaboration entre le produit, le design et l'ingénierie, et pour porter leur attention sur les résultats commerciaux et non pas la simple mise en production de fonctionnalités.
