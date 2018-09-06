@@ -4,7 +4,7 @@ title: Archives
 ---
 
 <section id="archive">
-  <h2>{{ site.time | date: '%Y' | minus: 1 }}</h2>
+  <h2>{{ site.time | date: '%Y' }}</h2>
     {% for post in site.posts %}
       {% unless post.next %}
         <ul>
