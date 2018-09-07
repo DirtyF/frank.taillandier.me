@@ -27,7 +27,7 @@ Fort heureusement, tout cela est sur le point de changer.
 
 ## L'odyssée de notre design system
 
-Chez [SEEK](https://www.seek.com.au), nous travaillons sur notre [living style guide](http://seek-oss.github.io/seek-style-guide) depuis plus d'un an maintenant, avec de plus en plus de composants [React](https://reactjs.org). Vous imaginez bien que cela nous a amené à revoir totalement notre manière de penser le design visuel.
+Chez [SEEK](https://www.seek.com.au), nous travaillons sur notre [living style guide](http://seek-oss.github.io/seek-style-guide/) depuis plus d'un an maintenant, avec de plus en plus de composants [React](https://reactjs.org). Vous imaginez bien que cela nous a amené à revoir totalement notre manière de penser le design visuel.
 
 Nous avions tout d'un coup une seule source de référence, dans le code, facile à installer, qui définit la manière dont notre marque est affichée sur des douzaines de projets différents.
 
@@ -70,7 +70,7 @@ Une fois que nous avons eu développé une collection assez importante de compos
 > composants et des propriétés. Ces concepts sont si semblables qu'il serait bête
 > de ne pas les unifier.
 >
-> [Jon Gold, Airbnb](https://airbnb.design/painting-with-code)
+> [Jon Gold, Airbnb](https://airbnb.design/painting-with-code/)
 
 C'était trop beau pour être vrai. Du vrai code React, rendu directement dans Sketch. On dirait bien que les développeurs et les designers allaient enfin pouvoir s'appuyer sur un _design system_ comme unique source de référence.
 
@@ -86,7 +86,7 @@ Bien sûr, après avoir creusé un peu, nous avons découvert que
 3.  **Les composants doivent utiliser des primitives génériques** (View, Text,
     StyleSheet) plutôt que les primitives du navigateur, à l'aide par exemple de
     [**react-primitives**](https://github.com/lelandrichardson/react-primitives).
-    En gros, `react-sketchapp` était plus proche de [React Native](https://facebook.github.io/react-native) que de pur React.
+    En gros, `react-sketchapp` était plus proche de [React Native](https://facebook.github.io/react-native/) que de pur React.
     Encore une fois, c'est une migration que nous aurions pu envisager, mais qui aurait demandé **beaucoup** de travail et quelques arrangements au passage.
 
 Donc bien que `react-sketchapp` soit un projet *extraordinaire*, que nous vous recommandons chaudement, ses pré-requis techniques faisaient que nous n'aurions pas pu l'utiliser à court ou moyen terme.
@@ -182,12 +182,13 @@ de classes imbriquées.
 À bas-niveau, `html-sketchapp` permet de générer à l'aide d'un programme des instances de ces classes et de les convertir en JSON — mais ça ne s'arrête pas là.
 
 La fonctionnalité la plus puissante dans `html-sketchapp` c'est
-[`nodeToSketchLayers`](https://github.com/brainly/html-sketchapp/blob/master/html2asketch/nodeToSketchLayers.js), qui vous donne la possibilité de convertir un élément unique du navigateur en un tableau de calques Sketch. C'est là où toute la magie opère, puisque la fonction possède toute la logique pour extraire les styles du navigateur et les convertir en leurs équivalents dans Sketch.
+[nodeToSketchLayers](https://github.com/brainly/html-sketchapp/blob/master/html2asketch/nodeToSketchLayers.js), qui vous donne la possibilité de convertir un élément unique du navigateur en un tableau de calques Sketch. C'est là où toute la magie opère, puisque la fonction possède toute la logique pour extraire les styles du navigateur et les convertir en leurs équivalents dans Sketch.
 
 C'est la classe
-[`SymbolMaster`](https://github.com/brainly/html-sketchapp/blob/master/html2asketch/symbolMaster.js) qui lie vraiment le tout, elle permet de générer dynamiquement des symboles Sketch. Puisque les symboles sont la base de toute bibliothèque Sketch, cela nous a permis d'exposer un ensemble de composants à nos designers, à partir du code sous-jacent.
+[SymbolMaster](https://github.com/brainly/html-sketchapp/blob/master/html2asketch/model/symbolMaster.js) qui lie vraiment le tout, elle permet de générer dynamiquement des symboles Sketch. Puisque les symboles sont la base de toute bibliothèque Sketch, cela nous a permis d'exposer un ensemble de composants à nos designers, à partir du code sous-jacent.
 
-Malheureusement, certaines limitations dans le format actuel de Sketch liées à l'encodage des styles de texte font que les fichiers générés se sont pas _vraiment_ des fichiers Sketch valides — `html-sketchapp` les désigne comme des fichiers *à peu près Sketch* ou *asketch* pour faire court. Du coup il faut les importer manuellement avec le [plugin html-sketchapp pour Sketch](https://github.com/brainly/html-sketchapp/tree/master/asketch2sketch.sketchplugin). Ça va, c'est pas trop compliqué.
+Malheureusement, certaines limitations dans le format actuel de Sketch liées à l'encodage des styles de texte font que les fichiers générés se sont pas _vraiment_ des fichiers Sketch valides — `html-sketchapp` les désigne comme des fichiers *à peu près Sketch* ou *asketch* pour faire court. Du coup il faut les importer manuellement avec le [plugin html-sketchapp pour Sketch](https://github.com/brainly/html-sketchapp/releases).
+Ça va, c'est pas trop compliqué.
 
 Assembler le tout peut paraître un peu perturbant au début, heureusement un [exemple de projet sur GitHub](https://github.com/brainly/html-sketchapp-style-guide) montre comment convertir un _style guide_ existant en document Sketch.
 
@@ -313,7 +314,7 @@ Tout cet outillage fait désormais partie de notre de recette standard de déplo
 
 Cette librairie Sketch est ensuite distribuée via un disque partagé de notre équipe de designers, ce qui veut dire que nos designers ont en permanence une copie à jour de la bibliothèque, qui se synchronise en temps réel, même quand Sketch est ouvert.
 
-Grâce au [support natif des bibliothèques dans Sketch](https://www.sketchapp.com/docs/libraries), les designers peuvent ouvrir le menu "Bibliothèque de Style Guide de SEEK" et commencer à sélectionner les composants, en sachant que les conventions de nommage et les styles visuels respectent les attentes des développeurs dans leurs équipes.
+Grâce au [support natif des bibliothèques dans Sketch](https://www.sketchapp.com/docs/libraries/), les designers peuvent ouvrir le menu "Bibliothèque de Style Guide de SEEK" et commencer à sélectionner les composants, en sachant que les conventions de nommage et les styles visuels respectent les attentes des développeurs dans leurs équipes.
 
 {% cloudinary
   /assets/img/2018/sketch-symbols.png
