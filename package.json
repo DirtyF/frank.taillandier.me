@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/DirtyF/frank.taillandier.me#readme",
   "dependencies": {
-    "stylelint": "^8.0.0",
+    "stylelint": "^8.4.0",
     "stylelint-config-standard": "^17.0.0"
   },
   "stylelint": {
