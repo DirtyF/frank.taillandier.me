@@ -64,15 +64,15 @@ Ces problèmes sont déjà beaucoup plus simples à résoudre si on se contente 
 servir du contenu dit *statique* - rassurez-vous on sait très bien faire du
 dynamique côté client en JavaScript de nos jours.
 
-Revenir à des choses simples et performantes, c'est la philosophie du
+Revenir à des choses simples et performantes, c'est la philosophie des
 générateurs de site statique. Déployés sur des CDNs à moindre coût, ils sont
 plus rapides, plus sécurisés et donc beaucoup moins onéreux. Les sites statiques
 connaissent une popularité grandissante de par leur efficacité et la facilité
 avec laquelle il est possible de nos jours de faire du déploiement continu, à
-savoir plusieurs dizaines de mises en production par jour.
+savoir plusieurs centaines de mises en production par jour.
 
 Ils sont fidèles en cela à la philosophie qui a toujours animé la communauté
-open-source et qui anime aujourd’hui les startups et les organisation agiles.
+open source et qui anime aujourd’hui les startups et les organisation agiles.
 
 > Release early, release often
 > — Eric S. Raymond, la Cathédrale et le Bazaar, 1999.
@@ -103,8 +103,8 @@ amoureux de cette stack.
 
 On recense à ce jour plus de [450 gestionnaires de contenu
 statique](https://staticsitegenerators.net/), écrits dans différents langages et
-différents formats pour concevoir les modèles de page, certains entièrement
-basés sur JavaScript et les standards web. Il y en a bien un qui sera le bon
+supportant diverses syntaxes pour la conception les modèles de page, certains entièrement
+basés sur JavaScript et les standards web. Il y en a forcément un qui sera le bon
 outil pour vous. Tout dépend de votre besoin, de votre stack actuelle et des
 compétences de votre équipe.
 
@@ -261,9 +261,9 @@ prototypage, les contenus peuvent être ajoutés au fur et à mesure et après a
 itéré jusqu'à parvenir à un premier résultat assez satisfaisant, le déploiement
 en production en devient anecdotique.
 
-La documentation et le [styleguide](http://styleguides.io/) peuvent également
-être générés lors de l’étape de *build*, ce qui assure qu'ils soient tout le
-temps à jour. Grâce à Git, les développeurs, les designers et les rédacteurs
+La documentation et le [styleguide](http://styleguides.io/), voire le Design System,
+peuvent également être générés lors de l’étape de *build*, ce qui assure qu'ils soient 
+tout le temps à jour. Grâce à Git, les développeurs, les designers et les rédacteurs
 partagent un processus de travail commun.
 
 > Unless it’s part of your build, your styleguide is just more documentation to
@@ -282,11 +282,11 @@ Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jo
 le service [GitHub Pages héberge près d'un million de sites
 statiques](https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months),
 qui sont tous stockés sur des CDN. Le service étant gratuit pour les projets
-open-source, il serait dommage de s'en priver. C’est d’ailleurs ce que nous
-avons fait pour le site de [Sud Web](http://sudweb.fr/2016/). D'autres services
+open source, il serait dommage de s'en priver. C’est d’ailleurs ce que nous
+avons fait pour le site de [Sud Web](http://sudweb.fr/). D'autres services
 similaires ont depuis vu le jour comme [Gitlab Pages](https://pages.gitlab.io/)
 ou [Netlify](https://www.netlify.com/pricing), qui proposent des formules
-gratuites pour les projets en open-source.
+gratuites pour les projets en open source.
 
 Cela ne vous coûte donc rien d'essayer !
 
@@ -311,24 +311,24 @@ le déploiement ou d'améliorer l'expérience utilisateur :
 
 * [Contenful](https://www.contentful.com/) est un service de modélisation et
   d'édition de contenus et propose ensuite des APIs pouvoir les diffuser sur
-  différentes plateformes. Vos contenus peuvent être récupérés de différents
+  différents supports. Vos contenus peuvent être récupérés de différents
   endroits et assemblés avant d'être importés dans Jekyll,
-  [Middleman](https://middlemanapp.com/) ou [roots](http://roots.cx/) par exemple.
+  [Middleman](https://middlemanapp.com/) ou [Gatsby](http://gatsbyjs.org/) par exemple.
 
 * [Netlify](https://www.netlify.com/) se propose d'optimiser la performance et
   l'hébergement de vos sites statiques sur leurs CDN et d'automatiser vos assets
-  et le déploiement en y connectant directement votre dépôt Github ou Bitbucket.
+  et le déploiement en y connectant directement votre dépôt Github, GitLab ou Bitbucket.
   NodeJS est dispo par défaut, à vous les web apps performantes !
 
 Ces différents services permettent de mettre en place des architectures
 décentralisées comme l'a fait l'agence
-[Carrot](http://carrot.is/coding/static_cms), éditrice du gestionnaire de
-contenu roots :
+[Carrot](http://carrot.is/coding/static_cms), éditrice du générateur Roots 
+(devenu [Spike](https://spike.js.org/)) :
 
 {% cloudinary /assets/img/2016/03/architecture-jamstack.png
 caption="Exemple d'architecture de services pour servir du statique" %}
 
-Bien sur on peut se poser la question de la dépendance à des services, mais rien
+On peut se poser la question de la dépendance à des services tiers, mais rien
 ne vous empêche d’héberger ou de sauvegarder vos sites statiques sur vos propres
 serveurs.
 
@@ -350,25 +350,27 @@ aller en douceur, sachez que [le statique cohabite très bien avec le
 dynamique](https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server),
 vous pouvez donc tirer le meilleur parti des deux mondes.
 
+La tendance actuelle est bien au découplage du front et du back : un CMS headless, à savoir un service dédié uniquement à la modélisation et à l'édition des contenus, un générateur pour assembler le tout et créer des pages HTML, un workflow de déploiement continu pour la publication automatique. Peuvent ensuite se greffer des services comme de la gestion de panier grâce à des services comme Snipcart, de l'indexation et de la recherche performante avec Algolia, etc. Les possibilités sont grandes, surtout que grâce à l'essor en parallèle des functions lambdas et du serverless, les providers de Cloud comme Amazon, Google et Microsoft ne vous demandent plus que quelques centimes pour exécuter des programmes distants. À moins que vous deviez absolument gérer votre propre infrastructure, les coûts de fonctionnement sont bien moindres.
+
 ## Conclusion
 
-Penser statique par défaut, n'est pas du tout une mode destinée à rester confidentielle parmi les hackers, c'est une réponse simple à des problématiques complexes. Gardez en tête que 78% des sites sous Wordpress souffrent de vulnérabilités et que quand une faille de sécurité impacte Drupal, des millions de sites sont concernés.
+Servir du "statique" — ou du JS côté client si vous préférez - n'est pas du tout une mode destinée à rester confidentielle parmi les hackers, c'est une réponse simple à des problématiques complexes. Gardez en tête que 78% des sites sous Wordpress souffrent de vulnérabilités et que quand une faille de sécurité impacte Drupal, des millions de sites sont concernés.
 
-C’est donc une solution que vous devriez sérieusement considérer si vous souhaitez réduire vos coûts d'infrastructure sur des sites à fort trafic. **Sur des sites très fréquentés le coût peut être divisé par 15**.
+C’est donc une solution que vous devriez sérieusement considérer si vous souhaitez réduire vos coûts d'infrastructure sur des sites à fort trafic. **Sur des sites très fréquentés le coût peut être divisé par 15 ou plus**.
 
-Le statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou application web ([progressive]({% post_url 2016-06-28-que-sont-les-progressive-web-apps %})) en JavaScript, en revanche il n'est pas adapté pour des sites où le contenu est majoritairement généré par les utilisateurs.
+Le full statique est idéal pour des sites de contenus : présentation produit, documentation, blog ou application web ([progressive]({% post_url 2016-06-28-que-sont-les-progressive-web-apps %})) en JavaScript, en revanche il n'est pas adapté pour des sites où le contenu est majoritairement généré par les utilisateurs.
 
-L'écosystème autour est en plein essor et va fort logiquement continuer de se développer. Une des priorité est maintenant de rendre ces outils encore plus accessibles aux rédacteurs. Github continue de soutenir le développement de Jekyll et développe actuellemnt [une interface utilisateur pour la rédaction et l’administration](https://github.com/jekyll/jekyll-admin) à l'instar de ce que propose différentes plateformes de *Content as a Service*.
+L'écosystème autour est en plein essor et va fort logiquement continuer de se développer. Une des priorité est maintenant de rendre ces outils encore plus accessibles aux rédacteurs. Ainsi les CMS headless pullulent ainsi que différentes plateformes de *Content as a Service*.
 
 Vous l'aurez compris, la mouvance statique ne fait que commencer et l'engouement devrait continuer de croître dans les années qui viennent.
 
-J’espère surtout que cet article vous fera réfléchir à deux fois avant de partir les yeux fermés sur un bon vieux gros CMS dynamique pour votre prochain projet. Vous connaissez maintenant les nouveaux paradigmes qui laissent présager une [ère post-CMS](http://www.meetup.com/fr-FR/The-New-Dynamic/) comme certains l’appellent déjà.
+J’espère que cet article vous fera réfléchir à deux fois avant de partir les yeux fermés sur un bon vieux gros CMS dynamique pour votre prochain projet. Vous connaissez maintenant les nouveaux paradigmes qui laissent présager une [ère post-CMS](http://www.meetup.com/fr-FR/The-New-Dynamic/) comme certains l’appellent déjà.
 
-Cet article a été rédigé suite à une [présentation](https://speakerdeck.com/dirtyf/keep-it-static-stupid) faite lors d'un apéroweb dont voici les slides.
+Cet article a été rédigé suite à une [présentation](https://speakerdeck.com/dirtyf/keep-it-static-stupid) dont voici les slides.
 
 <p><script async class="speakerdeck-embed" data-id="03e3e66c6d2845158240a3aa50f50b11" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
 
-**[Ne passez pas à côté des choses simples](/2016/10/02/ne-passons-pas-a-cote-des-choses-simples/)**, c'est le message que vous avons voulu faire passer avec l'ami Bertrand Keller lors de [Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php).
+**[Ne passez pas à côté des choses simples](/2016/10/02/ne-passons-pas-a-cote-des-choses-simples/)**, c'est le message que vous avons voulu faire passer avec Bertrand Keller lors de [Paris Web 2016](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php).
 
 <a href="https://jamstatic.fr">Jamstatic</a> regroupe quelques utilisateurs francophones de générateurs de site statique. Nous publions des liens d'<a href="https://twitter.com/jamstatic_fr">actualité autour des générateurs sur Twitter</a>. Nous échangeons et nous nous entraidons sur le <a href="https://jamstatic.herokuapp.com/">channel Slack</a>.
 
