@@ -8,7 +8,7 @@ description: >
 image: /assets/img/2016/01/Making-sense-of-MVP-.jpg
 img_path: /assets/img/2016/01/
 category: agile
-redirect_from: /2016/01/28/comprendre-le-mvp/
+redirect_from: /agile/2016/01/28/comprendre-le-mvp/
 source:
   title: Making sense of MVP
   url: http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
