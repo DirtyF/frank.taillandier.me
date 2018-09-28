@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://frank-taillandier.netlify.com/* https://frank.taillandier.me/:splat 301!

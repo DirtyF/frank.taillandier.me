@@ -70,6 +70,7 @@ defaults:
 include:
   - _headers
   - _pages
+  - _redirects
 
 lsi: true
 
