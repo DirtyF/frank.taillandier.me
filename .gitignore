@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .rubocop.yml
+.jekyll-cache
 
 # Node
 node_modules

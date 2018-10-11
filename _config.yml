@@ -89,6 +89,7 @@ jekyll_compose:
 exclude:
   - .editorconfig
   - .stylelintrc.json
+  - .jekyll-cache
   - Gemfile
   - Gemfile.lock
   - LICENSE

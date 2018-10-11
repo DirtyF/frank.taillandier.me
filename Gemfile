@@ -3,14 +3,14 @@
 source "https://rubygems.org"
 
 # gem "gsl" not supported by Netlify
-gem "jekyll"
+gem "jekyll", github: "jekyll/jekyll"
 
 group :jekyll_plugins do
   # "jekyll-paginate-v2"
   gem "classifier-reborn"
   gem "jekyll-cloudinary"
   gem "jekyll-compose"
-  gem "jekyll-feed"#, github: "jekyll/jekyll-feed", branch: "jekyll-cache"
+  gem "jekyll-feed", github: "jekyll/jekyll-feed", branch: "jekyll-cache"
   gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
@@ -18,7 +18,8 @@ group :jekyll_plugins do
   gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
-  gem "jekyll-seo-tag"
+  gem "jekyll-sass-converter", git: "https://github.com/jekyll/jekyll-sass-converter", branch: "sassc"
+  gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag", branch: "jekyll-cache"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
