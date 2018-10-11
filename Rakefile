@@ -36,7 +36,8 @@ task :preview do
     "lsi"             => false,
     "config"          => %w[_config.yml _config_local.yml]
   }
-  Jekyll::Commands::Serve.start(options)
+  Jekyll::Commands::Build.process(options)
+  Jekyll::Commands::Serve.process(options)
 end
 
 desc "Generate site"
