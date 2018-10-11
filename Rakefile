@@ -21,6 +21,7 @@ task :preview do
   browser_launched = false
   Jekyll::Hooks.register :site, :post_write do |_site|
     next if browser_launched
+
     browser_launched = true
     Jekyll.logger.info "Opening in browser…"
     Launchy.open("http://localhost:4000")
