@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 # gem "gsl" not supported by Netlify
 gem "jekyll", github: "jekyll/jekyll"
+gem "liquid-c", github: "Shopify/liquid-c"
 
 group :jekyll_plugins do
   # "jekyll-paginate-v2"
