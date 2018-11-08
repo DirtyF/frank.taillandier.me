@@ -72,8 +72,6 @@ include:
   - _pages
   - _redirects
 
-lsi: true
-
 pagination:
   enabled: false
   per_page: 20
