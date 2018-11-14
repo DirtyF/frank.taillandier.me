@@ -1,7 +1,1 @@
 lsi: true
-
-defaults:
-  - scope:
-      path: "assets/**/*.{js,css,png,svg,ico,ttf,woff,woff2}"
-    values:
-      sitemap: false
