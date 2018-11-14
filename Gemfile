@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 # gem "gsl" not supported by Netlify
 gem "jekyll", github: "jekyll/jekyll"
 gem "liquid-c"
