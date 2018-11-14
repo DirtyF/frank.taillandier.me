@@ -127,14 +127,3 @@ analytics:
 
 disqus:
   shortname: franktaillandier
-
-pwa:
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 20 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "assets/{js,css,fonts,favicons}/**/*.{js,css,eot,svg,ttf,woff2,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "assets/fonts/**/*"
