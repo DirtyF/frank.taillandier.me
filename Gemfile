@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+GITHUB = "https://github.com"
 source "https://rubygems.org"
 
 # gem "gsl" not supported by Netlify
-gem "jekyll", github: "jekyll/jekyll"
+gem "jekyll", git: "#{GITHUB}/jekyll/jekyll"
 gem "liquid-c"
 
 group :jekyll_plugins do
@@ -11,20 +12,20 @@ group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-cloudinary"
   gem "jekyll-compose"
-  gem "jekyll-feed", github: "jekyll/jekyll-feed", branch: "jekyll-cache"
-  gem "jekyll-github-metadata"
+  gem "jekyll-feed", git: "#{GITHUB}/jekyll/jekyll-feed", branch: "jekyll-cache"
+  gem "jekyll-github-metadata", git: "#{GITHUB}/jekyll/github-metadata"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
   gem "jekyll-mentions"
   gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
-  gem "jekyll-sass-converter", git: "https://github.com/jekyll/jekyll-sass-converter", branch: "sassc"
-  gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag", branch: "jekyll-cache"
+  gem "jekyll-sass-converter", git: "#{GITHUB}/jekyll/jekyll-sass-converter", branch: "sassc"
+  gem "jekyll-seo-tag", git: "#{GITHUB}/jekyll/jekyll-seo-tag", branch: "jekyll-cache"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
-  gem "jekyll_reading_time", git: "https://github.com/RouteMap/jekyll_reading_time"
+  gem "jekyll_reading_time", git: "#{GITHUB}/RouteMap/jekyll_reading_time"
   gem "jemoji"
 end
 
