@@ -21,12 +21,12 @@ group :jekyll_plugins do
   gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
-  gem "jekyll-sass-converter", git: "https://github.com/jekyll/jekyll-sass-converter", branch: "sassc"
+  gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter", branch: "sassc"
   gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag", branch: "jekyll-cache"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
-  gem "jekyll_reading_time", git: "https://github.com/RouteMap/jekyll_reading_time"
+  gem "jekyll_reading_time", github: "RouteMap/jekyll_reading_time"
   gem "jemoji"
 end
 
