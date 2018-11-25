@@ -50,9 +50,10 @@ un focus sur :
 
  - la mise à disposition de nombreux services spécialisés par des startups
    innovantes et la prolifération d'APIs permettant aux développeurs et aux
-   machines d'interagir à distance avec ces services. l'évolution des requêtes HTTP
-   avec REST et maintenant GraphQL qui permettent d'interagir avec les services
-   web,
+   machines d'interagir à distance avec ces services.
+
+ - l'évolution des requêtes HTTP avec REST et maintenant GraphQL qui permettent
+   d'interagir avec les services web,
 
  - l'automatisation de la validation et de la publication de modifications,
    notamment grâce au versionnement avec Git et aux plate-formes de déploiement
@@ -62,8 +63,8 @@ un focus sur :
    baisse des prix et une concurrence acharnée des différents acteurs (Amazon,
    Google, Microsoft, Cloudflare, etc.)
 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/44YQNMYeo_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include_cached video.html width="640" height="480"
+url="https://www.youtube-nocookie.com/embed/44YQNMYeo_E" %}
 
 Le logiciel libre a joué un rôle central dans la modernisation des manières de
 travailler et aujourd'hui beaucoup d'outils cités même s'ils sont initiés par
