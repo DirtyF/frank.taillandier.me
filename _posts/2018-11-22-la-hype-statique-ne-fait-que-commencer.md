@@ -37,7 +37,7 @@ qui intègrent des composants dynamiques, le tout hébergé dans le Cloud sur de
 réseaux de CDN très performants situés au plus proche de l'utilisateur final. 
 La performance fait partie des facteurs différenciants et elle est devenue un atout
 majeur pour les organisations qui ont compris qu'à l'ère du web mobile, si vous
-n'êtes pas suffisamment rapides, le taux rétention sera plus faible.
+n'êtes pas suffisamment rapides, le taux de rétention sera plus faible.
 
 Lors d'une conférence improvisée au Capitole du Libre, j'ai tenté d'expliquer en 45 minutes
 comment tout cela était apparu petit à petit en proposant une chronologie rapide
