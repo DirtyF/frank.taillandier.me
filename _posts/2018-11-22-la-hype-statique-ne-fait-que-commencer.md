@@ -108,7 +108,7 @@ celle qui se résume à adopter le même look and feel que le voisin.
 Dans un paysage en constant mouvement, il est parfois difficile de s'y
 retrouver, la multiplication des technologies, l'abondance de l'offre, la
 diversité de niveaux d'expériences, la difficulté de se projeter ne serait-ce
-qu'à moyen terme, autant de facteurs qui vont qu'on préfère souvent attendre une
+qu'à moyen terme, autant de facteurs qui font qu'on préfère souvent attendre une
 adoption et une maturité suffisante avant de songer à franchir le pas.
 
 Le fait que les entreprises innovantes soient les premières à adopter ces
