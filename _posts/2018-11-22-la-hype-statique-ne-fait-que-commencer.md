@@ -15,7 +15,7 @@ domaines, le lancement de fonctions depuis le cloud, etc.
 {: .lead }
 
 Ce qu'on résume encore trop souvent à l'appellation "site statique" cache en
-fait l'adoption d'un nouveau paradigme : le découplage du back et du front et le
+fait l'adoption d'un nouveau paradigme : le séparation du back et du front et le
 passage d'architectures monolithiques à des architectures plus modulaires, plus
 performantes, plus sécurisées et redimensionnables par défaut.
 
@@ -26,22 +26,22 @@ Les coûts de développement sont moindres, même chose pour l'hébergement, qui
 même la plupart du temps devenu gratuit quand il se contente de servir des
 fichiers statiques.
 
-Tout cela permet de se recentrer sur le métier, sur sa valeur ajoutée, sa
-spécificité et de ne pas avoir à maintenir de trop gros systèmes complexes qui
-se dégradent avec le temps.
+Tout cela permet de se recentrer sur le métier, sur sa valeur ajoutée, 
+et de ne pas avoir à maintenir de trop gros systèmes complexes qui
+ne feront que se dégrader avec le temps.
 
-Si au début les générateurs généraient des sites entièrement statiques,
+Si les premiers générateurs ne produisaient que des sites entièrement statiques,
 aujourd'hui devant la multiplication de services, la mise à disposition d'APIs
-et l'omniprésence de composants JS côté client, on obtient des pages statiques
-qui intègrent des composants dynamiques, le tout hébergé dans le cloud sur des
-réseaux de CDN très performants situés au plus proche de l'utilisateur final. La
-performance fait partie des facteurs différenciants et elle est devenue un atout
+et l'omniprésence de composants JavaScript côté client, on obtient des pages statiques
+qui intègrent des composants dynamiques, le tout hébergé dans le Cloud sur des
+réseaux de CDN très performants situés au plus proche de l'utilisateur final. 
+La performance fait partie des facteurs différenciants et elle est devenue un atout
 majeur pour les organisations qui ont compris qu'à l'ère du web mobile, si vous
-n'êtes pas suffisamment rapides, la rétention est très faible.
+n'êtes pas suffisamment rapides, le taux rétention sera plus faible.
 
-Lors d'une conférence au Capitole du Libre, j'ai tenté d'expliquer en 45 minutes
+Lors d'une conférence improvisée au Capitole du Libre, j'ai tenté d'expliquer en 45 minutes
 comment tout cela était apparu petit à petit en proposant une chronologie rapide
-et subjective des diverses évolutions qu'à connu le Web de 1991 à nos jours avec
+et subjective des diverses évolutions qu'à connu le Web de ses débuts à nos jours avec
 un focus sur :
 
  - l'apparition de différents formats textes facilement lisibles par les humains
@@ -56,7 +56,7 @@ un focus sur :
    d'interagir avec les services web,
 
  - l'automatisation de la validation et de la publication de modifications,
-   notamment grâce au versionnement avec Git et aux plate-formes de déploiement
+   notamment grâce à la gestion de version avec Git et aux plate-formes de déploiement
    continu,
 
  - la démocratisation de l'accès au stockage dans le Cloud, grâce à une
@@ -71,15 +71,17 @@ travailler et aujourd'hui beaucoup d'outils cités même s'ils sont initiés par
 des acteurs majeurs comme Facebook, Google, Microsoft ou Amazon sont développés
 sous licence libre. Même chose pour les générateurs de site statique Jekyll,
 Hugo, Gatsby et leurs poursuivants. Le modèle a fait ses preuves, l'open source
-encourage la collaboration, l'innovation et l'excellence technique.
+encourage la collaboration, l'innovation et l'excellence technique. 
+Et la réutilisation. C'est important de le préciser car elle va permettre 
+d'améliorer la productivité des équipes et la fiabilité de l'application.
 
-Dans le monde des services, on trouve davantage de modèle d'affaire freemium :
+Dans un monde de services, on trouve davantage de modèle d'affaire freemium :
 les projets modestes de petite taille avec peu d'intervenants ne paieront pas
-grand-chose voire rien du tout, tandis que les plus grosses structures et les
+grand-chose, voire rien du tout, tandis que les plus grosses structures et les
 gros volumes devront financer le développement et la pérennité du service. Ainsi
 on facilite l'adoption dans un premier temps des développeurs qui travaillent
 sur des projets de taille modeste, en espérant que s'ils sont satisfaits du
-service, ils l'utiliseront sur des projets plus importants au sein de leur
+service, ils l'utiliseront aussi sur des projets plus importants au sein de leur
 entreprise.
 
 C'est donc accessible sur le papier à tout le monde, même si le passage aux
@@ -91,31 +93,33 @@ domaine.
 
 On voit bien qu'il y a une fracture entre d'un côté les structures capables
 d'adopter rapidement ces nouvelles technologies et les structures pyramidales à
-l'ancienne, parfois embourbées dans une bonne vieille dette technique, dont le
+l'ancienne, parfois embourbées dans une bonne vieille dette technique, et dont le
 cœur de métier n'est pas forcément le numérique. Ces structures auraient
-pourtant tout à gagner à minimiser justement les développements internes et à se
+pourtant tout à gagner à minimiser justement les développements maison et à se
 reposer sur des services, au moins en ce qui concerne leur présence sur le web.
-Il faut au moins qu'elles sachent que le développement d'applications métiers
+Encore faudrait-il qu'elles sachent que le développement d'applications métiers
 est en train de changer.
 
-En ce sens ce dont la société Netlify fait la promotion sous le nom de JAMstack, à
+En ce sens ce dont la société Netlify fait la promotion sous le terme JAMstack, à
 savoir des architectures découplées et décentralisées, pourraient profiter aux
 petites structures, qui n'auront quasi rien à débourser en maintenance et en
 hébergement, tout en améliorant leur qualité de service, pour peu qu'elles
-investissent un minimum dans une conception centrée utilisateur — la vraie, pas
-celle qui se résume à adopter le même look and feel que le voisin.
+investissent un minimum dans une conception centrée utilisateur — la vraie, 
+celle qui va se confronter au réel, pas celle qui se résume à adopter 
+le même look-and-feel que le voisin.
 
 Dans un paysage en constant mouvement, il est parfois difficile de s'y
 retrouver, la multiplication des technologies, l'abondance de l'offre, la
-diversité de niveaux d'expériences, la difficulté de se projeter ne serait-ce
-qu'à moyen terme, autant de facteurs qui font qu'on préfère souvent attendre une
-adoption et une maturité suffisante avant de songer à franchir le pas.
+diversité de niveaux d'expériences dans la profession, la difficulté de se projeter ne serait-ce
+qu'à moyen terme, autant de facteurs qui font que l'on va souvent préférer attendre une
+adoption et une maturité suffisante avant de songer à franchir à son tour le pas.
 
 Le fait que les entreprises innovantes soient les premières à adopter ces
-technologies est logique, mais cela devrait mettre la puce à l'oreille des
-développeurs web et de leurs clients, les choses bougent, et en 2018 avec tout
-ce qui s'est passé depuis 5 ans, il serait peut-être temps de se dire qu'il n'y
-a pas que WordPress, Joomla ou Drupal qui permettent de développer des sites web
-et que vu les performances affichées, le jeu de la concurrence va rapidement
-faire qu'il va falloir se mettre à niveau, si on tient à générer du trafic et
-améliorer la rétention de sa cible.
+technologies est somme toute logique, toutefois cela devrait mettre la puce à l'oreille des
+développeurs web et de leurs clients : les choses bougent, et en 2018 avec tout
+ce qui s'est passé depuis 5 ans, on peut affirmer avec certitude qu'il n'y
+a pas que WordPress, Joomla ou Drupal qui permettent de développer des sites web. 
+Mieux, les alternatives présentent de sacrés avantages. Et vu les performances affichées et ses impacts positifs, la concurrence va
+faire qu'il va falloir considérer tous les leviers disponibles pour améliorer la qualité de son site. 
+Les architectures découplées en font clairement partie, et devraient continuer à voir leur adoption continuer à progresser dans les années qui viennent.
+
