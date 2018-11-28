@@ -2,6 +2,7 @@
 
 require "jekyll"
 require "bundler/setup"
+require "rubocop/rake_task"
 Bundler.require(:jekyll_plugins, :test)
 
 begin
@@ -30,12 +31,12 @@ task :preview do
   # Generate the site in server mode.
   puts "Generating the preview…."
   options = {
-    "serving"         => true,
-    "watch"           => true,
+    "serving" => true,
+    "watch" => true,
     "livereload_port" => 35_729,
-    "incremental"     => true,
-    "lsi"             => false,
-    "config"          => %w[_config.yml _config_local.yml]
+    "incremental" => true,
+    "lsi" => false,
+    "config" => %w[_config.yml _config_local.yml]
   }
   Jekyll::Commands::Build.process(options)
   Jekyll::Commands::Serve.process(options)
@@ -48,7 +49,6 @@ task :generate do
 end
 task build: :generate
 
-# Usage: bundle exec rake test
 desc "Vérification des fichiers HTML"
 task test: :build do
   HTMLProofer.check_directory(
@@ -58,4 +58,11 @@ task test: :build do
     check_html: true,
     parallel: { in_processes: 3 }
   ).run
+end
+
+desc "Run rubocop"
+task :rubocop do
+  RuboCop::RakeTask.new(:rubocop) do |t|
+    t.options = ["-a", "-E", "-S", "-D"]
+  end
 end
