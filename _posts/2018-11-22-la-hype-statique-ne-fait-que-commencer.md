@@ -98,13 +98,13 @@ services tiers (contenus, authentification, paiement, recherche, etc.) et ainsi
 en rembourser une partie tout en minimisant le coût de fonctionnement et de
 maintenance de leur propre infrastructure. Pour ces structures, il serait à
 minima intéressant de procéder à un état des lieux et de comparer les solutions.
-Encore faudrait-il qu'elles soient conseillées objectivement.
+C'est en réalisant des tests que Smashing Magazine a pu constater les gains et a décider de migrer.
 
-Ce dont la société Netlify fait la promotion sous le terme JAMstack, à
-savoir des architectures découplées et décentralisées, pourraient profiter également
+Ce dont la société Netlify fait la promotion sous l'acronyme JAMstack, à
+savoir des architectures découplées et décentralisées, peut profiter également
 aux petites structures, qui n'auront quasi rien à débourser en maintenance et en
-hébergement, tout en améliorant leur qualité de service, pour peu qu'elles
-investissent un minimum dans une conception centrée utilisateur — la vraie, 
+hébergement, tout en améliorant leur qualité de service. Elles pourront ainsi
+investir davantage dans une conception centrée utilisateur — la vraie, 
 celle qui va se confronter au réel, pas celle qui se résume à adopter 
 le même look-and-feel que le voisin.
 
