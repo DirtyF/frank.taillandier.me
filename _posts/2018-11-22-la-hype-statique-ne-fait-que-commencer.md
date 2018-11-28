@@ -91,18 +91,18 @@ recherche et du développement. Ici il serait plus juste d'appeler ça de la
 formation continue et de la veille technologique, afin de rester à jour dans son
 domaine.
 
-On voit bien qu'il y a une fracture entre d'un côté les structures capables
-d'adopter rapidement ces nouvelles technologies et les structures pyramidales à
-l'ancienne, parfois embourbées dans une bonne vieille dette technique, et dont le
-cœur de métier n'est pas forcément le numérique. Ces structures auraient
-pourtant tout à gagner à minimiser justement les développements maison et à se
-reposer sur des services, au moins en ce qui concerne leur présence sur le web.
-Encore faudrait-il qu'elles sachent que le développement d'applications métiers
-est en train de changer.
+C'est une aubaine pour les entreprises dont le cœur de métier n'est pas
+forcément le numérique et qui ont accumulé de la dette technique. Elles peuvent
+en profiter pour rattraper leur retard en se reposant au moins en partie sur des
+services tiers (contenus, authentification, paiement, recherche, etc.) et ainsi
+en rembourser une partie tout en minimisant le coût de fonctionnement et de
+maintenance de leur propre infrastructure. Pour ces structures, il serait à
+minima intéressant de procéder à un état des lieux et de comparer les solutions.
+Encore faudrait-il qu'elles soient conseillées objectivement.
 
-En ce sens ce dont la société Netlify fait la promotion sous le terme JAMstack, à
-savoir des architectures découplées et décentralisées, pourraient profiter aux
-petites structures, qui n'auront quasi rien à débourser en maintenance et en
+Ce dont la société Netlify fait la promotion sous le terme JAMstack, à
+savoir des architectures découplées et décentralisées, pourraient profiter également
+aux petites structures, qui n'auront quasi rien à débourser en maintenance et en
 hébergement, tout en améliorant leur qualité de service, pour peu qu'elles
 investissent un minimum dans une conception centrée utilisateur — la vraie, 
 celle qui va se confronter au réel, pas celle qui se résume à adopter 
