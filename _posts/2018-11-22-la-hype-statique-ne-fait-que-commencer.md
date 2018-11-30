@@ -26,15 +26,15 @@ Les coûts de développement sont moindres, même chose pour l'hébergement, qui
 même la plupart du temps devenu gratuit quand il se contente de servir des
 fichiers statiques.
 
-Tout cela permet de se recentrer sur le métier, sur sa valeur ajoutée, 
+Tout cela permet de se recentrer sur le métier, sur sa valeur ajoutée,
 et de ne pas avoir à maintenir de trop gros systèmes complexes qui
 ne feront que se dégrader avec le temps.
 
 Si les premiers générateurs ne produisaient que des sites entièrement statiques,
-aujourd'hui devant la multiplication de services, la mise à disposition d'APIs
+aujourd'hui, devant la multiplication de services, la mise à disposition d'APIs
 et l'omniprésence de composants JavaScript côté client, on obtient des pages statiques
 qui intègrent des composants dynamiques, le tout hébergé dans le Cloud sur des
-réseaux de CDN très performants situés au plus proche de l'utilisateur final. 
+réseaux de CDN très performants situés au plus proche de l'utilisateur final.
 La performance fait partie des facteurs différenciants et elle est devenue un atout
 majeur pour les organisations qui ont compris qu'à l'ère du web mobile, si vous
 n'êtes pas suffisamment rapides, le taux de rétention sera plus faible.
@@ -56,7 +56,7 @@ un focus sur :
    d'interagir avec les services web,
 
  - l'automatisation de la validation et de la publication de modifications,
-   notamment grâce à la gestion de version avec Git et aux plate-formes de déploiement
+   notamment grâce à la gestion de version avec Git et aux plates-formes de déploiement
    continu,
 
  - la démocratisation de l'accès au stockage dans le Cloud, grâce à une
@@ -67,12 +67,12 @@ un focus sur :
 url="https://www.youtube-nocookie.com/embed/44YQNMYeo_E" %}
 
 Le logiciel libre a joué un rôle central dans la modernisation des manières de
-travailler et aujourd'hui beaucoup d'outils cités même s'ils sont initiés par
-des acteurs majeurs comme Facebook, Google, Microsoft ou Amazon sont développés
+travailler. Aujourd'hui beaucoup d'outils cités, même s'ils sont initiés par
+des acteurs majeurs comme Facebook, Google, Microsoft ou Amazon, sont développés
 sous licence libre. Même chose pour les générateurs de site statique Jekyll,
 Hugo, Gatsby et leurs poursuivants. Le modèle a fait ses preuves, l'open source
-encourage la collaboration, l'innovation et l'excellence technique. 
-Et la réutilisation. C'est important de le préciser car elle va permettre 
+encourage la collaboration, l'innovation et l'excellence technique.
+Et la réutilisation. C'est important de le préciser car elle va permettre
 d'améliorer la productivité des équipes et la fiabilité de l'application.
 
 Dans un monde de services, on trouve davantage de modèle d'affaire freemium :
@@ -98,14 +98,14 @@ services tiers (contenus, authentification, paiement, recherche, etc.) et ainsi
 en rembourser une partie tout en minimisant le coût de fonctionnement et de
 maintenance de leur propre infrastructure. Pour ces structures, il serait à
 minima intéressant de procéder à un état des lieux et de comparer les solutions.
-C'est en réalisant des tests que Smashing Magazine a pu constater les gains et a décider de migrer.
+C'est en réalisant des tests que Smashing Magazine a pu constater les gains et a décidé de migrer.
 
 Ce dont la société Netlify fait la promotion sous l'acronyme JAMstack, à
 savoir des architectures découplées et décentralisées, peut profiter également
 aux petites structures, qui n'auront quasi rien à débourser en maintenance et en
 hébergement, tout en améliorant leur qualité de service. Elles pourront ainsi
-investir davantage dans une conception centrée utilisateur — la vraie, 
-celle qui va se confronter au réel, pas celle qui se résume à adopter 
+investir davantage dans une conception centrée utilisateur — la vraie,
+celle qui va se confronter au réel, pas celle qui se résume à adopter
 le même look-and-feel que le voisin.
 
 Dans un paysage en constant mouvement, il est parfois difficile de s'y
@@ -118,8 +118,7 @@ Le fait que les entreprises innovantes soient les premières à adopter ces
 technologies est somme toute logique, toutefois cela devrait mettre la puce à l'oreille des
 développeurs web et de leurs clients : les choses bougent, et en 2018 avec tout
 ce qui s'est passé depuis 5 ans, on peut affirmer avec certitude qu'il n'y
-a pas que WordPress, Joomla ou Drupal qui permettent de développer des sites web. 
+a pas que WordPress, Joomla ou Drupal qui permettent de développer des sites web.
 Mieux, les alternatives présentent de sacrés avantages. Et vu les performances affichées et ses impacts positifs, la concurrence va
-faire qu'il va falloir considérer tous les leviers disponibles pour améliorer la qualité de son site. 
-Les architectures découplées en font clairement partie, et devraient continuer à voir leur adoption continuer à progresser dans les années qui viennent.
-
+faire qu'il va falloir considérer tous les leviers disponibles pour améliorer la qualité de son site.
+Les architectures découplées en font clairement partie, et devraient continuer à voir leur adoption progresser dans les années qui viennent.
