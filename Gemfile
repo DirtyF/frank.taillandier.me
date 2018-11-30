@@ -4,8 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem "executable-hooks"
-# gem "gsl" not supported by Netlify
+# gem "gsl", install_if: -> { ENV["JEKYLL_ENV"] == "development" }
 gem "jekyll", github: "jekyll/jekyll"
 gem "liquid-c"
 
