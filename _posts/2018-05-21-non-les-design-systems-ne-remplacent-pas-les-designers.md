@@ -1,7 +1,7 @@
 ---
 title: "Non, les design systems ne feront pas le travail des designers"
 description: "Cinq perspectives de designers influents sur la façon dont les design systems pourraient affecter - voire supplanter - le rôle d'un designer."
-image: /assets/img/2018/design-system.png https://images.ctfassets.net/7jw9uvgmirvi/1srJpiJVpueKQSAk6sM282/30f2bd343476f1e7ea38fc951e39ce61/Group_6.png
+image: /assets/img/2018/design-system.png
 source:
   url: https://www.designsystems.com/stories/design-systems-will-not-replace-designers/
   title: No, design systems will not replace design jobs
