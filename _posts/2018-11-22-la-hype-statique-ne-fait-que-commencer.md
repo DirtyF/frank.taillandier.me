@@ -7,9 +7,9 @@ image: https://res.cloudinary.com/jamstatic/image/upload/f_auto,q_auto/v15429011
 
 Le Web évolue sans cesse et depuis quelques années, on assiste à la convergence
 de plusieurs tendances : le versionnement systématique des projets, la
-génération de contenus en amont, le déploiement continu,  l'hébergement de
+génération de contenus en amont, le déploiement continu, l'hébergement de
 fichiers sur des réseaux de CDN performants, l'omniprésence de JavaScript côté
-client grâce notamment à des frameworks qui proposent une approche par gestion
+client grâce notamment à des frameworks qui proposent une gestion
 d'état de composants, de plus en plus d'APIs de services accessibles dans divers
 domaines, le lancement de fonctions depuis le cloud, etc.
 {: .lead }
@@ -30,23 +30,25 @@ Tout cela permet de se recentrer sur le métier, sur sa valeur ajoutée,
 et de ne pas avoir à maintenir de trop gros systèmes complexes qui
 ne feront que se dégrader avec le temps.
 
-Si les premiers générateurs ne produisaient que des sites entièrement statiques,
-aujourd'hui, devant la multiplication de services, la mise à disposition d'APIs
+Si les premiers générateurs ne produisaient que des sites purement statiques,
+aujourd'hui, avec la multiplication de services, la mise à disposition d'APIs
 et l'omniprésence de composants JavaScript côté client, on obtient des pages statiques
-qui intègrent des composants dynamiques, le tout hébergé dans le Cloud sur des
-réseaux de CDN très performants situés au plus proche de l'utilisateur final.
-La performance fait partie des facteurs différenciants et elle est devenue un atout
-majeur pour les organisations qui ont compris qu'à l'ère du web mobile, si vous
-n'êtes pas suffisamment rapides, le taux de rétention sera plus faible.
+qui intègrent des composants dynamiques, le tout hébergé dans le Cloud sur des réseaux 
+performants situés au plus proche de l'utilisateur final.
+
+La performance fait partie des facteurs différenciants, et elle est devenue un atout
+majeur pour les entreprises qui ont compris qu'à l'ère du web mobile, si vous
+n'êtes pas suffisamment rapides, votre taux d'abandon sera plus élevé et la rétention 
+et la fidélisation seront plus faibles.
 
 Lors d'une conférence improvisée au Capitole du Libre, j'ai tenté d'expliquer en 45 minutes
 comment tout cela était apparu petit à petit en proposant une chronologie rapide
 et subjective des diverses évolutions qu'à connu le Web de ses débuts à nos jours avec
-un focus sur :
+un focus particulier sur :
 
  - l'apparition de différents formats textes facilement lisibles par les humains
    et les machines pour représenter des contenus et des données : d'abord HTML
-   puis plus tard YAML, JSON, Markdown, et maintenant JSX.
+   puis plus tard YAML, JSON, Markdown, et maintenant JSX ou [Portable Text](https://github.com/portabletext/portabletext).
 
  - la mise à disposition de nombreux services spécialisés par des startups
    innovantes et la prolifération d'APIs permettant aux développeurs et aux
@@ -98,10 +100,11 @@ services tiers (contenus, authentification, paiement, recherche, etc.) et ainsi
 en rembourser une partie tout en minimisant le coût de fonctionnement et de
 maintenance de leur propre infrastructure. Pour ces structures, il serait à
 minima intéressant de procéder à un état des lieux et de comparer les solutions.
-C'est en réalisant des tests que Smashing Magazine a pu constater les gains et a décidé de migrer.
+C'est en réalisant des tests que Smashing Magazine a pu constater les gains et a décidé
+de [migrer](https://jamstatic.fr/2017/03/17/smashing-mag-va-dix-fois-plus-vite/).
 
-Ce dont la société Netlify fait la promotion sous l'acronyme JAMstack, à
-savoir des architectures découplées et décentralisées, peut profiter également
+Ce dont la société Netlify fait la promotion sous l'acronyme [JAMstack](https://jamstack.org), 
+à savoir des architectures découplées et décentralisées, peut profiter également
 aux petites structures, qui n'auront quasi rien à débourser en maintenance et en
 hébergement, tout en améliorant leur qualité de service. Elles pourront ainsi
 investir davantage dans une conception centrée utilisateur — la vraie,
@@ -119,6 +122,11 @@ technologies est somme toute logique, toutefois cela devrait mettre la puce à l
 développeurs web et de leurs clients : les choses bougent, et en 2018 avec tout
 ce qui s'est passé depuis 5 ans, on peut affirmer avec certitude qu'il n'y
 a pas que WordPress, Joomla ou Drupal qui permettent de développer des sites web.
-Mieux, les alternatives présentent de sacrés avantages. Et vu les performances affichées et ses impacts positifs, la concurrence va
-faire qu'il va falloir considérer tous les leviers disponibles pour améliorer la qualité de son site.
-Les architectures découplées en font clairement partie, et devraient continuer à voir leur adoption progresser dans les années qui viennent.
+Mieux, les alternatives présentent de sacrés avantages. 
+
+Vu les performances affichées et ses impacts positifs, la concurrence va faire 
+qu'il va falloir considérer tous les  leviers disponibles pour améliorer la qualité 
+de ses services numériques.
+
+Les architectures découplées en font clairement partie, et devraient continuer à voir 
+leur adoption progresser dans les années qui viennent.
