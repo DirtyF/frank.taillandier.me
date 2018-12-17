@@ -21,7 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-microtypo"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
-  gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter", branch: "sassc"
+  gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter"
   gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag", branch: "jekyll-cache"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
