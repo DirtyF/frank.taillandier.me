@@ -54,7 +54,7 @@ visite[^3]. Ce critère
 dans le futur quand les navigateurs comprendront mieux quand les gens installent
 des Progressive Web Apps.
 
-{% cloudinary /assets/img/2016/09/add-to-home-screen.gif caption="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de [Google Developers](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\)" %}
+{% include figure.html  src="https://res.cloudinary.com/jamstatic/image/fetch/f_auto,q_auto/https://frank.taillandier.me/assets/img/2016/09/add-to-home-screen.gif" caption="GIF animée de la bannière d'installation sur l'écran d'accueil dans Chrome tirée de [Google Developers](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en#criteria-faq\)" %}
 
 Et ce n'est que le début. Microsoft est en train de voir comment [ajouter des
 Progressive Web Apps sur le Windows
