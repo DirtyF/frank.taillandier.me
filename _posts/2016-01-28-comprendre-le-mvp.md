@@ -426,7 +426,7 @@ l’année](http://cio.event.idg.se/event/awards2011/) lors des CIO Awards). Un
 des principaux facteurs de réussite a été qu’**ils n’ont pas essayé de tout
 faire d’un seul coup**) ils ont découpé l’éléphant en deux dimensions :
 
-* Par région. Nous n’avon pas besoin de diffuser à TOUTE la Suède d’un coup, nous
+* Par région. Nous n’avons pas besoin de diffuser à TOUTE la Suède d’un coup, nous
   pouvons commencer à diffuser à une seule région.
 * Par type de crime. Nous n’avons pas besoin de prendre en charge tous les types
   de crimes dès le début, nous pouvons commencer en ne prenant en charge qu’un ou
@@ -509,7 +509,7 @@ Lego a également connu sa part d’échecs durement appris. Un exemple est [Leg
 Universe](https://en.wikipedia.org/wiki/Lego_Universe), un monde Lego en ligne
 massivement multijoueur. Ça a l’air marrant hein ? Le problème c’est qu’ils ont
 été trop ambitieux et ont fini par essayer de construire tout le truc à la
-perfection avant de le monter au monde entier.
+perfection avant de le montrer au monde entier.
 
 {% cloudinary /assets/img/2016/01/Making-sense-of-MVP-20.jpg
 alt="Capture d'écran du jeu Lego Universe" %}
@@ -544,7 +544,7 @@ publications ne se firent qu’en interne. Donc il y a surement eu un skateboard
 une bicyclette, et ainsi de suite, mais ces produits n’ont jamais atteint de
 vrais utilisateurs. **Ce n’est pas comme ça que Scrum est prévu d’être utilisé**.
 
-Ce fut un échec coûteux, mais  Lego a appris grâce à lui, et ils sont
+Ce fut un échec coûteux, mais Lego a appris grâce à lui, et ils sont
 constamment en train de s’améliorer sur les tests en amont et les retours
 utilisateurs.
 
@@ -556,7 +556,7 @@ minimum valable.
 L’idée sous-jacente est super, mais le terme en lui-même sème beaucoup de
 confusion et de peur. J’ai rencontré beaucoup de clients qui réagissent ainsi : «
 Pas moyen que je veuille publier un MVP — c’est la dernière des livraisons que
-j’aurais. » Bien trop souvent, les équipes livrent le soi-disant Produit Minimum
+j’aurai. » Bien trop souvent, les équipes livrent le soi-disant Produit Minimum
 Valable et puis se font vite embarquer dans le projet suivant, laissant le
 client avec un produit bogué et inachevé.
 
@@ -609,7 +609,7 @@ avons toujours la possibilité de finir avec une décapotable ou un avion, ou
 autre chose. Mais nous avons atteint le point où nous avons un produit  vraiment
 vendable.
 
-> J’ai considéré ajouté une étape de plus au début « **Le produit à impressions
+> J’ai considéré ajouter une étape de plus au début « **Le produit à impressions
 > rapide** » qui est à la base le prototype papier ou son équivalent que vous
 > allez utiliser pour recueillir les premières impressions des utilisateurs. Mais
 > quatre étapes ça semble trop. Mais quoi qu’il en soit, c’est aussi une étape
@@ -628,7 +628,7 @@ Produit Valable Minimum.
 OK, il est temps de résumer. Je n’aurais jamais cru que ce serait si long, merci
 de m’avoir lu jusque ici ! Les points clefs à retenir :
 
-* **Éviter les versions « Big Bang »**
+* **Évitez les versions « Big Bang »**
   pour les développements produits complexes et innovants. Faites-le de manière
   itérative et incrémentale. Vous le saviez déjà. Mais le faites-vous vraiment ?
 * **Commencez par identifier votre skateboard** -
