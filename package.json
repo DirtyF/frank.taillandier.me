@@ -1,0 +1,13 @@
+{
+  "name": "frank.taillandier.me",
+  "version": "0.1.0",
+  "author": "Frank Taillandier <frank@taillandier.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DirtyF/frank.taillandier.me.git"
+  },
+  "devDependencies": {
+    "purgecss": "^1.1.0"
+  }
+}
