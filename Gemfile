@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-mentions"
   gem "jekyll-microtypo"
+  gem "jekyll-purgecss"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
   gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter"
