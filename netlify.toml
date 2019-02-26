@@ -4,10 +4,17 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
-  RUBY_VERSION = "2.4.3"
+  RUBY_VERSION = "2.6.1"
 
 [context.production.environment]
   JEKYLL_ENV = "production"
+
+[context.deploy-preview]
+  command = "bundle exec jekyll build --drafts --unpublished --future"
+
+[context.deploy-preview.environment]
+  RUBY_VERSION = "2.6.1"
+  JEKYLL_ENV = "staging"
 
 [[headers]]
   for = "/*"
