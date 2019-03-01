@@ -1,0 +1,16 @@
+---
+label: Article
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Titre
+  config:
+    required: false
+- type: text
+  name: description
+  label: Description
+- type: file
+  name: imag
+  label: Image
