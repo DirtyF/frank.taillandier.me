@@ -11,7 +11,7 @@ sections:
   label: Pages
   create: all
 - type: document
-  path: "./_redirects"
+  path: _redirects
   label: Redirections
   match: "**/*"
 upload_dir: uploads
