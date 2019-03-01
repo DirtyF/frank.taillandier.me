@@ -14,3 +14,16 @@ fields:
 - type: file
   name: imag
   label: Image
+- type: field_group
+  label: Source
+  name: source
+  fields:
+  - type: text
+    name: title
+    label: Titre
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: author
+    label: Author
