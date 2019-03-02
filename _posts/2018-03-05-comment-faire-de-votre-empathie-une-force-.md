@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Comment faire de votre empathie une force ?"
-date: "2018-03-05 18:14:07 +0100"
-image: /assets/img/2018/empathy_large.jpg
+title: Comment faire de votre empathie une force ?
+date: 2018-03-05 18:14:07 +0100
+image: "/assets/img/2018/empathy_large.jpg"
 source:
   author: Melody Wilding
   title: How to Turn Empathy into Your Secret Strength
   url: https://www.unstuck.com/advice/what-is-empathy/
----
+description: Quelques conseils pratique pour améliorer votre communication envers
+  les autres.
 
+---
 Refouler ses émotions en permanence, ne pas se sentir écouté ou compris, c'est très fréquent. C'est rarement tenable sur le long terme, l'être humain est une créature hautement émotionnelle.
 Apprendre à écouter l'autre, savoir écouter ses propres émotions, autant de conseils qui pourraient s'avérer bien utiles pour améliorer vos rapports personnels et professionnels.
 {: .lead }
