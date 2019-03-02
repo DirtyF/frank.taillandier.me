@@ -7,7 +7,6 @@ sections:
 - type: jekyll-posts
   label: Articles
   create: all
-  match: "**/*"
   templates:
   - article
 upload_dir: uploads
