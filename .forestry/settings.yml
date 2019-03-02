@@ -9,7 +9,8 @@ sections:
   create: documents
 - type: jekyll-pages
   label: Pages
-  create: all
+  create: documents
+  new_doc_ext: "*.md"
 - type: document
   path: _redirects
   label: Redirections
