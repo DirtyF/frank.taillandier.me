@@ -23,20 +23,13 @@ La performance fait partie des facteurs différenciants, et elle est devenue un 
 
 Lors d'une conférence improvisée au Capitole du Libre, j'ai tenté d'expliquer en 45 minutes comment tout cela était apparu petit à petit en proposant une chronologie rapide et subjective des diverses évolutions qu'à connu le Web de ses débuts à nos jours avec un focus particulier sur :
 
-* l'apparition de différents formats textes facilement lisibles par les humains
-  et les machines pour représenter des contenus et des données : d'abord HTML
-  puis plus tard YAML, JSON, Markdown, et maintenant JSX ou [Portable Text](https://github.com/portabletext/portabletext).
+* l'apparition de différents formats textes facilement lisibles par les humains et les machines pour représenter des contenus et des données : d'abord HTML puis plus tard YAML, JSON, Markdown, et maintenant JSX ou [Portable Text](https://github.com/portabletext/portabletext).
 * la mise à disposition de nombreux services spécialisés par des startups
   innovantes et la prolifération d'APIs permettant aux développeurs et aux
   machines d'interagir à distance avec ces services.
-* l'évolution des requêtes HTTP avec REST et maintenant GraphQL qui permettent
-  d'interagir avec les services web,
-* l'automatisation de la validation et de la publication de modifications,
-  notamment grâce à la gestion de version avec Git et aux plates-formes de déploiement
-  continu,
-* la démocratisation de l'accès au stockage dans le Cloud, grâce à une
-  baisse des prix et une concurrence acharnée des différents acteurs (Amazon,
-  Google, Microsoft, Cloudflare, etc.)
+* l'évolution des requêtes HTTP avec REST et maintenant GraphQL qui permettent d'interagir avec les services web,
+* l'automatisation de la validation et de la publication de modifications, notamment grâce à la gestion de version avec Git et aux plates-formes de déploiement continu,
+* la démocratisation de l'accès au stockage dans le Cloud, grâce à une baisse des prix et une concurrence acharnée des différents acteurs (Amazon, Google, Microsoft, Cloudflare, etc.)
 
 {% include_cached video.html width="640" height="480"
 url="https://www.youtube-nocookie.com/embed/44YQNMYeo_E" %}
