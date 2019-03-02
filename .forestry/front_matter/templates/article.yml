@@ -12,7 +12,7 @@ fields:
   name: description
   label: Description
 - type: file
-  name: imag
+  name: image
   label: Image
 - type: field_group
   label: Source
