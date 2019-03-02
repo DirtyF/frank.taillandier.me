@@ -21,6 +21,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   - RUBY_VERSION=2.6.1
+  - JEKYLL_GITHUB_TOKEN=7364b18499cc33e9a662f52cdcda42a55b602006
   publish_env:
   - JEKYLL_ENV=production
   preview_output_directory: _site
