@@ -32,6 +32,7 @@ group :jekyll_plugins do
 end
 
 group :development do
+  gem "dotenv"
   gem "launchy"
   gem "rake"
 end

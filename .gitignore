@@ -4,6 +4,7 @@ _site
 .jekyll-metadata
 .rubocop.yml
 .jekyll-cache
+.env
 
 # Node
 node_modules
