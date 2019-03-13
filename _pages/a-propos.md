@@ -8,13 +8,13 @@ seo:
   type: person
 ---
 
-Hello, je développe des [sites statiques](https://jamstatic.fr) à mon compte.
+Hello, je suis _Customer Success Manager_ chez [Forestry](https://forestry.io), un service de gestion de contenu pour les sites dévelopés avec Jekyll, Hugo, VuePress — et bientôt Gatsby, Gridsome, Eleventy, etc.
 
-Je suis égalemeent _Customer Success Manager_ chez [Forestry](https://forestry.io), 
-un service de gestion de contenu pour les sites dévelopés avec Jekyll, Hugo, VuePress — et bientôt Gatsby, Gridsome, Eleventy, etc.
-Forestry est un CMS spécialisée pour l'édition de fichiers Markdown, JSON et YAML versionnés dans un dépôt git.
+Forestry est un CMS qui facilite l'édition de fichiers Markdown, JSON et YAML, versionnés dans un dépôt git, pour les profils non-techniques.
 
 J'ai crée  [JAMstatic](https://jamstatic.fr) afin de partager des articles en français sur la [JAMStack](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/).
+
+Je développe également des [sites statiques](https://jamstatic.fr) à mon compte.
 
 Je fais tout ça à distance depuis la charmante ville de Toulouse en France.
 
