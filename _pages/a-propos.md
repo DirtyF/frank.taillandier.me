@@ -1,44 +1,38 @@
 ---
 layout: page
 title: À propos
-description: "Consultant web, relations développeurs, speaker, vulgarisation technique."
+description: "Consultant, product manager, speaker, vulgarisateur technique."
 permalink: '/a-propos/'
 seo:
   name: Frank Taillandier
   type: person
 ---
 
+Hello, je développe des [sites statiques](https://jamstatic.fr) à mon compte.
+
+Je suis égalemeent _Customer Success Manager_ chez [Forestry](https://forestry.io), 
+un service de gestion de contenu pour les sites dévelopés avec Jekyll, Hugo, VuePress — et bientôt Gatsby, Gridsome, Eleventy, etc.
+Forestry est un CMS spécialisée pour l'édition de fichiers Markdown, JSON et YAML versionnés dans un dépôt git.
+
+J'ai crée  [JAMstatic](https://jamstatic.fr) afin de partager des articles en français sur la [JAMStack](https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/).
+
+Je fais tout ça à distance depuis la charmante ville de Toulouse en France.
+
 Depuis près de 20 ans, je suis de très près l'évolution du web, des technologies
-ouvertes et de ses métiers. J'aime partager mon savoir et contribuer à faire
-progresser les équipes.
+ouvertes et de ses différents métiers. 
 
-J'aime avant tout participer à la conception de services utiles, dans le respect
-des standards et des bonnes pratiques. J'aime les sites simples, rapides,
-accessibles depuis n'importe quel périphérique, lisibles et surtout qui
-proposent du contenu ou un service de qualité.
-
-Si vous aimez travailler en bonne intelligence, vous focaliser sur la valeur
-plutôt que les process, il y a de grandes chances qu'on s'entende bien.
+- J'aime partager mon savoir et apprendre pour progresser au sein d'équipes multi-disciplinaires.
+- J'aime travailler en bonne intelligence, me focaliser sur la valeur ajoutée.
+- J'aime avant tout participer à la conception de services utiles. 
+- J'aime les sites simples, lisibles, rapides et accessibles, qui proposent du contenu ou un service de qualité.
 
 Pour augmenter les chances de parvenir à de bons résultats je privilégie une
-démarche centrée utilisateur, un apprentissage permanent, le droit à l'erreur et
-une amélioration continue au sein d'équipes pluri-disciplinaires.
+démarche centrée utilisateur, un apprentissage permanent en fonction des retours, 
+le droit à l'erreur et une amélioration continue.
 
-Je contribue modestement à [Jekyll](https://jekyllrb.com), le gestionnaire de
-contenus statiques, qui fait tourner ce blog. J'aime beaucoup [cette stack qui
-combine Markdown, YAML, JSON, JavaScript et des APIs externes]({% post_url
-2016-05-21-la-jamstack %}). Je vous invite à aller faire un tour sur [
-JAMstatic](https://jamstatic.fr) si cela vous intéresse.
+J'ai commncé à développer des sites web en 1998, et depuis quelques années je suis revenu à mes premiers amours avec [Jekyll](https://jekyllrb.com), [Hugo](https://gohugo.io) et maintenant [Eleventy](https://11ty.io).
 
-J'ai contribué à créer [Sud Web](https://sudweb.fr) avec des gens que [j'aime
-beaucoup]({% post_url 2017-05-21-sept-ans-de-sud-web %}). Nous avons réussi à
-partager une certaine vision de nos métiers à travers un cycle de conférences et
-d'ateliers autour des technologies Web et de ceux qui les utilisent au
-quotidien.
-
-J'aime échanger et apprendre, c'est pourquoi j'organise les [Aperoweb
-toulousains](http://toulouse.aperoweb.fr) et participe régulièrement à des
-meetups locaux.
+J'ai contribué à créer [Sud Web](https://sudweb.fr) avec [des gens formidables]({% post_url 2017-05-21-sept-ans-de-sud-web %}) afin de partager une vision éthique et humaine de nos métiers.
 
 Vous pouvez me laisser un message via le formulaire ci-dessous ou [via
 Twitter](https://twitter.com/{{ site.twitter.username }}).
@@ -66,8 +60,8 @@ Twitter](https://twitter.com/{{ site.twitter.username }}).
 
 {% include sitemap.html %}
 
-<p> Pour être informé des prochains articles, abonnez vous au <a href="{{
-"/feed.xml" | relative_url }}">flux RSS</a>. </p>
+Pour être informé des prochains articles, abonnez vous au [flux RSS]({{
+"/feed.xml" | relative_url }}).
 
-<p class="copy">Site généré avec <a href="https://jekyllrb.com">Jekyll</a>
-hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>
+{: .copy}
+Site généré avec [Jekyll](https://jekyllrb.com), édité avec [Forestry](https://forestry.io) et deployé automatiqueement chez [Netlify](https://netlify.com)
