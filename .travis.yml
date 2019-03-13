@@ -2,7 +2,6 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-  - 2.5
   - ruby-head
 
 before_install:
