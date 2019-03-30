@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # gem "gsl", install_if: -> { ENV["JEKYLL_ENV"] == "development" }
-gem "jekyll", github: "jekyll/jekyll"
+gem "jekyll"
 gem "liquid-c"
 
 group :jekyll_plugins do
@@ -13,8 +13,8 @@ group :jekyll_plugins do
   gem "classifier-reborn"
   gem "jekyll-cloudinary"
   gem "jekyll-compose"
-  gem "jekyll-feed", github: "jekyll/jekyll-feed", branch: "jekyll-cache"
-  gem "jekyll-github-metadata", github: "jekyll/github-metadata", branch: "no-cache-drop"
+  gem "jekyll-feed"
+  gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
   gem "jekyll-mentions"
@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
   gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter"
-  gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag", branch: "jekyll-cache"
+  gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
