@@ -30,7 +30,7 @@ jekyll_tidy:
 # seo-tag
 logo: /assets/img/frank-taillandier.jpg
 twitter:
-  username: DirtyF
+  username: FrankTldr
 social:
   name: Frank Taillandier
   links:
@@ -38,7 +38,7 @@ social:
     - http://www.last.fm/user/DirtyF
     - https://github.com/DirtyF
     - https://keybase.io/dirtyf
-    - https://twitter.com/DirtyF
+    - https://twitter.com/FrankTldr
 
 cloudinary:
   cloud_name: jamstatic
@@ -119,7 +119,7 @@ plugins:
 author:
   name: Frank Taillandier
   email: frank@taillandier.me
-  twitter: DirtyF
+  twitter: FrankTldr
 
 # External apps
 analytics:
