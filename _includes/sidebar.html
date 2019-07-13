@@ -30,7 +30,7 @@
   <div class="sidebar-item">
     <ul class="social inline">
       {% assign socials = site.data.social %}
-      {% for social in socials %}
+      {%- for social in socials %}
       <li>
         <a rel="me" class="u-url" title="{{ social.title }}" href="{{ social.url }}" data-ga-category="sidebar" data-ga-event="click" data-ga-label="{{ social.name }}">
           <svg width="16" height="20" class="icon icon-{{ social.name }}">
@@ -38,7 +38,7 @@
           </svg>
         </a>
       </li>
-      {% endfor %}
+      {% endfor -%}
     </ul>
 
   </div>
