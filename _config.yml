@@ -15,9 +15,6 @@ sass:
 
 css_dir: assets/css
 
-feed:
-  categories:
-    - agile
 # Liquid
 strict_front_matter: true
 liquid:
@@ -89,30 +86,16 @@ jekyll_compose:
 exclude:
   - .editorconfig
   - .stylelintrc.json
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
-  - node_modules
-  - package.json
-  - package-lock.json
   - Rakefile
   - README.md
   - script
   - tmp
-  - vendor
 
 plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-last-modified-at
-  - jekyll-mentions
   - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-tidy
-  - jemoji
   # jekyll-paginate-v2
 
 # About
@@ -120,6 +103,7 @@ author:
   name: Frank Taillandier
   email: frank@taillandier.me
   twitter: FrankTldr
+  avatar: https://github.com/DirtyF.png
 
 # External apps
 analytics:

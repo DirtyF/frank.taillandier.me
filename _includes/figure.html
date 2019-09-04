@@ -1,5 +1,5 @@
 <figure>
-  <img src="{{ include.src }}" alt=""/>
+  <img src="{{ include.src }}" alt="" loading="lazy" />
   {% if include.caption %}
     <figcaption><small>{{ include.caption | markdownify }}</small></figcaption>
   {% endif %}

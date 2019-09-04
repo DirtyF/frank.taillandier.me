@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-# gem "gsl", install_if: -> { ENV["JEKYLL_ENV"] == "development" }
+gem "gsl", install_if: -> { ENV["JEKYLL_ENV"] == "development" }
 gem "jekyll"
 gem "liquid-c"
 
@@ -22,12 +22,12 @@ group :jekyll_plugins do
   gem "jekyll-purgecss"
   gem "jekyll-pwa-plugin"
   gem "jekyll-redirect-from"
-  gem "jekyll-sass-converter", github: "jekyll/jekyll-sass-converter"
+  gem "jekyll-sass-converter"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-tidy"
   gem "jekyll-typogrify"
-  gem "jekyll_reading_time", github: "RouteMap/jekyll_reading_time"
+  gem "jekyll_reading_time", github: "DirtyF/jekyll_reading_time"
   gem "jemoji"
 end
 
