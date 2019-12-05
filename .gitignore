@@ -5,6 +5,7 @@ _site
 .rubocop.yml
 .jekyll-cache
 .env
+.ruby-version
 
 # Node
 node_modules
