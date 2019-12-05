@@ -1,8 +1,9 @@
+version: ~> 1.0
+dist: bionic
 language: ruby
 cache: bundler
-sudo: false
 rvm:
-  - ruby-head
+  - 2.6
 
 before_install:
   - gem update --system
