@@ -4,15 +4,14 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem "gsl", install_if: -> { ENV["JEKYLL_ENV"] == "development" }
+gem "gsl"#, install_if: -> { ENV["JEKYLL_ENV"] == "development" }
 gem "jekyll"
 gem "liquid-c"
 
 group :jekyll_plugins do
-  # "jekyll-paginate-v2"
   gem "classifier-reborn"
   gem "jekyll-cloudinary"
-  gem "jekyll-compose" #, path: "../jekyll-compose"
+  gem "jekyll-compose"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
