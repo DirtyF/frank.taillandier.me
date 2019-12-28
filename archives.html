@@ -4,7 +4,8 @@ title: Archives
 ---
 
 <section id="archive">
-  <h2>{{ site.time | date: '%Y' }}</h2>
+  {% assign latestPost = site.posts | first %}
+  <h2>{{ latestPost.date | date: "%Y" }}</h2>
     {% for post in site.posts %}
       {% unless post.next %}
         <ul>
