@@ -82,6 +82,13 @@ pagination:
 
 jekyll_compose:
   auto_open: true
+  default_front_matter:
+    drafts:
+      description: A short description for humans using search engines
+      image: /assets/img/
+    posts:
+      description: A short description for humans using search engines
+      image: /assets/img/
 
 exclude:
   - .editorconfig
