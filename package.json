@@ -8,6 +8,6 @@
     "url": "git+https://github.com/DirtyF/frank.taillandier.me.git"
   },
   "devDependencies": {
-    "purgecss": "^1.4.1"
+    "purgecss": "^1.4.2"
   }
 }
