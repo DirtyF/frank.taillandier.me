@@ -63,5 +63,8 @@ Twitter](https://twitter.com/{{ site.twitter.username }}).
 Pour être informé des prochains articles, abonnez vous au [flux RSS]({{
 "/feed.xml" | relative_url }}).
 
-{: .copy}
-Site généré avec [Jekyll](https://jekyllrb.com), édité avec [Forestry](https://forestry.io) et déployé automatiqueement chez [Netlify](https://netlify.com)
+<p class="copy">
+  Site généré avec <a href="https://jekyllrb.com">Jekyll</a> et déployé sur
+  <a href="https://netlify.com">Netlify</a> le {% include fr_date.html
+  date=site.time %}
+</p>
