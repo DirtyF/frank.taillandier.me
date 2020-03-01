@@ -5,11 +5,11 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <p>Sommaire</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Accueil</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Articles</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -32,19 +32,15 @@
       {% assign socials = site.data.social %}
       {%- for social in socials %}
       <li>
-        <a rel="me" class="u-url" title="{{ social.title }}" href="{{ social.url }}" data-ga-category="sidebar" data-ga-event="click" data-ga-label="{{ social.name }}">
-          <svg width="16" height="20" class="icon icon-{{ social.name }}">
-            <use xlink:href="#icon-{{ social.name }}"></use>
-          </svg>
-        </a>
+        <a rel="me" class="u-url" title="{{ social.title }}" href="{{ social.url }}" data-ga-category="sidebar" data-ga-event="click" data-ga-label="{{ social.name }}"><svg width="16" height="20" class="icon icon-{{ social.name }}"><use xlink:href="#icon-{{ social.name }}"></use></svg></a>
       </li>
       {% endfor -%}
     </ul>
-
   </div>
+
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}
+      &copy; {{ site.time | date: '%Y' }}. {{ site.title }}
     </p>
   </div>
 </div>
