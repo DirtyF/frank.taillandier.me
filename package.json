@@ -7,7 +7,17 @@
     "type": "git",
     "url": "git+https://github.com/DirtyF/frank.taillandier.me.git"
   },
+  "scripts": {
+    "lint-md": "remark _posts/*"
+  },
   "devDependencies": {
     "purgecss": "^1.4.2"
+    "remark": "^11.0.2",
+    "remark-cli": "^7.0.1",
+    "remark-frontmatter": "^1.3.2",
+    "remark-github": "^8.0.0",
+    "remark-lint": "^6.0.5",
+    "remark-preset-lint-markdown-style-guide": "^2.1.3",
+    "remark-preset-lint-recommended": "^3.0.3"
   }
 }
