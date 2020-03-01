@@ -6,26 +6,32 @@ workbox.core.setCacheNameDetails({
 })
 
 // let Service Worker take control of pages ASAP
-workbox.skipWaiting()
-workbox.clientsClaim()
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 // let Workbox handle our precache list
-workbox.precaching.precacheAndRoute(self.__precacheManifest)
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
-// use `networkFirst` strategy for `*.html`, like all my posts
+// use `NetworkFirst` strategy for html
 workbox.routing.registerRoute(
     /\.html$/,
-    workbox.strategies.networkFirst()
-)
+    new workbox.strategies.NetworkFirst()
+);
 
-// use `cacheFirst` strategy for images
+// use `NetworkFirst` strategy for css and js
 workbox.routing.registerRoute(
-    /assets\/(img|favicons)/,
-    workbox.strategies.cacheFirst()
-)
+    /\.(?:js|css)$/,
+    new workbox.strategies.NetworkFirst()
+);
 
-// third party files
+// use `CacheFirst` strategy for images
+workbox.routing.registerRoute(
+    /assets\/(img|faviccons)/,
+    new workbox.strategies.CacheFirst()
+);
+
+// use `StaleWhileRevalidate` third party files
 workbox.routing.registerRoute(
     /^https?:\/\/res.cloudinary.com/,
-    workbox.strategies.staleWhileRevalidate()
+    new workbox.strategies.StaleWhileRevalidate()
 );

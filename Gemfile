@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "jekyll-microtypo"
   gem "jekyll-purgecss"
-  gem "jekyll-pwa-plugin"
+  gem "jekyll-pwa-workbox"
   gem "jekyll-redirect-from"
   gem "jekyll-sass-converter"
   gem "jekyll-seo-tag"
