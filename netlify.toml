@@ -1,6 +1,6 @@
 [build]
   publish = "_site"
-  command = "npm i -D purgecss && bundle exec jekyll build --config _config.yml,_config_prod.yml"
+  command = "npm i -D purgecss && bundle exec jekyll build --config _config.yml,_config_prod.yml --trace"
 
 [build.environment]
   JEKYLL_ENV = "production"
