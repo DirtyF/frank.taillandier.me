@@ -1,22 +1,19 @@
 ---
 ---
 /* AUTHOR */
-	{{ site.author.name }}, {{ site.description }}
-	Contact: {{ site.author.email }}
-	Twitter: @{{ site.twitter.username }}
-	From: Toulouse, France
+{{ site.author.name }}, {{ site.description }}
+Contact: {{ site.author.email }}
+Twitter: @{{ site.twitter.username }}
+From: Toulouse, France
 
 /* SITE */
-	Last Updated: {{ site.time | date:"%Y/%m/%d" }}
-	Language: French
-	Standards: HTML5, CSS3
-	Theme: Lanyon by @mdo
-	IDE: Atom
-	Components: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
-
+Last Updated: {{ site.time | date:"%Y/%m/%d" }}
+Language: French
+Tools: Ruby, Sass, Jekyll, Node
+Theme: based on Lanyon by @mdo
+IDE: Atom
 
 /* CONTRIBUTORS */
-	{% for contributor in site.github.contributors %}
-	Name: {{ contributor.login }}
-	Site: {{ contributor.html_url }}
-	{% endfor %}
+{% for contributor in site.github.contributors -%}
+ - {{ contributor.login }}
+{% endfor %}
