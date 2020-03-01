@@ -347,12 +347,24 @@ a.sidebar-nav-item:focus {
   color: #303030;
 }
 
+.l-default .post-title {
+  margin-bottom: 0;
+  line-height: 1;
+  a {
+   font-size: 1.4rem;
+  }
+}
+
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
 /* Meta data line below post title */
+
+.l-default .post-meta {
+  font-size: 0.8rem;
+}
 
 .post-date {
   margin-top: -0.5rem;

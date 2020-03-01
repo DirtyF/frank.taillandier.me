@@ -9,31 +9,26 @@ pagination:
   {% for post in site.posts %}
   <div class="post">
     <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">
+      <a
+        href="{{ post.url | relative_url }}"
+        title="Lire '{{ post.title }}'"
+        data-ga-category="links"
+        data-ga-event="click"
+        data-ga-label="{{ post.title }}"
+      >
         {{ post.title | widont }}
       </a>
     </h2>
     <div class="post-meta">
-    <span class="post-date">Mis à jour le {% include fr_date.html date=post.last_modified_at %} &middot;
-    <span class="post-read-time" title="Temps de lecture {{ post.content | reading_time }} ({{ post.content | number_of_words | append: " mots" }})">
-      <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg>
-      {{ post.content | reading_time }}
-    </span>
+      Publié le <span class="post-date">{% include fr_date.html date=post.date %}
     </div>
-    <div class="mask">
-      {{ post.excerpt }}
-    </div>
-    <p>
-      <a class="btn" href="{{ post.url | relative_url }}" title="Lire '{{ post.title }}'" data-ga-category="links" data-ga-event="click" data-ga-label="{{ post.title }}">Lire l'article</a>
-    </p>
   </div>
   <hr />
-{% endfor %}
-
-{% comment %}
-  {% include pagination.html %}
-{% endcomment %}
-
+  {% endfor %}
 </div>
 
-<p class="copy">Site généré avec <a href="https://jekyllrb.com">Jekyll</a> hébergé gratuitement chez <a href="https://netlify.com">Netlify</a> · </p>
+<p class="copy">
+  Site généré avec <a href="https://jekyllrb.com">Jekyll</a> v{{ jekyll.version }} et déployé sur
+  <a href="https://netlify.com">Netlify</a> le {% include fr_date.html
+  date=site.time %}
+</p>
