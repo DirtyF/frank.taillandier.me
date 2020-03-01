@@ -4,10 +4,6 @@ description: Articles & traductions
 url: https://frank.taillandier.me
 repository: DirtyF/frank.taillandier.me
 branch: master
-github:
-  source:
-    branch: master
-baseurl: ""
 permalink: /:year/:month/:day/:title/
 
 sass:
@@ -100,10 +96,11 @@ exclude:
   - tmp
 
 plugins:
+  - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-pwa-workbox
   - jekyll-redirect-from
-  # jekyll-paginate-v2
 
 # About
 author:
