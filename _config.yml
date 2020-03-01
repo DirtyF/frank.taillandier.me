@@ -19,6 +19,8 @@ liquid:
 jekyll_tidy:
   compress_html: true
   ignore_env: development
+  exclude:
+    - humans.txt
 
 # seo-tag
 logo: /assets/img/frank-taillandier.jpg
@@ -90,6 +92,10 @@ exclude:
   - .editorconfig
   - .stylelintrc.json
   - LICENSE
+  - netlify.toml
+  - package-lock.json
+  - package.json
+  - purgecss.config.js
   - Rakefile
   - README.md
   - script
