@@ -89,7 +89,7 @@ Bien sûr, après avoir creusé un peu, nous avons découvert que
     En gros, `react-sketchapp` était plus proche de [React Native](https://facebook.github.io/react-native/) que de pur React.
     Encore une fois, c'est une migration que nous aurions pu envisager, mais qui aurait demandé **beaucoup** de travail et quelques arrangements au passage.
 
-Donc bien que `react-sketchapp` soit un projet *extraordinaire*, que nous vous recommandons chaudement, ses pré-requis techniques faisaient que nous n'aurions pas pu l'utiliser à court ou moyen terme.
+Donc bien que `react-sketchapp` soit un projet _extraordinaire_, que nous vous recommandons chaudement, ses pré-requis techniques faisaient que nous n'aurions pas pu l'utiliser à court ou moyen terme.
 
 Même si vous avions décidé de migrer notre bibliothèque de composants, nous aurions eu besoin d'une autre solution entre temps.
 
@@ -126,7 +126,7 @@ Cette expérience fut pour nous un échec.
 Mais au moment où nous commencions à perdre espoir de faire travailler ensemble
 les développeurs et les designers sur un même projet
 [html-sketchapp](https://github.com/brainly/html-sketchapp) a débarqué et a
-changé *toute* la donne.
+changé _toute_ la donne.
 
 ---
 
@@ -141,7 +141,7 @@ En définitive, nous n'étions pas les seuls à avoir des difficultés à intég
 > [Konrad Dzwinel,
 > Brainly](https://github.com/brainly/html-sketchapp/blob/master/README.md#why)
 
-Ils ont pris une approche radicalement différente avec  [html-sketchapp](https://github.com/brainly/html-sketchapp).
+Ils ont pris une approche radicalement différente avec [html-sketchapp](https://github.com/brainly/html-sketchapp).
 
 {% cloudinary
   /assets/img/2018/html-sketchapp.png
@@ -187,7 +187,7 @@ La fonctionnalité la plus puissante dans `html-sketchapp` c'est
 C'est la classe
 [SymbolMaster](https://github.com/brainly/html-sketchapp/blob/master/html2asketch/model/symbolMaster.js) qui lie vraiment le tout, elle permet de générer dynamiquement des symboles Sketch. Puisque les symboles sont la base de toute bibliothèque Sketch, cela nous a permis d'exposer un ensemble de composants à nos designers, à partir du code sous-jacent.
 
-Malheureusement, certaines limitations dans le format actuel de Sketch liées à l'encodage des styles de texte font que les fichiers générés se sont pas _vraiment_ des fichiers Sketch valides — `html-sketchapp` les désigne comme des fichiers *à peu près Sketch* ou *asketch* pour faire court. Du coup il faut les importer manuellement avec le [plugin html-sketchapp pour Sketch](https://github.com/brainly/html-sketchapp/releases).
+Malheureusement, certaines limitations dans le format actuel de Sketch liées à l'encodage des styles de texte font que les fichiers générés se sont pas _vraiment_ des fichiers Sketch valides — `html-sketchapp` les désigne comme des fichiers _à peu près Sketch_ ou _asketch_ pour faire court. Du coup il faut les importer manuellement avec le [plugin html-sketchapp pour Sketch](https://github.com/brainly/html-sketchapp/releases).
 Ça va, c'est pas trop compliqué.
 
 Assembler le tout peut paraître un peu perturbant au début, heureusement un [exemple de projet sur GitHub](https://github.com/brainly/html-sketchapp-style-guide) montre comment convertir un _style guide_ existant en document Sketch.
@@ -200,7 +200,7 @@ Pour avoir un premier aperçu des possibilités, nous avons commencé par le fai
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Taking html-sketchapp for a spin—really impressive!<br><br>Without having to touch our code, it rendered our style guide documentation home page pretty well—only struggling with the SVGs!<br><br>cc <a href="https://twitter.com/kdzwinel?ref_src=twsrc%5Etfw">@kdzwinel</a> <a href="https://t.co/OZ8NFI8X2v">pic.twitter.com/OZ8NFI8X2v</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/933526318250995712?ref_src=twsrc%5Etfw">23 novembre 2017</a></blockquote>
 
-Nous avons ensuite généré nos premiers symboles à partir de notre composant *`Button`* et de ses différentes variantes de rendu.
+Nous avons ensuite généré nos premiers symboles à partir de notre composant _`Button`_ et de ses différentes variantes de rendu.
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Wow—I&#39;m getting pretty far pretty quickly with html-sketchapp 😱 <a href="https://t.co/JdbzPHf3AO">pic.twitter.com/JdbzPHf3AO</a></p>&mdash; Mark Dalgleish (@markdalgleish) <a href="https://twitter.com/markdalgleish/status/933634632444080129?ref_src=twsrc%5Etfw">23 novembre 2017</a></blockquote>
 
@@ -209,13 +209,13 @@ Pour parvenir à cela, nous avons décidé d'ajouter un fichier JavaScript à l'
 Chaque fichier exporte un objet qui définit les noms des symboles et les éléments React correspondants.
 
 ```js
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 
 export const symbols = {
- 'Button/Pink': <Button color="pink">Button</Button>,
- 'Button/Blue': <Button color="blue">Button</Button>,
- 'Button/Transparent': <Button color="transparent">Button</Button>,
+  "Button/Pink": <Button color="pink">Button</Button>,
+  "Button/Blue": <Button color="blue">Button</Button>,
+  "Button/Transparent": <Button color="transparent">Button</Button>
 };
 ```
 
@@ -256,16 +256,16 @@ conceptuellement considérée comme simple à un plus haut niveau.
 
 Pour générer notre bibliothèque Sketch, il nous fallait en passer par les étapes suivantes :
 
--   Compiler un script pour le navigateur avec webpack, qui contient `html-sketchapp` et la logique idoine pour pouvoir sélectionner et convertir les éléments.
--   Démarrer un serveur web statique sur un port disponible.
--   Lancer [Puppeteer](https://github.com/GoogleChrome/puppeteer) (une version
-    [headless](https://en.wikipedia.org/wiki/Headless_browser) de [Chromium](https://www.chromium.org/Home)).
--   Naviguer jusqu'à la bonne URL.
--   Injecter le script compilé dans l'instance Puppeteer en train de tourner.
--   Redimensionner la fenêtre du navigateur plusieurs fois, et prendre des captures pour chaque taille d'écran voulue en appelant les fonctions définies dans notre script compilé.
--   Enregistrer les fichiers JSON générés sur le disque.
--   Éteindre le serveur web statique.
--   Éteindre le navigateur headless.
+- Compiler un script pour le navigateur avec webpack, qui contient `html-sketchapp` et la logique idoine pour pouvoir sélectionner et convertir les éléments.
+- Démarrer un serveur web statique sur un port disponible.
+- Lancer [Puppeteer](https://github.com/GoogleChrome/puppeteer) (une version
+  [headless](https://en.wikipedia.org/wiki/Headless_browser) de [Chromium](https://www.chromium.org/Home)).
+- Naviguer jusqu'à la bonne URL.
+- Injecter le script compilé dans l'instance Puppeteer en train de tourner.
+- Redimensionner la fenêtre du navigateur plusieurs fois, et prendre des captures pour chaque taille d'écran voulue en appelant les fonctions définies dans notre script compilé.
+- Enregistrer les fichiers JSON générés sur le disque.
+- Éteindre le serveur web statique.
+- Éteindre le navigateur headless.
 
 Il nous paraissait évident que tout cela pourrait être abstrait dans une seule commande — qui nous permette de simplement pointer une URL et de commencer à capturer les composants.
 
@@ -282,19 +282,19 @@ Maintenant, nous pouvons parvenir au même résultat en déclarant une seule dé
 
 ```js
 module.exports = {
-  serve: 'docs/dist',
-  url: '/sketch-exports',
-  outDir: 'dist/asketch',
+  serve: "docs/dist",
+  url: "/sketch-exports",
+  outDir: "dist/asketch",
   viewports: {
-    'Desktop': '1024x768',
-    'Mobile Plus': '414x736',
-    'Mobile': '320x568'
+    Desktop: "1024x768",
+    "Mobile Plus": "414x736",
+    Mobile: "320x568"
   }
 };
 ```
 
 La bonne surprise c'est qu'en utilisant
-[html-sketchapp-cli](https://github.com/seek-oss/html-sketchapp-cli) dans notre style guide, nous avons pu supprimer *beaucoup* de code.
+[html-sketchapp-cli](https://github.com/seek-oss/html-sketchapp-cli) dans notre style guide, nous avons pu supprimer _beaucoup_ de code.
 
 {% cloudinary
   /assets/img/2018/diff.png
@@ -310,7 +310,7 @@ Tout cet outillage fait désormais partie de notre de recette standard de déplo
 
 À chaque génération réussie de notre _style guide_ — non seulement nous déployons automatiquement notre site sur [GitHub Pages](https://pages.github.com) (à l'aide de
 [gh-pages](https://github.com/tschaub/gh-pages)) et nous publions la bibliothèque de composants sur [npm](https://www.npmjs.com) (à l'aide du paquet
-[semantic-release](https://github.com/semantic-release/semantic-release)) — mais nous générons automatiquement les fichiers *asketch*, prêts à être importés et à être convertis dans notre bibliothèque Sketch officielle.
+[semantic-release](https://github.com/semantic-release/semantic-release)) — mais nous générons automatiquement les fichiers _asketch_, prêts à être importés et à être convertis dans notre bibliothèque Sketch officielle.
 
 Cette librairie Sketch est ensuite distribuée via un disque partagé de notre équipe de designers, ce qui veut dire que nos designers ont en permanence une copie à jour de la bibliothèque, qui se synchronise en temps réel, même quand Sketch est ouvert.
 
