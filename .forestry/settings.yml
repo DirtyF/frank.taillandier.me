@@ -21,10 +21,10 @@ file_template: ":year/:month:/:filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
-  - RUBY_VERSION=2.6.2
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
+  preview_docker_image: forestryio/ruby:2.7
   mount_path: "/srv"
+  working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --config _config.yml,_config_local.yml
     --drafts --unpublished --future --port 8080 --host 0.0.0.0 -d _site
