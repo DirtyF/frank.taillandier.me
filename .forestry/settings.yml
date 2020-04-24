@@ -7,7 +7,6 @@ sections:
 - type: document
   path: README.md
   label: README
-  match: "**/*"
   read_only: true
 - type: jekyll-posts
   label: Articles
@@ -19,7 +18,6 @@ public_path: "/assets/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year/:month:/:filename:"
-instant_preview: true
 build:
   preview_env:
   - JEKYLL_ENV=staging
@@ -30,8 +28,3 @@ build:
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --config _config.yml,_config_local.yml
     --drafts --unpublished --future --port 8080 --host 0.0.0.0 -d _site
-  publish_command: bundle exec jekyll build -d _site
-  publish_env:
-  - JEKYLL_ENV=production
-  output_directory: _site
-  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
