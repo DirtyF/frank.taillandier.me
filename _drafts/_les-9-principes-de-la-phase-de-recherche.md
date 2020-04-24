@@ -1,9 +1,8 @@
 ---
 layout: post
 title: les-9-principes-de-la-phase-de-recherche-en-design
+
 ---
-
-
 ![](https://cdn-images-1.medium.com/max/2000/1*Q5-y_Q5CnX4oKHnlM5vUOA.jpeg)
 <span class="figcaption_hack">All Nine Puppies by [Kathleen
 Borgmeyer](https://www.flickr.com/photos/landhofgreaterswiss/)</span>
@@ -25,7 +24,7 @@ listicles. And puppies.)
 
 #### 1. Get comfortable being uncomfortable
 
-*“All I know is that I know nothing.” — Socrates*
+_“All I know is that I know nothing.” — Socrates_
 
 We’ve all been brought up to value answers and fear questions. We were rewarded
 for right answers at school and we are rewarded for bright ideas at work. No
@@ -39,70 +38,38 @@ can’t learn—until you admit you don’t have the answers.
 
 #### 2. Ask first, prototype later
 
-*“If we only test bottle openers, we may never realize customers prefer
-screw-top bottles.”—Victor Lombardi, *[Why We
-Fail](http://rosenfeldmedia.com/books/why-we-fail/)
+“If we only test bottle openers, we may never realize customers prefer screw-top bottles.” — Victor Lombardi, [Why We Fail](http://rosenfeldmedia.com/books/why-we-fail/)
 
-So, of course there is a rush to prototype and test the prototype. A prototype
-is an answer, and it’s tangible, even if it’s simply a sketch on paper. This is
-comfortable, much more comfortable than just asking questions, even if it is
-tantamount to setting a large pile of money on fire. To anyone concerned about
-demonstrating their value by making fast, visible progress, simply asking
-questions feels as productive as a [raccoon washing cotton
-candy](https://www.youtube.com/watch?v=qkTzDh8IKNU).
+So, of course, there is a rush to prototype and test the prototype. A prototype is an answer, and it’s tangible, even if it’s simply a sketch on paper. This is comfortable, much more comfortable than just asking questions, even if it is tantamount to setting a large pile of money on fire. To anyone concerned about demonstrating their value by making fast, visible progress, simply asking questions feels as productive as a [raccoon washing cotton candy](https://www.youtube.com/watch?v=qkTzDh8IKNU).
 
-The danger in prototyping too soon is investing resources in answering a
-question no one asked, and ignoring the opportunity cost. Testing a prototype
-can help you refine an idea that is already good, not tell you whether you’re
-solving the right problem. And it’s easy to mistake the polish of a prototype
-for the quality of the idea (*cough* Juicero *cough*). FWIW, it’s also easy to
-mistake the gloss of a research report for the value of the insights.
+The danger in prototyping too soon is investing resources in answering a question no one asked, and ignoring the opportunity cost. Testing a prototype can help you refine an idea that is already good, not tell you whether you’re solving the right problem. And it’s easy to mistake the polish of a prototype for the quality of the idea (_cough_ Juicero _cough_). FWIW, it’s also easy to mistake the gloss of a research report for the value of the insights.
 
-Instead of saving and defending weak ideas, asking the right questions helps you
-identify and eradicate bad ideas faster. You just have to be strong enough to
-embrace being wrong.
+Instead of saving and defending weak ideas, asking the right questions helps you identify and eradicate bad ideas faster. You just have to be strong enough to embrace being wrong.
 
-*****
+***
 
-[*If you’re thinking “Hey! This is something my team could use help with,” we
-would be overjoyed to pop over to your office for a day and make sure you are
-all ready to *[Research Together](https://muledesign.com/research-together)*.*]
+\[_If you’re thinking “Hey! This is something my team could use help with,” we would be overjoyed to pop over to your office for a day and make sure you are all ready to_ [_Research Together_](https://muledesign.com/research-together).\]
 
-*****
+***
 
 #### 3. Know your goal
 
-Asking questions is a waste of time unless you know your reason for doing so *in
-advance*. And you have to publicly swear that your reason is not “to be proven
-right.” That is *everyone’s* secret goal. See #1.
+Asking questions is a waste of time unless you know your reason for doing so _in advance_. And you have to publicly swear that your reason is not “to be proven right.” That is _everyone’s_ secret goal. See #1.
 
-Often, in the enthusiasm to embrace research, teams will start talking to
-customers without a clear, shared goal. And then afterwards, they feel like they
-spent precious time with no idea how to apply what they learned, hence nothing
-to show for it. This leads to statements like “We tried doing research last year
-and it was a waste of time.” And, thus, a return to the comfort of building and
-testing. Or, they walk away with different interpretations of what they heard,
-which leads to more arguments about who was proven right.
+Often, in the enthusiasm to embrace research, teams will start talking to customers without a clear, shared goal. And then afterwards, they feel like they spent precious time with no idea how to apply what they learned, hence nothing to show for it. This leads to statements like “We tried doing research last year and it was a waste of time.” And, thus, a return to the comfort of building and testing. Or, they walk away with different interpretations of what they heard, which leads to more arguments about who was proven right.
 
-In large organizations, the unspoken goal is sometimes “demonstrate a commitment
-to research while allowing our product leaders to do what they want.” This might
-sound cynical but I’ve talked to many skilled practitioners in well-funded
-research departments who generate magnificent reports that have zero impact on
-decision-making. Acknowledging this happens is the first step to stopping it.
+In large organizations, the unspoken goal is sometimes “demonstrate a commitment to research while allowing our product leaders to do what they want.” This might sound cynical but I’ve talked to many skilled practitioners in well-funded research departments who generate magnificent reports that have zero impact on decision-making. Acknowledging this happens is the first step to stopping it.
 
 It is perfectly fine, and a great place to start, for your goal to be “We need
-to level-set and [quickly understand the perspective of people who aren’t
-us](https://medium.com/research-things/minimum-viable-ethnography-a047e9358df0).”
-Just don’t tack on other goals after the fact.
+to level-set and [quickly understand the perspective of people who aren’t us](https://medium.com/research-things/minimum-viable-ethnography-a047e9358df0).” Just don’t tack on other goals after the fact.
 
-Only after you have a goal will you know what you need to know. And you have to
-know your question before you can choose how to answer it.
+Only after you have a goal will you know what you need to know. And you have to know your question before you can choose how to answer it.
 
 #### 4. Agree on the big questions
 
-*“At its core, all business is about making bets on human behavior.” — *[The
+_“At its core, all business is about making bets on human behavior.” —_ [_The
 Power of ‘Thick’
-Data](https://www.wsj.com/articles/the-power-of-thick-data-1395443491)*, WSJ*
+Data_](https://www.wsj.com/articles/the-power-of-thick-data-1395443491), WSJ
 
 The quality of your question determines the utility of the results. Asking the
 wrong question is the same as prototyping a solution to the wrong problem. They
@@ -121,7 +88,7 @@ research questions](https://abookapart.com/products/just-enough-research). Not
 everything you need to know is about users.
 
 Often the most critical question is a variation of “Based on evidence, what do
-we *really* know about our customers/competition/internal capabilities?” This
+we _really_ know about our customers/competition/internal capabilities?” This
 can be a particularly terrifying one to approach in total honesty, but you
 should be able to answer it within the hour.
 
@@ -150,8 +117,8 @@ surveys](https://medium.com/mule-design/on-surveys-5a73dda5e9a0).
 
 #### 6. Don’t expect data to change minds
 
-*“It is difficult to get a man to understand something, when his salary depends
-on his not understanding it.”—Upton Sinclair*
+_“It is difficult to get a man to understand something, when his salary depends
+on his not understanding it.”—Upton Sinclair_
 
 This is often a hard one for highly-trained, specialist researchers to embrace,
 even though [research has demonstrated it to be
@@ -175,8 +142,8 @@ before you try to use data to influence those decisions.
 
 #### 7. Embrace messy imperfection
 
-*“We’re fickle, stupid beings with poor memories and a great gift for self
-destruction.” ― Suzanne Collins, Mockingjay*
+_“We’re fickle, stupid beings with poor memories and a great gift for self
+destruction.” ― Suzanne Collins, Mockingjay_
 
 Human lives are messy. If people didn’t have problems, there would be no need
 for products and services to solve them and we wouldn’t have jobs. Figuring out
@@ -220,7 +187,7 @@ on this](https://muledesign.com/research-together). It changes lives.
 
 #### 9. Find your bias buddies
 
-*“We can be blind to the obvious, and we are also blind to our blindness.” ―
+\*“We can be blind to the obvious, and we are also blind to our blindness.” ―
 Daniel Kahneman, *[Thinking Fast and
 Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 
@@ -256,7 +223,7 @@ you are ethical in your approach, honest about what you know, and apply yourself
 towards a worthwhile goal. There is no one right way and no one right answer.
 Enjoy the uncertainty! It never ends.
 
-*****
+***
 
 * [UX](https://medium.com/tag/ux?source=post)
 * [Research](https://medium.com/tag/research?source=post)
@@ -348,7 +315,7 @@ than I could have.
 
 So many good points I couldn’t even begin to describe. <br> This article
 reinforces that decision making always comes down to people and their fears,
-*egotrips* and so on.
+_egotrips_ and so on.
 
 The most difficult task is to let go of your own foundations. If we are doing
 anything that involves people, we should get used to humanity as it is:
