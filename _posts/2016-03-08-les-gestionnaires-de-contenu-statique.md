@@ -96,12 +96,12 @@ Pour la petite histoire, [Ben Balter](http://ben.balter.com/about/) était un
 ancien contributeur Wordpress, quand il a découvert Jekyll. Il a eu une
 révélation et s’est empressé de développer un outil de [migration de Wordpress à
 Jekyll](https://github.com/benbalter/wordpress-to-jekyll-exporter). Ben
-travaille aujourd’hui pour Github, où il est chargé de [sensibiliser les
+travaille aujourd’hui pour GitHub, où il est chargé de [sensibiliser les
 gouvernements à l’open-source](https://government.github.com/) et c’est un des
-principaux contributeurs à Jekyll et Github Pages. Il est vraiment tombé
+principaux contributeurs à Jekyll et GitHub Pages. Il est vraiment tombé
 amoureux de cette stack.
 
-On recense à ce jour plus de [450 gestionnaires de contenu
+On recense à ce jour plus de [460 gestionnaires de contenu
 statique](https://staticsitegenerators.net/), écrits dans différents langages et
 supportant diverses syntaxes pour la conception les modèles de page, certains entièrement
 basés sur JavaScript et les standards web. Il y en a forcément un qui sera le bon
@@ -199,7 +199,7 @@ a été adopté comme format par défaut par des logiciels comme
 [Ghost](https://blog.ghost.org/markdown/), un logiciel de blog écrit en NodeJS
 qui se focalise lui aussi sur l’expérience de rédaction de contenu.
 
-Beaucoup d'applications comme [MacDown](http://macdown.uranusjr.com/), [IA
+Beaucoup d'applications comme [Typora](https://typora.io/), [IA
 Writer](https://ia.net/writer) ou [Ulysses](http://www.ulyssesapp.com/) sous
 Mac, *insérez votre application open-source préférée ici* ou de services en
 ligne permettent aujourd'hui d‘[éditer du Markdown](https://stackedit.io/editor)
@@ -222,11 +222,11 @@ facilitées.
 Si le besoin de départ était de simplement versionner et servir son blog sous
 forme de contenu statique, les avantages mentionnés plus haut ont vite
 intéressés les sites de contenu à fort trafic. Ainsi en 2011 Mailchimp annonçait
-[la refonte de son site](https://blog.mailchimp.com/building-the-new-mailchimp/)
+[la refonte de son site](https://web.archive.org/web/20120102133143/https://blog.mailchimp.com/building-the-new-mailchimp/)
 avec un gestionnaire de contenu statique.
 
 En 2012, c'est [l'équipe de Barack Obama qui choisit
-Jekyll](//kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/),
+Jekyll](https://web.archive.org/web/20121214163525/http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/),
 pour recueillir les dons pour le financement de sa campagne. Les objectifs sont
 dépassés, le site est **60% plus rapide** et grâce à une démarche UX agile et au
 déploiement continu, l'objectif de départ est dépassé, et c'est 250 millions de
@@ -248,8 +248,8 @@ privées ou des associations.
 
 Afin de faciliter les contributions et ajouter une couche d’abstraction du
 versionnement pour les rédacteurs, on peut utiliser le service
-[prose.io](http://prose.io/#about), qui propose une interface graphique pour
-éditer des fichiers Markdown reliée avec votre dépôt Github.
+[forestry.io](http://forestry.io/), qui propose une interface graphique pour
+éditer des fichiers Markdown reliée avec votre dépôt Git.
 
 ## Un workflow naturel
 
@@ -278,15 +278,15 @@ consultent des sites de documentation servis en statique :
 [Google Web fundamentals](https://developers.google.com/web/fundamentals/) pour
 n'en citer que quelques uns.
 
-Beaucoup sont hébergés sur Github pour faciliter les contributions et à ce jour
+Beaucoup sont hébergés sur GitHub pour faciliter les contributions et à ce jour
 le service [GitHub Pages héberge près d'un million de sites
 statiques](https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months),
-qui sont tous stockés sur des CDN. Le service étant gratuit pour les projets
-open source, il serait dommage de s'en priver. C’est d’ailleurs ce que nous
-avons fait pour le site de [Sud Web](http://sudweb.fr/). D'autres services
-similaires ont depuis vu le jour comme [Gitlab Pages](https://pages.gitlab.io/)
-ou [Netlify](https://www.netlify.com/pricing), qui proposent des formules
-gratuites pour les projets en open source.
+qui sont tous stockés sur des CDN. Le service étant gratuit, il serait dommage de s'en priver. 
+C’est d’ailleurs ce que nous avons fait pour le site de [Sud Web](http://sudweb.fr/). 
+
+D'autres services similaires ont depuis vu le jour comme [GitLab Pages](https://pages.gitlab.io/), 
+[Vercel](https://vercel.com) ou [Netlify](https://www.netlify.com/), qui proposent 
+des formules gratuites.
 
 Cela ne vous coûte donc rien d'essayer !
 
@@ -304,10 +304,9 @@ Comme [Github Pages](https://pages.github.com/) ou
 [prose.io](http://prose.io/#about), de nouveaux services permettent de faciliter
 le déploiement ou d'améliorer l'expérience utilisateur :
 
-* [Cloudcannon](http://cloudcannon.com/) propose une interface graphique pour
-  gérer Jekyll et ses contenus. Parmi ses clients, Netflix l'utilise pour
-  présenter la [diversité d'appareils](https://devices.netflix.com) avec lesquels
-  il est possible de consulter leurs contenus.
+* [Forestry](http://forestry.io) propose une interface graphique personnalisée pour
+  gérer et modéliser ses contenus Markdown, YAML et JSON ainsi qu'une prévisualisation du rendu finale instantanée. 
+  Parmi ses [clients](https://forestry.io/showcase/), [Sketch](https://www.sketch.com/) géré avec Jekyll, Spotify ou MasterCard (Hugo).
 
 * [Contenful](https://www.contentful.com/) est un service de modélisation et
   d'édition de contenus et propose ensuite des APIs pouvoir les diffuser sur
@@ -317,13 +316,13 @@ le déploiement ou d'améliorer l'expérience utilisateur :
 
 * [Netlify](https://www.netlify.com/) se propose d'optimiser la performance et
   l'hébergement de vos sites statiques sur leurs CDN et d'automatiser vos assets
-  et le déploiement en y connectant directement votre dépôt Github, GitLab ou Bitbucket.
+  et le déploiement en y connectant directement votre dépôt GitHub, GitLab ou Bitbucket.
   NodeJS est dispo par défaut, à vous les web apps performantes !
 
 Ces différents services permettent de mettre en place des architectures
 décentralisées comme l'a fait l'agence
-[Carrot](http://carrot.is/coding/static_cms), éditrice du générateur Roots 
-(devenu [Spike](https://spike.js.org/)) :
+[Carrot](http://carrot.is/coding/static_cms)(rachetée par Vice depuis), éditrice du générateur Roots 
+(devenu [Spike](https://spike.js.org/)).
 
 {% cloudinary /assets/img/2016/03/architecture-jamstack.png
 caption="Exemple d'architecture de services pour servir du statique" %}
@@ -339,7 +338,7 @@ nous ne disposions pas il y a dix ans de tous les outils actuels. Lorsque le
 dynamique est arrivé c'est devenu la solution par défaut. Sauf que vous ne
 pouvez pas servir du dynamique à des millions de personnes en même temps. Vous
 vous heurtez à un moment à des problèmes d'échelle. Générer le même contenu pour
-tous vos visiteurs est souvent préférable, c'est ce que fait Github la plupart
+tous vos visiteurs est souvent préférable, c'est ce que fait GitHub la plupart
 du temps. Les lignes entre le statique et le dynamique sont floues car ces
 derniers peuvent aussi générer du statique, le mettre en cache et le servir sur
 des CDNs.
@@ -350,7 +349,7 @@ aller en douceur, sachez que [le statique cohabite très bien avec le
 dynamique](https://www.netlify.com/blog/2016/03/10/go-static-without-losing-your-server),
 vous pouvez donc tirer le meilleur parti des deux mondes.
 
-La tendance actuelle est bien au découplage du front et du back : un CMS headless, à savoir un service dédié uniquement à la modélisation et à l'édition des contenus, un générateur pour assembler le tout et créer des pages HTML, un workflow de déploiement continu pour la publication automatique. Peuvent ensuite se greffer des services comme de la gestion de panier grâce à des services comme Snipcart, de l'indexation et de la recherche performante avec Algolia, etc. Les possibilités sont grandes, surtout que grâce à l'essor en parallèle des functions lambdas et du serverless, les providers de Cloud comme Amazon, Google et Microsoft ne vous demandent plus que quelques centimes pour exécuter des programmes distants. À moins que vous deviez absolument gérer votre propre infrastructure, les coûts de fonctionnement sont bien moindres.
+La tendance actuelle est bien au découplage du front et du back : un CMS headless, à savoir un service dédié uniquement à la modélisation et à l'édition des contenus, un générateur pour assembler le tout et créer des pages HTML, un workflow de déploiement continu pour la publication automatique. Peuvent ensuite se greffer des services comme de la gestion de panier grâce à des services comme [Snipcart](https://snipcart.com/), de l'indexation et de la recherche performante avec Algolia, etc. Les possibilités sont grandes, surtout que grâce à l'essor en parallèle des functions lambdas et du serverless, les providers de Cloud comme Amazon, Google et Microsoft ne vous demandent plus que quelques centimes pour exécuter des programmes distants. À moins que vous deviez absolument gérer votre propre infrastructure, les coûts de fonctionnement sont bien moindres.
 
 ## Conclusion
 
@@ -378,7 +377,7 @@ Cet article a été rédigé suite à une [présentation](https://speakerdeck.co
 
 ## Notes
 
-[^1]: [Jeyll](http://jekyllrb.com/) est le gestionnaire de contenu statique le plus populaire, en partie car il est supporté nativement par [Github Pages](https://pages.github.com/).
+[^1]: [Jeyll](http://jekyllrb.com/) est le gestionnaire de contenu statique le plus populaire, en partie car il est supporté nativement par [GitHub Pages](https://pages.github.com/).
 
 [^2]: Quand les conventions priment, le développeur a moins de choix à faire, mais ne perd pas pour autant en flexibilité - source [Wikipedia](https://en.wikipedia.org/wiki/Convention_over_configuration).
 
